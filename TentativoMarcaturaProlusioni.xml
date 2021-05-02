@@ -75,5 +75,32 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author>Ferdinand de Saussure</author>
-                            <title>Les première leçons de Saussure a Genève, 1891</title>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>
+                    <msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile quadrettata</material>
+                                    <!-- ... -->
+                                </support>
+                                <extent>
+                                    <measure type="folio">...</measure>
+                                    <dimensions unit="mm">...</dimensions>
+                                </extent>
+                                <foliation>...</foliation>
+                                <condition>Quaderno in buone condizioni fisiche</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="?"
+                            <handNote xml:id="h1">La prima mano, quella di Ferdinand de Saussure, ha scritto il corpo del testo</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <additional>...</additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
