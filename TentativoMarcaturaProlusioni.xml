@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- titolo, segnatura archivistica, datazioni doc, lingua doc, edizioni disponibili -->
+            <titleStmt>
+                <title type="main">Prolusioni all'Università di Ginevra</title>
+                <title type="sub">Prime tre conferenze</title>
+                <title type="sub">Lezioni del 
+                    <date when="1891-11-06">06 novembre 1891</date> - 
+                    <date when="1891-11-10">10 novembre 1891</date> - *
+                    <date when="1891-11-13">13 novembre 1891</date>
+                del corso di Phonétique du grec et du latin
+                </title>
+                <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
+                <respStmt>
+					<resp>Responsabilità di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+				</respStmt>
+                <respStmt>
+                    <resp>Responsabile della trascrizione:</resp>
+                    <persName ref="#GS"><name>Alessandro</name> <surname>Chidichimo</surname></persName>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>   
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2021-05"> May 2021 </date>
+                    <respStmt>
+                        <resp>Digital edition project coordinated by</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#SP">Silvia Piccini</name>
+                        <!-- ecc. ecc. altri -->
+                    </respStmt>
+                    <respStmt>
+                        <resp>Encoding by</resp>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#SP">Silvia Piccini</name>
+                    </respStmt>
+                </edition>
+                <edition n="Engler1967-74">Engler
+                    <date from="1967" to="1974">1967-74</date>
+                </edition>
+                <edition n="Bouquet-Engler2002">Bouquet-Engler
+                    <date when="2002">2002</date>
+                </edition>
+                <!-- COME INSERIRE LE PAGINE? -->                
+            </editionStmt>
+
+            <publicationStmt>
+				<publisher> ? </publisher>
+				<availability>
+					<licence target="?">?</licence>
+				</availability>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <bibl source="#Chidichimo2009" resp="#AlessandroChidichimo" ana="62">
+                    <title>Cahiers Ferdinand de Saussure</title>
+                    <author><name>Alessandro</name><surname>Chidichimo</surname></author>
+                    <citedRange unit="page" from="257" to="277">257-277</citedRange>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <idno type="inventory">3951/1.1-3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Ferdinand de Saussure</author>
+                            <title>Les première leçons de Saussure a Genève, 1891</title>
