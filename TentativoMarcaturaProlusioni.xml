@@ -147,18 +147,62 @@
 
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
         <front>
-            <!-- ... -->
+            ...
         </front>
         <body xml:lang="fr">
-            <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"> <!-- quale edizione ed=""? -->
+            <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
             <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
             <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
                 <lb xml:id="lb1_p1" n="1" facs="#..."/>
                 Si la chaire que j’ai en ce 
-                <lb xml:id="lb2_p1" n="1" facs="#..."/>
+                <lb xml:id="lb2_p1" n="2" facs="#..."/>
                 moment l’honneur d’inaugurer représentait un ordre 
-                <lb xml:id="lb3_p1" n="1" facs="#..."/>
-                d’études nouveau dans <orgName ref="#UniGinevra">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>,
+                <lb xml:id="lb3_p1" n="3" facs="#..."/>
+                d’études nouveau 
+                <lb xml:id="lb5_p1" n="5" facs="#..."/>
+                dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>, si j’avais
+                aujourd’hui la mission ou le privilège 
+                de vous introduire dans l’édifice 
+                que la sc. (science) du 
+                langage est occ. (occupée) à constr. (construire) depuis 
+                soixante-dix ans,
+                à 
+                décrire 
+                dans ses grandes 
+                lignes l’état présent 
+                de cette science,
+                à parcourir 
+                son passé, qui 
+                n’est pas très long, 
+                ou à pronostiquer 
+                son avenir, à définir son 
+                but, son utilité,
+                à marquer la 
+                place qu’elle 
+                occupe dans le 
+                cercle des conn. (connaissances) 
+                humaines et les 
+                services qu’elle peut 
+                rendre dans une 
+                Faculté des lettres, je craindrais de ne pas remplir très 
+                dignement ma tâche, mais certain. (certainement) 
+                je ne pourrais me plaindre ici de l’abandon.
 
-                
+                Sans exalter 
+                outre mesure 
+                les mérites de la linguistique,
+                quel est le 
+                profit que peut tirer par ex. (exemple) de cette 
+                étude l’érudition classique, 
+                la connaissance des langues grecque, latine et française; 
+                eût-elle un 
+                but simplement 
+                littéraire, 
+                l’intérêt que peut avoir ensuite la même 
+                étude pour l’histoire ou pour 
+
+
+            <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
+
+
