@@ -104,3 +104,61 @@
             </sourceDesc>
         </fileDesc>
 
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="schemaKeywords">
+                    <category xml:id="kw1">
+                        <catDesc> keyword1 </catDesc>
+                    </category>
+                    <category xml:id="kw2">
+                        <catDesc> keyword2 </catDesc>
+                    </category>
+                    <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
+                    <term resp="#AC"> keyword2 </term>
+                </keywords>
+            <textClass>
+
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="scan_p1">
+            <graphic url='https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1#id:1536895976?gallery=true&brightness=100.00&contrast=100.00&center=2016.000,-3024.000&zoom=4&rotation=0.000' width='...' height='...' />
+            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <!-- altre zone per altri hotspot e righe -->
+        </surface>
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='p2.jpg' width='...' height='...' />
+            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <!-- altre zone per altri hotspot e righe -->
+        </surface>
+        <!-- altre surface per le pagine -->
+    </facsimile>
+
+    <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
+        <front>
+            <!-- ... -->
+        </front>
+        <body xml:lang="fr">
+            <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"> <!-- quale edizione ed=""? -->
+            <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
+            <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
+            <div xml:id="div_p1" hand="#h1">
+                <lb xml:id="lb1_p1" n="1" facs="#..."/>
+                Si la chaire que j’ai en ce 
+                <lb xml:id="lb2_p1" n="1" facs="#..."/>
+                moment l’honneur d’inaugurer représentait un ordre 
+                <lb xml:id="lb3_p1" n="1" facs="#..."/>
+                d’études nouveau dans <orgName ref="#UniGinevra">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>,
+
+                
