@@ -23,7 +23,7 @@
 				</respStmt>
                 <respStmt>
                     <resp>Responsabile della trascrizione:</resp>
-                    <persName ref="#GS"><name>Alessandro</name> <surname>Chidichimo</surname></persName>
+                    <persName ref="#GS"><forename>Alessandro</forename> <surname>Chidichimo</surname></persName>
                 </respStmt>
             </titleStmt>
             
@@ -63,7 +63,7 @@
             <sourceDesc>
                 <bibl source="#Chidichimo2009" resp="#AlessandroChidichimo" ana="62">
                     <title>Cahiers Ferdinand de Saussure</title>
-                    <author><name>Alessandro</name><surname>Chidichimo</surname></author>
+                    <author><forename>Alessandro</forename><surname>Chidichimo</surname></author>
                     <citedRange unit="page" from="257" to="277">257-277</citedRange>
                 </bibl>
                 <msDesc>
@@ -250,19 +250,42 @@
             <note>
                 ...
             </note>
-            <!-- BIBLIOGRAFIA LISTA  -->
+            <!-- BIBLIOGRAPHY -->
             <div type="bibliography">
-					<listBibl xml:id="prolusioni1_bibliography">
-						<head>Bibliography</head>
-						<bibl xml:id="Prolusioni1_Chidichimo2009">
-							<ref target="#Chidichimo2009">
-                                <bibl>
-                                    <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
-                                    <date when="2009">2009</date>
-                                    <citedRange unit="page" from="?" to="?">?-?</citedRange>
-                                </bibl>
-							</ref>
-						</bibl>
+				<listBibl xml:id="prolusioni1_bibliography">
+                    <head>Bibliography</head>
+					<bibl xml:id="Prolusioni1_Chidichimo2009">
+						<ref target="#Chidichimo2009">
+                            <bibl>
+                                <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
+                                <date when="2009">2009</date>                                    
+                                <citedRange unit="page" from="?" to="?">?-?</citedRange>
+                            </bibl>
+						</ref>
+                        ...
+                        altre entrate bibliografiche
+                        ...
+                    </bibl>
+                </listBibl>
+            </div>
+            <!-- PERSON -->
+            <listPerson>
+                <head>People</head>
+                <person xml:id="AlessandroChidichimo" sameAs="http://viaf.org/viaf/8291159248237604870007" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+					<persName role="author" > 
+						<forename>Alessandro</forename>
+						<surname>Chidichimo</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1976-08-18">8 agosto 1976</date>
+						<placeName ref="#CS">
+							<settlement type="municipality">Cosenza</settlement>
+							<settlement type="provincia" key="CS">Cosenza</settlement>
+							<country key="IT">Italia</country>
+						</placeName>
+					</birth> 
+				</person>
 
 
 
