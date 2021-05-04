@@ -167,11 +167,11 @@
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
                 de vous introduire dans l’édifice 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                que la <choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                que la <term subtype="linguistic-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                langage est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                langage</term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                <num type="cardinal" value="70">soixante-dix</num> ans,
+                <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
                 à 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
@@ -209,7 +209,7 @@
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
                 rendre dans une 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                Faculté des lettres, je craindrais de ne pas remplir très 
+                <orgName ref="#FacLettres">Faculté des lettres</orgName>, je craindrais de ne pas remplir très 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
                 dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> 
                 <lb xml:id="lb5_p1" n="5" facs="#..."/>
