@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE TEI SYSTEM "tei-all.dtd">-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- titolo, segnatura archivistica, datazioni doc, lingua doc, edizioni disponibili -->
+            <titleStmt>
+                <title type="main">Morfologia</title>
+                <title type="sub">Note preparatorie per lezioni</title>
+                <title type="sub"> 
+                    <date from="1893" to="1895">(1893-1985)</date>
+                </title>
+                <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
+                <respStmt>
+					<resp>Responsabilità di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+				</respStmt>
+            </titleStmt>
+
+            <editionStmt>   
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2021-05"> May 2021 </date>
+                    <respStmt>
+                        <resp>Digital edition project coordinated by</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#SP">Silvia Piccini</name>
+                        <!-- ecc. ecc. altri -->
+                    </respStmt>
+                    <respStmt>
+                        <resp>Encoding by</resp>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#SP">Silvia Piccini</name>
+                    </respStmt>
+                </edition>
+                <edition n="Engler1967-74">Engler
+                    <date from="1967" to="1974">1967-74</date>
+                </edition>
+                <edition n="Godel1969">Godel
+                    <date when="2002">1969</date>
+                </edition>
+                <edition n="Fadda" lang="it">
+                    <date when="2017">2017</date>
+                </edition>
+                <!-- COME INSERIRE LE PAGINE? -->                
+            </editionStmt>
+
+            <publicationStmt>
+				<publisher> ? </publisher>
+				<availability>
+					<licence target="?">?</licence>
+				</availability>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <bibl source="#?" resp="#?" ana="?">
+                    <title>...</title>
+                    <author>?</author>
+                    <citedRange unit="page" from="?" to="?">...</citedRange>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <idno type="inventory">3951/1.1-3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>
+                    <msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Thin checkered paper</material>
+                                    <!-- ... -->
+                                </support>
+                                <extent>
+                                    <measure type="folio">...</measure>
+                                    <dimensions unit="mm">...</dimensions>
+                                </extent>
+                                <foliation>...</foliation>
+                                <condition>Well preserved notebook, good phisical conditions</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="?"
+                            <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <additional>...</additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="schemaKeywords">
+                    <category xml:id="kw1">
+                        <catDesc> keyword1 </catDesc>
+                    </category>
+                    <category xml:id="kw2">
+                        <catDesc> keyword2 </catDesc>
+                    </category>
+                    <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
+                    <term resp="#AC"> keyword2 </term>
+                </keywords>
+            <textClass>
+
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="scan_p1">
+            <graphic url='https://archives.bge-geneve.ch/ark:/17786/vta9cfd3fc17efc113d/dao/0/layout:linear#id:1792240090?gallery=true&brightness=100.00&contrast=100.00&center=1932.500,-2991.000&zoom=4&rotation=0.000' width='...' height='...' />
+            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <!-- altre zone per altri hotspot e righe -->
+        </surface>
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='p2.jpg' width='...' height='...' />
+            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <!-- altre zone per altri hotspot e righe -->
+        </surface>
+        <!-- altre surface per le pagine -->
+    </facsimile>
+
+    <body>
+    </body>
+
+    <back>
+        <note>
+            ...
+        </note>
+        <!-- BIBLIOGRAPHY -->
+        <div type="bibliography">
+			<listBibl xml:id="prolusioni1_bibliography">
+                <head>Bibliography</head>
+				<bibl xml:id="Prolusioni1_Chidichimo2009">
+					<ref target="#Chidichimo2009">
+                        <bibl>
+                            <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
+                            <date when="2009">2009</date>                                    
+                            <citedRange unit="page" from="?" to="?">?-?</citedRange>
+                        </bibl>
+                    </ref>
+                    ...
+                    altre entrate bibliografiche
+                    ...
+                </bibl>
+            </listBibl>
+        </div>
+
+        <!-- PERSON -->
+        <listPerson>
+            <head>People</head>
+            <!--Ferdinand de Saussure-->
+            <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+				<persName role="linguistic" > 
+					<forename>Ferdinand</forename>
+					<surname>de Saussure</forename>
+				</persName>
+				<sex>M</sex>
+				<birth>
+					<date when="26-11-19">26 novembre 1857</date>
+					<placeName ref="#GE">
+						<settlement type="municipality">Genève</settlement>
+						<settlement type="department" key="GE">Genève</settlement>
+						<country key="CH">Switzerland</country>
+					</placeName>
+                </birth>
+			</person> 
+        ... 
+        </listPerson>
+
+        <!-- ListPlace -->
+        <listPlace>
+            <head>Places</head>
+            <!--Genève-->
+            <place xml:id="GE">
+                <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                <country key="CH">Switzerland</country>
+                <note>...</note>
+            </place>
+        ...
+        </listPlace>
+
+        <!-- ListTerm -->
+        <list type="terminology">                  
+            <!-- Termine 1 -->
+            <label>
+                <term subtype="linguistics-term" xml:lang="fr" xml:id="..." key="">...</term>
+			</label>
+			<item>
+				<gloss xml:lang="it" target="#...">
+                    definizione
+				</gloss>
+                <note>...</note>
+			</item>
+        ...
+        </list>
+
+        <!-- List Organization -->
+            <listOrg>
+                <org xml:id="...">
+                        <orgName ref="link wikipedia>">...</orgName>
+                        <placeName ref="...">...</placeName>
+                    <desc>
+                        ...
+                    </desc>
+                </org>
+                ...
+            </listOrg>         
+        </back>
+    </text>
+</TEI>       
