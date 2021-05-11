@@ -77,7 +77,7 @@
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
-                            <textLang mainLang="fr">Francese</textLang>
+                            <textLang mainLang="fr">French</textLang>
                         </msItem>
                     <msContents>
                     <physDesc>
@@ -244,8 +244,8 @@
             <div xml:id="div_p2" hand="#h2">
                 <lb xml:id="lb1_p2" n="1" facs="#..."/>
             </div>
-
         </body>
+
         <back>
             <note>
                 ...
@@ -267,10 +267,12 @@
                         ...
                     </bibl>
                 </listBibl>
-            </div>
+            </div>  
+
             <!-- PERSON -->
             <listPerson>
                 <head>People</head>
+                <!--Alessandro Chidichimo-->
                 <person xml:id="AlessandroChidichimo" sameAs="http://viaf.org/viaf/8291159248237604870007" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
 					<persName role="author" > 
 						<forename>Alessandro</forename>
@@ -286,6 +288,138 @@
 						</placeName>
 					</birth> 
 				</person>
+                <!--Ferdinand de Saussure-->
+                <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+					<persName role="linguistic" > 
+						<forename>Ferdinand</forename>
+						<surname>de Saussure</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="26-11-19">26 novembre 1857</date>
+						<placeName ref="#GE">
+							<settlement type="municipality">Genève</settlement>
+							<settlement type="department" key="GE">Genève</settlement>
+							<country key="CH">Switzerland</country>
+						</placeName>
+					</birth> 
+				</person>
+                <!--Angelo Mario Del Grosso-->
+                <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                    <persName> 
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1980-02-19">19 febbraio 1980</date>
+                        <placeName>
+                            <settlement type="municipality">Benevento</settlement>
+                            <settlement type="provincia" key="BN">Benevento</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Silvia Piccini-->
+                <person>
+                    <persName> 
+                        <forename>Silvia</forename>
+                        <surname>Piccini</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1978-11-12">12 novembre 1978</date>
+                        <placeName>
+                            <settlement type="municipality">Osimo</settlement>
+                            <settlement type="provincia" key="AN">Ancona</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Agnese Camici-->
+                <person>
+                    <persName> 
+                        <forename>Agnese</forename>
+                        <surname>Camici</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1997-01-25">25 gennaio 1997</date>
+                        <placeName>
+                            <settlement type="municipality">Piombino</settlement>
+                            <settlement type="provincia" key="LI">Livorno</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                ...
+            </listPerson>
 
+            <!-- ListPlace -->
+            <listPlace>
+                <head>Places</head>
+                <!--Genève-->
+                <place xml:id="GE">
+                    <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                    <country key="CH">Switzerland</country>
+                    <note>...</note>
+                </place>
+                <!--Cosenza-->
+                <place xml:id="CS">
+                    <placename ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">
+                    <country key="IT">Italy</country>
+                    <note>...</note>
+                </place>
+                <listRelation>
+                    <!--Luoghi vicini-->
+					<relation name="near" mutual="#P1l #Pl2"/>
+                    <!--Luogo di nascita di una persona-->
+                    <relation name="birth_place" active="#Per1" passive="#Pl1"/>   
+                    <!--Luogo di morte di una persona-->
+                    <relation name="death_place" active="#Per1" passive="#Pl1"/>
+				</listRelation>
+            </listPlace>
 
+            <!-- ListTerm -->
+            <list type="terminology">                  
+                <!-- Science du langage = linguistics -->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
+				</label>
+				<item>
+					<gloss xml:lang="it" target="#science-du-langage">
+                        The scientific study of language and its structure, including the study of grammar, syntax, and phonetics.
+					</gloss>
+                    <note>Periphrasis for linguistics</note>
+				</item>
+                <!--Langues-->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#lagues">
+                        Langue and parole is a theoretical linguistic dichotomy distinguished by Ferdinand de Saussure in his Course in General Linguistics.
+                        The French term "langue" encompasses the abstract, systematic rules and conventions of a signifying system; it is independent of, and pre-exists, the individual user. It involves the principles of language, without which no meaningful utterance, or parole, would be possible.
+                    </gloss>
+                </item>
+                ...
+            </list>
 
+            <!-- List Organization -->
+            <listOrg>
+                <org xml:id="UniGeneve">
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
+                        <placeName ref="GE">Genève</placeName>
+                    <desc>
+                        The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                    </desc>
+                </org>
+                <org xml:id="FacLettres">
+                    <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève<orgName>
+                    <placeName ref="GE">Genève</placeName>
+                </org>
+            </listOrg>         
+        </back>
+    </text>
+</TEI>       
