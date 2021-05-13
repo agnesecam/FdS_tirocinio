@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+<!--<!DOCTYPE TEI SYSTEM "tei-all.dtd">-->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -16,13 +16,13 @@
                 </title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
-					<resp>Responsabilità di</resp>
+					<resp>Responsability of:</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#AC">Agnese Camici</name>
 					<name ref="#SP">Silvia Piccini</name>
 				</respStmt>
                 <respStmt>
-                    <resp>Responsabile della trascrizione:</resp>
+                    <resp>Transcription responsability:</resp>
                     <persName ref="#GS"><forename>Alessandro</forename> <surname>Chidichimo</surname></persName>
                 </respStmt>
             </titleStmt>
@@ -68,8 +68,8 @@
                 </bibl>
                 <msDesc>
                     <msIdentifier>
-                        <country>Svizzera</country>
-                        <settlement>Ginevra</settlement>
+                        <country>Switzerland</country>
+                        <settlement>Genève</settlement>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
                         <idno type="inventory">3951/1.1-3</idno>
                     </msIdentifier>
@@ -84,7 +84,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material>Carta sottile quadrettata</material>
+                                    <material>Thin checkered paper</material>
                                     <!-- ... -->
                                 </support>
                                 <extent>
@@ -92,11 +92,11 @@
                                     <dimensions unit="mm">...</dimensions>
                                 </extent>
                                 <foliation>...</foliation>
-                                <condition>Quaderno in buone condizioni fisiche</condition>
+                                <condition>Well preserved notebook, good phisical conditions</condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="?"
-                            <handNote xml:id="h1">La prima mano, quella di Ferdinand de Saussure, ha scritto il corpo del testo</handNote>
+                            <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
                         </handDesc>
                     </physDesc>
                     <additional>...</additional>
@@ -105,7 +105,7 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl>
+            <classDecl><!--Parole chiave-->
                 <taxonomy xml:id="schemaKeywords">
                     <category xml:id="kw1">
                         <catDesc> keyword1 </catDesc>
@@ -116,6 +116,89 @@
                     <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
                 </taxonomy>
             </classDecl>
+            <editorialDesc><!--Divisione in pericopi-->
+                <segmentation>
+                    <p>
+                        <list>
+                            <label corresp="#91Aaaa001"><!--Pericope 1-->
+                                91Aaaa001
+                            </label>
+                            <item>
+                                Si la chaire que j’ai en ce moment l’honneur d’inaugurer représentait 
+                                un ordre d’études nouveau dans notre Université , si j’avais aujourd’hui 
+                                la mission ou le privilège de vous introduire dans l’édifice que la 
+                                science du langage est occupée à construire depuis soixante-dix ans, 
+                                à décrire dans ses grandes lignes l’état présent de cette science, 
+                                à parcourir son passé, qui n’est pas très long, ou à pronostiquer 
+                                son avenir, à définir son but, son utilité, à marquer la place qu’elle 
+                                occupe dans le cercle des connaissances humaines et les services qu’elle 
+                                peut rendre dans une Faculté des lettres, je craindrais de ne pas remplir 
+                                très dignement ma tâche, mais certainement je ne pourrais me plaindre ici 
+                                de l’abandon.
+                            </item>
+                            <!-- <desc> oppure <note> per descrivere la pericope -->
+                            <label corresp="#91Aaaa002"><!--Pericope 2-->
+                                91Aaaa002
+                            </label>
+                            <item>
+                                Sans exalter outre mesure les mérites de la linguistique, quel est le 
+                                profit que peut tirer par exemple de cette étude l’érudition classique, 
+                                la connaissance des langues grecque, latine et française, eût-elle un but 
+                                simplement littéraire, l’intérêt que peut avoir ensuite la même étude pour 
+                                l’histoire ou pour l’histoire de la civilisation ?
+                            </item>
+                            <label corresp="#91Aaaa003"><!--Pericope 3-->
+                                91Aaaa003
+                            </label>
+                            <item>
+                                – et j’aurais ici à rappeler le nom genevois, dont nous sommes fiers 
+                                à d’autres égards encore pour notre patrie, d’Adolphe Pictet, d’Adolphe 
+                                Pictet qui le premier conçut méthodiquement le parti qu’on pouvait tirer 
+                                de la langue comme témoin des âges préhistoriques, et qui, tout en se 
+                                fiant peut-être trop – comme il était inévitable dans le premier 
+                                enthousiasme que provoquait la révélation subite d’un monde insoupçonné 
+                                – en la vérité, la valeur absolue des indications que peut donner la 
+                                langue, n’en a pas moins été le fondateur d’une sérieuse branche de 
+                                recherches encore actuellement cultivée avec toute raison par une 
+                                série ininterrompue de savants – j’insisterais après cela sur la portée 
+                                singulièrement précise qu’a prise pour l’ethnographie la linguistique, 
+                                tellement que la donnée [linguistique] est toujours jusqu’à plus ample 
+                                informé la preuve première pour l’ethnologiste, – et qu’on se demande 
+                                comment l’ethnologiste sans cette donnée aurait jamais pu affirmer par 
+                                exemple (pour choisir un exemple entre mille) qu’au sein des Hongrois 
+                                les Tsiganes représentent une race totalement distincte du Magyar, 
+                                qu’au sein de l’empire autrichien le Magyar à son tour représente une 
+                                race totalement distincte du Tchèque et de l’Allemand ; qu’en revanche 
+                                le Tchèque et l’Allemand qui se haïssent du fond du cœur sont des 
+                                parents très rapprochés ; qu’à son tour le Magyar est proche cousin 
+                                des populations finnoises de l’empire russe, sur les bords de la Baltique,
+                                dont il n’a jamais entendu parler, qu’à leur tour les Tsiganes dont je 
+                                parlais sont un peuple sorti de l’Inde – je passerais ensuite, et ceci 
+                                nous rapprocherait déjà davantage de l’objet vrai, à tout ce que la 
+                                psychologie est probablement appelée à recueillir prochainement de l’étude 
+                                du langage ; mais après cela, ou avant cela, je vous poserais plutôt cette 
+                                simple question : pensez-vous sérieusement que l’étude du langage ait besoin, 
+                                pour se justifier ou pour se disculper d’exister, de prouver qu’elle est utile 
+                                và d’autres sciences?
+                            </item>
+                            <label corresp="#91Aaaa004"><!--Pericope 4-->
+                                91Aaaa004
+                            </label>
+                            <item>
+                                C’est une exigence à laquelle j’ai commencé par constater qu’elle répondait 
+                                largement et peut-être beaucoup plus qu’une foule de sciences, mais je ne 
+                                vois pas ensuite, je l’avoue, que cette exigence soit justifiée.
+                            </item>
+                            <label corresp="#91Aaaa005"><!--Pericope 5-->
+                                91Aaaa005
+                            </label>
+                            <item>
+                                À quelle science pose-t-on cette condition préliminaire d’exister qu’elle 
+                                s’engage à livrer des résultats destinés à venir enrichir d’autres sciences 
+                                s’occupant d’autres objets ?
+                            </item>
+                            ...
+
         </encodingDesc>
 
         <profileDesc>
@@ -126,7 +209,7 @@
             <textClass>
 
             <langUsage>
-                <language ident="fr">Francese</language>
+                <language ident="fr">French</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -154,95 +237,98 @@
             <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
             <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
-                <lb xml:id="lb1_p1" n="1" facs="#..."/>
-                Si la chaire que j’ai en ce 
-                <lb xml:id="lb2_p1" n="2" facs="#..."/>
-                moment l’honneur d’inaugurer représentait un ordre 
-                <lb xml:id="lb3_p1" n="3" facs="#..."/>
-                d’études nouveau 
-                <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>, si j’avais
-                <lb xml:id="lb6_p1" n="6" facs="#..."/>
-                aujourd’hui la mission ou le privilège 
-                <lb xml:id="lb5_p1" n="7" facs="#..."/>
-                de vous introduire dans l’édifice 
-                <lb xml:id="lb5_p1" n="8" facs="#..."/>
-                que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
-                <lb xml:id="lb5_p1" n="9" facs="#..."/>
-                langage</term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
-                <lb xml:id="lb5_p1" n="10" facs="#..."/>
-                <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
-                <lb xml:id="lb5_p1" n="11" facs="#..."/>
-                à 
-                <lb xml:id="lb5_p1" n="12" facs="#..."/>
-                décrire 
-                <lb xml:id="lb5_p1" n="13" facs="#..."/>
-                dans ses grandes 
-                <lb xml:id="lb5_p1" n="14" facs="#..."/>
-                lignes l’état présent 
-                <lb xml:id="lb5_p1" n="15" facs="#..."/>
-                de cette science,
-                <lb xml:id="lb5_p1" n="16" facs="#..."/>
-                à parcourir 
-                <lb xml:id="lb5_p1" n="17" facs="#..."/>
-                son passé, qui 
-                <lb xml:id="lb5_p1" n="18" facs="#..."/>
-                n’est pas très long, 
-                <lb xml:id="lb5_p1" n="19" facs="#..."/>
-                ou à pronostiquer 
-                <lb xml:id="lb5_p1" n="20" facs="#..."/>
-                son avenir, à définir son 
-                <lb xml:id="lb5_p1" n="21" facs="#..."/>
-                but, son utilité,
-                <lb xml:id="lb5_p1" n="22" facs="#..."/>
-                à marquer la 
-                <lb xml:id="lb5_p1" n="23" facs="#..."/>
-                place qu’elle 
-                <lb xml:id="lb5_p1" n="24" facs="#..."/>
-                occupe dans le 
-                <lb xml:id="lb5_p1" n="25" facs="#..."/>
-                cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
-                <lb xml:id="lb5_p1" n="26" facs="#..."/>
-                humaines et les 
-                <lb xml:id="lb5_p1" n="27" facs="#..."/>
-                services qu’elle peut 
-                <lb xml:id="lb5_p1" n="28" facs="#..."/>
-                rendre dans une 
-                <lb xml:id="lb5_p1" n="29" facs="#..."/>
-                <orgName ref="#FacLettres">Faculté des lettres</orgName>, je craindrais de ne pas remplir très 
-                <lb xml:id="lb5_p1" n="30" facs="#..."/>
-                dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> 
-                <lb xml:id="lb5_p1" n="31" facs="#..."/>
-                je ne pourrais me plaindre ici de l’abandon.
-                
-                <lb xml:id="lb5_p1" n="32" facs="#..."/>
-                Sans exalter 
-                <lb xml:id="lb5_p1" n="33" facs="#..."/>
-                outre mesure 
-                <lb xml:id="lb5_p1" n="34" facs="#..."/>
-                les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
-                <lb xml:id="lb5_p1" n="35" facs="#..."/>
-                quel est le 
-                <lb xml:id="lb5_p1" n="36" facs="#..."/>
-                profit que peut tirer par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
-                <lb xml:id="lb5_p1" n="37" facs="#..."/>
-                étude l’érudition classique, 
-                <lb xml:id="lb5_p1" n="38" facs="#..."/>
-                la connaissance des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
-                <lb xml:id="lb5_p1" n="39" facs="#..."/>
-                eût-elle un 
-                <lb xml:id="lb5_p1" n="40" facs="#..."/>
-                but simplement 
-                <lb xml:id="lb5_p1" n="41" facs="#..."/>
-                <term subtype="linguistics-term" ref="#litteraire">littéraire</term>, 
-                <lb xml:id="lb5_p1" n="42" facs="#..."/>
-                l’intérêt que peut avoir ensuite la même 
-                <lb xml:id="lb5_p1" n="43" facs="#..."/>
-                étude pour l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
-            </div>
+                <p xml:id="91Aaaa001"/>
+                    <lb xml:id="lb1_p1" n="1" facs="#..."/>
+                    Si la chaire que j’ai en ce 
+                    <lb xml:id="lb2_p1" n="2" facs="#..."/>
+                    moment l’honneur d’inaugurer représentait un ordre 
+                    <lb xml:id="lb3_p1" n="3" facs="#..."/>
+                    d’études nouveau 
+                    <lb xml:id="lb5_p1" n="5" facs="#..."/>
+                    dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>, si j’avais
+                    <lb xml:id="lb6_p1" n="6" facs="#..."/>
+                    aujourd’hui la mission ou le privilège 
+                    <lb xml:id="lb5_p1" n="7" facs="#..."/>
+                    de vous introduire dans l’édifice 
+                    <lb xml:id="lb5_p1" n="8" facs="#..."/>
+                    que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                    <lb xml:id="lb5_p1" n="9" facs="#..."/>
+                    langage</term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                    <lb xml:id="lb5_p1" n="10" facs="#..."/>
+                    <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
+                    <lb xml:id="lb5_p1" n="11" facs="#..."/>
+                    à 
+                    <lb xml:id="lb5_p1" n="12" facs="#..."/>
+                    décrire 
+                    <lb xml:id="lb5_p1" n="13" facs="#..."/>
+                    dans ses grandes 
+                    <lb xml:id="lb5_p1" n="14" facs="#..."/>
+                    lignes l’état présent 
+                    <lb xml:id="lb5_p1" n="15" facs="#..."/>
+                    de cette science,
+                    <lb xml:id="lb5_p1" n="16" facs="#..."/>
+                    à parcourir 
+                    <lb xml:id="lb5_p1" n="17" facs="#..."/>
+                    son passé, qui 
+                    <lb xml:id="lb5_p1" n="18" facs="#..."/>
+                    n’est pas très long, 
+                    <lb xml:id="lb5_p1" n="19" facs="#..."/>
+                    ou à pronostiquer 
+                    <lb xml:id="lb5_p1" n="20" facs="#..."/>
+                    son avenir, à définir son 
+                    <lb xml:id="lb5_p1" n="21" facs="#..."/>
+                    but, son utilité,
+                    <lb xml:id="lb5_p1" n="22" facs="#..."/>
+                    à marquer la 
+                    <lb xml:id="lb5_p1" n="23" facs="#..."/>
+                    place qu’elle 
+                    <lb xml:id="lb5_p1" n="24" facs="#..."/>
+                    occupe dans le 
+                    <lb xml:id="lb5_p1" n="25" facs="#..."/>
+                    cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
+                    <lb xml:id="lb5_p1" n="26" facs="#..."/>
+                    humaines et les 
+                    <lb xml:id="lb5_p1" n="27" facs="#..."/>
+                    services qu’elle peut 
+                    <lb xml:id="lb5_p1" n="28" facs="#..."/>
+                    rendre dans une 
+                    <lb xml:id="lb5_p1" n="29" facs="#..."/>
+                    <orgName ref="#FacLettres">Faculté des lettres</orgName>, je craindrais de ne pas remplir très 
+                    <lb xml:id="lb5_p1" n="30" facs="#..."/>
+                    dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> 
+                    <lb xml:id="lb5_p1" n="31" facs="#..."/>
+                    je ne pourrais me plaindre ici de l’abandon.
+
+                <p xml:id="91Aaaa002"/>
+                    <lb xml:id="lb5_p1" n="32" facs="#..."/>
+                    Sans exalter 
+                    <lb xml:id="lb5_p1" n="33" facs="#..."/>
+                    outre mesure 
+                    <lb xml:id="lb5_p1" n="34" facs="#..."/>
+                    les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
+                    <lb xml:id="lb5_p1" n="35" facs="#..."/>
+                    quel est le 
+                    <lb xml:id="lb5_p1" n="36" facs="#..."/>
+                    profit que peut tirer par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
+                    <lb xml:id="lb5_p1" n="37" facs="#..."/>
+                    étude l’érudition classique, 
+                    <lb xml:id="lb5_p1" n="38" facs="#..."/>
+                    la connaissance des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
+                    <lb xml:id="lb5_p1" n="39" facs="#..."/>
+                    eût-elle un 
+                    <lb xml:id="lb5_p1" n="40" facs="#..."/>
+                    but simplement 
+                    <lb xml:id="lb5_p1" n="41" facs="#..."/>
+                    <term subtype="linguistics-term" ref="#litteraire">littéraire</term>, 
+                    <lb xml:id="lb5_p1" n="42" facs="#..."/>
+                    l’intérêt que peut avoir ensuite la même 
+                    <lb xml:id="lb5_p1" n="43" facs="#..."/>
+                    étude pour l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
+                </div>
             <pb n="2" xml:id="body_p" facs="facs_p2" hand="h2"/> <!-- quale edizione ed=""? -->
             <div xml:id="div_p2" hand="#h2">
                 <lb xml:id="lb1_p2" n="1" facs="#..."/>
+                ...
             </div>
         </body>
 
