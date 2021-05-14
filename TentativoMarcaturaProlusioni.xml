@@ -237,7 +237,7 @@
             <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
             <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
-                <p xml:id="91Aaaa001"/>
+                <p xml:id="91Aaaa001"/><!--milestone perché le pericopi possono essere divise da un pb-->
                     <lb xml:id="lb1_p1" n="1" facs="#..."/>
                     Si la chaire que j’ai en ce 
                     <lb xml:id="lb2_p1" n="2" facs="#..."/>
@@ -299,7 +299,7 @@
                     <lb xml:id="lb5_p1" n="31" facs="#..."/>
                     je ne pourrais me plaindre ici de l’abandon.
 
-                <p xml:id="91Aaaa002"/>
+                <p xml:id="91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
                     <lb xml:id="lb5_p1" n="32" facs="#..."/>
                     Sans exalter 
                     <lb xml:id="lb5_p1" n="33" facs="#..."/>
