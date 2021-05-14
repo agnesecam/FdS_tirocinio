@@ -6,13 +6,13 @@
     <teiHeader>
         <fileDesc> <!-- titolo, segnatura archivistica, datazioni doc, lingua doc, edizioni disponibili -->
             <titleStmt>
-                <title type="main">Morfologia</title>
-                <title type="sub">Note preparatorie per lezioni</title>
+                <title type="main">Morphologie</title>
+                <!--<title type="sub">Note preparatorie per lezioni</title>-->
                 <title type="sub"> 
                     <date from="1893" to="1895">(1893-1985)</date>                </title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
-					<resp>Responsabilità di</resp>
+					<resp>Responsability of</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#AC">Agnese Camici</name>
 					<name ref="#SP">Silvia Piccini</name>
@@ -31,7 +31,7 @@
                     </respStmt>
                     <respStmt>
                         <resp>Encoding by</resp>
-                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
                     </respStmt>
@@ -111,6 +111,81 @@
                     <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
                 </taxonomy>
             </classDecl>
+            <editorialDesc><!--Divisione in pericopi-->
+                <segmentation>
+                    <p>
+                        <list>
+                            <label corresp="#011"><!--Pericope 11-->
+                                3293.11
+                            </label>
+                            <item>
+                                La morphologie, dit-on, est l'étude des formes du langage, tandis que la 
+                                phonétique serait l'étude des sons du langage.
+                                On ne peut se contenter d'une pareille définition, non seulement en théorie, 
+                                mais même pour la pratique, car il arrivera souvent que nous ne saurons plus 
+                                si nous faisons de la morphologie ou de la phonétique, comme on va le voir :
+                                II est évident d'abord que la phonétique, tout en s'occupant des sons, et 
+                                pour pouvoir le faire, est obligée en premier lieu de s'occuper des formes. 
+                                Les sons ne se transmettent pas d'une génération à l'autre à l'état isolé ; 
+                                les sons n'existent, ne vivent et ne se modifient qu'au sein des mots. 
+                                On n'a pas prononcé s tout seul, et ensuite esprit rude. On a prononcé serpō, 
+                                sedos, et ensuite herpō, hedos. Et si je dis : herpō sort de serpō, je fais 
+                                de la phonétique et rien d'autre. De même, si je dis que la première personne 
+                                des verbes en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+                                D'autre part, la morphologie, qui est censée ne s'occuper que des formes, 
+                                s'occupe parfaitement des sons. Par exemple quand je dis que l'o grec peut 
+                                alterner avec ε, et pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, je fais 
+                                de la morphologie. Il est vrai que pour certaines personnes, cela s'appelle 
+                                faire de la phonétique. À cause de la mauvaise définition. Mais il deviendra 
+                                très clair, par la suite, que rien n'est plus faux et plus dangereux que de 
+                                classer un fait de ce genre avec les faits phonétiques.
+                                Ainsi il n'est pas aussi simple qu'on se l'imagine quelquefois de séparer les 
+                                deux domaines, et ce n'est pas en disant que l'une = étude des sons et l'autre, 
+                                des formes, qu'on obtient une ligne de démarcation satisfaisante.
+                                Mais cette ligne de démarcation est impérieusement nécessaire pour éviter 
+                                de lamentables confusions.
+                                Principe de direction : 
+                                Toutes les fois qu'on considère une même forme à des dates diverses, c'est 
+                                faire de la phonétique, - et toutes les fois qu'on considère des formes 
+                                diverses à une- même date, on fait de la morphologie.
+
+                                vieux-haut-allemand 	zug	zugi
+                                nouvel allemand 	zug 	züge.
+                                Comparer zugi et züge, c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
+                                Comparer u-ü dans zug, züge, c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
+                                    Sphère		ekwos	ekwom
+                                    phonétique	ippos	ippon
+                                    Sphère morphologique
+                                Les deux sphères confondues dans les locutions courantes : 
+                                chantre se rattache étymologiquement à chanter
+                                chantre se rattache étymologiquement à cantor
+                                φόρος vient de φέρω
+                                φόρος vient de bhoros.
+
+                                Observation : L’Étymologie, qu'on donne parfois comme une branche de la science du langage, ne représente pas un ordre déterminé de recherches et encore moins un ordre déterminé de faits.
+                                Faire de l'étymologie, c'est faire une certaine application de nos connaissances phonétiques et morphologiques.
+                                Ramener par la phonétique jusqu'à l'époque où le mot devient morphologiquement analysable.
+                                    coucher
+                                    coulchier
+                                    collocare	colligo, locare
+                                Quelquefois l'étymologie ne se meut même que dans les modifications de l'idée : le barreau,  αὔτως.
+                            </item>
+                            <label corresp="#012"><!--Pericope 12-->
+                                3293.12
+                            </label>
+                            <item>
+                            ...
+                            </item>
+                            <label corresp="#013"><!--Pericope 13-->
+                                3293.13
+                            </label>
+                            <item>
+                            ...
+                            </item>
+                        </list>
+                    </p>
+                </segmentation>
+            </editorialDesc>
         </encodingDesc>
 
         <profileDesc>
@@ -140,7 +215,49 @@
         <!-- altre surface per le pagine -->
     </facsimile>
 
-    <body>
+    <body xml:lang="fr">
+        <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
+        <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
+        <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
+        <div xml:id="div_p1" hand="#h1">
+            <p xml:id="011"/><!--milestone perché le pericopi possono essere divise da un pb-->
+            <lb xml:id="lb1_p1" n="1" facs="#..."/>
+            La morphologie, dit-on, est l'étude des formes du langage, tandis 
+            que la phon. (phonétique) serait l'étude des sons du lang. (langage).
+            On ne peut se contenter d'une pareille définition, non seul. (seulement) 
+            en théorie, mais même pour la pratique, car il arrivera 
+            souvent que nous ne saurons plus si nous faisons de la morph. (morphologie) 
+            ou de la phonétique, comme on va le voir :
+            II est évident d'abord que la phonétique, tout en s'occupant des 
+            sons, et pour pouvoir le faire, est obligée en premier lieu 
+            de s'occuper des formes. Les sons ne se transmettent pas 
+            d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+            ne vivent et ne se modifient qu'au sein des mots. On n'a 
+            pas prononcé s tout seul, et ensuite esprit rude. 
+            On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+            Et si je dis : herpō sort de serpō, je fais de la phonétique 
+            et rien d'autre. De même, si je dis que la première pers.onne des verbes 
+            en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+            D'autre part, la morphologie, qui est censée ne s'oc-
+            cuper que des formes, s'occupe parfaitement des sons. Par 
+            exemple quand je dis que l'o grec peut alterner avec ε, et 
+            pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
+            je fais de la morphologie. Il est vrai que pour certaines personnes, cela s'appelle 
+            faire de la phonétique. À cause de la mauvaise définition. 
+            Mais il deviendra très clair, par la suite, que rien 
+            n'est plus faux et plus dangereux que de classer un 
+            fait de ce genre avec les faits phonétiques.
+            Ainsi il n'est pas aussi simple qu'on se l'imagine 
+            quelquefois de séparer les deux domaines, et ce n'est pas en 
+            disant que l'une = étude des sons et l'autre, des formes, 
+            qu'on obtient une ligne de démarcation satisfaisante.
+            Mais cette ligne de dém.arcation est impérieusement 
+            nécessaire pour éviter de lamentables confusions.
+            Principe de direction : 
+            Toutes les fois qu'on considère une même forme à 
+            des dates diverses, c'est faire de la phonétique, - et toutes 
+            les fois qu'on considère des formes diverses à une- même 
+            date, on fait de la morphologie.
     </body>
 
     <back>
