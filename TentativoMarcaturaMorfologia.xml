@@ -217,24 +217,25 @@
 
     <body xml:lang="fr">
         <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
-        <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
-        <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
+        <ab xml:id="pageNumber1" rend="align(right)" facs="#..."> 1 </ab>
+        <ab xlm:id="chapterNumber2" rend="align(left)" facs="#..."> 2 </ab>
         <div xml:id="div_p1" hand="#h1">
+            <p xml:id="chapter1" n="1"/>
             <p xml:id="011"/><!--milestone perché le pericopi possono essere divise da un pb-->
             <lb xml:id="lb1_p1" n="1" facs="#..."/>
-            La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan>, dit-on, est l'étude des formes du langage, tandis
+            La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice>, dit-on, est l'étude des formes du langage, tandis
             <lb xml:id="lb2_p1" n="2" facs="#..."/> 
-            que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan>.
+            que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice>.
             <lb xml:id="lb3_p1" n="3" facs="#..."/>
-            On ne peut se contenter d'une pareille <chioce><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan> 
+            On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
             <lb xml:id="lb4_p1" n="4" facs="#..."/>
             en théorie, mais même pour la pratique, car il arrivera 
             <lb xml:id="lb5_p1" n="5" facs="#..."/>
-            souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan> 
+            souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan></choice> 
             <lb xml:id="lb6_p1" n="6" facs="#..."/>
-            ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan>, comme on va le voir :
+            ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
             <lb xml:id="lb7_p1" n="7" facs="#..."/>
-            II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan>, tout en s'occupant des 
+            II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, tout en s'occupant des 
             <lb xml:id="lb8_p1" n="8" facs="#..."/>
             sons, et pour pouvoir le faire, est obligée en premier lieu 
             <lb xml:id="lb9_p1" n="9" facs="#..."/>
@@ -250,47 +251,47 @@
             <lb xml:id="lb14_p1" n="14" facs="#..."/>
             Et si je dis : herpō sort de serpō, je fais de la phonétique 
             <lb xml:id="lb15_p1" n="15" facs="#..."/>
-            et rien d'autre. De même, si je dis que la première pers. (personne) des verbes 
+            et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex><expan></choice> des verbes 
             <lb xml:id="lb16_p1" n="16" facs="#..."/>
             en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
             <lb xml:id="lb17_p1" n="17" facs="#..."/>
-            D'autre part, la morph. (morphologie), qui est censée ne s'oc-
-            <lb xml:id="lb18_p1" n="18" facs="#..."/>
+            D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
+            <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
             cuper que des formes, s'occupe parfaitement des sons. Par 
             <lb xml:id="lb19_p1" n="19" facs="#..."/>
-            exemple q.d (quand) je dis que l'o grec peut alterner avec ε, et 
+            exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
             <lb xml:id="lb20_p1" n="20" facs="#..."/>
             pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
             <lb xml:id="lb21_p1" n="21" facs="#..."/>
-            je fais de la morph. (morphologie). Il est vrai que pour certaines personnes, cela s'appelle 
+            je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
             <lb xml:id="lb22_p1" n="22" facs="#..."/>
-            faire de la phonét. (phonétique). À cause de la mauvaise définition. 
+            faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
             <lb xml:id="lb23_p1" n="23" facs="#..."/>
             Mais il deviendra très clair, par la suite, que rien 
             <lb xml:id="lb24_p1" n="24" facs="#..."/>
-            n'est + (plus) faux et plus dangereux que de classer un 
+            n'est <choice><abbr>+</abbr><expanplus) faux et plus dangereux que de classer un 
             <lb xml:id="lb25_p1" n="25" facs="#..."/>
             fait de ce genre avec les faits phonétiques.
             <lb xml:id="lb26_p1" n="26" facs="#..."/>
             Ainsi il n'est pas aussi simple qu'on se l'imagine 
             <lb xml:id="lb27_p1" n="27" facs="#..."/>
-            qf. (quelquefois) de séparer les deux domaines, et ce n'est pas en 
+            <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
             <lb xml:id="lb28_p1" n="28" facs="#..."/>
-            disant que l'une = et. (étude) des sons et l'autre, des formes, 
+            disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan> des sons et l'autre, des formes, 
             <lb xml:id="lb29_p1" n="29" facs="#..."/>
             qu'on obtient une ligne de démarcation satisfaisante.
             <lb xml:id="lb30_p1" n="30" facs="#..."/>
-            Mais cette ligne de  dem. (démarcation) est impérieusement 
+            Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
             <lb xml:id="lb31_p1" n="31" facs="#..."/>
-            nécessaire p.r (pour) éviter de lamentables confusions.
+            nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
             <lb xml:id="lb32_p1" n="32" facs="#..."/>
             Principe de direction : 
             <lb xml:id="lb33_p1" n="33" facs="#..."/>
             Toutes les fois qu'on considère une même forme à 
             <lb xml:id="lb34_p1" n="34" facs="#..."/>
-            des dates diverses, c'est faire de la phonetiq (phonétique), - et toutes 
+            des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
             <lb xml:id="lb35_p1" n="35" facs="#..."/>
-            les fois qu'on considère des formes diverses à 1 (une) même 
+            les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
             <lb xml:id="lb36_p1" n="36" facs="#..."/>
             date, on fait de la morphologie.
         </div>
@@ -302,13 +303,13 @@
         </note>
         <!-- BIBLIOGRAPHY -->
         <div type="bibliography">
-			<listBibl xml:id="prolusioni1_bibliography">
+			<listBibl xml:id="morfologia1_bibliography">
                 <head>Bibliography</head>
-				<bibl xml:id="Prolusioni1_Chidichimo2009">
-					<ref target="#Chidichimo2009">
+				<bibl xml:id="Morfologia1_?'">
+					<ref target="#?">
                         <bibl>
-                            <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
-                            <date when="2009">2009</date>                                    
+                            <author ref="#...">...</author>
+                            <date when="...">...</date>                                    
                             <citedRange unit="page" from="?" to="?">?-?</citedRange>
                         </bibl>
                     </ref>
