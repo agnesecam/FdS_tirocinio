@@ -222,42 +222,78 @@
         <div xml:id="div_p1" hand="#h1">
             <p xml:id="011"/><!--milestone perché le pericopi possono essere divise da un pb-->
             <lb xml:id="lb1_p1" n="1" facs="#..."/>
-            La morphologie, dit-on, est l'étude des formes du langage, tandis 
-            que la phon. (phonétique) serait l'étude des sons du lang. (langage).
-            On ne peut se contenter d'une pareille définition, non seul. (seulement) 
+            La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan>, dit-on, est l'étude des formes du langage, tandis
+            <lb xml:id="lb2_p1" n="2" facs="#..."/> 
+            que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan>.
+            <lb xml:id="lb3_p1" n="3" facs="#..."/>
+            On ne peut se contenter d'une pareille <chioce><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan> 
+            <lb xml:id="lb4_p1" n="4" facs="#..."/>
             en théorie, mais même pour la pratique, car il arrivera 
-            souvent que nous ne saurons plus si nous faisons de la morph. (morphologie) 
-            ou de la phonétique, comme on va le voir :
-            II est évident d'abord que la phonétique, tout en s'occupant des 
+            <lb xml:id="lb5_p1" n="5" facs="#..."/>
+            souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan> 
+            <lb xml:id="lb6_p1" n="6" facs="#..."/>
+            ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan>, comme on va le voir :
+            <lb xml:id="lb7_p1" n="7" facs="#..."/>
+            II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan>, tout en s'occupant des 
+            <lb xml:id="lb8_p1" n="8" facs="#..."/>
             sons, et pour pouvoir le faire, est obligée en premier lieu 
+            <lb xml:id="lb9_p1" n="9" facs="#..."/>
             de s'occuper des formes. Les sons ne se transmettent pas 
+            <lb xml:id="lb10_p1" n="10" facs="#..."/>
             d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+            <lb xml:id="lb11_p1" n="11" facs="#..."/>
             ne vivent et ne se modifient qu'au sein des mots. On n'a 
+            <lb xml:id="lb12_p1" n="12" facs="#..."/>
             pas prononcé s tout seul, et ensuite esprit rude. 
+            <lb xml:id="lb13_p1" n="13" facs="#..."/>
             On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+            <lb xml:id="lb14_p1" n="14" facs="#..."/>
             Et si je dis : herpō sort de serpō, je fais de la phonétique 
-            et rien d'autre. De même, si je dis que la première pers.onne des verbes 
+            <lb xml:id="lb15_p1" n="15" facs="#..."/>
+            et rien d'autre. De même, si je dis que la première pers. (personne) des verbes 
+            <lb xml:id="lb16_p1" n="16" facs="#..."/>
             en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
-            D'autre part, la morphologie, qui est censée ne s'oc-
+            <lb xml:id="lb17_p1" n="17" facs="#..."/>
+            D'autre part, la morph. (morphologie), qui est censée ne s'oc-
+            <lb xml:id="lb18_p1" n="18" facs="#..."/>
             cuper que des formes, s'occupe parfaitement des sons. Par 
-            exemple quand je dis que l'o grec peut alterner avec ε, et 
+            <lb xml:id="lb19_p1" n="19" facs="#..."/>
+            exemple q.d (quand) je dis que l'o grec peut alterner avec ε, et 
+            <lb xml:id="lb20_p1" n="20" facs="#..."/>
             pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
-            je fais de la morphologie. Il est vrai que pour certaines personnes, cela s'appelle 
-            faire de la phonétique. À cause de la mauvaise définition. 
+            <lb xml:id="lb21_p1" n="21" facs="#..."/>
+            je fais de la morph. (morphologie). Il est vrai que pour certaines personnes, cela s'appelle 
+            <lb xml:id="lb22_p1" n="22" facs="#..."/>
+            faire de la phonét. (phonétique). À cause de la mauvaise définition. 
+            <lb xml:id="lb23_p1" n="23" facs="#..."/>
             Mais il deviendra très clair, par la suite, que rien 
-            n'est plus faux et plus dangereux que de classer un 
+            <lb xml:id="lb24_p1" n="24" facs="#..."/>
+            n'est + (plus) faux et plus dangereux que de classer un 
+            <lb xml:id="lb25_p1" n="25" facs="#..."/>
             fait de ce genre avec les faits phonétiques.
+            <lb xml:id="lb26_p1" n="26" facs="#..."/>
             Ainsi il n'est pas aussi simple qu'on se l'imagine 
-            quelquefois de séparer les deux domaines, et ce n'est pas en 
-            disant que l'une = étude des sons et l'autre, des formes, 
+            <lb xml:id="lb27_p1" n="27" facs="#..."/>
+            qf. (quelquefois) de séparer les deux domaines, et ce n'est pas en 
+            <lb xml:id="lb28_p1" n="28" facs="#..."/>
+            disant que l'une = et. (étude) des sons et l'autre, des formes, 
+            <lb xml:id="lb29_p1" n="29" facs="#..."/>
             qu'on obtient une ligne de démarcation satisfaisante.
-            Mais cette ligne de dém.arcation est impérieusement 
-            nécessaire pour éviter de lamentables confusions.
+            <lb xml:id="lb30_p1" n="30" facs="#..."/>
+            Mais cette ligne de  dem. (démarcation) est impérieusement 
+            <lb xml:id="lb31_p1" n="31" facs="#..."/>
+            nécessaire p.r (pour) éviter de lamentables confusions.
+            <lb xml:id="lb32_p1" n="32" facs="#..."/>
             Principe de direction : 
+            <lb xml:id="lb33_p1" n="33" facs="#..."/>
             Toutes les fois qu'on considère une même forme à 
-            des dates diverses, c'est faire de la phonétique, - et toutes 
-            les fois qu'on considère des formes diverses à une- même 
+            <lb xml:id="lb34_p1" n="34" facs="#..."/>
+            des dates diverses, c'est faire de la phonetiq (phonétique), - et toutes 
+            <lb xml:id="lb35_p1" n="35" facs="#..."/>
+            les fois qu'on considère des formes diverses à 1 (une) même 
+            <lb xml:id="lb36_p1" n="36" facs="#..."/>
             date, on fait de la morphologie.
+        </div>
     </body>
 
     <back>
