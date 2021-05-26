@@ -4,16 +4,10 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc> <!-- titolo, segnatura archivistica, datazioni doc, lingua doc, edizioni disponibili -->
+        <fileDesc>
             <titleStmt>
-                <title type="main">Prolusioni all'Università di Ginevra</title>
-                <title type="sub">Prime tre conferenze</title>
-                <title type="sub">Lezioni del 
-                    <date when="1891-11-06">06 novembre 1891</date> - 
-                    <date when="1891-11-10">10 novembre 1891</date> - *
-                    <date when="1891-11-13">13 novembre 1891</date>
-                del corso di Phonétique du grec et du latin
-                </title>
+                <title type="main">Trois premières conférences à l'Université</title>
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
@@ -21,10 +15,6 @@
 					<name ref="#AC">Agnese Camici</name>
 					<name ref="#SP">Silvia Piccini</name>
 				</respStmt>
-                <respStmt>
-                    <resp>Transcription responsability:</resp>
-                    <persName ref="#GS"><forename>Alessandro</forename> <surname>Chidichimo</surname></persName>
-                </respStmt>
             </titleStmt>
             
             <editionStmt>   
@@ -35,11 +25,11 @@
                         <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
-                        <!-- ecc. ecc. altri -->
+                        <!-- ecc. ecc. -->
                     </respStmt>
                     <respStmt>
                         <resp>Encoding by</resp>
-                        <name ref="#AC">Agnese Camici</name>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
                     </respStmt>
@@ -54,17 +44,40 @@
             </editionStmt>
 
             <publicationStmt>
-				<publisher> ? </publisher>
+				<publisher> Gallimard </publisher> <!--Inserisco i metadati relativi all'edizione di Bouquet-Engler?-->
 				<availability>
 					<licence target="?">?</licence>
 				</availability>
 			</publicationStmt>
             
             <sourceDesc>
-                <bibl source="#Chidichimo2009" resp="#AlessandroChidichimo" ana="62">
-                    <title>Cahiers Ferdinand de Saussure</title>
-                    <author><forename>Alessandro</forename><surname>Chidichimo</surname></author>
-                    <citedRange unit="page" from="257" to="277">257-277</citedRange>
+                <bibl source="#Bouquet-Engler2002">
+                    <title>Écrits de linguistique générale</title>
+                    <author>
+                        <persName ref="FdS">
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="SB">
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="RE">
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="AW">
+                            <forename>Antoinette</forename>
+                            <surname>Weil</surname>
+                        </persName>
+                    </author>
+                    <citedRange unit="page" from="143" to="172">143-172</citedRange>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -76,7 +89,7 @@
                     <msContents>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
-                            <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
+                            <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     <msContents>
@@ -84,19 +97,20 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material>Thin checkered paper</material>
-                                    <!-- ... -->
+                                    <material>Thin checkered paper.</material>
+                                    <!--Riferendosi alla pagina n.1. Mentre altre pagine sono a righe.-->
                                 </support>
                                 <extent>
-                                    <measure type="folio">...</measure>
+                                    <measure type="folio">1</measure>
                                     <dimensions unit="mm">...</dimensions>
                                 </extent>
-                                <foliation>...</foliation>
-                                <condition>Well preserved notebook, good phisical conditions</condition>
+                                <foliation>The page is part of a notebook composed of left and a right page, each page consists in a folio</foliation>
+                                <condition>Well preserved notebook, good conditions</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="?"
+                        <handDesc hands="1"
                             <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
+                            <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
                     <additional>...</additional>
@@ -105,15 +119,15 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl><!--Parole chiave-->
+            <classDecl><!--Parole chiave che verrano usate in textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
-                    <category xml:id="kw1">
-                        <catDesc> keyword1 </catDesc>
+                    <category xml:id="linguistics">
+                        <catDesc> linguistics </catDesc>
                     </category>
-                    <category xml:id="kw2">
-                        <catDesc> keyword2 </catDesc>
+                    <category xml:id="university">
+                        <catDesc> university </catDesc>
                     </category>
-                    <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
+                    <!--...-->
                 </taxonomy>
             </classDecl>
             <editorialDesc><!--Divisione in pericopi-->
@@ -237,7 +251,7 @@
             <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
             <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
-                <p xml:id="91Aaaa001"/><!--milestone perché le pericopi possono essere divise da un pb-->
+                <p xml:id="91Aaaa001"/><!--milestone perché le pericopi possono essere divise da un pb--> <!--NOTA RIUNIONE: USA AB E SEG-->
                     <lb xml:id="lb1_p1" n="1" facs="#..."/>
                     Si la chaire que j’ai en ce 
                     <lb xml:id="lb2_p1" n="2" facs="#..."/>
