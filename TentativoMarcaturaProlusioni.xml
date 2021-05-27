@@ -119,13 +119,16 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl><!--Parole chiave che verrano usate in textClass per definire gli argomenti-->
+            <classDecl><!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
                     <category xml:id="linguistics">
                         <catDesc> linguistics </catDesc>
                     </category>
                     <category xml:id="university">
                         <catDesc> university </catDesc>
+                    </category>
+                    <category xml:id="teaching">
+                        <catDesc> teaching </catDesc>
                     </category>
                     <!--...-->
                 </taxonomy>
@@ -137,7 +140,7 @@
                             <label corresp="#91Aaaa001"><!--Pericope 1-->
                                 91Aaaa001
                             </label>
-                            <item>
+                            <item><!--Testo della pericope-->
                                 Si la chaire que j’ai en ce moment l’honneur d’inaugurer représentait 
                                 un ordre d’études nouveau dans notre Université , si j’avais aujourd’hui 
                                 la mission ou le privilège de vous introduire dans l’édifice que la 
@@ -150,7 +153,25 @@
                                 très dignement ma tâche, mais certainement je ne pourrais me plaindre ici 
                                 de l’abandon.
                             </item>
-                            <!-- <desc> oppure <note> per descrivere la pericope -->
+                            <desc><!--Breve descrizione della pericope (hover sulla pericope?)-->
+                                Ferdinand de Saussure introduce il suo nuovo ruolo di docente di sanscrito e
+                                lingue indoeuropee all'interno della facoltà di Lettere dell'Università di Ginevra,
+                                tendando di mostrarsi umilmente insicuro di poter essere all'altezza.
+
+                            </desc>
+                            <note><!--Traduzione-->
+                                Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
+                                un ordine di studi nuovo nella nostra Università, se avessi oggi 
+                                la missione o il privilegio d’introdurvi nell’edificio che la 
+                                scienza del linguaggio è intenta a costruire da settant’anni in qua, 
+                                e di descrivere a grandi linee lo stato attuale di questa scienza,
+                                e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
+                                il suo avvenire, la sua utilità, e definire il posto che essa 
+                                occupa nel cerchio delle conoscenze umane e i servizi che essa 
+                                può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
+                                degnamente il mio compito, ma certamente non potrei lamentarmi qui 
+                                dell’abbandono.
+                            </note>
                             <label corresp="#91Aaaa002"><!--Pericope 2-->
                                 91Aaaa002
                             </label>
@@ -161,7 +182,19 @@
                                 simplement littéraire, l’intérêt que peut avoir ensuite la même étude pour 
                                 l’histoire ou pour l’histoire de la civilisation ?
                             </item>
-                            <label corresp="#91Aaaa003"><!--Pericope 3-->
+                            <desc>
+                                De Saussure chiede quale beneficio apporti la linguistica a studi come
+                                l'erudizione classica, le lingue greca, latina e francese, o l'interesse
+                                che possa avere la storia o la storia della civiltà per la medesima scienza
+                            </desc>
+                            <note>
+                                Senza esaltare oltre misura i meriti della linguistica, qual è il 
+                                beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
+                                la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
+                                semplicemente letterario, e l’interesse che può avere il medesimo studio per 
+                                la storia o per la storia della civiltà?
+                            </note>
+                            <label corresp="#91Aaaa003"><!--Pericope 3--> <!--INIZIO SECONDA PAGINA-->
                                 91Aaaa003
                             </label>
                             <item>
@@ -195,6 +228,12 @@
                                 pour se justifier ou pour se disculper d’exister, de prouver qu’elle est utile 
                                 và d’autres sciences?
                             </item>
+                            <desc>
+                                ...
+                            </desc>
+                            <note>
+                                ...
+                            <note>
                             <label corresp="#91Aaaa004"><!--Pericope 4-->
                                 91Aaaa004
                             </label>
@@ -203,22 +242,39 @@
                                 largement et peut-être beaucoup plus qu’une foule de sciences, mais je ne 
                                 vois pas ensuite, je l’avoue, que cette exigence soit justifiée.
                             </item>
+                            <desc>
+                                ...
+                            </desc>
+                            <note>
+                                ...
+                            <note>                            
                             <label corresp="#91Aaaa005"><!--Pericope 5-->
                                 91Aaaa005
                             </label>
+                            <desc>
+                                ...
+                            </desc>
+                            <note>
+                                ...
+                            <note>                            
                             <item>
                                 À quelle science pose-t-on cette condition préliminaire d’exister qu’elle 
                                 s’engage à livrer des résultats destinés à venir enrichir d’autres sciences 
                                 s’occupant d’autres objets ?
                             </item>
                             ...
-
+                        </list>
+                    </p>
+                </segmentation>
+            </editorialDesc>
         </encodingDesc>
 
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="#AC"> keyword2 </term>
+                    <term resp="#AC"> linguistics </term>
+                    <term resp="#AC"> university </term>
+                    <term resp="#AC"> teaching </term>
                 </keywords>
             <textClass>
 
@@ -230,13 +286,51 @@
 
     <facsimile>
         <surface n="1" xml:id="scan_p1">
-            <graphic url='https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1#id:1536895976?gallery=true&brightness=100.00&contrast=100.00&center=2016.000,-3024.000&zoom=4&rotation=0.000' width='...' height='...' />
+            <graphic url='prolusioni_3951.1-1.png' width='1383px' height='804px' />
             <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
             <!-- altre zone per altri hotspot e righe -->
         </surface>
         <surface n="2" xml:id="scan_p2">
             <graphic url='p2.jpg' width='...' height='...' />
-            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <zone points = ' 473,110 515,107 515,69 469,68 ' />
+            <zone points = ' 874,58 875,74 893,74 890,57 ' />
+            <zone points = ' 832,92 833,109 880,107 878,91 ' />
+            <zone points = ' 736,83 736,110 830,109 829,83 ' />
+            <zone points = ' 613,138 611,153 648,150 652,138 ' />
+            <zone points = ' 855,137 854,147 884,148 885,137 ' />
+            <zone points = ' 611,139 612,152 655,148 655,137 ' />
+            <zone points = ' 704,153 703,162 908,158 908,147 ' />
+            <zone points = ' 590,168 589,180 631,178 631,170 ' />
+            <zone points = ' 550,180 553,188 593,187 591,180 ' />
+            <zone points = ' 787,177 787,184 906,188 905,177 ' />
+            <zone points = ' 555,207 552,215 766,212 793,196 723,190 715,203 ' />
+            <zone points = ' 854,198 854,212 907,210 907,199 ' />
+            <zone points = ' 558,230 551,241 881,231 881,222 698,226 699,219 611,226 ' />
+            <zone points = ' 591,251 589,261 907,256 908,244 ' />
+            <zone points = ' 555,276 555,286 902,276 903,271 ' />    
+            <zone points = ' 454,184 547,200 554,518 458,555 ' />
+            <zone points = ' 848,324 848,310 907,304 906,323 ' />
+            <zone points = ' 564,357 567,340 552,343 551,359 ' />
+            <zone points = ' 824,377 824,397 905,397 905,380 858,370 ' />
+            <zone points = ' 548,412 554,431 623,428 624,415 ' />
+            <zone points = ' 643,413 647,435 894,428 896,410 ' />
+            <zone points = ' 553,443 555,454 891,444 891,431 ' />
+            <zone points = ' 558,468 556,482 865,466 864,457 ' />
+            <zone points = ' 870,453 871,464 897,468 903,455 ' />
+            <zone points = ' 702,472 701,486 892,480 892,468 ' />
+            <zone points = ' 699,490 701,500 899,492 899,484 ' />
+            <zone points = ' 563,517 561,532 879,514 881,506 ' />
+            <zone points = ' 722,499 720,511 894,505 894,494 ' />
+            <zone points = ' 561,536 555,549 894,534 895,525 ' />
+            <zone points = ' 676,524 676,525 894,521 894,515 ' />
+            <zone points = ' 461,569 526,547 632,569 466,617 ' />
+            <zone points = ' 623,561 890,549 891,562 637,570 ' />
+            <zone points = ' 619,579 881,576 873,588 590,593 ' />
+            <zone points = ' 586,597 876,590 885,605 481,620 ' />
+            <zone points = ' 503,630 494,653 902,632 904,616 ' />
+            <zone points = ' 711,648 709,662 773,658 778,644 ' />
+            <zone points = ' 685,742 681,756 720,757 719,738 ' />
+
             <!-- altre zone per altri hotspot e righe -->
         </surface>
         <!-- altre surface per le pagine -->
