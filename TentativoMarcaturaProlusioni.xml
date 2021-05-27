@@ -287,49 +287,52 @@
     <facsimile>
         <surface n="1" xml:id="scan_p1">
             <graphic url='prolusioni_3951.1-1.png' width='1383px' height='804px' />
-            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
-            <!-- altre zone per altri hotspot e righe -->
-        </surface>
-        <surface n="2" xml:id="scan_p2">
-            <graphic url='p2.jpg' width='...' height='...' />
-            <zone points = ' 473,110 515,107 515,69 469,68 ' />
-            <zone points = ' 874,58 875,74 893,74 890,57 ' />
-            <zone points = ' 832,92 833,109 880,107 878,91 ' />
-            <zone points = ' 736,83 736,110 830,109 829,83 ' />
-            <zone points = ' 613,138 611,153 648,150 652,138 ' />
-            <zone points = ' 855,137 854,147 884,148 885,137 ' />
-            <zone points = ' 611,139 612,152 655,148 655,137 ' />
-            <zone points = ' 704,153 703,162 908,158 908,147 ' />
-            <zone points = ' 590,168 589,180 631,178 631,170 ' />
-            <zone points = ' 550,180 553,188 593,187 591,180 ' />
-            <zone points = ' 787,177 787,184 906,188 905,177 ' />
-            <zone points = ' 555,207 552,215 766,212 793,196 723,190 715,203 ' />
-            <zone points = ' 854,198 854,212 907,210 907,199 ' />
-            <zone points = ' 558,230 551,241 881,231 881,222 698,226 699,219 611,226 ' />
-            <zone points = ' 591,251 589,261 907,256 908,244 ' />
-            <zone points = ' 555,276 555,286 902,276 903,271 ' />    
-            <zone points = ' 454,184 547,200 554,518 458,555 ' />
-            <zone points = ' 848,324 848,310 907,304 906,323 ' />
-            <zone points = ' 564,357 567,340 552,343 551,359 ' />
-            <zone points = ' 824,377 824,397 905,397 905,380 858,370 ' />
-            <zone points = ' 548,412 554,431 623,428 624,415 ' />
-            <zone points = ' 643,413 647,435 894,428 896,410 ' />
-            <zone points = ' 553,443 555,454 891,444 891,431 ' />
-            <zone points = ' 558,468 556,482 865,466 864,457 ' />
-            <zone points = ' 870,453 871,464 897,468 903,455 ' />
-            <zone points = ' 702,472 701,486 892,480 892,468 ' />
-            <zone points = ' 699,490 701,500 899,492 899,484 ' />
-            <zone points = ' 563,517 561,532 879,514 881,506 ' />
-            <zone points = ' 722,499 720,511 894,505 894,494 ' />
-            <zone points = ' 561,536 555,549 894,534 895,525 ' />
-            <zone points = ' 676,524 676,525 894,521 894,515 ' />
-            <zone points = ' 461,569 526,547 632,569 466,617 ' />
-            <zone points = ' 623,561 890,549 891,562 637,570 ' />
-            <zone points = ' 619,579 881,576 873,588 590,593 ' />
-            <zone points = ' 586,597 876,590 885,605 481,620 ' />
-            <zone points = ' 503,630 494,653 902,632 904,616 ' />
-            <zone points = ' 711,648 709,662 773,658 778,644 ' />
-            <zone points = ' 685,742 681,756 720,757 719,738 ' />
+            <zone ulx="475" uly="71" lrx="515" lry="107" rendition="hotspot" xml:id="HandPageNumber-1" /> <!--Numero 1 sx cerchiato -->
+            <zone ulx="880" uly="57" lrx="891" lry="75" rendition="hotspot" xml:id="PrintPageNumber-2" /> <!--Numero 2 dx stampato -->
+            <zone ulx="559" uly="88" lrx="890" lry="105" rendition="line" xml:id="p1_lb1"/>  <!--1a riga-->
+            <zone ulx="547" uly="124" lrx="910" lry="131" rendition="line" xml:id="p1_lb2"/> <!--2a riga-->
+            <zone ulx="549" uly="147" lrx="910" lry="158" rendition="line" xml:id="p1_lb3"/> <!--3a riga-->
+            <zone ulx="552" uly="174" lrx="907" lry="189" rendition="line" xml:id="p1_lb4"/> <!--4a riga-->
+            <zone ulx="555" uly="202" lrx="909" lry="209" rendition="line" xml:id="p1_lb5"/> <!--5a riga intera, anche pezzo cancellato -->
+            <zone ulx="554" uly="228" lrx="878" lry="233" rendition="line" xml:id="p1_lb6"/> <!--6a riga intera, anche pezzo cancellato-->
+            <zone ulx="559" uly="248" lrx="583" lry="262" rendition="line" xml:id="p1_lb7"/> <!--pezzettino prima di cancellatura, 7a riga-->
+            <zone points = ' 591,249 908,243 909,278 551,291 555,272 588,270 ' rendition="hotspot" xml:id="p1_del7-8"/> <!--pezzo cancellato, 7a,8a riga-->
+            <zone ulx="554" uly="287" lrx="893" lry="307" rendition="line" xml:id="p1_lb9"/>/> <!--9a riga-->
+            <zone ulx="551" uly="305" lrx="903" lry="332" rendition="line" xml:id="p1_lb10"/> <!--10a riga inclusa cancellatura ultima parola e sopraelevata-->
+            <zone ulx="547" uly="336" lrx="911" lry="358" rendition="line" xml:id="p1_lb11"/> <!--11esima riga-->
+            <zone ulx="555" uly="362" lrx="907" lry="383" rendition="line" xml:id="p1_lb12"/> <!--12esima riga inclusa prima parola nel cerchio-->
+            <zone ulx="553" uly="389" lrx="811" lry="408" rendition="line" xml:id="p1_lb13"/> <!--13esima riga escluso inserimento tra cerchio-->
+            <zone ulx="813" uly="384" lrx="913" lry="402" rendition="hotspot" xml:id="p1_insert13in12"/> <!--inserimento cerchio di 13 in 12-->
+            <zone ulx="550" uly="415" lrx="895" lry="424" rendition="line" xml:id="p1_lb14"/> <!--14esima riga, cancellata-->
+            <zone ulx="554" uly="439" lrx="895" lry="446" rendition="line" xml:id="p1_lb15"/> <!--15esima riga, cancellata-->
+            <zone ulx="559" uly="462" lrx="908" lry="469" rendition="line" xml:id="p1_lb16"/> <!--16esima riga, cancellata-->
+            <zone ulx="558" uly="483" lrx="682" lry="501" rendition="line" xml:id="p1_lb17"/> <!--17esima riga, Faculté des lettres-->
+            <zone ulx="704" uly="469" lrx="887" lry="479" rendition="hotspot" xml:id="p1_insert17-17"/><!--17esima riga, parte sopraelevata-->
+            <zone ulx="697" uly="481" lrx="904" lry="497" rendition="hotspot" xml:id="p1_del17-17"/> <!--17esima riga, parte cancellata-->
+            <zone points = ' 561,526 882,509 884,501 564,517 ' rendition="hotspot" xml:id="p1_del18-18"/> <!--18esima riga, parte cancellata-->
+            <zone points = ' 725,499 719,508 890,500 890,491 ' rendition="hotspot" xml:id="p1_insert18-18"/> <!--18esima riga, parte sopraelevata-->
+            <zone points = ' 681,523 676,534 895,522 895,515 ' rendition="hotspot" xml:id="p1_insert19-19"/> <!--19esima riga, parte sopraelevata-->
+            <zone ulx="559" uly="525" lrx="888" lry="547" rendition="line" xml:id="p1_l19"/> <!--19esima riga, intera cancellata-->
+            <zone points = ' 548,555 510,572 590,567 628,575 476,618 496,654 901,633 898,553 660,555 ' rendition="hotspot" xml:id="p_del20"/> <!--20riga, blocco di cancellature-->
+            <zone points = ' 529,554 462,571 467,617 610,576 500,574 ' rendition="hotspot" xml:id="p1_insert20"/><!--parte piccola a sinistra da inserire dalla 20a riga in poi-->
+            <zone ulx="554" uly="649" lrx="899" lry="655" /> <!--21esima riga-->
+            <zone ulx="564" uly="675" lrx="911" lry="680" /> <!--22esima riga-->
+            <zone ulx="566" uly="698" lrx="902" lry="705" /> <!--23esima riga-->
+            <zone ulx="582" uly="723" lrx="906" lry="729" /> <!--24esima riga-->
+            <zone ulx="593" uly="742" lrx="884" lry="749" /> <!--25esima riga-->
+            <zone ulx="470" uly="733" lrx="557" lry="760" /> <!--TSVP-->
+            <zone ulx="466" uly="699" lrx="558" lry="725" /> <!--parte sopra TSVP-->
+            <zone ulx="457" uly="198" lrx="547" lry="551" /> <!--blocco da inserire a sinistra, grande-->
+
+
+
+
+
+
+
+
+
+
 
             <!-- altre zone per altri hotspot e righe -->
         </surface>
@@ -338,10 +341,10 @@
 
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
         <front>
-            ...
+            <!--...-->
         </front>
         <body xml:lang="fr">
-            <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
+            <pb n="1" ed="DigitalEdition" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
             <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
             <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
