@@ -287,42 +287,42 @@
     <facsimile>
         <surface n="1" xml:id="scan_p1">
             <graphic url='prolusioni_3951.1-1.png' width='1383px' height='804px' />
-            <zone ulx="475" uly="71" lrx="515" lry="107" rendition="hotspot" xml:id="HandPageNumber-1" /> <!--Numero 1 sx cerchiato -->
-            <zone ulx="880" uly="57" lrx="891" lry="75" rendition="hotspot" xml:id="PrintPageNumber-2" /> <!--Numero 2 dx stampato -->
-            <zone ulx="559" uly="88" lrx="890" lry="105" rendition="line" xml:id="p1_lb1"/>  <!--1a riga-->
-            <zone ulx="547" uly="124" lrx="910" lry="131" rendition="line" xml:id="p1_lb2"/> <!--2a riga-->
-            <zone ulx="549" uly="147" lrx="910" lry="158" rendition="line" xml:id="p1_lb3"/> <!--3a riga-->
-            <zone ulx="552" uly="174" lrx="907" lry="189" rendition="line" xml:id="p1_lb4"/> <!--4a riga-->
-            <zone ulx="555" uly="202" lrx="909" lry="209" rendition="line" xml:id="p1_lb5"/> <!--5a riga intera, anche pezzo cancellato -->
-            <zone ulx="554" uly="228" lrx="878" lry="233" rendition="line" xml:id="p1_lb6"/> <!--6a riga intera, anche pezzo cancellato-->
-            <zone ulx="559" uly="248" lrx="583" lry="262" rendition="line" xml:id="p1_lb7"/> <!--pezzettino prima di cancellatura, 7a riga-->
-            <zone points = ' 591,249 908,243 909,278 551,291 555,272 588,270 ' rendition="hotspot" xml:id="p1_del7-8"/> <!--pezzo cancellato, 7a,8a riga-->
-            <zone ulx="554" uly="287" lrx="893" lry="307" rendition="line" xml:id="p1_lb9"/>/> <!--9a riga-->
-            <zone ulx="551" uly="305" lrx="903" lry="332" rendition="line" xml:id="p1_lb10"/> <!--10a riga inclusa cancellatura ultima parola e sopraelevata-->
-            <zone ulx="547" uly="336" lrx="911" lry="358" rendition="line" xml:id="p1_lb11"/> <!--11esima riga-->
-            <zone ulx="555" uly="362" lrx="907" lry="383" rendition="line" xml:id="p1_lb12"/> <!--12esima riga inclusa prima parola nel cerchio-->
-            <zone ulx="553" uly="389" lrx="811" lry="408" rendition="line" xml:id="p1_lb13"/> <!--13esima riga escluso inserimento tra cerchio-->
-            <zone ulx="813" uly="384" lrx="913" lry="402" rendition="hotspot" xml:id="p1_insert13in12"/> <!--inserimento cerchio di 13 in 12-->
-            <zone ulx="550" uly="415" lrx="895" lry="424" rendition="line" xml:id="p1_lb14"/> <!--14esima riga, cancellata-->
-            <zone ulx="554" uly="439" lrx="895" lry="446" rendition="line" xml:id="p1_lb15"/> <!--15esima riga, cancellata-->
-            <zone ulx="559" uly="462" lrx="908" lry="469" rendition="line" xml:id="p1_lb16"/> <!--16esima riga, cancellata-->
-            <zone ulx="558" uly="483" lrx="682" lry="501" rendition="line" xml:id="p1_lb17"/> <!--17esima riga, Faculté des lettres-->
-            <zone ulx="704" uly="469" lrx="887" lry="479" rendition="hotspot" xml:id="p1_insert17-17"/><!--17esima riga, parte sopraelevata-->
-            <zone ulx="697" uly="481" lrx="904" lry="497" rendition="hotspot" xml:id="p1_del17-17"/> <!--17esima riga, parte cancellata-->
-            <zone points = ' 561,526 882,509 884,501 564,517 ' rendition="hotspot" xml:id="p1_del18-18"/> <!--18esima riga, parte cancellata-->
-            <zone points = ' 725,499 719,508 890,500 890,491 ' rendition="hotspot" xml:id="p1_insert18-18"/> <!--18esima riga, parte sopraelevata-->
-            <zone points = ' 681,523 676,534 895,522 895,515 ' rendition="hotspot" xml:id="p1_insert19-19"/> <!--19esima riga, parte sopraelevata-->
-            <zone ulx="559" uly="525" lrx="888" lry="547" rendition="line" xml:id="p1_l19"/> <!--19esima riga, intera cancellata-->
-            <zone points = ' 548,555 510,572 590,567 628,575 476,618 496,654 901,633 898,553 660,555 ' rendition="hotspot" xml:id="p_del20"/> <!--20riga, blocco di cancellature-->
-            <zone points = ' 529,554 462,571 467,617 610,576 500,574 ' rendition="hotspot" xml:id="p1_insert20"/><!--parte piccola a sinistra da inserire dalla 20a riga in poi-->
-            <zone ulx="554" uly="649" lrx="899" lry="655" /> <!--21esima riga-->
-            <zone ulx="564" uly="675" lrx="911" lry="680" /> <!--22esima riga-->
-            <zone ulx="566" uly="698" lrx="902" lry="705" /> <!--23esima riga-->
-            <zone ulx="582" uly="723" lrx="906" lry="729" /> <!--24esima riga-->
-            <zone ulx="593" uly="742" lrx="884" lry="749" /> <!--25esima riga-->
-            <zone ulx="470" uly="733" lrx="557" lry="760" /> <!--TSVP-->
-            <zone ulx="466" uly="699" lrx="558" lry="725" /> <!--parte sopra TSVP-->
-            <zone ulx="457" uly="198" lrx="547" lry="551" /> <!--blocco da inserire a sinistra, grande-->
+            <zone ulx="475" uly="71" lrx="515" lry="107" rendition="hotspot" xml:id="facs_HandPageNumber-1" /> <!--Numero 1 sx cerchiato -->
+            <zone ulx="880" uly="57" lrx="891" lry="75" rendition="hotspot" xml:id="facs_PrintPageNumber-2" /> <!--Numero 2 dx stampato -->
+            <zone ulx="559" uly="88" lrx="890" lry="105" rendition="line" xml:id="facs_p1_lb1"/>  <!--1a riga-->
+            <zone ulx="547" uly="124" lrx="910" lry="131" rendition="line" xml:id="facs_p1_lb2"/> <!--2a riga-->
+            <zone ulx="549" uly="147" lrx="910" lry="158" rendition="line" xml:id="facs_p1_lb3"/> <!--3a riga-->
+            <zone ulx="552" uly="174" lrx="907" lry="189" rendition="line" xml:id="facs_p1_lb4"/> <!--4a riga-->
+            <zone ulx="555" uly="202" lrx="909" lry="209" rendition="line" xml:id="facs_p1_lb5"/> <!--5a riga intera, anche pezzo cancellato -->
+            <zone ulx="554" uly="228" lrx="878" lry="233" rendition="line" xml:id="facs_p1_lb6"/> <!--6a riga intera, anche pezzo cancellato-->
+            <zone ulx="559" uly="248" lrx="583" lry="262" rendition="line" xml:id="facs_p1_lb7"/> <!--pezzettino prima di cancellatura, 7a riga-->
+            <zone points = ' 591,249 908,243 909,278 551,291 555,272 588,270 ' rendition="hotspot" xml:id="facs_p1_del7-8"/> <!--pezzo cancellato, 7a,8a riga-->
+            <zone ulx="554" uly="287" lrx="893" lry="307" rendition="line" xml:id="facs_p1_lb9"/>/> <!--9a riga-->
+            <zone ulx="551" uly="305" lrx="903" lry="332" rendition="line" xml:id="facs_p1_lb10"/> <!--10a riga inclusa cancellatura ultima parola e sopraelevata-->
+            <zone ulx="547" uly="336" lrx="911" lry="358" rendition="line" xml:id="facs_p1_lb11"/> <!--11esima riga-->
+            <zone ulx="555" uly="362" lrx="907" lry="383" rendition="line" xml:id="facs_p1_lb12"/> <!--12esima riga inclusa prima parola nel cerchio-->
+            <zone ulx="553" uly="389" lrx="811" lry="408" rendition="line" xml:id="facs_p1_lb13"/> <!--13esima riga escluso inserimento tra cerchio-->
+            <zone ulx="813" uly="384" lrx="913" lry="402" rendition="hotspot" xml:id="facs_p1_insert13in12"/> <!--inserimento cerchio di 13 in 12-->
+            <zone ulx="550" uly="415" lrx="895" lry="424" rendition="line" xml:id="facs_p1_lb14"/> <!--14esima riga, cancellata-->
+            <zone ulx="554" uly="439" lrx="895" lry="446" rendition="line" xml:id="facs_p1_lb15"/> <!--15esima riga, cancellata-->
+            <zone ulx="559" uly="462" lrx="908" lry="469" rendition="line" xml:id="facs_p1_lb16"/> <!--16esima riga, cancellata-->
+            <zone ulx="558" uly="483" lrx="682" lry="501" rendition="line" xml:id="facs_p1_lb17"/> <!--17esima riga, Faculté des lettres-->
+            <zone ulx="704" uly="469" lrx="887" lry="479" rendition="hotspot" xml:id="facs_p1_insert17-17"/><!--17esima riga, parte sopraelevata-->
+            <zone ulx="697" uly="481" lrx="904" lry="497" rendition="hotspot" xml:id="facs_p1_del17-17"/> <!--17esima riga, parte cancellata-->
+            <zone points = ' 561,526 882,509 884,501 564,517 ' rendition="hotspot" xml:id="facs_p1_del18-18"/> <!--18esima riga, parte cancellata-->
+            <zone points = ' 725,499 719,508 890,500 890,491 ' rendition="hotspot" xml:id="facs_p1_insert18-18"/> <!--18esima riga, parte sopraelevata-->
+            <zone points = ' 681,523 676,534 895,522 895,515 ' rendition="hotspot" xml:id="facs_p1_insert19-19"/> <!--19esima riga, parte sopraelevata-->
+            <zone ulx="559" uly="525" lrx="888" lry="547" rendition="line" xml:id="facs_p1_l19"/> <!--19esima riga, intera cancellata-->
+            <zone points = ' 548,555 510,572 590,567 628,575 476,618 496,654 901,633 898,553 660,555 ' rendition="hotspot" xml:id="facs_p_del20"/> <!--20riga, blocco di cancellature-->
+            <zone points = ' 529,554 462,571 467,617 610,576 500,574 ' rendition="hotspot" xml:id="facs_p1_insert20"/><!--parte piccola a sinistra da inserire dalla 20a riga in poi-->
+            <zone ulx="554" uly="649" lrx="899" lry="655" rendition="line" xml:id="facs_p1_lb20"/> <!--21esima riga-->
+            <zone ulx="564" uly="675" lrx="911" lry="680" rendition="line" xml:id="facs_p1_lb21"/> <!--22esima riga-->
+            <zone ulx="566" uly="698" lrx="902" lry="705" rendition="line" xml:id="facs_p1_lb22"/> <!--23esima riga-->
+            <zone ulx="582" uly="723" lrx="906" lry="729" rendition="line" xml:id="facs_p1_lb23"/> <!--24esima riga-->
+            <zone ulx="593" uly="742" lrx="884" lry="749" rendition="line" xml:id="facs_p1_lb24"/> <!--25esima riga-->
+            <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/> <!--TSVP-->
+            <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26"/> <!--parte sopra TSVP-->
+            <zone ulx="457" uly="198" lrx="547" lry="551" rendition="line" xml:id="facs_p1_lb27"/> <!--blocco da inserire a sinistra, grande-->
 
 
 
@@ -345,48 +345,50 @@
         </front>
         <body xml:lang="fr">
             <pb n="1" ed="DigitalEdition" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
-            <ab xml:id="pageNumber1" rend="align(left)" facs="#..."> 1 </ab>
-            <ab xlm:id="printedNumber2" rend="align(right)" facs="#..."> 2 </ab>
+            <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab>
+            <ab xlm:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
-                <p xml:id="91Aaaa001"/><!--milestone perché le pericopi possono essere divise da un pb--> <!--NOTA RIUNIONE: USA AB E SEG-->
-                    <lb xml:id="lb1_p1" n="1" facs="#..."/>
-                    Si la chaire que j’ai en ce 
-                    <lb xml:id="lb2_p1" n="2" facs="#..."/>
-                    moment l’honneur d’inaugurer représentait un ordre 
-                    <lb xml:id="lb3_p1" n="3" facs="#..."/>
-                    d’études nouveau 
+                <ab xml:id="91Aaaa001" /><!--milestone perché le pericopi possono essere divise da un pb--> <!--NOTA RIUNIONE: USA AB E SEG-->
+                    <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/>
+                    Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
+                    <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
+                    moment</add> l’honneur d’inaugurer représentait un ordre 
+                    <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
+                    d’études <del rend="overstrike"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del rend="overstrike"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                     <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                    dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied><!--da omettere i supplied?--></orgName>, si j’avais
+                    dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add place="above">si j’avais</add><del rend="overstrike"><gap atLeat="7" atMost="8" unit="words" reason="illegible"/></del>
                     <lb xml:id="lb6_p1" n="6" facs="#..."/>
-                    aujourd’hui la mission ou le privilège 
+                    <add place="left margin">aujourd’hui</add> <add place="above">la mission ou le</add> privilège <del rend="overstrike">de vous</del>
                     <lb xml:id="lb5_p1" n="7" facs="#..."/>
-                    de vous introduire dans l’édifice 
-                    <lb xml:id="lb5_p1" n="8" facs="#..."/>
-                    que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
-                    <lb xml:id="lb5_p1" n="9" facs="#..."/>
-                    langage</term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
-                    <lb xml:id="lb5_p1" n="10" facs="#..."/>
-                    <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
-                    <lb xml:id="lb5_p1" n="11" facs="#..."/>
-                    à 
+                    <add place="left margin">de vous</add> <add place="above">introduire dans l’édifice</add> 
+<!--A questo-->     <gap reason="irrilevant" extent="11 lines"/> <!--parte sostituita dalle scritte a margine sinistro-->
+<!--punto alcune--> <lb xml:id="lb5_p1" n="8" facs="#..."/>
+<!--righe non-->    <add place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+<!--sono state-->   <lb xml:id="lb5_p1" n="9" facs="#..."/>
+<!--cancellate-->   <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+<!--da Saussure-->  <lb xml:id="lb5_p1" n="10" facs="#..."/>
+<!--ma non-->       <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
+<!--vengono-->      <lb xml:id="lb5_p1" n="11" facs="#..."/>
+<!--trascritte-->   à <del rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
                     <lb xml:id="lb5_p1" n="12" facs="#..."/>
                     décrire 
                     <lb xml:id="lb5_p1" n="13" facs="#..."/>
-                    dans ses grandes 
+                    <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
                     <lb xml:id="lb5_p1" n="14" facs="#..."/>
                     lignes l’état présent 
                     <lb xml:id="lb5_p1" n="15" facs="#..."/>
                     de cette science,
                     <lb xml:id="lb5_p1" n="16" facs="#..."/>
-                    à parcourir 
-                    <lb xml:id="lb5_p1" n="17" facs="#..."/>
+                    <add place="above">à parcourir </add> <!--cambiare la numerazione delle lb-->
                     son passé, qui 
-                    <lb xml:id="lb5_p1" n="18" facs="#..."/>
+                    <lb xml:id="lb5_p1" n="17" facs="#..."/>
                     n’est pas très long, 
-                    <lb xml:id="lb5_p1" n="19" facs="#..."/>
+                    <lb xml:id="lb5_p1" n="18" facs="#..."/>
                     ou à pronostiquer 
+                    <lb xml:id="lb5_p1" n="19" facs="#..."/>
+                    son avenir, 
                     <lb xml:id="lb5_p1" n="20" facs="#..."/>
-                    son avenir, à définir son 
+                    à définir son 
                     <lb xml:id="lb5_p1" n="21" facs="#..."/>
                     but, son utilité,
                     <lb xml:id="lb5_p1" n="22" facs="#..."/>
@@ -402,25 +404,25 @@
                     <lb xml:id="lb5_p1" n="27" facs="#..."/>
                     services qu’elle peut 
                     <lb xml:id="lb5_p1" n="28" facs="#..."/>
-                    rendre dans une 
+                    rendre dans une</add> 
                     <lb xml:id="lb5_p1" n="29" facs="#..."/>
-                    <orgName ref="#FacLettres">Faculté des lettres</orgName>, je craindrais de ne pas remplir très 
+                    <orgName ref="#FacLettres">Faculté des lettres</orgName>, <del rend="overstrike"><gap reason="illegible" extent="3" unit="lines"/></del> <add place="above">je craindrais de ne pas remplir très</add> 
                     <lb xml:id="lb5_p1" n="30" facs="#..."/>
-                    dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> 
+                    <add place="above">dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> </add> 
                     <lb xml:id="lb5_p1" n="31" facs="#..."/>
-                    je ne pourrais me plaindre ici de l’abandon.
+                    <add place="above">je ne pourrais me plaindre ici de l’abandon.</add>
 
-                <p xml:id="91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
+                <ab xml:id="91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
                     <lb xml:id="lb5_p1" n="32" facs="#..."/>
-                    Sans exalter 
+                    <add place="left margin">Sans exalter 
                     <lb xml:id="lb5_p1" n="33" facs="#..."/>
                     outre mesure 
                     <lb xml:id="lb5_p1" n="34" facs="#..."/>
-                    les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
+                    les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term></add>,
                     <lb xml:id="lb5_p1" n="35" facs="#..."/>
-                    quel est le 
+                    quel est le </add> 
                     <lb xml:id="lb5_p1" n="36" facs="#..."/>
-                    profit que peut tirer par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
+                    profit que peut tirer <del rend="overstrike">de cette</del> par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
                     <lb xml:id="lb5_p1" n="37" facs="#..."/>
                     étude l’érudition classique, 
                     <lb xml:id="lb5_p1" n="38" facs="#..."/>
@@ -434,7 +436,14 @@
                     <lb xml:id="lb5_p1" n="42" facs="#..."/>
                     l’intérêt que peut avoir ensuite la même 
                     <lb xml:id="lb5_p1" n="43" facs="#..."/>
-                    étude pour l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
+                    étude pour <del rend="overstrike">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
+                
+                    <floatingText><gap reason="illegible" atLeast="5" atMost="6" unit="words"/></floatingText>
+
+                    <ab>    <!--THVP-->
+                        <abbr type="acronym">T<em>.</em>S<em>.</em>V<em>.</em>P<em>.</em></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v</ex>ouz</ex> p<ex>lait</ex></expan>
+                </ab>
+
                 </div>
             <pb n="2" xml:id="body_p" facs="facs_p2" hand="h2"/> <!-- quale edizione ed=""? -->
             <div xml:id="div_p2" hand="#h2">
@@ -444,15 +453,18 @@
         </body>
 
         <back>
-            <note>
-                ...
+            <!--NOTE-->
+<!--1-->    <note ana="1" xml:id="p1_note1" resp="#AC" >
+                <p>
+                    Scilicet “Université de Genève”, it. “Università di Ginevra”
+                </p>
             </note>
             <!-- BIBLIOGRAPHY -->
             <div type="bibliography">
 				<listBibl xml:id="prolusioni1_bibliography">
                     <head>Bibliography</head>
-					<bibl xml:id="Prolusioni1_Chidichimo2009">
-						<ref target="#Chidichimo2009">
+					<bibl xml:id="Prolusioni1_Bouquet-Engler2002">
+						<ref target="#Bouquet-Engler2002">
                             <bibl>
                                 <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
                                 <date when="2009">2009</date>                                    
