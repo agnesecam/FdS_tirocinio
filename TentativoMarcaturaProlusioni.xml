@@ -79,6 +79,16 @@
                     </author>
                     <citedRange unit="page" from="143" to="172">143-172</citedRange>
                 </bibl>
+                <bibl source="Fadda2006">
+                    <title>Prolusioni</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>  
+                    <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                </bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>Switzerland</country>
@@ -463,17 +473,49 @@
             <div type="bibliography">
 				<listBibl xml:id="prolusioni1_bibliography">
                     <head>Bibliography</head>
-					<bibl xml:id="Prolusioni1_Bouquet-Engler2002">
-						<ref target="#Bouquet-Engler2002">
-                            <bibl>
-                                <author ref="#AlessandroChidichimo">Alessandro Chidichimo</author>
-                                <date when="2009">2009</date>                                    
-                                <citedRange unit="page" from="?" to="?">?-?</citedRange>
+                    <bibl>  
+<!--Bouquet-Engler-->   <ref target="#Bouquet-Engler2002">
+                            <bibl xml:id="Prolusioni1_Bouquet-Engler2002">
+                                <title>Écrits de linguistique générale</title>
+                                <author>
+                                    <persName ref="FdS">
+                                        <forename>Ferdinand</forename>
+                                        <surname>de Saussure</surname>
+                                    </persName>
+                                </author>
+                                <author>
+                                    <persName ref="SB">
+                                        <forename>Simon</forename>
+                                        <surname>Bouquet</surname>
+                                    </persName>
+                                </author>
+                                <author>
+                                    <persName ref="RE">
+                                        <forename>Rudolf</forename>
+                                        <surname>Engler</surname>
+                                    </persName>
+                                </author>
+                                <author>
+                                    <persName ref="AW">
+                                        <forename>Antoinette</forename>
+                                        <surname>Weil</surname>
+                                    </persName>
+                                </author>
+                                <citedRange unit="page" from="143" to="172">143-172</citedRange>
                             </bibl>
 						</ref>
-                        ...
-                        altre entrate bibliografiche
-                        ...
+<!--E.Fadda 2006-->     <ref target="#Fadda2006">
+                            <bibl xml:id="Prolusioni1_Fadda2006">
+                                <title>Prolusioni</title>
+                                <author>
+                                    <persName ref="#EF">
+                                        <forename>Emanuele</forename>
+                                        <surname>Fadda</surname>
+                                    </persName>
+                                </author>  
+                                <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                            </bibl>
+                        </ref>
                     </bibl>
                 </listBibl>
             </div>  
@@ -481,25 +523,25 @@
             <!-- PERSON -->
             <listPerson>
                 <head>People</head>
-                <!--Alessandro Chidichimo-->
-                <person xml:id="AlessandroChidichimo" sameAs="http://viaf.org/viaf/8291159248237604870007" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-					<persName role="author" > 
-						<forename>Alessandro</forename>
-						<surname>Chidichimo</forename>
+                <!--Emanuele Fadda-->
+                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/" sameAs="http://worldcat.org/identities/lccn-no2011183289/"> 
+					<persName role="author"> 
+						<forename>Emanuele</forename>
+						<surname>Fadda</forename>
 					</persName>
 					<sex>M</sex>
 					<birth>
-						<date when="1976-08-18">8 agosto 1976</date>
-						<placeName ref="#CS">
-							<settlement type="municipality">Cosenza</settlement>
-							<settlement type="provincia" key="CS">Cosenza</settlement>
+						<date when="1972">1972</date>
+						<placeName ref="#EF">
+							<settlement type="municipality">Cagliari</settlement>
+							<settlement type="provincia" key="CA">Cagliari</settlement>
 							<country key="IT">Italia</country>
 						</placeName>
 					</birth> 
 				</person>
                 <!--Ferdinand de Saussure-->
                 <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-					<persName role="linguistic" > 
+					<persName role="author" > 
 						<forename>Ferdinand</forename>
 						<surname>de Saussure</forename>
 					</persName>
@@ -562,7 +604,6 @@
                         </placeName>
                     </birth>
                 </person>
-                ...
             </listPerson>
 
             <!-- ListPlace -->
@@ -607,12 +648,11 @@
                     <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
                 </label>
                 <item>
-                    <gloss xml:lang="fr" target="#lagues">
+                    <gloss xml:lang="fr" target="#langues">
                         Langue and parole is a theoretical linguistic dichotomy distinguished by Ferdinand de Saussure in his Course in General Linguistics.
                         The French term "langue" encompasses the abstract, systematic rules and conventions of a signifying system; it is independent of, and pre-exists, the individual user. It involves the principles of language, without which no meaningful utterance, or parole, would be possible.
                     </gloss>
                 </item>
-                ...
             </list>
 
             <!-- List Organization -->
