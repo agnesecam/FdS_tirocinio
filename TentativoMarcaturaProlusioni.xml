@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--<!DOCTYPE TEI SYSTEM "tei-all.dtd">-->
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -25,13 +25,25 @@
                         <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
-                        <!-- ecc. ecc. -->
+                        <name ref="#EF">Emanuele Fadda</name>
+                        <name ref="#DG">Daniele Gambarara</name>
+                        <name ref="#GC">Giuseppe Cosenza</name>
+                        <name ref="#GD">Giuseppe D'Ottavi</name>
                     </respStmt>
                     <respStmt>
                         <resp>Encoding by</resp>
                         <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Transcription by</resp>
+                        <name ref="#Bouquet">Simon Bouquet</name>
+                        <name ref="#Engler">Rudolf Engler</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Translation by</resp>
+                        <name ref="EF">Emanuele Fadda</name>
                     </respStmt>
                 </edition>
                 <edition n="Engler1967-74">Engler
@@ -100,6 +112,9 @@
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
+        <!--?-->            <date when="1891-11-06">06/11/1891</date>
+                            <date when="1891-11-10">10/11/1891</date>
+                            <date when="1891-11-13">13/11/1891</date>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     <msContents>
@@ -118,7 +133,7 @@
                                 <condition>Well preserved notebook, good conditions</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1"
+                        <handDesc hands="1">
                             <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
                             <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
@@ -523,22 +538,6 @@
             <!-- PERSON -->
             <listPerson>
                 <head>People</head>
-                <!--Emanuele Fadda-->
-                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/" sameAs="http://worldcat.org/identities/lccn-no2011183289/"> 
-					<persName role="author"> 
-						<forename>Emanuele</forename>
-						<surname>Fadda</forename>
-					</persName>
-					<sex>M</sex>
-					<birth>
-						<date when="1972">1972</date>
-						<placeName ref="#EF">
-							<settlement type="municipality">Cagliari</settlement>
-							<settlement type="provincia" key="CA">Cagliari</settlement>
-							<country key="IT">Italia</country>
-						</placeName>
-					</birth> 
-				</person>
                 <!--Ferdinand de Saussure-->
                 <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
 					<persName role="author" > 
@@ -604,6 +603,76 @@
                         </placeName>
                     </birth>
                 </person>
+                <!--Emanuele Fadda-->
+                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/" sameAs="http://worldcat.org/identities/lccn-no2011183289/"> 
+					<persName> 
+						<forename>Emanuele</forename>
+						<surname>Fadda</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1972">1972</date>
+						<placeName ref="#CA">
+							<settlement type="municipality">Cagliari</settlement>
+							<settlement type="provincia" key="CA">Cagliari</settlement>
+							<country key="IT">Italia</country>
+						</placeName>
+					</birth> 
+				</person>
+                <!--Daniele Gambarara-->
+                <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/" sameAs="http://worldcat.org/identities/lccn-n78084157/"> 
+					<persName> 
+						<forename>Emanuele</forename>
+						<surname>Fadda</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1948-03-14">14th May 1948</date>
+						<placeName ref="#TO">
+							<settlement type="municipality">Torino</settlement>
+							<settlement type="provincia" key="TO">Torino</settlement>
+							<country key="IT">Italia</country>
+						</placeName>
+					</birth> 
+				</person>
+                <!--Giuseppe Cosenza-->
+                <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
+					<persName> 
+						<forename>Giuseppe</forename>
+						<surname>Cosenza</forename>
+					</persName>
+					<sex>M</sex>
+				</person>
+                <!--Giuseppe D'Ottavi-->
+                <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
+                    <persName>
+						<forename>Giuseppe</forename>
+						<surname>D'Ottavi</forename>
+					</persName>
+					<sex>M</sex>
+				</person>
+                <!--Simon Bouquet-->
+                <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817" sameAs="https://www.worldcat.org/identities/lccn-n97102757/"> 
+					<persName> 
+						<forename>Simon</forename>
+						<surname>Bouquet</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1954">1954</date>
+					</birth> 
+				</person>
+                <!--Rudolf Engler-->
+                <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/" sameAs="http://worldcat.org/identities/lccn-nr89013033/"> 
+					<persName> 
+						<forename>Rudolf</forename>
+						<surname>Engler</forename>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1930-10-25">25th October 1930</date>
+					</birth> 
+				</person>
             </listPerson>
 
             <!-- ListPlace -->
