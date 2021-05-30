@@ -117,7 +117,7 @@
                             <date when="1891-11-13">13/11/1891</date>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
-                    <msContents>
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -258,7 +258,7 @@
                             </desc>
                             <note>
                                 ...
-                            <note>
+                            </note>
                             <label corresp="#91Aaaa004"><!--Pericope 4-->
                                 91Aaaa004
                             </label>
@@ -272,7 +272,7 @@
                             </desc>
                             <note>
                                 ...
-                            <note>                            
+                            </note>                            
                             <label corresp="#91Aaaa005"><!--Pericope 5-->
                                 91Aaaa005
                             </label>
@@ -281,7 +281,7 @@
                             </desc>
                             <note>
                                 ...
-                            <note>                            
+                            </note>                            
                             <item>
                                 À quelle science pose-t-on cette condition préliminaire d’exister qu’elle 
                                 s’engage à livrer des résultats destinés à venir enrichir d’autres sciences 
@@ -301,7 +301,7 @@
                     <term resp="#AC"> university </term>
                     <term resp="#AC"> teaching </term>
                 </keywords>
-            <textClass>
+            </textClass>
 
             <langUsage>
                 <language ident="fr">French</language>
@@ -371,10 +371,10 @@
         <body xml:lang="fr">
             <pb n="1" ed="DigitalEdition" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
             <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab>
-            <ab xlm:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab>
+            <ab xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
                 <ab xml:id="91Aaaa001" /><!--milestone perché le pericopi possono essere divise da un pb--> <!--NOTA RIUNIONE: USA AB E SEG-->
-                    <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/>
+                    <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                     Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
                     <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
                     moment</add> l’honneur d’inaugurer représentait un ordre 
@@ -384,93 +384,93 @@
                     dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add place="above">si j’avais</add><del rend="overstrike"><gap atLeat="7" atMost="8" unit="words" reason="illegible"/></del>
                     <lb xml:id="lb6_p1" n="6" facs="#..."/>
                     <add place="left margin">aujourd’hui</add> <add place="above">la mission ou le</add> privilège <del rend="overstrike">de vous</del>
-                    <lb xml:id="lb5_p1" n="7" facs="#..."/>
+                    <lb xml:id="lb7_p1" n="7" facs="#..."/>
                     <add place="left margin">de vous</add> <add place="above">introduire dans l’édifice</add> 
 <!--A questo-->     <gap reason="irrilevant" extent="11 lines"/> <!--parte sostituita dalle scritte a margine sinistro-->
-<!--punto alcune--> <lb xml:id="lb5_p1" n="8" facs="#..."/>
+<!--punto alcune--> <lb xml:id="lb8_p1" n="8" facs="#..."/>
 <!--righe non-->    <add place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
-<!--sono state-->   <lb xml:id="lb5_p1" n="9" facs="#..."/>
+<!--sono state-->   <lb xml:id="lb9_p1" n="9" facs="#..."/>
 <!--cancellate-->   <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
-<!--da Saussure-->  <lb xml:id="lb5_p1" n="10" facs="#..."/>
+<!--da Saussure-->  <lb xml:id="lb10_p1" n="10" facs="#..."/>
 <!--ma non-->       <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
-<!--vengono-->      <lb xml:id="lb5_p1" n="11" facs="#..."/>
+<!--vengono-->      <lb xml:id="lb11_p1" n="11" facs="#..."/>
 <!--trascritte-->   à <del rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
-                    <lb xml:id="lb5_p1" n="12" facs="#..."/>
+                    <lb xml:id="lb12_p1" n="12" facs="#..."/>
                     décrire 
-                    <lb xml:id="lb5_p1" n="13" facs="#..."/>
+                    <lb xml:id="lb13_p1" n="13" facs="#..."/>
                     <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
-                    <lb xml:id="lb5_p1" n="14" facs="#..."/>
+                    <lb xml:id="lb14_p1" n="14" facs="#..."/>
                     lignes l’état présent 
-                    <lb xml:id="lb5_p1" n="15" facs="#..."/>
+                    <lb xml:id="lb15_p1" n="15" facs="#..."/>
                     de cette science,
-                    <lb xml:id="lb5_p1" n="16" facs="#..."/>
+                    <lb xml:id="lb16_p1" n="16" facs="#..."/>
                     <add place="above">à parcourir </add> <!--cambiare la numerazione delle lb-->
                     son passé, qui 
-                    <lb xml:id="lb5_p1" n="17" facs="#..."/>
+                    <lb xml:id="lb17_p1" n="17" facs="#..."/>
                     n’est pas très long, 
-                    <lb xml:id="lb5_p1" n="18" facs="#..."/>
+                    <lb xml:id="lb18_p1" n="18" facs="#..."/>
                     ou à pronostiquer 
-                    <lb xml:id="lb5_p1" n="19" facs="#..."/>
+                    <lb xml:id="lb19_p1" n="19" facs="#..."/>
                     son avenir, 
-                    <lb xml:id="lb5_p1" n="20" facs="#..."/>
+                    <lb xml:id="lb20_p1" n="20" facs="#..."/>
                     à définir son 
-                    <lb xml:id="lb5_p1" n="21" facs="#..."/>
+                    <lb xml:id="lb21_p1" n="21" facs="#..."/>
                     but, son utilité,
-                    <lb xml:id="lb5_p1" n="22" facs="#..."/>
+                    <lb xml:id="lb22_p1" n="22" facs="#..."/>
                     à marquer la 
-                    <lb xml:id="lb5_p1" n="23" facs="#..."/>
+                    <lb xml:id="lb23_p1" n="23" facs="#..."/>
                     place qu’elle 
-                    <lb xml:id="lb5_p1" n="24" facs="#..."/>
+                    <lb xml:id="lb24_p1" n="24" facs="#..."/>
                     occupe dans le 
-                    <lb xml:id="lb5_p1" n="25" facs="#..."/>
+                    <lb xml:id="lb25_p1" n="25" facs="#..."/>
                     cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
-                    <lb xml:id="lb5_p1" n="26" facs="#..."/>
+                    <lb xml:id="lb26_p1" n="26" facs="#..."/>
                     humaines et les 
-                    <lb xml:id="lb5_p1" n="27" facs="#..."/>
+                    <lb xml:id="lb27_p1" n="27" facs="#..."/>
                     services qu’elle peut 
-                    <lb xml:id="lb5_p1" n="28" facs="#..."/>
+                    <lb xml:id="lb28_p1" n="28" facs="#..."/>
                     rendre dans une</add> 
-                    <lb xml:id="lb5_p1" n="29" facs="#..."/>
+                    <lb xml:id="lb29_p1" n="29" facs="#..."/>
                     <orgName ref="#FacLettres">Faculté des lettres</orgName>, <del rend="overstrike"><gap reason="illegible" extent="3" unit="lines"/></del> <add place="above">je craindrais de ne pas remplir très</add> 
-                    <lb xml:id="lb5_p1" n="30" facs="#..."/>
-                    <add place="above">dignement ma tâche, mais <choice><abbr.>certain.</abbr> <expan>certain<ex>ement</ex></expan> </add> 
-                    <lb xml:id="lb5_p1" n="31" facs="#..."/>
+                    <lb xml:id="lb30_p1" n="30" facs="#..."/>
+                    <add place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
+                    <lb xml:id="lb31_p1" n="31" facs="#..."/>
                     <add place="above">je ne pourrais me plaindre ici de l’abandon.</add>
 
                 <ab xml:id="91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
-                    <lb xml:id="lb5_p1" n="32" facs="#..."/>
+                    <lb xml:id="lb32_p1" n="32" facs="#..."/>
                     <add place="left margin">Sans exalter 
-                    <lb xml:id="lb5_p1" n="33" facs="#..."/>
+                    <lb xml:id="lb33_p1" n="33" facs="#..."/>
                     outre mesure 
-                    <lb xml:id="lb5_p1" n="34" facs="#..."/>
-                    les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term></add>,
-                    <lb xml:id="lb5_p1" n="35" facs="#..."/>
+                    <lb xml:id="lb34_p1" n="34" facs="#..."/>
+                    les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
+                    <lb xml:id="lb35_p1" n="35" facs="#..."/>
                     quel est le </add> 
-                    <lb xml:id="lb5_p1" n="36" facs="#..."/>
+                    <lb xml:id="lb36_p1" n="36" facs="#..."/>
                     profit que peut tirer <del rend="overstrike">de cette</del> par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
-                    <lb xml:id="lb5_p1" n="37" facs="#..."/>
+                    <lb xml:id="lb37_p1" n="37" facs="#..."/>
                     étude l’érudition classique, 
-                    <lb xml:id="lb5_p1" n="38" facs="#..."/>
+                    <lb xml:id="lb38_p1" n="38" facs="#..."/>
                     la connaissance des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
-                    <lb xml:id="lb5_p1" n="39" facs="#..."/>
+                    <lb xml:id="lb39_p1" n="39" facs="#..."/>
                     eût-elle un 
-                    <lb xml:id="lb5_p1" n="40" facs="#..."/>
+                    <lb xml:id="lb40_p1" n="40" facs="#..."/>
                     but simplement 
-                    <lb xml:id="lb5_p1" n="41" facs="#..."/>
+                    <lb xml:id="lb41_p1" n="41" facs="#..."/>
                     <term subtype="linguistics-term" ref="#litteraire">littéraire</term>, 
-                    <lb xml:id="lb5_p1" n="42" facs="#..."/>
+                    <lb xml:id="lb42_p1" n="42" facs="#..."/>
                     l’intérêt que peut avoir ensuite la même 
-                    <lb xml:id="lb5_p1" n="43" facs="#..."/>
+                    <lb xml:id="lb43_p1" n="43" facs="#..."/>
                     étude pour <del rend="overstrike">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
                 
                     <floatingText><gap reason="illegible" atLeast="5" atMost="6" unit="words"/></floatingText>
 
                     <ab>    <!--THVP-->
-                        <abbr type="acronym">T<em>.</em>S<em>.</em>V<em>.</em>P<em>.</em></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v</ex>ouz</ex> p<ex>lait</ex></expan>
-                </ab>
+                        <abbr type="acronym">T<em>.</em>S<em>.</em>V<em>.</em>P<em>.</em></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
+                    </ab>
 
-                </div>
-            <pb n="2" xml:id="body_p" facs="facs_p2" hand="h2"/> <!-- quale edizione ed=""? -->
+            </div>
+            <pb n="2" xml:id="body_p2" facs="facs_p2" hand="h2"/> <!-- quale edizione ed=""? -->
             <div xml:id="div_p2" hand="#h2">
                 <lb xml:id="lb1_p2" n="1" facs="#..."/>
                 ...
@@ -539,10 +539,10 @@
             <listPerson>
                 <head>People</head>
                 <!--Ferdinand de Saussure-->
-                <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
 					<persName role="author" > 
 						<forename>Ferdinand</forename>
-						<surname>de Saussure</forename>
+						<surname>de Saussure</surname>
 					</persName>
 					<sex>M</sex>
 					<birth>
@@ -604,10 +604,10 @@
                     </birth>
                 </person>
                 <!--Emanuele Fadda-->
-                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/" sameAs="http://worldcat.org/identities/lccn-no2011183289/"> 
+                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
 					<persName> 
 						<forename>Emanuele</forename>
-						<surname>Fadda</forename>
+						<surname>Fadda</surname>
 					</persName>
 					<sex>M</sex>
 					<birth>
@@ -620,10 +620,10 @@
 					</birth> 
 				</person>
                 <!--Daniele Gambarara-->
-                <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/" sameAs="http://worldcat.org/identities/lccn-n78084157/"> 
+                <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
 					<persName> 
 						<forename>Emanuele</forename>
-						<surname>Fadda</forename>
+						<surname>Fadda</surname>
 					</persName>
 					<sex>M</sex>
 					<birth>
@@ -639,7 +639,7 @@
                 <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
 					<persName> 
 						<forename>Giuseppe</forename>
-						<surname>Cosenza</forename>
+						<surname>Cosenza</surname>
 					</persName>
 					<sex>M</sex>
 				</person>
@@ -647,15 +647,15 @@
                 <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
                     <persName>
 						<forename>Giuseppe</forename>
-						<surname>D'Ottavi</forename>
+						<surname>D'Ottavi</surname>
 					</persName>
 					<sex>M</sex>
 				</person>
                 <!--Simon Bouquet-->
-                <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817" sameAs="https://www.worldcat.org/identities/lccn-n97102757/"> 
+                <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
 					<persName> 
 						<forename>Simon</forename>
-						<surname>Bouquet</forename>
+						<surname>Bouquet</surname>
 					</persName>
 					<sex>M</sex>
 					<birth>
@@ -663,10 +663,10 @@
 					</birth> 
 				</person>
                 <!--Rudolf Engler-->
-                <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/" sameAs="http://worldcat.org/identities/lccn-nr89013033/"> 
+                <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
 					<persName> 
 						<forename>Rudolf</forename>
-						<surname>Engler</forename>
+						<surname>Engler</surname>
 					</persName>
 					<sex>M</sex>
 					<birth>
@@ -686,7 +686,7 @@
                 </place>
                 <!--Cosenza-->
                 <place xml:id="CS">
-                    <placename ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">
+                    <placename ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                     <country key="IT">Italy</country>
                     <note>...</note>
                 </place>
@@ -734,7 +734,7 @@
                     </desc>
                 </org>
                 <org xml:id="FacLettres">
-                    <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève<orgName>
+                    <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
                     <placeName ref="GE">Genève</placeName>
                 </org>
             </listOrg>         
