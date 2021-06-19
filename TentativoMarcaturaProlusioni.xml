@@ -20,38 +20,40 @@
             <editionStmt>   
                 <edition n="DigitalEdition">Digital edition
                     <date when="2021-05"> May 2021 </date>
-                    <respStmt>
-                        <resp>Digital edition project coordinated by</resp>
-                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                        <name ref="#AC">Agnese Camici</name>
-                        <name ref="#SP">Silvia Piccini</name>
-                        <name ref="#EF">Emanuele Fadda</name>
-                        <name ref="#DG">Daniele Gambarara</name>
-                        <name ref="#GC">Giuseppe Cosenza</name>
-                        <name ref="#GD">Giuseppe D'Ottavi</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Encoding by</resp>
-                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                        <name ref="#AC">Agnese Camici</name>
-                        <name ref="#SP">Silvia Piccini</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Transcription by</resp>
-                        <name ref="#Bouquet">Simon Bouquet</name>
-                        <name ref="#Engler">Rudolf Engler</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Translation by</resp>
-                        <name ref="EF">Emanuele Fadda</name>
-                    </respStmt>
                 </edition>
+                <respStmt>
+                    <resp>Digital edition project coordinated by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#Bouquet">Simon Bouquet</name>
+                    <name ref="#Engler">Rudolf Engler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name ref="EF">Emanuele Fadda</name>
+                </respStmt>
+                
+                <!--        content model di editionStmt impone 1 edition soltanto 
                 <edition n="Engler1967-74">Engler
                     <date from="1967" to="1974">1967-74</date>
                 </edition>
                 <edition n="Bouquet-Engler2002">Bouquet-Engler
                     <date when="2002">2002</date>
-                </edition>
+                </edition>-->
                 <!-- COME INSERIRE LE PAGINE? -->                
             </editionStmt>
 
@@ -162,7 +164,7 @@
                 <segmentation>
                     <p>
                         <list>
-                            <label corresp="#91Aaaa001"><!--Pericope 1-->
+                            <label corresp="#body_91Aaaa001"><!--Pericope 1-->
                                 91Aaaa001
                             </label>
                             <item><!--Testo della pericope-->
@@ -183,7 +185,7 @@
                                 lingue indoeuropee all'interno della facoltà di Lettere dell'Università di Ginevra,
                                 tendando di mostrarsi umilmente insicuro di poter essere all'altezza.
                             </desc>
-                            <note xml:id="91Aaaa001_it" ref="#91Aaaa001"><!--Traduzione-->
+                            <note xml:id="it_91Aaaa001" ref="#91Aaaa001"><!--Traduzione-->
                                 Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                                 un ordine di studi nuovo nella nostra Università, se avessi oggi 
                                 la missione o il privilegio d’introdurvi nell’edificio che la 
@@ -196,7 +198,7 @@
                                 degnamente il mio compito, ma certamente non potrei lamentarmi qui 
                                 dell’abbandono.
                             </note>
-                            <label corresp="#91Aaaa002"><!--Pericope 2-->
+                            <label corresp="#body_91Aaaa002"><!--Pericope 2-->
                                 91Aaaa002
                             </label>
                             <item>
@@ -211,14 +213,14 @@
                                 l'erudizione classica, le lingue greca, latina e francese, o l'interesse
                                 che possa avere la storia o la storia della civiltà per la medesima scienza
                             </desc>
-                            <note xml:id="91Aaaa002_it" ref="#91Aaaa002">
+                            <note xml:id="it_91Aaaa002" ref="#91Aaaa002">
                                 Senza esaltare oltre misura i meriti della linguistica, qual è il 
                                 beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
                                 la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
                                 semplicemente letterario, e l’interesse che può avere il medesimo studio per 
                                 la storia o per la storia della civiltà?
                             </note>
-                            <label corresp="#91Aaaa003"><!--Pericope 3--> <!--INIZIO SECONDA PAGINA-->
+                            <label corresp="#body_91Aaaa003"><!--Pericope 3--> <!--INIZIO SECONDA PAGINA-->
                                 91Aaaa003
                             </label>
                             <item>
@@ -255,10 +257,10 @@
                             <desc>
                                 ...
                             </desc>
-                            <note xml:id="91Aaaa003_it" ref="#91Aaaa003">
+                            <note xml:id="it_91Aaaa003" ref="#91Aaaa003">
                                 ...
                             </note>
-                            <label corresp="#91Aaaa004"><!--Pericope 4-->
+                            <label corresp="#body_91Aaaa004"><!--Pericope 4-->
                                 91Aaaa004
                             </label>
                             <item>
@@ -272,7 +274,7 @@
                             <note>
                                 ...
                             </note>                            
-                            <label corresp="#91Aaaa005"><!--Pericope 5-->
+                            <label corresp="#body_91Aaaa005"><!--Pericope 5-->
                                 91Aaaa005
                             </label>
                             <desc>
@@ -361,7 +363,7 @@
             <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab>
             <ab xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
-                <ab xml:id="91Aaaa001" />
+                <ab xml:id="body_body_91Aaaa001"/>
                     <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                     Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
                     <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
@@ -425,7 +427,7 @@
                     <lb xml:id="lb31_p1" n="31" facs="#..."/>
                     <add place="above">je ne pourrais me plaindre ici de l’abandon.</add>
 
-                <ab xml:id="91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
+                <ab xml:id="body_91Aaaa002"/> <!--milestone perché la pericope continua nella seconda pagina-->
                     <lb xml:id="lb32_p1" n="32" facs="#..."/>
                     <add place="left margin">Sans exalter 
                     <lb xml:id="lb33_p1" n="33" facs="#..."/>
@@ -482,7 +484,7 @@
                                 <title>Écrits de linguistique générale</title>
                                 <author>
                                     <persName ref="FdS">
-                                        <forename>Ferdinand</forename>
+                                        <forename>Ferdinand</forename> 
                                         <surname>de Saussure</surname>
                                     </persName>
                                 </author>
@@ -682,13 +684,13 @@
                 </place>
                 <!--Cosenza-->
                 <place xml:id="CS">
-                    <placename ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                     <country key="IT">Italy</country>
                     <note>...</note>
                 </place>
                 <!--Cagliari-->
                 <place xml:id="CA">
-                    <placename ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                     <country key="IT">Italy</country>
                     <note>...</note>
                 </place>
