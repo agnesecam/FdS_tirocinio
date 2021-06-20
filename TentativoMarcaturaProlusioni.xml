@@ -47,7 +47,7 @@
                     <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
                 
-                <!--        content model di editionStmt impone 1 edition soltanto 
+                <!--      Il content model di editionStmt impone 1 edition soltanto 
                 <edition n="Engler1967-74">Engler
                     <date from="1967" to="1974">1967-74</date>
                 </edition>
