@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Trois premières conférences à l'Université</title>
+                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
@@ -102,14 +102,9 @@
                             <surname>Fadda</surname>
                         </persName>
                     </author>  
-                    <author>
-                        <persName ref="#EF">
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                    </author>  
                     <publisher>Bonanno Editore</publisher>
                     <pubPlace>Acireale - Roma<pubPlace>
+                    <idno type="ISBN">887796276-3</idno>
                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
                 </bibl>
                 <msDesc>

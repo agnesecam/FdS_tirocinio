@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--<!DOCTYPE TEI SYSTEM "tei-all.dtd">-->
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc> <!-- titolo, segnatura archivistica, datazioni doc, lingua doc, edizioni disponibili -->
+        <fileDesc> 
             <titleStmt>
                 <title type="main">Morphologie</title>
-                <!--<title type="sub">Note preparatorie per lezioni</title>-->
                 <title type="sub"> 
-                    <date from="1893" to="1895">(1893-1985)</date>                </title>
+                    <date from="1893" to="1895">(1893-1985)</date>                
+                </title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of</resp>
@@ -27,7 +27,10 @@
                         <name ref="#AMDG">Angelo Mario Del Grosso</name>
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
-                        <!-- ecc. ecc. altri -->
+                        <name ref="#EF">Emanuele Fadda</name>
+                        <name ref="#DG">Daniele Gambarara</name>
+                        <name ref="#GC">Giuseppe Cosenza</name>
+                        <name ref="#GD">Giuseppe D'Ottavi</name>
                     </respStmt>
                     <respStmt>
                         <resp>Encoding by</resp>
@@ -35,16 +38,26 @@
                         <name ref="#AC">Agnese Camici</name>
                         <name ref="#SP">Silvia Piccini</name>
                     </respStmt>
+                    <respStmt>
+                        <resp>Transcription by</resp>
+                        <name ref="#Bouquet">Simon Bouquet</name>
+                        <name ref="#Engler">Rudolf Engler</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Translation by</resp>
+                        <name ref="EF">Emanuele Fadda</name>
+                    </respStmt>
                 </edition>
+                <!-- Il content model di editionStmt impone 1 edition soltanto
                 <edition n="Engler1967-74">Engler
                     <date from="1967" to="1974">1967-74</date>
                 </edition>
                 <edition n="Godel1969">Godel
-                    <date when="2002">1969</date>
+                    <date when="1969">1969</date>
                 </edition>
                 <edition n="Fadda" lang="it">
                     <date when="2017">2017</date>
-                </edition>
+                </edition> -->
                 <!-- COME INSERIRE LE PAGINE? -->                
             </editionStmt>
 
@@ -56,10 +69,45 @@
 			</publicationStmt>
             
             <sourceDesc>
-                <bibl source="#?" resp="#?" ana="?">
-                    <title>...</title>
-                    <author>?</author>
-                    <citedRange unit="page" from="?" to="?">...</citedRange>
+                <bibl source="Godel1969">
+                    <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                    <author>
+                        <persName ref="RG">
+                            <forename>Robert</forename>
+                            <surname>Godel</surname>
+                        </persName>
+                    </author>
+                    <publisher>Libraire Droz</publisher>
+                    <pubPlace>Gèneve<pubPlace>
+                </bibl>
+                <bibl source="Engler1967-74">
+                    <title> Cours de Linguistique Générale</title>
+                    <author>
+                        <persName ref="RE">
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                </bibl>
+                <bibl source="Fadda2006">
+                    <title type="main">Sentimento della lingua</title>
+                    <title type="sub">Per un'antropologia linguistica saussuriana</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>  
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>  
+                    <publisher>Edizioni dell'Orso</publisher>
+                    <pubPlace>Acireale - Roma<pubPlace>
+                    <idno type="ISBN">8862747950</idno>
+                    <citedRange unit="page" from="100" to="110">100-110</citedRange>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
