@@ -127,18 +127,17 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material>Thin checkered paper</material>
-                                    <!-- ... -->
+                                    <material>Thin paper</material>
                                 </support>
                                 <extent>
                                     <measure type="folio">...</measure>
                                     <dimensions unit="mm">...</dimensions>
                                 </extent>
-                                <foliation>...</foliation>
-                                <condition>Well preserved notebook, good phisical conditions</condition>
+                                <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
+                                <condition>Well preserved notebook, few holes and stains</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="?"
+                        <handDesc hands="1"
                             <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
                         </handDesc>
                     </physDesc>
@@ -148,25 +147,22 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl>
+            <classDecl> <!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
-                    <category xml:id="kw1">
-                        <catDesc> keyword1 </catDesc>
+                    <category xml:id="linguistics">
+                        <catDesc> linguists </catDesc>
                     </category>
-                    <category xml:id="kw2">
-                        <catDesc> keyword2 </catDesc>
+                    <category xml:id="fonetics">
+                        <catDesc> fonetics </catDesc>
                     </category>
-                    <!-- qua inseriamo le parole chiave che useremo in textClass per definire gli argomenti -->
                 </taxonomy>
             </classDecl>
             <editorialDesc><!--Divisione in pericopi-->
                 <segmentation>
                     <p>
                         <list>
-                            <label corresp="#011"><!--Pericope 11-->
-                                3293.11
-                            </label>
-                            <item>
+<!--Pericope 11-->          <label corresp="#body_3293.11">3293.11</label>
+                            <item><!--Testo della pericope 11-->
                                 La morphologie, dit-on, est l'étude des formes du langage, tandis que la 
                                 phonétique serait l'étude des sons du langage.
                                 On ne peut se contenter d'une pareille définition, non seulement en théorie, 
@@ -199,7 +195,8 @@
 
                                 vieux-haut-allemand 	zug	zugi
                                 nouvel allemand 	zug 	züge.
-                                Comparer zugi et züge, c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
+                                Comparer zugi et züge, c'est comparer deux formes, et néanmoins ce n'est 
+                                pas faire de la morphologie, mais de la phonétique.
                                 Comparer u-ü dans zug, züge, c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
                                     Sphère		ekwos	ekwom
                                     phonétique	ippos	ippon
@@ -210,26 +207,77 @@
                                 φόρος vient de φέρω
                                 φόρος vient de bhoros.
 
-                                Observation : L’Étymologie, qu'on donne parfois comme une branche de la science du langage, ne représente pas un ordre déterminé de recherches et encore moins un ordre déterminé de faits.
+                                Observation : L’Étymologie, qu'on donne parfois comme une branche de la science du langage, 
+                                ne représente pas un ordre déterminé de recherches et encore moins un ordre déterminé de faits.
                                 Faire de l'étymologie, c'est faire une certaine application de nos connaissances phonétiques et morphologiques.
                                 Ramener par la phonétique jusqu'à l'époque où le mot devient morphologiquement analysable.
                                     coucher
                                     coulchier
                                     collocare	colligo, locare
                                 Quelquefois l'étymologie ne se meut même que dans les modifications de l'idée : le barreau,  αὔτως.
+                                <desc><!--Breve descrizione della pericope 11 (hover sulla pericope?)-->
+                                ...
+                                </desc>
                             </item>
-                            <label corresp="#012"><!--Pericope 12-->
-                                3293.12
-                            </label>
+                            <note xml:id="it_3293.11" target="#body_3293.11"><!--Traduzione 11-->
+                                La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
+                                lo studio dei suoni del linguaggio.
+                                Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
+                                per la pratica, giacché accadrà sovente che noi non sapremo più se stiamo facendo morfologia o fonetica, come vedremo.
+                                È anzitutto evidente che la fonetica, pur occupandosi dei suoni, e per poterlo fare, è obbligata in primo luogo ad 
+                                occuparsi delle forme. I suoni non si trasmettono da una generazione all’altra allo stato isolato; i suoni non esistono, 
+                                non vivono e non si modificano se non nelle parole. Non si è mai pronunciato [prima] s, e poi uno spirito aspro. 
+                                Si è pronunciato serpō, sedos, e poi herpō, hedos. E se io dico: herpō viene da serpō, io faccio della fonetica, 
+                                e null’altro. Ugualmente, se dico che la prima persona dei verbi in -ω non può venire da una antica prima persona in -ōmi.
+                                D’altra parte, la morfologia, che si ritiene non si occupi che delle forme, s’occupa invece talvolta dei suoni. Per esempio, 
+                                quando dico che la ο greca può alternare con ε, e non con α: λόγος, λέγω – ma ἄγω e non ὀγ-, faccio morfologia. È vero che per 
+                                certe persone questo si chiama fare fonetica. A causa della cattiva definizione. Ma diventerà molto chiaro, ne seguito, che 
+                                niente è più falso e più pericoloso che classificare un fatto del genere con i fatti fonetici.
+                                E dunque, non è così facile come si immagina talvolta il separare i due dominî, e non è dicendo che uno = studio dei suoni e 
+                                l’altro delle forme che si ottiene una linea di demarcazione soddisfacente.
+                                Ma questa linea di demarcazione è imperiosamente necessaria per evitare deplorevoli confusioni.
+                                Principio di direzione:
+                                Ogni volta che si considera una stessa forma a date diverse, ciò è fare fonetica, e ogni volta 
+                                che consideriamo forme diverse a una stessa data, si fa morfologia.
+                            </note>
+<!--Pericope 12-->          <label corresp="#body_3293.12">3293.12</label>
                             <item>
-                            ...
+                                    vieux-haut-allemand 	zug	zugi [antico alto-tedesco]
+                                    nouvel allemand 	zug 	züge. [tedesco]
+                                Comparer zugi [antico alto-tedesco] et züge [tedesco], c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
+                                    Comparer u-ü dans zug [tedesco], züge [tedesco], c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
+                                    Sphère		ekwos	ekwom [ricostruzione]
+                                    phonétique	ἵππος	ἵππον [greco]
+                                        Sphère morphologique
+                                Les deux sphères confondues dans les locutions courantes : 
+                                    chantre [francese] se rattache étymologiquement à chanter [francese]
+                                    chantre [francese] se rattache étymologiquement à cantor [latino]
+                                    φόρος [greco] vient de φέρω [greco]
+                                    φόρος [greco] vient de bhoros [ricostruzione
                             </item>
-                            <label corresp="#013"><!--Pericope 13-->
+                            <note xml:id="it_3293.12" target="#body_3293.12"><!--Traduzione-->
+                                    antico alto-tedesco 	zug 	zugi 
+                                    tedesco 		zug 	züge
+                                Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
+                                Comparare u-ü in zug, züge è comparare due suoni, e nondimeno questo non è fonetica.
+                                    Sfera		ekwos		ekwom
+                                    Fonetica	ἵππος		ἵππον
+                                                Sfera morfologica
+                                Le due sfere [sono] confuse nelle locuzioni correnti:
+                                    chantre si ricollega etimologicamente a chanter 
+                                    chantre si ricollega etimologicamente a cantor 	
+                                    φόρος viene da φέρω
+                                    φόρος viene da bhoros			
+                            </note>
+                            <label corresp="body_3293.13"><!--Pericope 13-->
                                 3293.13
                             </label>
                             <item>
                             ...
                             </item>
+                            <note xml:id="it_3293.13" target="#body_3293.13"><!--Traduzione-->
+                                ...
+                            </note>
                         </list>
                     </p>
                 </segmentation>
