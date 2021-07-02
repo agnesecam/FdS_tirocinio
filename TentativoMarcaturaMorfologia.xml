@@ -84,7 +84,7 @@
                         </persName>
                     </author>
                     <publisher>Libraire Droz</publisher>
-                    <pubPlace>Gèneve<pubPlace>
+                    <pubPlace>Gèneve</pubPlace>
                 </bibl>
                 <bibl source="Engler1967-74">
                     <title> Cours de Linguistique Générale</title>
@@ -105,7 +105,7 @@
                         </persName>
                     </author>
                     <publisher>Edizioni dell'Orso</publisher>
-                    <pubPlace>Acireale - Roma<pubPlace>
+                    <pubPlace>Acireale - Roma</pubPlace>
                     <idno type="ISBN">8862747950</idno>
                     <citedRange unit="page" from="100" to="110">100-110</citedRange>
                 </bibl>
@@ -122,7 +122,7 @@
                             <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
-                    <msContents>
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -137,7 +137,7 @@
                                 <condition>Well preserved notebook, few holes and stains</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1"
+                        <handDesc hands="1">
                             <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
                         </handDesc>
                     </physDesc>
@@ -281,7 +281,7 @@
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
                     <term resp="#AC"> fonetics </term>
                 </keywords>
-            <textClass>
+            </textClass>
 
             <langUsage>
                 <language ident="fr">French</language>
@@ -292,7 +292,7 @@
     <facsimile>
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='1383px' height='804px' />
-            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
+            <zone ulx="" uly="" lrx="" lry="" rendition="" xml:id="ID"/>
             <!-- altre zone per altri hotspot e righe -->
         </surface>
         <!-- altre surface per le pagine -->
@@ -305,82 +305,83 @@
         <body xml:lang="fr">
             <pb n="1" ed="DigitalEdition" xml:id="body_p1" facs="facs_p1"/> <!-- quale edizione ed=""? -->
             <ab xml:id="HandPageNumber-1" rend="align(right)" facs="#..."> 1 </ab>
-            <ab xlm:id="PrintPageNumber-2" rend="align(left)" facs="#..."> 2 </ab>
+            <ab xml:id="PrintPageNumber-2" rend="align(left)" facs="#..."> 2 </ab>
             <div xml:id="div_p1" hand="#h1">
                 <!--Inizio 1 pericope-->
                 <ab xml:id="body_3293.11">
-                <lb xml:id="lb1_p1" n="1" facs="#..."/>
-                La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice>, dit-on, est l'étude des formes du langage, tandis
-                <lb xml:id="lb2_p1" n="2" facs="#..."/> 
-                que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice>.
-                <lb xml:id="lb3_p1" n="3" facs="#..."/>
-                On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
-                <lb xml:id="lb4_p1" n="4" facs="#..."/>
-                en théorie, mais même pour la pratique, car il arrivera 
-                <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan></choice> 
-                <lb xml:id="lb6_p1" n="6" facs="#..."/>
-                ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
-                <lb xml:id="lb7_p1" n="7" facs="#..."/>
-                II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, tout en s'occupant des 
-                <lb xml:id="lb8_p1" n="8" facs="#..."/>
-                sons, et pour pouvoir le faire, est obligée en premier lieu 
-                <lb xml:id="lb9_p1" n="9" facs="#..."/>
-                de s'occuper des formes. Les sons ne se transmettent pas 
-                <lb xml:id="lb10_p1" n="10" facs="#..."/>
-                d'une génération à l'autre à l'état isolé ; les sons n'existent, 
-                <lb xml:id="lb11_p1" n="11" facs="#..."/>
-                ne vivent et ne se modifient qu'au sein des mots. On n'a 
-                <lb xml:id="lb12_p1" n="12" facs="#..."/>
-                pas prononcé s tout seul, et ensuite esprit rude. 
-                <lb xml:id="lb13_p1" n="13" facs="#..."/>
-                On a prononcé serpō, sedos, et ensuite herpō, hedos. 
-                <lb xml:id="lb14_p1" n="14" facs="#..."/>
-                Et si je dis : herpō sort de serpō, je fais de la phonétique 
-                <lb xml:id="lb15_p1" n="15" facs="#..."/>
-                et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex><expan></choice> des verbes 
-                <lb xml:id="lb16_p1" n="16" facs="#..."/>
-                en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
-                <lb xml:id="lb17_p1" n="17" facs="#..."/>
-                D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
-                <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
-                cuper que des formes, s'occupe parfaitement des sons. Par 
-                <lb xml:id="lb19_p1" n="19" facs="#..."/>
-                exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
-                <lb xml:id="lb20_p1" n="20" facs="#..."/>
-                pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
-                <lb xml:id="lb21_p1" n="21" facs="#..."/>
-                je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
-                <lb xml:id="lb22_p1" n="22" facs="#..."/>
-                faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
-                <lb xml:id="lb23_p1" n="23" facs="#..."/>
-                Mais il deviendra très clair, par la suite, que rien 
-                <lb xml:id="lb24_p1" n="24" facs="#..."/>
-                n'est <choice><abbr>+</abbr><expanplus) faux et plus dangereux que de classer un 
-                <lb xml:id="lb25_p1" n="25" facs="#..."/>
-                fait de ce genre avec les faits phonétiques.
-                <lb xml:id="lb26_p1" n="26" facs="#..."/>
-                Ainsi il n'est pas aussi simple qu'on se l'imagine 
-                <lb xml:id="lb27_p1" n="27" facs="#..."/>
-                <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
-                <lb xml:id="lb28_p1" n="28" facs="#..."/>
-                disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan> des sons et l'autre, des formes, 
-                <lb xml:id="lb29_p1" n="29" facs="#..."/>
-                qu'on obtient une ligne de démarcation satisfaisante.
-                <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
-                <lb xml:id="lb31_p1" n="31" facs="#..."/>
-                nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
-                <lb xml:id="lb32_p1" n="32" facs="#..."/>
-                Principe de direction : 
-                <lb xml:id="lb33_p1" n="33" facs="#..."/>
-                Toutes les fois qu'on considère une même forme à 
-                <lb xml:id="lb34_p1" n="34" facs="#..."/>
-                des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
-                <lb xml:id="lb35_p1" n="35" facs="#..."/>
-                les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
-                <lb xml:id="lb36_p1" n="36" facs="#..."/>
-                date, on fait de la morphologie.
+                    <lb xml:id="lb1_p1" n="1" facs="#..."/>
+                    La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie"><choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage">langage</term>, tandis
+                    <lb xml:id="lb2_p1" n="2" facs="#..."/> 
+                    que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term> serait l'étude des sons du <term subtype="linguistics-term" xml:lang="fr" ref="#langage"><choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice></term>.
+                    <lb xml:id="lb3_p1" n="3" facs="#..."/>
+                    On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex></expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
+                    <lb xml:id="lb4_p1" n="4" facs="#..."/>
+                    en théorie, mais même pour la pratique, car il arrivera 
+                    <lb xml:id="lb5_p1" n="5" facs="#..."/>
+                    souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice> 
+                    <lb xml:id="lb6_p1" n="6" facs="#..."/>
+                    ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
+                    <lb xml:id="lb7_p1" n="7" facs="#..."/>
+                    II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
+                    <lb xml:id="lb8_p1" n="8" facs="#..."/>
+                    sons, et pour pouvoir le faire, est obligée en premier lieu 
+                    <lb xml:id="lb9_p1" n="9" facs="#..."/>
+                    de s'occuper des formes. Les sons ne se transmettent pas 
+                    <lb xml:id="lb10_p1" n="10" facs="#..."/>
+                    d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+                    <lb xml:id="lb11_p1" n="11" facs="#..."/>
+                    ne vivent et ne se modifient qu'au sein des mots. On n'a 
+                    <lb xml:id="lb12_p1" n="12" facs="#..."/>
+                    pas prononcé s tout seul, et ensuite esprit rude. 
+                    <lb xml:id="lb13_p1" n="13" facs="#..."/>
+                    On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+                    <lb xml:id="lb14_p1" n="14" facs="#..."/>
+                    Et si je dis : herpō sort de serpō, je fais de la phonétique 
+                    <lb xml:id="lb15_p1" n="15" facs="#..."/>
+                    et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
+                    <lb xml:id="lb16_p1" n="16" facs="#..."/>
+                    en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+                    <lb xml:id="lb17_p1" n="17" facs="#..."/>
+                    D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
+                    <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
+                    cuper que des formes, s'occupe parfaitement des sons. Par 
+                    <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                    exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
+                    <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                    pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
+                    <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                    je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
+                    <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                    faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
+                    <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                    Mais il deviendra très clair, par la suite, que rien 
+                    <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                    n'est <choice><abbr>+</abbr><expan>(plus)</expan></choice> faux et plus dangereux que de classer un 
+                    <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                    fait de ce genre avec les faits phonétiques.
+                    <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                    Ainsi il n'est pas aussi simple qu'on se l'imagine 
+                    <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                    <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
+                    <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                    disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des sons et l'autre, des formes, 
+                    <lb xml:id="lb29_p1" n="29" facs="#..."/>
+                    qu'on obtient une ligne de démarcation satisfaisante.
+                    <lb xml:id="lb30_p1" n="30" facs="#..."/>
+                    Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
+                    <lb xml:id="lb31_p1" n="31" facs="#..."/>
+                    nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
+                    <lb xml:id="lb32_p1" n="32" facs="#..."/>
+                    Principe de direction : 
+                    <lb xml:id="lb33_p1" n="33" facs="#..."/>
+                    Toutes les fois qu'on considère une même forme à 
+                    <lb xml:id="lb34_p1" n="34" facs="#..."/>
+                    des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
+                    <lb xml:id="lb35_p1" n="35" facs="#..."/>
+                    les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
+                    <lb xml:id="lb36_p1" n="36" facs="#..."/>
+                    date, on fait de la morphologie.
+                </ab>
             </div>
         </body>
 
@@ -392,7 +393,7 @@
             <div type="bibliography">
                 <listBibl xml:id="morfologia1_bibliography">
                     <head>Bibliography</head>
-                    <bibl xml:id="Morfologia1_bibliography'">
+                    <bibl xml:id="Morfologia1_bibliography">
 <!--Godel1969-->        <ref target="#Godel1969">
                             <bibl>
                                 <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
@@ -434,7 +435,7 @@
                                     </persName>
                                 </author>
                                 <publisher>Edizioni dell'Orso</publisher>
-                                <pubPlace>Acireale - Roma<pubPlace>
+                                <pubPlace>Acireale - Roma</pubPlace>
                                 <idno type="ISBN">8862747950</idno>
                                 <citedRange unit="page" from="100" to="110">100-110</citedRange>
                             </bibl>
@@ -447,10 +448,10 @@
             <listPerson>
                 <head>People</head>
                 <!--Ferdinand de Saussure-->
-                <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
                     <persName role="linguistic" > 
                         <forename>Ferdinand</forename>
-                        <surname>de Saussure</forename>
+                        <surname>de Saussure</surname>
                     </persName>
                     <sex>M</sex>
                     <birth>
@@ -626,11 +627,12 @@
                     </gloss>
                     <note>...</note>
                 </item>
+                <!--altri termini...-->
             </list>
 
-            <!-- List Organization -->
+            <!-- List Organization 
                 <listOrg>
-                    <org xml:id="...">
+                    <org xml:id="">
                             <orgName ref="link wikipedia>">...</orgName>
                             <placeName ref="...">...</placeName>
                         <desc>
@@ -638,7 +640,7 @@
                         </desc>
                     </org>
                     ...
-                </listOrg>         
+                </listOrg>     -->    
             </back>
     </text>
 </TEI>       

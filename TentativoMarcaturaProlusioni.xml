@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
+                <title type="main">Trois premières conférences à l'Université</title>
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
@@ -47,7 +47,7 @@
                     <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
                 
-                <!--      Il content model di editionStmt impone 1 edition soltanto 
+                <!--        content model di editionStmt impone 1 edition soltanto 
                 <edition n="Engler1967-74">Engler
                     <date from="1967" to="1974">1967-74</date>
                 </edition>
@@ -94,17 +94,13 @@
                     <citedRange unit="page" from="143" to="172">143-172</citedRange>
                 </bibl>
                 <bibl source="Fadda2006">
-                    <title type="main">Lingua e mente sociale</title>
-                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                    <title>Prolusioni</title>
                     <author>
                         <persName ref="#EF">
                             <forename>Emanuele</forename>
                             <surname>Fadda</surname>
                         </persName>
                     </author>  
-                    <publisher>Bonanno Editore</publisher>
-                    <pubPlace>Acireale - Roma<pubPlace>
-                    <idno type="ISBN">887796276-3</idno>
                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
                 </bibl>
                 <msDesc>
@@ -137,7 +133,7 @@
                                     <measure type="folio">1</measure>
                                     <dimensions unit="mm"><height>...</height><width>...</width></dimensions>
                                 </extent>
-                                <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
+                                <foliation>The page is part of a notebook composed of left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, good conditions</condition>
                             </supportDesc>
                         </objectDesc>
@@ -178,7 +174,7 @@
                                 la mission ou le privilège de vous introduire dans l’édifice que la 
                                 science du langage est occupée à construire depuis soixante-dix ans, 
                                 à décrire dans ses grandes lignes l’état présent de cette science, 
-                                à parcourir son passé, qui- n’est pas très long, ou à pronostiquer 
+                                à parcourir son passé, qui n’est pas très long, ou à pronostiquer 
                                 son avenir, à définir son but, son utilité, à marquer la place qu’elle 
                                 occupe dans le cercle des connaissances humaines et les services qu’elle 
                                 peut rendre dans une Faculté des lettres, je craindrais de ne pas remplir 
@@ -525,17 +521,14 @@
                                 </bibl>
                             </ref>
 <!--E.Fadda 2006-->         <ref target="#Fadda2006">
-                                <bibl xml:id="Prolusioni1_Fadda2006" type="book_chapter">
-                                    <title type="main">Lingua e mente sociale</title>
-                                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                                <bibl xml:id="Prolusioni1_Fadda2006">
+                                    <title>Prolusioni</title>
                                     <author>
                                         <persName ref="#EF">
                                             <forename>Emanuele</forename>
                                             <surname>Fadda</surname>
                                         </persName>
                                     </author>  
-                                    <publisher>Bonanno Editore</publisher>
-                                    <pubPlace>Acireale - Roma<pubPlace>
                                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
                                 </bibl>
                             </ref>
