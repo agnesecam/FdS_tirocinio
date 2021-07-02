@@ -291,232 +291,354 @@
 
     <facsimile>
         <surface n="1" xml:id="scan_p1">
-            <graphic url='https://archives.bge-geneve.ch/ark:/17786/vta9cfd3fc17efc113d/dao/0/layout:linear#id:1792240090?gallery=true&brightness=100.00&contrast=100.00&center=1932.500,-2991.000&zoom=4&rotation=0.000' width='...' height='...' />
-            <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
-            <!-- altre zone per altri hotspot e righe -->
-        </surface>
-        <surface n="2" xml:id="scan_p2">
-            <graphic url='p2.jpg' width='...' height='...' />
+            <graphic url='morfologia_3951.7-1' width='1383px' height='804px' />
             <zone ulx="..." uly="..." lrx="..." lry="..." rendition="..." xml:id="..."/>
             <!-- altre zone per altri hotspot e righe -->
         </surface>
         <!-- altre surface per le pagine -->
     </facsimile>
 
-    <body xml:lang="fr">
-        <pb n="1" xml:id="body_p" facs="facs_p1" hand="h1"/> <!-- quale edizione ed=""? -->
-        <ab xml:id="pageNumber1" rend="align(right)" facs="#..."> 1 </ab>
-        <ab xlm:id="chapterNumber2" rend="align(left)" facs="#..."> 2 </ab>
-        <div xml:id="div_p1" hand="#h1">
-            <p xml:id="chapter1" n="1"/>
-            <p xml:id="011"/><!--milestone perché le pericopi possono essere divise da un pb-->
-            <lb xml:id="lb1_p1" n="1" facs="#..."/>
-            La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice>, dit-on, est l'étude des formes du langage, tandis
-            <lb xml:id="lb2_p1" n="2" facs="#..."/> 
-            que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice>.
-            <lb xml:id="lb3_p1" n="3" facs="#..."/>
-            On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
-            <lb xml:id="lb4_p1" n="4" facs="#..."/>
-            en théorie, mais même pour la pratique, car il arrivera 
-            <lb xml:id="lb5_p1" n="5" facs="#..."/>
-            souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan></choice> 
-            <lb xml:id="lb6_p1" n="6" facs="#..."/>
-            ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
-            <lb xml:id="lb7_p1" n="7" facs="#..."/>
-            II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, tout en s'occupant des 
-            <lb xml:id="lb8_p1" n="8" facs="#..."/>
-            sons, et pour pouvoir le faire, est obligée en premier lieu 
-            <lb xml:id="lb9_p1" n="9" facs="#..."/>
-            de s'occuper des formes. Les sons ne se transmettent pas 
-            <lb xml:id="lb10_p1" n="10" facs="#..."/>
-            d'une génération à l'autre à l'état isolé ; les sons n'existent, 
-            <lb xml:id="lb11_p1" n="11" facs="#..."/>
-            ne vivent et ne se modifient qu'au sein des mots. On n'a 
-            <lb xml:id="lb12_p1" n="12" facs="#..."/>
-            pas prononcé s tout seul, et ensuite esprit rude. 
-            <lb xml:id="lb13_p1" n="13" facs="#..."/>
-            On a prononcé serpō, sedos, et ensuite herpō, hedos. 
-            <lb xml:id="lb14_p1" n="14" facs="#..."/>
-            Et si je dis : herpō sort de serpō, je fais de la phonétique 
-            <lb xml:id="lb15_p1" n="15" facs="#..."/>
-            et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex><expan></choice> des verbes 
-            <lb xml:id="lb16_p1" n="16" facs="#..."/>
-            en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
-            <lb xml:id="lb17_p1" n="17" facs="#..."/>
-            D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
-            <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
-            cuper que des formes, s'occupe parfaitement des sons. Par 
-            <lb xml:id="lb19_p1" n="19" facs="#..."/>
-            exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
-            <lb xml:id="lb20_p1" n="20" facs="#..."/>
-            pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
-            <lb xml:id="lb21_p1" n="21" facs="#..."/>
-            je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
-            <lb xml:id="lb22_p1" n="22" facs="#..."/>
-            faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
-            <lb xml:id="lb23_p1" n="23" facs="#..."/>
-            Mais il deviendra très clair, par la suite, que rien 
-            <lb xml:id="lb24_p1" n="24" facs="#..."/>
-            n'est <choice><abbr>+</abbr><expanplus) faux et plus dangereux que de classer un 
-            <lb xml:id="lb25_p1" n="25" facs="#..."/>
-            fait de ce genre avec les faits phonétiques.
-            <lb xml:id="lb26_p1" n="26" facs="#..."/>
-            Ainsi il n'est pas aussi simple qu'on se l'imagine 
-            <lb xml:id="lb27_p1" n="27" facs="#..."/>
-            <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
-            <lb xml:id="lb28_p1" n="28" facs="#..."/>
-            disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan> des sons et l'autre, des formes, 
-            <lb xml:id="lb29_p1" n="29" facs="#..."/>
-            qu'on obtient une ligne de démarcation satisfaisante.
-            <lb xml:id="lb30_p1" n="30" facs="#..."/>
-            Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
-            <lb xml:id="lb31_p1" n="31" facs="#..."/>
-            nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
-            <lb xml:id="lb32_p1" n="32" facs="#..."/>
-            Principe de direction : 
-            <lb xml:id="lb33_p1" n="33" facs="#..."/>
-            Toutes les fois qu'on considère une même forme à 
-            <lb xml:id="lb34_p1" n="34" facs="#..."/>
-            des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
-            <lb xml:id="lb35_p1" n="35" facs="#..."/>
-            les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
-            <lb xml:id="lb36_p1" n="36" facs="#..."/>
-            date, on fait de la morphologie.
-        </div>
-    </body>
+    <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
+        <front>
+            <!--...-->
+        </front>
+        <body xml:lang="fr">
+            <pb n="1" ed="DigitalEdition" xml:id="body_p1" facs="facs_p1"/> <!-- quale edizione ed=""? -->
+            <ab xml:id="HandPageNumber-1" rend="align(right)" facs="#..."> 1 </ab>
+            <ab xlm:id="PrintPageNumber-2" rend="align(left)" facs="#..."> 2 </ab>
+            <div xml:id="div_p1" hand="#h1">
+                <!--Inizio 1 pericope-->
+                <ab xml:id="body_3293.11">
+                <lb xml:id="lb1_p1" n="1" facs="#..."/>
+                La <choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice>, dit-on, est l'étude des formes du langage, tandis
+                <lb xml:id="lb2_p1" n="2" facs="#..."/> 
+                que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice> serait l'étude des sons du <choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice>.
+                <lb xml:id="lb3_p1" n="3" facs="#..."/>
+                On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex><expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
+                <lb xml:id="lb4_p1" n="4" facs="#..."/>
+                en théorie, mais même pour la pratique, car il arrivera 
+                <lb xml:id="lb5_p1" n="5" facs="#..."/>
+                souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie<ex></expan></choice> 
+                <lb xml:id="lb6_p1" n="6" facs="#..."/>
+                ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
+                <lb xml:id="lb7_p1" n="7" facs="#..."/>
+                II est évident d'abord que la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, tout en s'occupant des 
+                <lb xml:id="lb8_p1" n="8" facs="#..."/>
+                sons, et pour pouvoir le faire, est obligée en premier lieu 
+                <lb xml:id="lb9_p1" n="9" facs="#..."/>
+                de s'occuper des formes. Les sons ne se transmettent pas 
+                <lb xml:id="lb10_p1" n="10" facs="#..."/>
+                d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+                <lb xml:id="lb11_p1" n="11" facs="#..."/>
+                ne vivent et ne se modifient qu'au sein des mots. On n'a 
+                <lb xml:id="lb12_p1" n="12" facs="#..."/>
+                pas prononcé s tout seul, et ensuite esprit rude. 
+                <lb xml:id="lb13_p1" n="13" facs="#..."/>
+                On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+                <lb xml:id="lb14_p1" n="14" facs="#..."/>
+                Et si je dis : herpō sort de serpō, je fais de la phonétique 
+                <lb xml:id="lb15_p1" n="15" facs="#..."/>
+                et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex><expan></choice> des verbes 
+                <lb xml:id="lb16_p1" n="16" facs="#..."/>
+                en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+                <lb xml:id="lb17_p1" n="17" facs="#..."/>
+                D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
+                <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
+                cuper que des formes, s'occupe parfaitement des sons. Par 
+                <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
+                <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
+                <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
+                <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
+                <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                Mais il deviendra très clair, par la suite, que rien 
+                <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                n'est <choice><abbr>+</abbr><expanplus) faux et plus dangereux que de classer un 
+                <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                fait de ce genre avec les faits phonétiques.
+                <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                Ainsi il n'est pas aussi simple qu'on se l'imagine 
+                <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
+                <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan> des sons et l'autre, des formes, 
+                <lb xml:id="lb29_p1" n="29" facs="#..."/>
+                qu'on obtient une ligne de démarcation satisfaisante.
+                <lb xml:id="lb30_p1" n="30" facs="#..."/>
+                Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
+                <lb xml:id="lb31_p1" n="31" facs="#..."/>
+                nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
+                <lb xml:id="lb32_p1" n="32" facs="#..."/>
+                Principe de direction : 
+                <lb xml:id="lb33_p1" n="33" facs="#..."/>
+                Toutes les fois qu'on considère une même forme à 
+                <lb xml:id="lb34_p1" n="34" facs="#..."/>
+                des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
+                <lb xml:id="lb35_p1" n="35" facs="#..."/>
+                les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
+                <lb xml:id="lb36_p1" n="36" facs="#..."/>
+                date, on fait de la morphologie.
+            </div>
+        </body>
 
-    <back>
-        <note>
-            ...
-        </note>
-        <!-- BIBLIOGRAPHY -->
-        <div type="bibliography">
-			<listBibl xml:id="morfologia1_bibliography">
-                <head>Bibliography</head>
-				<bibl xml:id="Morfologia1_?'">
-					<ref target="#?">
-                        <bibl>
-                            <author ref="#...">...</author>
-                            <date when="...">...</date>                                    
-                            <citedRange unit="page" from="?" to="?">?-?</citedRange>
-                        </bibl>
-                    </ref>
-                    ...
-                    altre entrate bibliografiche
-                    ...
-                </bibl>
-            </listBibl>
-        </div>
-
-        <!-- PERSON -->
-        <listPerson>
-            <head>People</head>
-            <!--Ferdinand de Saussure-->
-            <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-				<persName role="linguistic" > 
-					<forename>Ferdinand</forename>
-					<surname>de Saussure</forename>
-				</persName>
-				<sex>M</sex>
-				<birth>
-					<date when="26-11-19">26 novembre 1857</date>
-					<placeName ref="#GE">
-						<settlement type="municipality">Genève</settlement>
-						<settlement type="department" key="GE">Genève</settlement>
-						<country key="CH">Switzerland</country>
-					</placeName>
-                </birth>
-			</person>
-            <!--Angelo Mario Del Grosso-->
-            <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
-                <persName> 
-                    <forename>Angelo</forename>
-                    <forename>Mario</forename>
-                    <surname>Del Grosso</surname>
-                </persName>
-                <sex>M</sex>
-                <birth>
-                    <date when="1980-02-19">19 febbraio 1980</date>
-                    <placeName>
-                        <settlement type="municipality">Benevento</settlement>
-                        <settlement type="provincia" key="BN">Benevento</settlement>
-                        <country key="IT">Italia</country>
-                    </placeName>
-                </birth>
-            </person>
-            <!--Silvia Piccini-->
-            <person>
-                <persName> 
-                    <forename>Silvia</forename>
-                    <surname>Piccini</surname>
-                </persName>
-                <sex>F</sex>
-                <birth>
-                    <date when="1978-11-12">12 novembre 1978</date>
-                    <placeName>
-                        <settlement type="municipality">Osimo</settlement>
-                        <settlement type="provincia" key="AN">Ancona</settlement>
-                        <country key="IT">Italia</country>
-                    </placeName>
-                </birth>
-            </person>
-            <!--Agnese Camici-->
-            <person>
-                <persName> 
-                    <forename>Agnese</forename>
-                    <surname>Camici</surname>
-                </persName>
-                <sex>F</sex>
-                <birth>
-                    <date when="1997-01-25">25 gennaio 1997</date>
-                    <placeName>
-                        <settlement type="municipality">Piombino</settlement>
-                        <settlement type="provincia" key="LI">Livorno</settlement>
-                        <country key="IT">Italia</country>
-                    </placeName>
-                </birth>
-            </person>
-            ...
-        </listPerson>
-
-        <!-- ListPlace -->
-        <listPlace>
-            <head>Places</head>
-            <!--Genève-->
-            <place xml:id="GE">
-                <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                <country key="CH">Switzerland</country>
-                <note>...</note>
-            </place>
-        ...
-        </listPlace>
-
-        <!-- ListTerm -->
-        <list type="terminology">                  
-            <!-- Termine 1 -->
-            <label>
-                <term subtype="linguistics-term" xml:lang="fr" xml:id="..." key="">...</term>
-			</label>
-			<item>
-				<gloss xml:lang="it" target="#...">
-                    definizione
-				</gloss>
-                <note>...</note>
-			</item>
-        ...
-        </list>
-
-        <!-- List Organization -->
-            <listOrg>
-                <org xml:id="...">
-                        <orgName ref="link wikipedia>">...</orgName>
-                        <placeName ref="...">...</placeName>
-                    <desc>
-                        ...
-                    </desc>
-                </org>
+        <back>
+            <note>
                 ...
-            </listOrg>         
-        </back>
+            </note>
+            <!-- BIBLIOGRAPHY -->
+            <div type="bibliography">
+                <listBibl xml:id="morfologia1_bibliography">
+                    <head>Bibliography</head>
+                    <bibl xml:id="Morfologia1_bibliography'">
+<!--Godel1969-->        <ref target="#Godel1969">
+                            <bibl>
+                                <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                                <author>
+                                    <persName ref="FdS">
+                                        <forename>Ferdinand</forename>
+                                        <surname>de Saussure</surname>
+                                    </persName>
+                                </author>
+                                <author>
+                                    <persName ref="RG">
+                                        <forename>Robert</forename>
+                                        <surname>Godel</surname>
+                                    </persName>
+                                </author>
+                                <publisher>Libraire Droz</publisher>
+                                <pubPlace>Gèneve</pubPlace>                                    
+                            </bibl>
+                        </ref>
+<!--Engler1967-74-->    <ref target="#Engler1967-74">
+                            <bibl>
+                                <title> Cours de Linguistique Générale</title>
+                                <author>
+                                    <persName ref="RE">
+                                        <forename>Rudolf</forename>
+                                        <surname>Engler</surname>
+                                    </persName>
+                                </author>
+                            </bibl>
+                        </ref>
+<!--E.Fadda 2006-->     <ref target="#Fadda2006">
+                            <bibl>
+                                <title type="main">Sentimento della lingua</title>
+                                <title type="sub">Per un'antropologia linguistica saussuriana</title>
+                                <author>
+                                    <persName ref="#EF">
+                                        <forename>Emanuele</forename>
+                                        <surname>Fadda</surname>
+                                    </persName>
+                                </author>
+                                <publisher>Edizioni dell'Orso</publisher>
+                                <pubPlace>Acireale - Roma<pubPlace>
+                                <idno type="ISBN">8862747950</idno>
+                                <citedRange unit="page" from="100" to="110">100-110</citedRange>
+                            </bibl>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+
+            <!-- PERSON -->
+            <listPerson>
+                <head>People</head>
+                <!--Ferdinand de Saussure-->
+                <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/" sameAs="https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                    <persName role="linguistic" > 
+                        <forename>Ferdinand</forename>
+                        <surname>de Saussure</forename>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="26-11-19">26 novembre 1857</date>
+                        <placeName ref="#GE">
+                            <settlement type="municipality">Genève</settlement>
+                            <settlement type="department" key="GE">Genève</settlement>
+                            <country key="CH">Switzerland</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Angelo Mario Del Grosso-->
+                <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                    <persName> 
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1980-02-19">19 febbraio 1980</date>
+                        <placeName>
+                            <settlement type="municipality">Benevento</settlement>
+                            <settlement type="provincia" key="BN">Benevento</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Silvia Piccini-->
+                <person>
+                    <persName> 
+                        <forename>Silvia</forename>
+                        <surname>Piccini</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1978-11-12">12 novembre 1978</date>
+                        <placeName>
+                            <settlement type="municipality">Osimo</settlement>
+                            <settlement type="provincia" key="AN">Ancona</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Agnese Camici-->
+                <person>
+                    <persName> 
+                        <forename>Agnese</forename>
+                        <surname>Camici</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1997-01-25">25 gennaio 1997</date>
+                        <placeName>
+                            <settlement type="municipality">Piombino</settlement>
+                            <settlement type="provincia" key="LI">Livorno</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                </person>
+                <!--Emanuele Fadda-->
+                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
+                    <persName> 
+                        <forename>Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1972">1972</date>
+                        <placeName ref="#CA">
+                            <settlement type="municipality">Cagliari</settlement>
+                            <settlement type="provincia" key="CA">Cagliari</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth> 
+                </person>
+                <!--Daniele Gambarara-->
+                <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
+                    <persName> 
+                        <forename>Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1948-03-14">14th May 1948</date>
+                        <placeName ref="#TO">
+                            <settlement type="municipality">Torino</settlement>
+                            <settlement type="provincia" key="TO">Torino</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth> 
+                </person>
+                <!--Giuseppe Cosenza-->
+                <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
+                    <persName> 
+                        <forename>Giuseppe</forename>
+                        <surname>Cosenza</surname>
+                    </persName>
+                    <sex>M</sex>
+                </person>
+                <!--Giuseppe D'Ottavi-->
+                <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>D'Ottavi</surname>
+                    </persName>
+                    <sex>M</sex>
+                </person>
+                <!--Simon Bouquet-->
+                <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
+                    <persName> 
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1954">1954</date>
+                    </birth> 
+                </person>
+                <!--Rudolf Engler-->
+                <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
+                    <persName> 
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1930-10-25">25th October 1930</date>
+                    </birth> 
+                </person>
+            </listPerson>
+
+            <!-- ListPlace -->
+            <listPlace>
+                <head>Places</head>
+                <!--Genève-->
+                <place xml:id="GE">
+                    <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                    <country key="CH">Switzerland</country>
+                    <note>...</note>
+                </place>
+            </listPlace>
+
+            <!-- ListTerm -->
+            <list type="terminology">                  
+                <!-- Morphologie -->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="#morphologie">
+                        In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes.
+                    </gloss>
+                    <note>...</note>
+                </item>
+                <!-- Langage -->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="langage" key="">langage</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="#langage">
+                        Primarily refers to language as a general phenomenon, or to the human ability to have language
+                    </gloss>
+                    <note>...</note>
+                </item>
+                <!-- Phonétique -->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="#phonétique">
+                        Branch of linguistics that focuses on the production and classification of the world's speech sounds. The production of speech looks at the interaction of different vocal organs, for example the lips, tongue and teeth, to produce particular sounds.
+                    </gloss>
+                    <note>...</note>
+                </item>
+            </list>
+
+            <!-- List Organization -->
+                <listOrg>
+                    <org xml:id="...">
+                            <orgName ref="link wikipedia>">...</orgName>
+                            <placeName ref="...">...</placeName>
+                        <desc>
+                            ...
+                        </desc>
+                    </org>
+                    ...
+                </listOrg>         
+            </back>
     </text>
 </TEI>       
