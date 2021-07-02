@@ -12,7 +12,7 @@
                 </title>
                 <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
                 <respStmt>
-					<resp>Responsability of</resp>
+					<resp>Responsability of:</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#AC">Agnese Camici</name>
 					<name ref="#SP">Silvia Piccini</name>
@@ -22,32 +22,32 @@
             <editionStmt>   
                 <edition n="DigitalEdition">Digital edition
                     <date when="2021-05"> May 2021 </date>
-                    <respStmt>
-                        <resp>Digital edition project coordinated by</resp>
-                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                        <name ref="#AC">Agnese Camici</name>
-                        <name ref="#SP">Silvia Piccini</name>
-                        <name ref="#EF">Emanuele Fadda</name>
-                        <name ref="#DG">Daniele Gambarara</name>
-                        <name ref="#GC">Giuseppe Cosenza</name>
-                        <name ref="#GD">Giuseppe D'Ottavi</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Encoding by</resp>
-                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                        <name ref="#AC">Agnese Camici</name>
-                        <name ref="#SP">Silvia Piccini</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Transcription by</resp>
-                        <name ref="#Bouquet">Simon Bouquet</name>
-                        <name ref="#Engler">Rudolf Engler</name>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Translation by</resp>
-                        <name ref="EF">Emanuele Fadda</name>
-                    </respStmt>
                 </edition>
+                <respStmt>
+                    <resp>Digital edition project coordinated by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#Bouquet">Simon Bouquet</name>
+                    <name ref="#Engler">Rudolf Engler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name ref="EF">Emanuele Fadda</name>
+                </respStmt>
                 <!-- Il content model di editionStmt impone 1 edition soltanto
                 <edition n="Engler1967-74">Engler
                     <date from="1967" to="1974">1967-74</date>
@@ -71,6 +71,12 @@
             <sourceDesc>
                 <bibl source="Godel1969">
                     <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                    <author>
+                        <persName ref="FdS">
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author>
                     <author>
                         <persName ref="RG">
                             <forename>Robert</forename>
@@ -97,13 +103,7 @@
                             <forename>Emanuele</forename>
                             <surname>Fadda</surname>
                         </persName>
-                    </author>  
-                    <author>
-                        <persName ref="#EF">
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                    </author>  
+                    </author>
                     <publisher>Edizioni dell'Orso</publisher>
                     <pubPlace>Acireale - Roma<pubPlace>
                     <idno type="ISBN">8862747950</idno>
@@ -114,7 +114,7 @@
                         <country>Switzerland</country>
                         <settlement>Ginevra</settlement>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
-                        <idno type="inventory">3951/1.1-3</idno>
+                        <idno type="inventory">3951/7</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -150,14 +150,14 @@
             <classDecl> <!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
                     <category xml:id="linguistics">
-                        <catDesc> linguists </catDesc>
+                        <catDesc> linguistics </catDesc>
                     </category>
                     <category xml:id="fonetics">
                         <catDesc> fonetics </catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
-            <editorialDesc><!--Divisione in pericopi-->
+            <editorialDecl><!--Divisione in pericopi-->
                 <segmentation>
                     <p>
                         <list>
@@ -191,7 +191,7 @@
                                 Principe de direction : 
                                 Toutes les fois qu'on considère une même forme à des dates diverses, c'est 
                                 faire de la phonétique, - et toutes les fois qu'on considère des formes 
-                                diverses à une- même date, on fait de la morphologie.
+                                diverses à une- même date, on fait de la morphologie.<!--fine prima pagina inizio 2-->
 
                                 vieux-haut-allemand 	zug	zugi
                                 nouvel allemand 	zug 	züge.
@@ -242,20 +242,21 @@
                             </note>
 <!--Pericope 12-->          <label corresp="#body_3293.12">3293.12</label>
                             <item>
-                                    vieux-haut-allemand 	zug	zugi [antico alto-tedesco]
-                                    nouvel allemand 	zug 	züge. [tedesco]
-                                Comparer zugi [antico alto-tedesco] et züge [tedesco], c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
-                                    Comparer u-ü dans zug [tedesco], züge [tedesco], c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
-                                    Sphère		ekwos	ekwom [ricostruzione]
-                                    phonétique	ἵππος	ἵππον [greco]
+                                    vieux-haut-allemand 	zug	zugi 
+                                    nouvel allemand 	zug 	züge. 
+                                Comparer zugi  et züge, c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
+                                    Comparer u-ü dans zug, züge tedesco, c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
+                                    Sphère		ekwos	ekwom ricostruzione
+                                    phonétique	ἵππος	ἵππον greco
                                         Sphère morphologique
                                 Les deux sphères confondues dans les locutions courantes : 
-                                    chantre [francese] se rattache étymologiquement à chanter [francese]
-                                    chantre [francese] se rattache étymologiquement à cantor [latino]
-                                    φόρος [greco] vient de φέρω [greco]
-                                    φόρος [greco] vient de bhoros [ricostruzione
+                                    chantre se rattache étymologiquement à chanter 
+                                    chantre se rattache étymologiquement à cantor 
+                                    φόρος vient de φέρω
+                                    φόρος vient de bhoros
+                                <desc> ... </desc> <!--Breve descrizione della pericope 11 (hover sulla pericope?)-->
                             </item>
-                            <note xml:id="it_3293.12" target="#body_3293.12"><!--Traduzione-->
+                            <note xml:id="it_3293.12" target="#body_3293.12"><!--Traduzione 12-->
                                     antico alto-tedesco 	zug 	zugi 
                                     tedesco 		zug 	züge
                                 Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
@@ -269,25 +270,16 @@
                                     φόρος viene da φέρω
                                     φόρος viene da bhoros			
                             </note>
-                            <label corresp="body_3293.13"><!--Pericope 13-->
-                                3293.13
-                            </label>
-                            <item>
-                            ...
-                            </item>
-                            <note xml:id="it_3293.13" target="#body_3293.13"><!--Traduzione-->
-                                ...
-                            </note>
                         </list>
                     </p>
                 </segmentation>
-            </editorialDesc>
+            </editorialDecl>
         </encodingDesc>
 
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="#AC"> keyword2 </term>
+                    <term resp="#AC"> fonetics </term>
                 </keywords>
             <textClass>
 
