@@ -349,8 +349,6 @@
 
         <group>
             <text> <!-- Pericope 1 - FRANCESE -->
-                <front>
-                </front>
                 <body xml:lang="fr">
                     <pb n="1" xml:id="body_p1" facs="facs_p1"/> <!--in n puoi mettere verso e recto e il numero-->
                     <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab> <!-- add, https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fw.html fw, -->
@@ -467,13 +465,9 @@
                         <!-- ... -->
                     </div>
                 </body>
-                <back>
-                </back>
             </text> <!--fine pericope 1 in FRANCESE -->
             <text> <!-- Pericope 1 - ITALIANO-->
-                <front><!--opzionale-->
-                </front>
-                <body xml:id="it_91Aaaa001" target="#per_91Aaaa001" lang="IT">
+                <body xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT">
                     Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                     un ordine di studi nuovo nella nostra Università, se avessi oggi 
                     la missione o il privilegio d’introdurvi nell’edificio che la 
@@ -485,8 +479,6 @@
                     può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
                     degnamente il mio compito, ma certamente non potrei lamentarmi qui 
                     dell’abbandono.
-                </body>
-                <back><!--opzionale-->
                 </back>
             </text> <!-- fine pericope 1 in ITALIANO -->
         </group>       
