@@ -45,27 +45,18 @@
                 <respStmt>
                     <resp>Translation by</resp>
                     <name ref="EF">Emanuele Fadda</name>
-                </respStmt>
-                
-                <!-- Il content model di editionStmt impone 1 edition soltanto **** vedi <note> e resp in sourceDesc
-                <edition n="Engler1967-74">Engler
-                    <date from="1967" to="1974">1967-74</date>
-                </edition>
-                <edition n="Bouquet-Engler2002">Bouquet-Engler
-                    <date when="2002">2002</date>
-                </edition>-->
-                <!-- COME INSERIRE LE PAGINE? -->                
+                </respStmt>              
             </editionStmt>
 
             <publicationStmt>
-				<publisher> Gallimard </publisher> <!--Metadati dell'edizione digitale!-->
+				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
 				<availability>
-					<licence target="?">?</licence>
+					<licence target="?" status="draft">Draft</licence>
 				</availability>
 			</publicationStmt>
             
             <sourceDesc>
-                <bibl source="#Bouquet-Engler2002"> <!--Per "resp" le edizioni una nota-->
+                <bibl source="#Bouquet-Engler2002">
                     <title>Écrits de linguistique générale</title>
                     <author>
                         <persName ref="FdS">
@@ -91,10 +82,14 @@
                             <surname>Weil</surname>
                         </persName>
                     </author>
+                    <date when="2002">2002</date>
                     <publisher>Gallimard</publisher>
                     <pubPlace>Paris<pubPlace>
                     <idno type="ISSN">0302-5160</idno>
                     <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                    <note>
+                        French transcription of the manuscript
+                    </note>
                 </bibl>
                 <bibl source="Fadda2006">
                     <title type="main">Lingua e mente sociale</title>
@@ -109,35 +104,68 @@
                     <pubPlace>Acireale - Roma<pubPlace>
                     <idno type="ISBN">887796276-3</idno>
                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                    <note>
+                        Italian transcription of the manuscript
+                    </note>
                 </bibl>
                 <msDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate>Première conférence
+                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate>Deuxième conférence
+                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>Troisième conférence
+                            <origPlace>Gèneve</origPlace>
+                        </origin>
+                    </history>
                     <msIdentifier>
+                        <institution>Bibliothèque de Genève</institution>
+                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <country>Switzerland</country>
                         <settlement>Genève</settlement>
-                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
                         <idno type="inventory">3951/1</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
-                            <title xml:lang="fr">Trois premières conférences à l'Université</title>
-        <!--?-->            <docDate>   <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-origDate.html controlla (una conferenza) - attributi -->
-                                <date when="1891-11-06" >06/11/1891</date>
-                                <date when="1891-11-10">10/11/1891</date>
-                                <date when="1891-11-13">13/11/1891</date>
-                            </docDate>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Première conférence</title>
+                            <docDate when="1891-11-06">06/11/1891<docDate>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Deuxième conférence</title>
+                            <date when="1891-11-10">10/11/1891</date>
+                            <textLang mainLang="fr">French</textLang>                           
+                        </msItem>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr">Trois premières conférences à l'Université</title>
+                            <title type="sub">Troisième conférence</title>
+                            <date when="1891-11-13">13/11/1891</date>
+                            </docDate>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>                        
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
                                     <material>Thin checkered paper.</material>
-                                    <!--Riferendosi alla pagina n.1. Mentre altre pagine sono a righe.-->
                                 </support>
-                                <extent>    <!-- Importance matérielle et support : 30 + 15 + 22 pages + 1 feuillet (estensione della 1a, 2a, 3a prolusione) -->
-                                    <measure type="folio"></measure>   <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-measureGrp.html -->
+                                <extent> <!--? Non ho chiaro l'uso di measureGrp per indicare le tre dimensioni -->
+                                    <measureGrp>
+                                        <extent>
+                                            <measure unit="pages" quantity="30">30 pages +</measure>
+                                            <measure unit="pages" quantity="15">15 pages +</measure>
+                                            <measure unit="pages" quantity="22">22 pages</measure>
+                                        </extent>
+                                        <extent>
+                                            <measure type="height" unit="mm" quantity="211">211 mm</measure>
+                                            <measure type="widht" unit="mm" quantity="136">136 mm</measure>
+                                    </measureGrp>
                                     <dimensions unit="mm"><height>...</height><width>...</width></dimensions>
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
@@ -348,9 +376,9 @@
         </front>
 
         <group>
-            <text> <!-- Pericope 1 - FRANCESE -->
-                <body xml:lang="fr">
-                    <pb n="1" xml:id="body_p1" facs="facs_p1"/> <!--in n puoi mettere verso e recto e il numero-->
+            <text > <!-- Pericope 1 - FRANCESE -->
+                <body xml:lang="fr" source="#Bouquet-Engler2002">
+                    <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
                     <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab> <!-- add, https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fw.html fw, -->
                     <ab xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab> <!-- stamp -->
                     <div xml:id="div_p1" hand="#h1">
@@ -466,8 +494,8 @@
                     </div>
                 </body>
             </text> <!--fine pericope 1 in FRANCESE -->
-            <text> <!-- Pericope 1 - ITALIANO-->
-                <body xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT">
+            <text > <!-- Pericope 1 - ITALIANO-->
+                <body xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT" source="#Fadda2006" resp="#EF">
                     Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                     un ordine di studi nuovo nella nostra Università, se avessi oggi 
                     la missione o il privilegio d’introdurvi nell’edificio che la 
