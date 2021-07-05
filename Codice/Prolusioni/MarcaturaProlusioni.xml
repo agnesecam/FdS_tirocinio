@@ -375,8 +375,8 @@
                 <!--...-->
         </front>
 
-        <group>
-            <text > <!-- Pericope 1 - FRANCESE -->
+        <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
+            <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                 <body xml:lang="fr" source="#Bouquet-Engler2002">
                     <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
                     <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab> <!-- add, https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fw.html fw, -->
@@ -493,23 +493,71 @@
                         <!-- ... -->
                     </div>
                 </body>
-            </text> <!--fine pericope 1 in FRANCESE -->
-            <text > <!-- Pericope 1 - ITALIANO-->
-                <body xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT" source="#Fadda2006" resp="#EF">
-                    Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
-                    un ordine di studi nuovo nella nostra Università, se avessi oggi 
-                    la missione o il privilegio d’introdurvi nell’edificio che la 
-                    scienza del linguaggio è intenta a costruire da settant’anni in qua, 
-                    e di descrivere a grandi linee lo stato attuale di questa scienza,
-                    e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
-                    il suo avvenire, la sua utilità, e definire il posto che essa 
-                    occupa nel cerchio delle conoscenze umane e i servizi che essa 
-                    può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
-                    degnamente il mio compito, ma certamente non potrei lamentarmi qui 
-                    dell’abbandono.
-                </back>
-            </text> <!-- fine pericope 1 in ITALIANO -->
+            </text>
+            <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
+            ...
+            </text>
         </group>       
+        <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI DELLE 3 PROLUSIONI-->
+            <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+                <body source="#Fadda2006" resp="#EF">
+                    <ab xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT">
+                        Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
+                        un ordine di studi nuovo nella nostra Università, se avessi oggi 
+                        la missione o il privilegio d’introdurvi nell’edificio che la 
+                        scienza del linguaggio è intenta a costruire da settant’anni in qua, 
+                        e di descrivere a grandi linee lo stato attuale di questa scienza,
+                        e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
+                        il suo avvenire, la sua utilità, e definire il posto che essa 
+                        occupa nel cerchio delle conoscenze umane e i servizi che essa 
+                        può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
+                        degnamente il mio compito, ma certamente non potrei lamentarmi qui 
+                        dell’abbandono.
+                    </ab>
+                    <ab xml:id="it_91Aaaa002" corresp="#per_91Aaaa002" lang="IT">
+                        ...traduzione seconda pericope...
+                    </ab> 
+                    <ab xml:id="it_91Aaaa003" corresp="#per_91Aaaa003" lang="IT">
+                        ...traduzione terza pericope...
+                    </ab> 
+                    <ab xml:id="it_91Aaaa004" corresp="#per_91Aaaa004" lang="IT">
+                        ...traduzione quarta pericope...
+                    </ab>                                         
+                </body>
+            </text>
+            <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
+                <body source="#Fadda2006" resp="#EF">
+                    <ab xml:id="it_91Baaa001" corresp="#per_91Baaa001" lang="IT">
+                        ...
+                    </ab>   
+                    <ab xml:id="it_91Baaa002" corresp="#per_91Baaa002" lang="IT">
+                        ...
+                    </ab>
+                    <ab xml:id="it_91Baaa003" corresp="#per_91Baaa003" lang="IT">
+                        ...
+                    </ab>   
+                    <ab xml:id="it_91Baaa004" corresp="#per_91Baaa004" lang="IT">
+                        ...
+                    </ab>
+                </body>
+            </text>
+            <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
+                <body source="#Fadda2006" resp="#EF">
+                    <ab xml:id="it_91Caaa001" corresp="#per_91Caaa001" lang="IT">
+                        ...
+                    </ab>   
+                    <ab xml:id="it_91Caaa002" corresp="#per_91Caaa002" lang="IT">
+                        ...
+                    </ab>
+                    <ab xml:id="it_91Caaa003" corresp="#per_91Caaa003" lang="IT">
+                        ...
+                    </ab>   
+                    <ab xml:id="it_91Caaa004" corresp="#per_91Caaa004" lang="IT">
+                        ...
+                    </ab>
+                </body>
+            </text>            
+        </group>
 
         <back>
             <div type="notes">
