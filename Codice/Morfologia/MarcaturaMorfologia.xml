@@ -113,7 +113,9 @@
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Les première leçons de Saussure a Genève</title>
-                            <docDate notBefore="1893" notAfter="1895">1893-1985</docDate>
+                            <docDate>
+                                <date notBefore="1893" notAfter="1895">1893-1985</date>
+                            </docDate>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     </msContents>
@@ -308,10 +310,9 @@
                         </ab>
                     </div>
                     <pb n="2" xml:id="body_p2" facs="facs_p2"/>
-                        <div xml:id="div_p2" hand="#h1">
-                            <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                            <!-- ... -->
-                        </div>
+                    <div xml:id="div_p2" hand="#h1">
+                        <lb xml:id="lb1_p2" n="1" facs="#..."/>
+                        <!-- ... -->
                     </div>
                 </body>
             </text>
@@ -340,7 +341,7 @@
                         che consideriamo forme diverse a una stessa data, si fa morfologia.                        
                     </ab>
                     <!--Traduzione 12 pericope-->
-                    <ab xml:id="it_3293.12" target="#pericope_3293.12">
+                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12" xml:lang="IT">
                             antico alto-tedesco 	zug 	zugi 
                             tedesco 		zug 	züge
                         Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
@@ -358,52 +359,17 @@
             </text>
         </group>
         <back>
-            <note>
-                ...
-            </note>
-            <!-- BIBLIOGRAPHY -->
-            <div type="bibliography">
-                <listBibl xml:id="morfologia1_bibliography">
-                    <head>Bibliography</head>
-                    <bibl xml:id="Morfologia1_bibliography">
-<!--Bouq.-Engl2002-->    <bibl source="#Bouquet-Engler2002">
-                            <title>Écrits de linguistique générale</title>
-                            <author>
-                                <persName ref="FdS">
-                                    <forename>Ferdinand</forename>
-                                    <surname>de Saussure</surname>
-                                </persName>
-                            </author>
-                            <author>
-                                <persName ref="SB">
-                                    <forename>Simon</forename>
-                                    <surname>Bouquet</surname>
-                                </persName>
-                            </author>
-                            <author>
-                                <persName ref="RE">
-                                    <forename>Rudolf</forename>
-                                    <surname>Engler</surname>
-                                </persName>
-                            </author>
-                            <author>
-                                <persName ref="AW">
-                                    <forename>Antoinette</forename>
-                                    <surname>Weil</surname>
-                                </persName>
-                            </author>
-                            <date when="2002">2002</date>
-                            <publisher>Gallimard</publisher>
-                            <pubPlace>Paris</pubPlace>
-                            <idno type="ISSN">0302-5160</idno>
-                            <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                            <note>
-                                French transcription of the manuscript
-                            </note>
-                        </bibl>
-<!--Godel1969-->        <ref target="#Godel1969">
-                            <bibl>
-                                <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+            <div type="notes">
+<!--NOTE-->     <div type="ann_notes">
+<!--1-->            <note>...</note>
+                </div>
+                <!-- BIBLIOGRAPHY -->
+                <div type="bibliography">
+                    <listBibl xml:id="morfologia1_bibliography">
+                        <head>Bibliography</head>
+                        <bibl xml:id="Morfologia1_bibliography">
+<!--Bouq.-Engl2002-->       <bibl source="#Bouquet-Engler2002">
+                                <title>Écrits de linguistique générale</title>
                                 <author>
                                     <persName ref="FdS">
                                         <forename>Ferdinand</forename>
@@ -411,250 +377,293 @@
                                     </persName>
                                 </author>
                                 <author>
-                                    <persName ref="RG">
-                                        <forename>Robert</forename>
-                                        <surname>Godel</surname>
+                                    <persName ref="SB">
+                                        <forename>Simon</forename>
+                                        <surname>Bouquet</surname>
                                     </persName>
                                 </author>
-                                <publisher>Libraire Droz</publisher>
-                                <pubPlace>Gèneve</pubPlace>                                    
-                            </bibl>
-                        </ref>
-<!--Engler1967-74-->    <ref target="#Engler1967-74">
-                            <bibl>
-                                <title> Cours de Linguistique Générale</title>
                                 <author>
                                     <persName ref="RE">
                                         <forename>Rudolf</forename>
                                         <surname>Engler</surname>
                                     </persName>
                                 </author>
-                            </bibl>
-                        </ref>
-<!--E.Fadda 2017-->     <ref target="#Fadda2017">
-                            <bibl>
-                                <title type="main">Sentimento della lingua</title>
-                                <title type="sub">Per un'antropologia linguistica saussuriana</title>
                                 <author>
-                                    <persName ref="#EF">
-                                        <forename>Emanuele</forename>
-                                        <surname>Fadda</surname>
+                                    <persName ref="AW">
+                                        <forename>Antoinette</forename>
+                                        <surname>Weil</surname>
                                     </persName>
                                 </author>
-                                <publisher>Edizioni dell'Orso</publisher>
-                                <pubPlace>Acireale - Roma</pubPlace>
-                                <idno type="ISBN">8862747950</idno>
-                                <citedRange unit="page" from="100" to="110">100-110</citedRange>
+                                <date when="2002">2002</date>
+                                <publisher>Gallimard</publisher>
+                                <pubPlace>Paris</pubPlace>
+                                <idno type="ISSN">0302-5160</idno>
+                                <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                                <note>
+                                    French transcription of the manuscript
+                                </note>
                             </bibl>
-                        </ref>
-                    </bibl>
-                </listBibl>
+<!--Godel1969-->            <ref target="#Godel1969">
+                                <bibl>
+                                    <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                                    <author>
+                                        <persName ref="FdS">
+                                            <forename>Ferdinand</forename>
+                                            <surname>de Saussure</surname>
+                                        </persName>
+                                    </author>
+                                    <author>
+                                        <persName ref="RG">
+                                            <forename>Robert</forename>
+                                            <surname>Godel</surname>
+                                        </persName>
+                                    </author>
+                                    <publisher>Libraire Droz</publisher>
+                                    <pubPlace>Gèneve</pubPlace>                                    
+                                </bibl>
+                            </ref>
+<!--Engler1967-74-->        <ref target="#Engler1967-74">
+                                <bibl>
+                                    <title> Cours de Linguistique Générale</title>
+                                    <author>
+                                        <persName ref="RE">
+                                            <forename>Rudolf</forename>
+                                            <surname>Engler</surname>
+                                        </persName>
+                                    </author>
+                                </bibl>
+                            </ref>
+<!--E.Fadda 2017-->         <ref target="#Fadda2017">
+                                <bibl>
+                                    <title type="main">Sentimento della lingua</title>
+                                    <title type="sub">Per un'antropologia linguistica saussuriana</title>
+                                    <author>
+                                        <persName ref="#EF">
+                                            <forename>Emanuele</forename>
+                                            <surname>Fadda</surname>
+                                        </persName>
+                                    </author>
+                                    <publisher>Edizioni dell'Orso</publisher>
+                                    <pubPlace>Acireale - Roma</pubPlace>
+                                    <idno type="ISBN">8862747950</idno>
+                                    <citedRange unit="page" from="100" to="110">100-110</citedRange>
+                                </bibl>
+                            </ref>
+                        </bibl>
+                    </listBibl>
+                </div>
             </div>
 
             <!-- PERSON -->
-            <listPerson>
-                <head>People</head>
-                <!--Ferdinand de Saussure-->
-                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                    <persName role="linguistic" > 
-                        <forename>Ferdinand</forename>
-                        <surname>de Saussure</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="26-11-19">26 novembre 1857</date>
-                        <placeName ref="#GE">
-                            <settlement type="municipality">Genève</settlement>
-                            <settlement type="department" key="GE">Genève</settlement>
-                            <country key="CH">Switzerland</country>
-                        </placeName>
-                    </birth>
-                </person>
-                <!--Angelo Mario Del Grosso-->
-                <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
-                    <persName> 
-                        <forename>Angelo</forename>
-                        <forename>Mario</forename>
-                        <surname>Del Grosso</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="1980-02-19">19 febbraio 1980</date>
-                        <placeName>
-                            <settlement type="municipality">Benevento</settlement>
-                            <settlement type="provincia" key="BN">Benevento</settlement>
-                            <country key="IT">Italia</country>
-                        </placeName>
-                    </birth>
-                </person>
-                <!--Silvia Piccini-->
-                <person>
-                    <persName> 
-                        <forename>Silvia</forename>
-                        <surname>Piccini</surname>
-                    </persName>
-                    <sex>F</sex>
-                    <birth>
-                        <date when="1978-11-12">12 novembre 1978</date>
-                        <placeName>
-                            <settlement type="municipality">Osimo</settlement>
-                            <settlement type="provincia" key="AN">Ancona</settlement>
-                            <country key="IT">Italia</country>
-                        </placeName>
-                    </birth>
-                </person>
-                <!--Agnese Camici-->
-                <person>
-                    <persName> 
-                        <forename>Agnese</forename>
-                        <surname>Camici</surname>
-                    </persName>
-                    <sex>F</sex>
-                    <birth>
-                        <date when="1997-01-25">25 gennaio 1997</date>
-                        <placeName>
-                            <settlement type="municipality">Piombino</settlement>
-                            <settlement type="provincia" key="LI">Livorno</settlement>
-                            <country key="IT">Italia</country>
-                        </placeName>
-                    </birth>
-                </person>
-                <!--Emanuele Fadda-->
-                <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
-                    <persName> 
-                        <forename>Emanuele</forename>
-                        <surname>Fadda</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="1972">1972</date>
-                        <placeName ref="#CA">
-                            <settlement type="municipality">Cagliari</settlement>
-                            <settlement type="provincia" key="CA">Cagliari</settlement>
-                            <country key="IT">Italia</country>
-                        </placeName>
-                    </birth> 
-                </person>
-                <!--Daniele Gambarara-->
-                <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
-                    <persName> 
-                        <forename>Emanuele</forename>
-                        <surname>Fadda</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="1948-03-14">14th May 1948</date>
-                        <placeName ref="#TO">
-                            <settlement type="municipality">Torino</settlement>
-                            <settlement type="provincia" key="TO">Torino</settlement>
-                            <country key="IT">Italia</country>
-                        </placeName>
-                    </birth> 
-                </person>
-                <!--Giuseppe Cosenza-->
-                <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
-                    <persName> 
-                        <forename>Giuseppe</forename>
-                        <surname>Cosenza</surname>
-                    </persName>
-                    <sex>M</sex>
-                </person>
-                <!--Giuseppe D'Ottavi-->
-                <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
-                    <persName>
-                        <forename>Giuseppe</forename>
-                        <surname>D'Ottavi</surname>
-                    </persName>
-                    <sex>M</sex>
-                </person>
-                <!--Simon Bouquet-->
-                <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
-                    <persName> 
-                        <forename>Simon</forename>
-                        <surname>Bouquet</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="1954">1954</date>
-                    </birth> 
-                </person>
-                <!--Rudolf Engler-->
-                <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
-                    <persName> 
-                        <forename>Rudolf</forename>
-                        <surname>Engler</surname>
-                    </persName>
-                    <sex>M</sex>
-                    <birth>
-                        <date when="1930-10-25">25th October 1930</date>
-                    </birth> 
-                </person>
-            </listPerson>
+            <div>
+                <listPerson>
+                    <head>People</head>
+                    <!--Ferdinand de Saussure-->
+                        <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                        <persName role="linguistic" > 
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26-11-19">26 novembre 1857</date>
+                            <placeName ref="#GE">
+                                <settlement type="municipality">Genève</settlement>
+                                <settlement type="department" key="GE">Genève</settlement>
+                                <country key="CH">Switzerland</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                    <!--Angelo Mario Del Grosso-->
+                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                        <persName> 
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1980-02-19">19 febbraio 1980</date>
+                            <placeName>
+                                <settlement type="municipality">Benevento</settlement>
+                                <settlement type="provincia" key="BN">Benevento</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                    <!--Silvia Piccini-->
+                    <person>
+                        <persName> 
+                            <forename>Silvia</forename>
+                            <surname>Piccini</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1978-11-12">12 novembre 1978</date>
+                            <placeName>
+                                <settlement type="municipality">Osimo</settlement>
+                                <settlement type="provincia" key="AN">Ancona</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                    <!--Agnese Camici-->
+                    <person>
+                        <persName> 
+                            <forename>Agnese</forename>
+                            <surname>Camici</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1997-01-25">25 gennaio 1997</date>
+                            <placeName>
+                                <settlement type="municipality">Piombino</settlement>
+                                <settlement type="provincia" key="LI">Livorno</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                    <!--Emanuele Fadda-->
+                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
+                        <persName> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1972">1972</date>
+                            <placeName ref="#CA">
+                                <settlement type="municipality">Cagliari</settlement>
+                                <settlement type="provincia" key="CA">Cagliari</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+                    <!--Daniele Gambarara-->
+                    <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
+                        <persName> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1948-03-14">14th May 1948</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+                    <!--Giuseppe Cosenza-->
+                    <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
+                        <persName> 
+                            <forename>Giuseppe</forename>
+                            <surname>Cosenza</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <!--Giuseppe D'Ottavi-->
+                    <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                            <surname>D'Ottavi</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <!--Simon Bouquet-->
+                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
+                        <persName> 
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1954">1954</date>
+                        </birth> 
+                    </person>
+                    <!--Rudolf Engler-->
+                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
+                        <persName> 
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1930-10-25">25th October 1930</date>
+                        </birth> 
+                    </person>
+                </listPerson>
+            </div>
 
             <!-- ListPlace -->
-            <listPlace>
-                <head>Places</head>
-                <!--Genève-->
-                <place xml:id="GE">
-                    <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                    <country key="CH">Switzerland</country>
-                    <note>...</note>
-                </place>
-                <!--Cosenza-->
-                <place xml:id="CS">
-                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
-                    <country key="IT">Italy</country>
-                    <note>...</note>
-                </place>
-                <!--Cagliari-->
-                <place xml:id="CA">
-                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
-                    <country key="IT">Italy</country>
-                    <note>...</note>
-                </place>
-                <listRelation>
-                    <!--Luoghi vicini-->
-                    <relation name="near" mutual="#P1l #Pl2"/>
-                    <!--Luogo di nascita di una persona-->
-                    <relation name="birth_place" active="#Per1" passive="#Pl1"/>   
-                    <!--Luogo di morte di una persona-->
-                    <relation name="death_place" active="#Per1" passive="#Pl1"/>
-                </listRelation>
-            </listPlace>
+            <div>
+                <listPlace>
+                    <head>Places</head>
+                    <!--Genève-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>
+                    <!--Cosenza-->
+                    <place xml:id="CS">
+                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+                    <!--Cagliari-->
+                    <place xml:id="CA">
+                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+                    <listRelation>
+                        <!--Luoghi vicini-->
+                        <relation name="near" mutual="#P1l #Pl2"/>
+                        <!--Luogo di nascita di una persona-->
+                        <relation name="birth_place" active="#Per1" passive="#Pl1"/>   
+                        <!--Luogo di morte di una persona-->
+                        <relation name="death_place" active="#Per1" passive="#Pl1"/>
+                    </listRelation>
+                </listPlace>
+            </div>
 
             <!-- ListTerm -->
-            <list type="terminology">                  
-                <!-- Morphologie -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
-                </label>
-                <item>
-                    <gloss xml:lang="it" target="#morphologie">
-                        In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes.
-                    </gloss>
-                    <note>...</note>
-                </item>
-                <!-- Langage -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="langage" key="">langage</term>
-                </label>
-                <item>
-                    <gloss xml:lang="it" target="#langage">
-                        Primarily refers to language as a general phenomenon, or to the human ability to have language
-                    </gloss>
-                    <note>...</note>
-                </item>
-                <!-- Phonétique -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
-                </label>
-                <item>
-                    <gloss xml:lang="it" target="#phonétique">
-                        Branch of linguistics that focuses on the production and classification of the world's speech sounds. The production of speech looks at the interaction of different vocal organs, for example the lips, tongue and teeth, to produce particular sounds.
-                    </gloss>
-                    <note>...</note>
-                </item>
-            </list>
+            <div>
+                <list type="terminology">                  
+                    <!-- Morphologie -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#morphologie">
+                            In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes.
+                        </gloss>
+                        <note>...</note>
+                    </item>
+                    <!-- Langage -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langage" key="">langage</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#langage">
+                            Primarily refers to language as a general phenomenon, or to the human ability to have language
+                        </gloss>
+                        <note>...</note>
+                    </item>
+                    <!-- Phonétique -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#phonétique">
+                            Branch of linguistics that focuses on the production and classification of the world's speech sounds. The production of speech looks at the interaction of different vocal organs, for example the lips, tongue and teeth, to produce particular sounds.
+                        </gloss>
+                        <note>...</note>
+                    </item>
+                </list>
+            </div>
 
             <!-- List Organization 
                 <listOrg>
@@ -667,6 +676,6 @@
                     </org>
                     ...
                 </listOrg>     -->    
-            </back>
+        </back>
     </text>
 </TEI>       
