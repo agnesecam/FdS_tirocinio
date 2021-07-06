@@ -199,7 +199,7 @@
                             <label>
                                 <idno type="ID-pericope">91Aaaa001</idno>
                             </label>
-                            <item corresp="#body_91Aaaa001" facs="">
+                            <item corresp="#pericope_91Aaaa001" facs="">
                                 <!--Testo per. 1-->
                                 <seg>
                                     Si la chaire que j’ai en ce moment l’honneur [...]
@@ -212,10 +212,10 @@
                                 </desc>
                             </item>
                             <!--PERICOPE 2-->
-                            <label >
+                            <label>
                                 <idno type="ID-pericope">91Aaaa002</idno>
                             </label>
-                            <item corresp="#body_91Aaaa002" facs="">
+                            <item corresp="#pericope_91Aaaa002" facs="">
                                 <!--Testo per. 2-->
                                 <seg>
                                     Sans exalter outre mesure les mérites [...]
@@ -228,7 +228,7 @@
                                 </desc>
                             </item>      
                             <!--PERICOPE 3--> <!--Inizio 2a pagina-->
-                            <label corresp="#body_91Aaaa003">-->
+                            <label corresp="#pericope_91Aaaa003">-->
                                 <idno type="ID-pericope">91Aaaa003</idno>
                             </label>
                             <item>
@@ -242,7 +242,7 @@
                                 </desc>
                             </item>
                             <!--PERICOPE 4-->
-                            <label corresp="#body_91Aaaa004">
+                            <label corresp="#pericope_91Aaaa004">
                                 <idno type="ID-pericope">91Aaaa004</idno>
                             </label>
                             <item>
@@ -256,7 +256,7 @@
                                 </desc>
                             </item>
                             <!--PERICOPE 5-->
-                            <label corresp="#body_91Aaaa005">
+                            <label corresp="#pericope_91Aaaa005">
                                 <idno type="ID-pericope">91Aaaa005</idno>
                             </label>
                             <item>
@@ -350,7 +350,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002">
-                        <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
+                        <pb n="f1r" xml:id="body_p1" facs="facs_p1"/> <!-- f1r = folio 1 recto -->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
@@ -415,7 +415,7 @@
                                 <lb xml:id="lb28_p1" n="28" facs="#..."/>
                                 rendre dans une</add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#..."/>
-                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <del rend="overstrike"><gap reason="illegible" extent="3" unit="lines"/></del> <add place="above">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan spanTo="delSpan1" rend="overstrike"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#..."/>
                                 <add change="#CHG-2" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#..."/>
