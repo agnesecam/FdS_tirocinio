@@ -50,8 +50,8 @@
 
             <publicationStmt>
 				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
-				<availability>
-					<licence target="?" status="draft">Draft</licence>
+				<availability> <!-- ERRORE = element availability: validity error : Value "draft" for attribute status of availability is not among the enumerated set -->
+					<licence target="?"></licence>
 				</availability>
 			</publicationStmt>
             
@@ -84,7 +84,7 @@
                     </author>
                     <date when="2002">2002</date>
                     <publisher>Gallimard</publisher>
-                    <pubPlace>Paris<pubPlace>
+                    <pubPlace>Paris</pubPlace>
                     <idno type="ISSN">0302-5160</idno>
                     <citedRange unit="page" from="143" to="172">143-172</citedRange>
                     <note>
@@ -101,7 +101,7 @@
                         </persName>
                     </author>  
                     <publisher>Bonanno Editore</publisher>
-                    <pubPlace>Acireale - Roma<pubPlace>
+                    <pubPlace>Acireale - Roma</pubPlace>
                     <idno type="ISBN">887796276-3</idno>
                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
                     <note>
@@ -109,20 +109,12 @@
                     </note>
                 </bibl>
                 <msDesc>
-                    <history>
-                        <origin>
-                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate>Première conférence
-                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate>Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>Troisième conférence
-                            <origPlace>Gèneve</origPlace>
-                        </origin>
-                    </history>
                     <msIdentifier>
-                        <institution>Bibliothèque de Genève</institution>
-                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
-                        <country>Switzerland</country>
+                        <country>Switzerland</country>    
                         <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
+                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/1</idno>
                     </msIdentifier>
                     <msContents>
@@ -130,25 +122,24 @@
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
-                            <docDate when="1891-11-06">06/11/1891<docDate>
+                            <docDate when="1891-11-06">06/11/1891</docDate>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
-                            <date when="1891-11-10">10/11/1891</date>
+                            <docDate when="1891-11-10">10/11/1891</docDate>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
-                            <date when="1891-11-13">13/11/1891</date>
-                            </docDate>
+                            <docDate when="1891-11-13">13/11/1891</docDate>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
-                    </msContents>
+                    </msContents>                    
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -157,12 +148,9 @@
                                 </support>
                                 <extent> <!--? Non ho chiaro l'uso di measureGrp per indicare le tre dimensioni -->
                                     <measureGrp>
-                                        <extent>
                                             <measure unit="pages" quantity="30">30 pages +</measure>
                                             <measure unit="pages" quantity="15">15 pages +</measure>
                                             <measure unit="pages" quantity="22">22 pages</measure>
-                                        </extent>
-                                        <extent>
                                             <measure type="height" unit="mm" quantity="211">211 mm</measure>
                                             <measure type="widht" unit="mm" quantity="136">136 mm</measure>
                                     </measureGrp>
@@ -177,6 +165,14 @@
                             <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate>Première conférence
+                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate>Deuxième conférence
+                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>Troisième conférence
+                            <origPlace>Gèneve</origPlace>
+                        </origin>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -350,192 +346,198 @@
     </facsimile>
 
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
-        <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
-            <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                <body xml:lang="fr" source="#Bouquet-Engler2002">
-                    <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
-                    <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </fw>
-                    <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
-                    <div xml:id="div_p1" hand="#h1">
-                        <!--Inizio 1 pericope-->
-                        <ab xml:id="pericope_91Aaaa001" n="1" lang="FR" corresp="#it_91Aaaa001" facs=""> 
-                            <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
-                            Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
-                            <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
-                            moment</add> l’honneur d’inaugurer représentait un ordre 
-                            <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
-                            d’études <del ref="#CHG-2" rend="overstrike"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del ref="#CHG-2" rend="overstrike"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
-                            <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb4"/>
-                            dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add ref="#CHG-2" place="above">si j’avais</add><del ref="#CHG-2" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
-                            <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb5"/>
-                            <add ref="#CHG-2" place="left margin">aujourd’hui</add> <add ref="#CHG-2" place="above">la mission ou le</add> privilège <del ref="#CHG-2" rend="overstrike">de vous</del>
-                            <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb6"/>
-                            <add ref="#CHG-2" place="left margin">de vous</add> <add ref="#CHG-2" place="above">introduire dans l’édifice</add> 
-                            <gap reason="irrilevant" extent="11 lines"/> 
-                            <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb7"/>
-                            <add ref="#CHG-3" place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
-                            <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb8"/>
-                            <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
-                            <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb9"/>
-                            <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
-                            <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb10"/>
-                            à <del ref="#CHG-2" rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
-                            <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb11"/>
-                            décrire 
-                            <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb12"/>
-                            <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
-                            <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb13"/>
-                            lignes l’état présent 
-                            <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
-                            de cette science,
-                            <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
-                            <add ref="#CHG-4" place="above">à parcourir </add> 
-                            son passé, qui 
-                            <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
-                            n’est pas très long, 
-                            <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb17"/>
-                            ou à pronostiquer 
-                            <lb xml:id="lb19_p1" n="19" facs="#..."/>
-                            son avenir, 
-                            <lb xml:id="lb20_p1" n="20" facs="#..."/>
-                            à définir son 
-                            <lb xml:id="lb21_p1" n="21" facs="#..."/>
-                            but, son utilité,
-                            <lb xml:id="lb22_p1" n="22" facs="#..."/>
-                            à marquer la 
-                            <lb xml:id="lb23_p1" n="23" facs="#..."/>
-                            place qu’elle 
-                            <lb xml:id="lb24_p1" n="24" facs="#..."/>
-                            occupe dans le 
-                            <lb xml:id="lb25_p1" n="25" facs="#..."/>
-                            cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
-                            <lb xml:id="lb26_p1" n="26" facs="#..."/>
-                            humaines et les 
-                            <lb xml:id="lb27_p1" n="27" facs="#..."/>
-                            services qu’elle peut 
-                            <lb xml:id="lb28_p1" n="28" facs="#..."/>
-                            rendre dans une</add> 
-                            <lb xml:id="lb29_p1" n="29" facs="#..."/>
-                            <orgName ref="#FacLettres">Faculté des lettres</orgName>, <del rend="overstrike"><gap reason="illegible" extent="3" unit="lines"/></del> <add place="above">je craindrais de ne pas remplir très</add> 
-                            <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                            <add ref="#CHG-2" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
-                            <lb xml:id="lb31_p1" n="31" facs="#..."/>
-                            <add ref="#CHG-2" place="above">je ne pourrais me plaindre ici de l’abandon.</add>
-                        </ab> <!--Fine 1 pericope-->
-                        <!--Inizio 2 pericope-->        
-                        <ab xml:id="pericope_91Aaaa002" n="2" lang="FR" corresp="#it_91Aaaa002" facs=""> 
-                            <lb xml:id="lb32_p1" n="32" facs="#..."/>
-                            <add ref="#CHG-2" place="left margin">Sans exalter 
-                            <lb xml:id="lb33_p1" n="33" facs="#..."/>
-                            outre mesure 
-                            <lb xml:id="lb34_p1" n="34" facs="#..."/>
-                            les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
-                            <lb xml:id="lb35_p1" n="35" facs="#..."/>
-                            quel est le </add> 
-                            <lb xml:id="lb36_p1" n="36" facs="#..."/>
-                            profit que peut tirer <del rend="overstrike">de cette</del> par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
-                            <lb xml:id="lb37_p1" n="37" facs="#..."/>
-                            étude l’érudition classique, 
-                            <lb xml:id="lb38_p1" n="38" facs="#..."/>
-                            la connaissance des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
-                            <lb xml:id="lb39_p1" n="39" facs="#..."/>
-                            eût-elle un 
-                            <lb xml:id="lb40_p1" n="40" facs="#..."/>
-                            but simplement 
-                            <lb xml:id="lb41_p1" n="41" facs="#..."/>
-                            <term subtype="linguistics-term" ref="#litteraire">littéraire</term>, 
-                            <lb xml:id="lb42_p1" n="42" facs="#..."/>
-                            l’intérêt que peut avoir ensuite la même 
-                            <lb xml:id="lb43_p1" n="43" facs="#..."/>
-                            étude pour <del rend="overstrike">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
-                        
-                            <floatingText ref="#CHG-5" rend="align(left)"> <!--Non leggo, chiedi-->
-                                <body>
-                                    <l><gap reason="illegible" atLeast="2" atMost="3" unit="words"/></l>
-                                    <l><gap reason="illegible" atLeast="1" atMost="1" unit="words"/></l>
-                                    <l><gap reason="illegible" quantity="1" unit="words"/></l>
-                                </body>    
-                            </floatingText>
-
-                            <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto-->
-                                <abbr type="acronym">T<am>.</am>S<am>.</am>V<am>.</am>P<am>.</am></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
-                            </metamark>
+        <group> <!--Testo e traduzione delle 3 prolusioni-->
+            <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
+                <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
+                        <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
+                        <ab>
+                            <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </fw>
+                            <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                         </ab>
-                    </div>
-                    <pb n="2" xml:id="body_p2" facs="facs_p2"/>
-                    <div xml:id="div_p2" hand="#h1">
-                        <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                        <!-- ... -->
-                    </div>
-                </body>
-            </text>
-            <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-            ...
-            </text>
-        </group>       
-        <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI DELLE 3 PROLUSIONI-->
-            <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" lang="IT">
-                        Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
-                        un ordine di studi nuovo nella nostra Università, se avessi oggi 
-                        la missione o il privilegio d’introdurvi nell’edificio che la 
-                        scienza del linguaggio è intenta a costruire da settant’anni in qua, 
-                        e di descrivere a grandi linee lo stato attuale di questa scienza,
-                        e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
-                        il suo avvenire, la sua utilità, e definire il posto che essa 
-                        occupa nel cerchio delle conoscenze umane e i servizi che essa 
-                        può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
-                        degnamente il mio compito, ma certamente non potrei lamentarmi qui 
-                        dell’abbandono.
-                    </ab>
-                    <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" lang="IT">
-                        Senza esaltare oltre misura i meriti della linguistica, qual è il 
-                        beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
-                        la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
-                        semplicemente letterario, e l’interesse che può avere il medesimo studio per 
-                        la storia o per la storia della civiltà?                    
-                    </ab> 
-                    <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" lang="IT">
-                        ...traduzione terza pericope...
-                    </ab> 
-                    <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" lang="IT">
-                        ...traduzione quarta pericope...
-                    </ab>                                         
-                </body>
-            </text>
-            <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" lang="IT">
-                        ...
-                    </ab>   
-                    <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" lang="IT">
-                        ...
-                    </ab>
-                    <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" lang="IT">
-                        ...
-                    </ab>   
-                    <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" lang="IT">
-                        ...
-                    </ab>
-                </body>
-            </text>
-            <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" lang="IT">
-                        ...
-                    </ab>   
-                    <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" lang="IT">
-                        ...
-                    </ab>
-                    <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" lang="IT">
-                        ...
-                    </ab>   
-                    <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" lang="IT">
-                        ...
-                    </ab>
-                </body>
-            </text>            
+                        <div xml:id="div_p1" hand="#h1">
+                            <!--Inizio 1 pericope-->
+                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001" facs=""> 
+                                <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
+                                Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
+                                <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
+                                moment</add> l’honneur d’inaugurer représentait un ordre 
+                                <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
+                                d’études <del change="#CHG-2" rend="overstrike"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-2" rend="overstrike"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
+                                <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb4"/>
+                                dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-2" place="above">si j’avais</add><del change="#CHG-2" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb5"/>
+                                <add change="#CHG-2" place="left margin">aujourd’hui</add> <add change="#CHG-2" place="above">la mission ou le</add> privilège <del change="#CHG-2" rend="overstrike">de vous</del>
+                                <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb6"/>
+                                <add change="#CHG-2" place="left margin">de vous</add> <add change="#CHG-2" place="above">introduire dans l’édifice</add> 
+                                <gap reason="irrilevant" extent="11 lines"/> 
+                                <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb7"/>
+                                <add change="#CHG-3" place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb8"/>
+                                <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                                <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb9"/>
+                                <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
+                                <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb10"/>
+                                à <del change="#CHG-2" rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
+                                <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb11"/>
+                                décrire 
+                                <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb12"/>
+                                <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
+                                <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb13"/>
+                                lignes l’état présent 
+                                <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
+                                de cette science,
+                                <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
+                                <add change="#CHG-4" place="above">à parcourir </add> 
+                                son passé, qui 
+                                <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
+                                n’est pas très long, 
+                                <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb17"/>
+                                ou à pronostiquer 
+                                <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                                son avenir, 
+                                <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                                à définir son 
+                                <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                                but, son utilité,
+                                <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                                à marquer la 
+                                <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                                place qu’elle 
+                                <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                                occupe dans le 
+                                <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                                cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
+                                <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                                humaines et les 
+                                <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                                services qu’elle peut 
+                                <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                                rendre dans une</add> 
+                                <lb xml:id="lb29_p1" n="29" facs="#..."/>
+                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <del rend="overstrike"><gap reason="illegible" extent="3" unit="lines"/></del> <add place="above">je craindrais de ne pas remplir très</add> 
+                                <lb xml:id="lb30_p1" n="30" facs="#..."/>
+                                <add change="#CHG-2" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
+                                <lb xml:id="lb31_p1" n="31" facs="#..."/>
+                                <add change="#CHG-2" place="above">je ne pourrais me plaindre ici de l’abandon.</add>
+                            </ab> <!--Fine 1 pericope-->
+                            <!--Inizio 2 pericope-->        
+                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs=""> 
+                                <lb xml:id="lb32_p1" n="32" facs="#..."/>
+                                <add change="#CHG-2" place="left margin">Sans exalter 
+                                <lb xml:id="lb33_p1" n="33" facs="#..."/>
+                                outre mesure 
+                                <lb xml:id="lb34_p1" n="34" facs="#..."/>
+                                les mérites de la <term subtype="linguistics-term" ref="#linguistique"> linguistique</term>,
+                                <lb xml:id="lb35_p1" n="35" facs="#..."/>
+                                quel est le </add> 
+                                <lb xml:id="lb36_p1" n="36" facs="#..."/>
+                                profit que peut tirer <del rend="overstrike">de cette</del> par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
+                                <lb xml:id="lb37_p1" n="37" facs="#..."/>
+                                étude l’érudition classique, 
+                                <lb xml:id="lb38_p1" n="38" facs="#..."/>
+                                la connaissance des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
+                                <lb xml:id="lb39_p1" n="39" facs="#..."/>
+                                eût-elle un 
+                                <lb xml:id="lb40_p1" n="40" facs="#..."/>
+                                but simplement 
+                                <lb xml:id="lb41_p1" n="41" facs="#..."/>
+                                <term subtype="linguistics-term" ref="#litteraire">littéraire</term>, 
+                                <lb xml:id="lb42_p1" n="42" facs="#..."/>
+                                l’intérêt que peut avoir ensuite la même 
+                                <lb xml:id="lb43_p1" n="43" facs="#..."/>
+                                étude pour <del rend="overstrike">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
+                            
+                                <floatingText change="#CHG-5" rend="align(left)"> <!--Non leggo, chiedi-->
+                                    <body>
+                                        <l><gap reason="illegible" atLeast="2" atMost="3" unit="words"/></l>
+                                        <l><gap reason="illegible" atLeast="1" atMost="1" unit="words"/></l>
+                                        <l><gap reason="illegible" quantity="1" unit="words"/></l>
+                                    </body>    
+                                </floatingText>
+
+                                <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto-->
+                                    <abbr type="acronym">T<am>.</am>S<am>.</am>V<am>.</am>P<am>.</am></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
+                                </metamark>
+                            </ab>
+                        </div>
+                        <pb n="2" xml:id="body_p2" facs="facs_p2"/>
+                        <div xml:id="div_p2" hand="#h1">
+                            <lb xml:id="lb1_p2" n="1" facs="#..."/>
+                            <!-- ... -->
+                        </div>
+                    </body>
+                </text>
+                <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
+                    <body>
+                        <ab> ... </ab>
+                    </body>
+                </text>
+            </group>       
+            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                            Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
+                            un ordine di studi nuovo nella nostra Università, se avessi oggi 
+                            la missione o il privilegio d’introdurvi nell’edificio che la 
+                            scienza del linguaggio è intenta a costruire da settant’anni in qua, 
+                            e di descrivere a grandi linee lo stato attuale di questa scienza,
+                            e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
+                            il suo avvenire, la sua utilità, e definire il posto che essa 
+                            occupa nel cerchio delle conoscenze umane e i servizi che essa 
+                            può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
+                            degnamente il mio compito, ma certamente non potrei lamentarmi qui 
+                            dell’abbandono.
+                        </ab>
+                        <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
+                            Senza esaltare oltre misura i meriti della linguistica, qual è il 
+                            beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
+                            la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
+                            semplicemente letterario, e l’interesse che può avere il medesimo studio per 
+                            la storia o per la storia della civiltà?                    
+                        </ab> 
+                        <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
+                            ...traduzione terza pericope...
+                        </ab> 
+                        <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
+                            ...traduzione quarta pericope...
+                        </ab>                                         
+                    </body>
+                </text>
+                <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
+                            ...
+                        </ab>
+                        <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
+                            ...
+                        </ab>
+                    </body>
+                </text>
+                <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
+                            ...
+                        </ab>
+                        <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
+                            ...
+                        </ab>
+                    </body>
+                </text>            
+            </group>
         </group>
 
         <back>
@@ -593,7 +595,7 @@
                                         </persName>
                                     </author>  
                                     <publisher>Bonanno Editore</publisher>
-                                    <pubPlace>Acireale - Roma<pubPlace>
+                                    <pubPlace>Alessandria</pubPlace>
                                     <citedRange unit="page" from="85" to="121">85-121</citedRange>
                                 </bibl>
                             </ref>
