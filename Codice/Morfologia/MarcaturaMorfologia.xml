@@ -48,23 +48,12 @@
                     <resp>Translation by</resp>
                     <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
-                <!-- Il content model di editionStmt impone 1 edition soltanto
-                <edition n="Engler1967-74">Engler
-                    <date from="1967" to="1974">1967-74</date>
-                </edition>
-                <edition n="Godel1969">Godel
-                    <date when="1969">1969</date>
-                </edition>
-                <edition n="Fadda" lang="it">
-                    <date when="2017">2017</date>
-                </edition> -->
-                <!-- COME INSERIRE LE PAGINE? -->                
             </editionStmt>
 
-            <publicationStmt> <!--vedi prolusioni-->
-				<publisher> ? </publisher>
-				<availability>
-					<licence target="?">?</licence>
+            <publicationStmt>
+				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
+				<availability> <!-- ERRORE = element availability: validity error : Value "draft" for attribute status of availability is not among the enumerated set -->
+					<licence target="?"></licence>
 				</availability>
 			</publicationStmt>
             
@@ -83,6 +72,7 @@
                             <surname>Godel</surname>
                         </persName>
                     </author>
+                    <date when="1969">1969</date>
                     <publisher>Libraire Droz</publisher>
                     <pubPlace>Gèneve</pubPlace>
                 </bibl>
@@ -94,6 +84,7 @@
                             <surname>Engler</surname>
                         </persName>
                     </author>
+                    <date from="1967" to="1974">1967-74</date>
                 </bibl>
                 <bibl source="Fadda2017">
                     <title type="main">Sentimento della lingua</title>
@@ -106,6 +97,7 @@
                     </author>
                     <publisher>Edizioni dell'Orso</publisher>
                     <pubPlace>Alessandria</pubPlace>
+                    <date when="2017">2017</date>
                     <idno type="ISBN">8862747950</idno>
                     <citedRange unit="page" from="100" to="110">100-110</citedRange>
                 </bibl>
@@ -114,12 +106,14 @@
                         <country>Switzerland</country>
                         <settlement>Ginevra</settlement>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/7</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
-                            <title xml:lang="fr">Les première leçons de Saussure a Genève, 1891</title>
+                            <title xml:lang="fr">Les première leçons de Saussure a Genève</title>
+                            <docDate notBefore="1893" notAfter="1895">1893-1985</docDate>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     </msContents>
@@ -127,11 +121,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material>Thin paper</material>
+                                    <material>Thin paper.</material>
                                 </support>
                                 <extent>
-                                    <measure type="folio">...</measure>
-                                    <dimensions unit="mm">...</dimensions>
+                                    <measure type="pages" quantity="19">19</measure>
+                                    <measure type="height" unit="mm" quantity="211">211</measure>
+                                    <measure type="width" unit="mm" quantity="136">136</measure>
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, few holes and stains</condition>
@@ -141,7 +136,13 @@
                             <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
                         </handDesc>
                     </physDesc>
-                    <additional>...</additional>
+                    <history>
+                        <origin>
+                            <origDate from="1893" to="1984" confidence="high">1893-1984</origDate>
+                            <origDate from="1894" to="1985" confidence="medium">1894-1985</origDate>
+                            <origPlace>Gèneve</origPlace>
+                        </origin>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -157,119 +158,38 @@
                     </category>
                 </taxonomy>
             </classDecl>
-            <editorialDecl><!--Divisione in pericopi-->
+            <editorialDecl> <!--SCHEMA PERICOPI: codice, testo FR, descrizione-->
                 <segmentation>
                     <p>
                         <list>
-<!--Pericope 11-->          <label corresp="#body_3293.11">3293.11</label>
-                            <item><!--Testo della pericope 11-->
-                                La morphologie, dit-on, est l'étude des formes du langage, tandis que la 
-                                phonétique serait l'étude des sons du langage.
-                                On ne peut se contenter d'une pareille définition, non seulement en théorie, 
-                                mais même pour la pratique, car il arrivera souvent que nous ne saurons plus 
-                                si nous faisons de la morphologie ou de la phonétique, comme on va le voir :
-                                II est évident d'abord que la phonétique, tout en s'occupant des sons, et 
-                                pour pouvoir le faire, est obligée en premier lieu de s'occuper des formes. 
-                                Les sons ne se transmettent pas d'une génération à l'autre à l'état isolé ; 
-                                les sons n'existent, ne vivent et ne se modifient qu'au sein des mots. 
-                                On n'a pas prononcé s tout seul, et ensuite esprit rude. On a prononcé serpō, 
-                                sedos, et ensuite herpō, hedos. Et si je dis : herpō sort de serpō, je fais 
-                                de la phonétique et rien d'autre. De même, si je dis que la première personne 
-                                des verbes en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
-                                D'autre part, la morphologie, qui est censée ne s'occuper que des formes, 
-                                s'occupe parfaitement des sons. Par exemple quand je dis que l'o grec peut 
-                                alterner avec ε, et pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, je fais 
-                                de la morphologie. Il est vrai que pour certaines personnes, cela s'appelle 
-                                faire de la phonétique. À cause de la mauvaise définition. Mais il deviendra 
-                                très clair, par la suite, que rien n'est plus faux et plus dangereux que de 
-                                classer un fait de ce genre avec les faits phonétiques.
-                                Ainsi il n'est pas aussi simple qu'on se l'imagine quelquefois de séparer les 
-                                deux domaines, et ce n'est pas en disant que l'une = étude des sons et l'autre, 
-                                des formes, qu'on obtient une ligne de démarcation satisfaisante.
-                                Mais cette ligne de démarcation est impérieusement nécessaire pour éviter 
-                                de lamentables confusions.
-                                Principe de direction : 
-                                Toutes les fois qu'on considère une même forme à des dates diverses, c'est 
-                                faire de la phonétique, - et toutes les fois qu'on considère des formes 
-                                diverses à une- même date, on fait de la morphologie.<!--fine prima pagina inizio 2-->
-
-                                vieux-haut-allemand 	zug	zugi
-                                nouvel allemand 	zug 	züge.
-                                Comparer zugi et züge, c'est comparer deux formes, et néanmoins ce n'est 
-                                pas faire de la morphologie, mais de la phonétique.
-                                Comparer u-ü dans zug, züge, c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
-                                    Sphère		ekwos	ekwom
-                                    phonétique	ippos	ippon
-                                    Sphère morphologique
-                                Les deux sphères confondues dans les locutions courantes : 
-                                chantre se rattache étymologiquement à chanter
-                                chantre se rattache étymologiquement à cantor
-                                φόρος vient de φέρω
-                                φόρος vient de bhoros.
-
-                                Observation : L’Étymologie, qu'on donne parfois comme une branche de la science du langage, 
-                                ne représente pas un ordre déterminé de recherches et encore moins un ordre déterminé de faits.
-                                Faire de l'étymologie, c'est faire une certaine application de nos connaissances phonétiques et morphologiques.
-                                Ramener par la phonétique jusqu'à l'époque où le mot devient morphologiquement analysable.
-                                    coucher
-                                    coulchier
-                                    collocare	colligo, locare
-                                Quelquefois l'étymologie ne se meut même que dans les modifications de l'idée : le barreau,  αὔτως.
-                                <desc><!--Breve descrizione della pericope 11 (hover sulla pericope?)-->
-                                ...
+                            <!--PERICOPE 11-->
+                            <label>
+                                <idno type="ID-pericope">3293.11</idno>
+                            </label>
+                            <item corresp="#pericope_3291.11" facs="">
+                                <!--Testo per. 11-->
+                                <seg>
+                                    La morphologie, dit-on, est l'étude des formes [...]
+                                </seg>
+                                <!--Descr. per. 11-->
+                                <desc>
+                                    ...
                                 </desc>
                             </item>
-                            <note xml:id="it_3293.11" target="#body_3293.11"><!--Traduzione 11-->
-                                La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
-                                lo studio dei suoni del linguaggio.
-                                Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
-                                per la pratica, giacché accadrà sovente che noi non sapremo più se stiamo facendo morfologia o fonetica, come vedremo.
-                                È anzitutto evidente che la fonetica, pur occupandosi dei suoni, e per poterlo fare, è obbligata in primo luogo ad 
-                                occuparsi delle forme. I suoni non si trasmettono da una generazione all’altra allo stato isolato; i suoni non esistono, 
-                                non vivono e non si modificano se non nelle parole. Non si è mai pronunciato [prima] s, e poi uno spirito aspro. 
-                                Si è pronunciato serpō, sedos, e poi herpō, hedos. E se io dico: herpō viene da serpō, io faccio della fonetica, 
-                                e null’altro. Ugualmente, se dico che la prima persona dei verbi in -ω non può venire da una antica prima persona in -ōmi.
-                                D’altra parte, la morfologia, che si ritiene non si occupi che delle forme, s’occupa invece talvolta dei suoni. Per esempio, 
-                                quando dico che la ο greca può alternare con ε, e non con α: λόγος, λέγω – ma ἄγω e non ὀγ-, faccio morfologia. È vero che per 
-                                certe persone questo si chiama fare fonetica. A causa della cattiva definizione. Ma diventerà molto chiaro, ne seguito, che 
-                                niente è più falso e più pericoloso che classificare un fatto del genere con i fatti fonetici.
-                                E dunque, non è così facile come si immagina talvolta il separare i due dominî, e non è dicendo che uno = studio dei suoni e 
-                                l’altro delle forme che si ottiene una linea di demarcazione soddisfacente.
-                                Ma questa linea di demarcazione è imperiosamente necessaria per evitare deplorevoli confusioni.
-                                Principio di direzione:
-                                Ogni volta che si considera una stessa forma a date diverse, ciò è fare fonetica, e ogni volta 
-                                che consideriamo forme diverse a una stessa data, si fa morfologia.
-                            </note>
-<!--Pericope 12-->          <label corresp="#body_3293.12">3293.12</label>
-                            <item>
-                                    vieux-haut-allemand 	zug	zugi 
-                                    nouvel allemand 	zug 	züge. 
-                                Comparer zugi  et züge, c'est comparer deux formes, et néanmoins ce n'est pas faire de la morphologie, mais de la phonétique.
-                                    Comparer u-ü dans zug, züge tedesco, c'est comparer deux sons, et néanmoins ce n'est pas de la phonétique.
-                                    Sphère		ekwos	ekwom ricostruzione
-                                    phonétique	ἵππος	ἵππον greco
-                                        Sphère morphologique
-                                Les deux sphères confondues dans les locutions courantes : 
-                                    chantre se rattache étymologiquement à chanter 
-                                    chantre se rattache étymologiquement à cantor 
-                                    φόρος vient de φέρω
-                                    φόρος vient de bhoros
-                                <desc> ... </desc> <!--Breve descrizione della pericope 11 (hover sulla pericope?)-->
+                            <!--PERICOPE 12-->
+<!--Pericope 12-->          <label>
+                                <idno type="ID-pericope" corresp="#pericope_3293.12">3293.12</idno>
+                            </label>
+                            <item corresp="#pericope_3293.12" facs="">
+                                <!--Testo per. 2-->
+                                <seg>
+                                        vieux-haut-allemand 	zug	zugi 
+                                        nouvel allemand 	zug 	züge. 
+                                    Comparer zugi  et züge, c'est comparer deux formes, [...]
+                                </seg>
+                                <!--Descr. per. 2-->
+                                <desc> ... </desc> 
                             </item>
-                            <note xml:id="it_3293.12" target="#body_3293.12"><!--Traduzione 12-->
-                                    antico alto-tedesco 	zug 	zugi 
-                                    tedesco 		zug 	züge
-                                Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
-                                Comparare u-ü in zug, züge è comparare due suoni, e nondimeno questo non è fonetica.
-                                    Sfera		ekwos		ekwom
-                                    Fonetica	ἵππος		ἵππον
-                                                Sfera morfologica
-                                Le due sfere [sono] confuse nelle locuzioni correnti:
-                                    chantre si ricollega etimologicamente a chanter 
-                                    chantre si ricollega etimologicamente a cantor 	
-                                    φόρος viene da φέρω
-                                    φόρος viene da bhoros			
-                            </note>
                         </list>
                     </p>
                 </segmentation>
@@ -299,92 +219,144 @@
     </facsimile>
 
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
-        <front>
-            <!--...-->
-        </front>
-        <body xml:lang="fr">
-            <pb n="1" ed="DigitalEdition" xml:id="body_p1" facs="facs_p1"/> <!-- quale edizione ed=""? -->
-            <ab xml:id="HandPageNumber-1" rend="align(right)" facs="#..."> 1 </ab>
-            <ab xml:id="PrintPageNumber-2" rend="align(left)" facs="#..."> 2 </ab>
-            <div xml:id="div_p1" hand="#h1">
-                <!--Inizio 1 pericope-->
-                <ab xml:id="body_3293.11">
-                    <lb xml:id="lb1_p1" n="1" facs="#..."/>
-                    La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie"><choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage">langage</term>, tandis
-                    <lb xml:id="lb2_p1" n="2" facs="#..."/> 
-                    que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term> serait l'étude des sons du <term subtype="linguistics-term" xml:lang="fr" ref="#langage"><choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice></term>.
-                    <lb xml:id="lb3_p1" n="3" facs="#..."/>
-                    On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex></expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
-                    <lb xml:id="lb4_p1" n="4" facs="#..."/>
-                    en théorie, mais même pour la pratique, car il arrivera 
-                    <lb xml:id="lb5_p1" n="5" facs="#..."/>
-                    souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice> 
-                    <lb xml:id="lb6_p1" n="6" facs="#..."/>
-                    ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
-                    <lb xml:id="lb7_p1" n="7" facs="#..."/>
-                    II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
-                    <lb xml:id="lb8_p1" n="8" facs="#..."/>
-                    sons, et pour pouvoir le faire, est obligée en premier lieu 
-                    <lb xml:id="lb9_p1" n="9" facs="#..."/>
-                    de s'occuper des formes. Les sons ne se transmettent pas 
-                    <lb xml:id="lb10_p1" n="10" facs="#..."/>
-                    d'une génération à l'autre à l'état isolé ; les sons n'existent, 
-                    <lb xml:id="lb11_p1" n="11" facs="#..."/>
-                    ne vivent et ne se modifient qu'au sein des mots. On n'a 
-                    <lb xml:id="lb12_p1" n="12" facs="#..."/>
-                    pas prononcé s tout seul, et ensuite esprit rude. 
-                    <lb xml:id="lb13_p1" n="13" facs="#..."/>
-                    On a prononcé serpō, sedos, et ensuite herpō, hedos. 
-                    <lb xml:id="lb14_p1" n="14" facs="#..."/>
-                    Et si je dis : herpō sort de serpō, je fais de la phonétique 
-                    <lb xml:id="lb15_p1" n="15" facs="#..."/>
-                    et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
-                    <lb xml:id="lb16_p1" n="16" facs="#..."/>
-                    en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
-                    <lb xml:id="lb17_p1" n="17" facs="#..."/>
-                    D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
-                    <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
-                    cuper que des formes, s'occupe parfaitement des sons. Par 
-                    <lb xml:id="lb19_p1" n="19" facs="#..."/>
-                    exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
-                    <lb xml:id="lb20_p1" n="20" facs="#..."/>
-                    pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
-                    <lb xml:id="lb21_p1" n="21" facs="#..."/>
-                    je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
-                    <lb xml:id="lb22_p1" n="22" facs="#..."/>
-                    faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
-                    <lb xml:id="lb23_p1" n="23" facs="#..."/>
-                    Mais il deviendra très clair, par la suite, que rien 
-                    <lb xml:id="lb24_p1" n="24" facs="#..."/>
-                    n'est <choice><abbr>+</abbr><expan>(plus)</expan></choice> faux et plus dangereux que de classer un 
-                    <lb xml:id="lb25_p1" n="25" facs="#..."/>
-                    fait de ce genre avec les faits phonétiques.
-                    <lb xml:id="lb26_p1" n="26" facs="#..."/>
-                    Ainsi il n'est pas aussi simple qu'on se l'imagine 
-                    <lb xml:id="lb27_p1" n="27" facs="#..."/>
-                    <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
-                    <lb xml:id="lb28_p1" n="28" facs="#..."/>
-                    disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des sons et l'autre, des formes, 
-                    <lb xml:id="lb29_p1" n="29" facs="#..."/>
-                    qu'on obtient une ligne de démarcation satisfaisante.
-                    <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                    Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
-                    <lb xml:id="lb31_p1" n="31" facs="#..."/>
-                    nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
-                    <lb xml:id="lb32_p1" n="32" facs="#..."/>
-                    Principe de direction : 
-                    <lb xml:id="lb33_p1" n="33" facs="#..."/>
-                    Toutes les fois qu'on considère une même forme à 
-                    <lb xml:id="lb34_p1" n="34" facs="#..."/>
-                    des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
-                    <lb xml:id="lb35_p1" n="35" facs="#..."/>
-                    les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
-                    <lb xml:id="lb36_p1" n="36" facs="#..."/>
-                    date, on fait de la morphologie.
-                </ab>
-            </div>
-        </body>
-
+        <group> <!--Testo e traduzione di Morfologia-->
+            <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
+                <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
+                    <pb n="f1v" xml:id="body_p1" facs="facs_p1"/>
+                    <ab>
+                        <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#..."> 1 </fw>
+                    </ab>
+                    <div xml:id="div_p1" hand="#h1">
+                        <!--Inizio 11 pericope-->
+                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="">
+                            <lb xml:id="lb1_p1" n="1" facs="#..."/>
+                            La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie"><choice><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage">langage</term>, tandis
+                            <lb xml:id="lb2_p1" n="2" facs="#..."/> 
+                            que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term> serait l'étude des sons du <term subtype="linguistics-term" xml:lang="fr" ref="#langage"><choice><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice></term>.
+                            <lb xml:id="lb3_p1" n="3" facs="#..."/>
+                            On ne peut se contenter d'une pareille <choice><abbr>defin.</abbr><expan>defin<ex>ition</ex></expan></choice>, non <choice><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
+                            <lb xml:id="lb4_p1" n="4" facs="#..."/>
+                            en théorie, mais même pour la pratique, car il arrivera 
+                            <lb xml:id="lb5_p1" n="5" facs="#..."/>
+                            souvent que nous ne saurons plus si nous faisons de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice> 
+                            <lb xml:id="lb6_p1" n="6" facs="#..."/>
+                            ou de la <choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice>, comme on va le voir :
+                            <lb xml:id="lb7_p1" n="7" facs="#..."/>
+                            II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique"><choice><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
+                            <lb xml:id="lb8_p1" n="8" facs="#..."/>
+                            sons, et pour pouvoir le faire, est obligée en premier lieu 
+                            <lb xml:id="lb9_p1" n="9" facs="#..."/>
+                            de s'occuper des formes. Les sons ne se transmettent pas 
+                            <lb xml:id="lb10_p1" n="10" facs="#..."/>
+                            d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+                            <lb xml:id="lb11_p1" n="11" facs="#..."/>
+                            ne vivent et ne se modifient qu'au sein des mots. On n'a 
+                            <lb xml:id="lb12_p1" n="12" facs="#..."/>
+                            pas prononcé s tout seul, et ensuite esprit rude. 
+                            <lb xml:id="lb13_p1" n="13" facs="#..."/>
+                            On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+                            <lb xml:id="lb14_p1" n="14" facs="#..."/>
+                            Et si je dis : herpō sort de serpō, je fais de la phonétique 
+                            <lb xml:id="lb15_p1" n="15" facs="#..."/>
+                            et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
+                            <lb xml:id="lb16_p1" n="16" facs="#..."/>
+                            en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+                            <lb xml:id="lb17_p1" n="17" facs="#..."/>
+                            D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
+                            <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
+                            cuper que des formes, s'occupe parfaitement des sons. Par 
+                            <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                            exemple <choice><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice>) je dis que l'o grec peut alterner avec ε, et 
+                            <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                            pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
+                            <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                            je fais de la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
+                            <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                            faire de la <choice><abbr>phonét.</abbr> <expan>phonét<ex>ique</ex></expan></choice>). À cause de la mauvaise définition. 
+                            <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                            Mais il deviendra très clair, par la suite, que rien 
+                            <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                            n'est <choice><abbr>+</abbr><expan>(plus)</expan></choice> faux et plus dangereux que de classer un 
+                            <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                            fait de ce genre avec les faits phonétiques.
+                            <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                            Ainsi il n'est pas aussi simple qu'on se l'imagine 
+                            <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                            <choice><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
+                            <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                            disant que l'une = <choice><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des sons et l'autre, des formes, 
+                            <lb xml:id="lb29_p1" n="29" facs="#..."/>
+                            qu'on obtient une ligne de démarcation satisfaisante.
+                            <lb xml:id="lb30_p1" n="30" facs="#..."/>
+                            Mais cette ligne de  <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice>) est impérieusement 
+                            <lb xml:id="lb31_p1" n="31" facs="#..."/>
+                            nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
+                            <lb xml:id="lb32_p1" n="32" facs="#..."/>
+                            Principe de direction : 
+                            <lb xml:id="lb33_p1" n="33" facs="#..."/>
+                            Toutes les fois qu'on considère une même forme à 
+                            <lb xml:id="lb34_p1" n="34" facs="#..."/>
+                            des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
+                            <lb xml:id="lb35_p1" n="35" facs="#..."/>
+                            les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
+                            <lb xml:id="lb36_p1" n="36" facs="#..."/>
+                            date, on fait de la morphologie.
+                        </ab> <!--Fine 11 pericope-->
+                        <!--Inizio 12 pericope-->
+                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="">
+                            ...
+                        </ab>
+                    </div>
+                    <pb n="2" xml:id="body_p2" facs="facs_p2"/>
+                        <div xml:id="div_p2" hand="#h1">
+                            <lb xml:id="lb1_p2" n="1" facs="#..."/>
+                            <!-- ... -->
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE MORFOLOGIA-->
+                <body source="#Fadda2017" resp="#EF">
+                    <!--Traduzione 11 pericope-->
+                    <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
+                        La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
+                        lo studio dei suoni del linguaggio.
+                        Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
+                        per la pratica, giacché accadrà sovente che noi non sapremo più se stiamo facendo morfologia o fonetica, come vedremo.
+                        È anzitutto evidente che la fonetica, pur occupandosi dei suoni, e per poterlo fare, è obbligata in primo luogo ad 
+                        occuparsi delle forme. I suoni non si trasmettono da una generazione all’altra allo stato isolato; i suoni non esistono, 
+                        non vivono e non si modificano se non nelle parole. Non si è mai pronunciato [prima] s, e poi uno spirito aspro. 
+                        Si è pronunciato serpō, sedos, e poi herpō, hedos. E se io dico: herpō viene da serpō, io faccio della fonetica, 
+                        e null’altro. Ugualmente, se dico che la prima persona dei verbi in -ω non può venire da una antica prima persona in -ōmi.
+                        D’altra parte, la morfologia, che si ritiene non si occupi che delle forme, s’occupa invece talvolta dei suoni. Per esempio, 
+                        quando dico che la ο greca può alternare con ε, e non con α: λόγος, λέγω – ma ἄγω e non ὀγ-, faccio morfologia. È vero che per 
+                        certe persone questo si chiama fare fonetica. A causa della cattiva definizione. Ma diventerà molto chiaro, ne seguito, che 
+                        niente è più falso e più pericoloso che classificare un fatto del genere con i fatti fonetici.
+                        E dunque, non è così facile come si immagina talvolta il separare i due dominî, e non è dicendo che uno = studio dei suoni e 
+                        l’altro delle forme che si ottiene una linea di demarcazione soddisfacente.
+                        Ma questa linea di demarcazione è imperiosamente necessaria per evitare deplorevoli confusioni.
+                        Principio di direzione:
+                        Ogni volta che si considera una stessa forma a date diverse, ciò è fare fonetica, e ogni volta 
+                        che consideriamo forme diverse a una stessa data, si fa morfologia.                        
+                    </ab>
+                    <!--Traduzione 12 pericope-->
+                    <ab xml:id="it_3293.12" target="#pericope_3293.12">
+                            antico alto-tedesco 	zug 	zugi 
+                            tedesco 		zug 	züge
+                        Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
+                        Comparare u-ü in zug, züge è comparare due suoni, e nondimeno questo non è fonetica.
+                            Sfera		ekwos		ekwom
+                            Fonetica	ἵππος		ἵππον
+                                        Sfera morfologica
+                        Le due sfere [sono] confuse nelle locuzioni correnti:
+                            chantre si ricollega etimologicamente a chanter 
+                            chantre si ricollega etimologicamente a cantor 	
+                            φόρος viene da φέρω
+                            φόρος viene da bhoros                    
+                    </ab>
+                </body>
+            </text>
+        </group>
         <back>
             <note>
                 ...
@@ -394,6 +366,41 @@
                 <listBibl xml:id="morfologia1_bibliography">
                     <head>Bibliography</head>
                     <bibl xml:id="Morfologia1_bibliography">
+<!--Bouq.-Engl2002-->    <bibl source="#Bouquet-Engler2002">
+                            <title>Écrits de linguistique générale</title>
+                            <author>
+                                <persName ref="FdS">
+                                    <forename>Ferdinand</forename>
+                                    <surname>de Saussure</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="SB">
+                                    <forename>Simon</forename>
+                                    <surname>Bouquet</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="RE">
+                                    <forename>Rudolf</forename>
+                                    <surname>Engler</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="AW">
+                                    <forename>Antoinette</forename>
+                                    <surname>Weil</surname>
+                                </persName>
+                            </author>
+                            <date when="2002">2002</date>
+                            <publisher>Gallimard</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <idno type="ISSN">0302-5160</idno>
+                            <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                            <note>
+                                French transcription of the manuscript
+                            </note>
+                        </bibl>
 <!--Godel1969-->        <ref target="#Godel1969">
                             <bibl>
                                 <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
@@ -424,7 +431,7 @@
                                 </author>
                             </bibl>
                         </ref>
-<!--E.Fadda 2006-->     <ref target="#Fadda2006">
+<!--E.Fadda 2017-->     <ref target="#Fadda2017">
                             <bibl>
                                 <title type="main">Sentimento della lingua</title>
                                 <title type="sub">Per un'antropologia linguistica saussuriana</title>
@@ -593,6 +600,26 @@
                     <country key="CH">Switzerland</country>
                     <note>...</note>
                 </place>
+                <!--Cosenza-->
+                <place xml:id="CS">
+                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                    <country key="IT">Italy</country>
+                    <note>...</note>
+                </place>
+                <!--Cagliari-->
+                <place xml:id="CA">
+                    <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                    <country key="IT">Italy</country>
+                    <note>...</note>
+                </place>
+                <listRelation>
+                    <!--Luoghi vicini-->
+                    <relation name="near" mutual="#P1l #Pl2"/>
+                    <!--Luogo di nascita di una persona-->
+                    <relation name="birth_place" active="#Per1" passive="#Pl1"/>   
+                    <!--Luogo di morte di una persona-->
+                    <relation name="death_place" active="#Per1" passive="#Pl1"/>
+                </listRelation>
             </listPlace>
 
             <!-- ListTerm -->
@@ -627,7 +654,6 @@
                     </gloss>
                     <note>...</note>
                 </item>
-                <!--altri termini...-->
             </list>
 
             <!-- List Organization 
