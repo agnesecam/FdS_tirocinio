@@ -195,116 +195,84 @@
                     </category>
                 </taxonomy>
             </classDecl>
-            <editorialDecl><!--Divisione in pericopi-->
+            <editorialDecl> <!--SCHEMA PERICOPI: codice, testo FR, descrizione-->
                 <segmentation>
                     <p>
                         <list>
-                            <!--Pericope 1-->
+                            <!--PERICOPE 1-->
                             <label>
                                 <idno type="ID-pericope">91Aaaa001</idno>
                             </label>
-                            <item corresp="#body_91Aaaa001">
+                            <item corresp="#body_91Aaaa001" facs="">
                                 <!--Testo per. 1-->
                                 <seg>
                                     Si la chaire que j’ai en ce moment l’honneur [...]
                                 </seg>
-                                <!--Desc. per. 1-->
+                                <!--Descr. per. 1-->
                                 <desc>
                                     Ferdinand de Saussure introduce il suo nuovo ruolo di docente di sanscrito e
                                     lingue indoeuropee all'interno della facoltà di Lettere dell'Università di Ginevra,
                                     tendando di mostrarsi umilmente insicuro di poter essere all'altezza.
                                 </desc>
                             </item>
-                            <!--<label corresp="#body_91Aaaa002">--><!--Pericope 2--><!--
-                                91Aaaa002
+                            <!--PERICOPE 2-->
+                            <label >
+                                <idno type="ID-pericope">91Aaaa002</idno>
+                            </label>
+                            <item corresp="#body_91Aaaa002" facs="">
+                                <!--Testo per. 2-->
+                                <seg>
+                                    Sans exalter outre mesure les mérites [...]
+                                </seg>
+                                <!--Descr. per. 2-->
+                                <desc>
+                                    De Saussure chiede quale beneficio apporti la linguistica a studi come
+                                    l'erudizione classica, le lingue greca, latina e francese, o l'interesse
+                                    che possa avere la storia o la storia della civiltà per la medesima scienza
+                                </desc>
+                            </item>      
+                            <!--PERICOPE 3--> <!--Inizio 2a pagina-->
+                            <label corresp="#body_91Aaaa003">-->
+                                <idno type="ID-pericope">91Aaaa003</idno>
                             </label>
                             <item>
-                                Sans exalter outre mesure les mérites de la linguistique, quel est le 
-                                profit que peut tirer par exemple de cette étude l’érudition classique, 
-                                la connaissance des langues grecque, latine et française, eût-elle un but 
-                                simplement littéraire, l’intérêt que peut avoir ensuite la même étude pour 
-                                l’histoire ou pour l’histoire de la civilisation ?
+                                <!--Testo per. 3-->
+                                <seg>
+                                    – et j’aurais ici à rappeler le nom genevois, [...]
+                                </seg>
+                                <!--Descr. per. 3-->
+                                <desc>
+                                    ...
+                                </desc>
                             </item>
-                            <desc>
-                                De Saussure chiede quale beneficio apporti la linguistica a studi come
-                                l'erudizione classica, le lingue greca, latina e francese, o l'interesse
-                                che possa avere la storia o la storia della civiltà per la medesima scienza
-                            </desc>
-                            <note xml:id="it_91Aaaa002" target="#91Aaaa002">
-                                Senza esaltare oltre misura i meriti della linguistica, qual è il 
-                                beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
-                                la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
-                                semplicemente letterario, e l’interesse che può avere il medesimo studio per 
-                                la storia o per la storia della civiltà?
-                            </note>
-                            <label corresp="#body_91Aaaa003">--><!--Pericope 3--> <!--INIZIO SECONDA PAGINA-->
-                                <!--91Aaaa003
+                            <!--PERICOPE 4-->
+                            <label corresp="#body_91Aaaa004">
+                                <idno type="ID-pericope">91Aaaa004</idno>
                             </label>
                             <item>
-                                – et j’aurais ici à rappeler le nom genevois, dont nous sommes fiers 
-                                à d’autres égards encore pour notre patrie, d’Adolphe Pictet, d’Adolphe 
-                                Pictet qui le premier conçut méthodiquement le parti qu’on pouvait tirer 
-                                de la langue comme témoin des âges préhistoriques, et qui, tout en se 
-                                fiant peut-être trop – comme il était inévitable dans le premier 
-                                enthousiasme que provoquait la révélation subite d’un monde insoupçonné 
-                                – en la vérité, la valeur absolue des indications que peut donner la 
-                                langue, n’en a pas moins été le fondateur d’une sérieuse branche de 
-                                recherches encore actuellement cultivée avec toute raison par une 
-                                série ininterrompue de savants – j’insisterais après cela sur la portée 
-                                singulièrement précise qu’a prise pour l’ethnographie la linguistique, 
-                                tellement que la donnée [linguistique] est toujours jusqu’à plus ample 
-                                informé la preuve première pour l’ethnologiste, – et qu’on se demande 
-                                comment l’ethnologiste sans cette donnée aurait jamais pu affirmer par 
-                                exemple (pour choisir un exemple entre mille) qu’au sein des Hongrois 
-                                les Tsiganes représentent une race totalement distincte du Magyar, 
-                                qu’au sein de l’empire autrichien le Magyar à son tour représente une 
-                                race totalement distincte du Tchèque et de l’Allemand ; qu’en revanche 
-                                le Tchèque et l’Allemand qui se haïssent du fond du cœur sont des 
-                                parents très rapprochés ; qu’à son tour le Magyar est proche cousin 
-                                des populations finnoises de l’empire russe, sur les bords de la Baltique,
-                                dont il n’a jamais entendu parler, qu’à leur tour les Tsiganes dont je 
-                                parlais sont un peuple sorti de l’Inde – je passerais ensuite, et ceci 
-                                nous rapprocherait déjà davantage de l’objet vrai, à tout ce que la 
-                                psychologie est probablement appelée à recueillir prochainement de l’étude 
-                                du langage ; mais après cela, ou avant cela, je vous poserais plutôt cette 
-                                simple question : pensez-vous sérieusement que l’étude du langage ait besoin, 
-                                pour se justifier ou pour se disculper d’exister, de prouver qu’elle est utile 
-                                và d’autres sciences?
+                                <!--Testo per. 4-->
+                                <seg>
+                                    C’est une exigence à laquelle j’ai commencé [...]
+                                </seg>
+                                <!--Descr. per. 4-->
+                                <desc>
+                                    ...
+                                </desc>
                             </item>
-                            <desc>
-                                ...
-                            </desc>
-                            <note xml:id="it_91Aaaa003" target="#91Aaaa003">
-                                ...
-                            </note>
-                            <label corresp="#body_91Aaaa004">--><!--Pericope 4--><!--
-                                91Aaaa004
+                            <!--PERICOPE 5-->
+                            <label corresp="#body_91Aaaa005">
+                                <idno type="ID-pericope">91Aaaa005</idno>
                             </label>
                             <item>
-                                C’est une exigence à laquelle j’ai commencé par constater qu’elle répondait 
-                                largement et peut-être beaucoup plus qu’une foule de sciences, mais je ne 
-                                vois pas ensuite, je l’avoue, que cette exigence soit justifiée.
-                            </item>
-                            <desc>
-                                ...
-                            </desc>
-                            <note>
-                                ...
-                            </note>                            
-                            <label corresp="#body_91Aaaa005">--><!--Pericope 5--><!--
-                                91Aaaa005
-                            </label>
-                            <desc>
-                                ...
-                            </desc>
-                            <note>
-                                ...
-                            </note>                            
-                            <item>
-                                À quelle science pose-t-on cette condition préliminaire d’exister qu’elle 
-                                s’engage à livrer des résultats destinés à venir enrichir d’autres sciences 
-                                s’occupant d’autres objets ?
-                            </item>-->
+                                <!--Testo per. 5-->
+                                <seg>
+                                    À quelle science pose-t-on cette condition [...]
+                                </seg>
+                                <!--Descr. per. 5-->
+                                <desc>
+                                    ...
+                                </desc>
+                            </item> 
                         </list>
                     </p>
                 </segmentation>
@@ -327,7 +295,7 @@
     </teiHeader>
 
     <facsimile>
-        <surface n="1" xml:id="scan_p1"> <!--Inserisci anche pericopi-->
+        <surface n="1" xml:id="scan_p1"> <!--Inserisci anche zone per ogni pericope (guarda se riesci a fare bidirezionalità)-->
             <graphic url='prolusioni_3951.1-1.png' width='1383px' height='804px' />
             <zone ulx="475" uly="71" lrx="515" lry="107" rendition="hotspot" xml:id="facs_HandPageNumber-1" /> <!--Numero 1 sx cerchiato -->
             <zone ulx="880" uly="57" lrx="891" lry="75" rendition="hotspot" xml:id="facs_PrintPageNumber-2" /> <!--Numero 2 dx stampato -->
@@ -362,8 +330,8 @@
             <zone ulx="566" uly="698" lrx="902" lry="705" rendition="line" xml:id="facs_p1_lb22"/> <!--23esima riga-->
             <zone ulx="582" uly="723" lrx="906" lry="729" rendition="line" xml:id="facs_p1_lb23"/> <!--24esima riga-->
             <zone ulx="593" uly="742" lrx="884" lry="749" rendition="line" xml:id="facs_p1_lb24"/> <!--25esima riga-->
-            <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/> <!--TSVP-->
-            <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26"/> <!--parte sopra TSVP-->
+            <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/> <!--THVP-->
+            <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26"/> <!--parte sopra THVP-->
             <zone ulx="457" uly="198" lrx="547" lry="551" rendition="line" xml:id="facs_p1_lb27"/> <!--blocco da inserire a sinistra, grande-->
             <!--per pericopi divise in più pagine annida zone-->
         </surface>
@@ -371,19 +339,15 @@
     </facsimile>
 
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
-        <front>
-                <!--...-->
-        </front>
-
         <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
             <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                 <body xml:lang="fr" source="#Bouquet-Engler2002">
                     <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v = folio 1 verso-->
-                    <ab xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </ab> <!-- add, https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fw.html fw, -->
-                    <ab xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </ab> <!-- stamp -->
+                    <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </fw>
+                    <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                     <div xml:id="div_p1" hand="#h1">
                         <!--Inizio 1 pericope-->
-                        <ab xml:id="per_91Aaaa001" n="1" lang="FR" corresp="#it_91Aaaa001"> <!--facs della pericope (da fare)-->
+                        <ab xml:id="pericope_91Aaaa001" n="1" lang="FR" corresp="#it_91Aaaa001" facs=""> 
                             <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                             Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
                             <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
@@ -448,7 +412,7 @@
                             <add place="above">je ne pourrais me plaindre ici de l’abandon.</add>
                         </ab> <!--Fine 1 pericope-->
                         <!--Inizio 2 pericope-->        
-                        <ab xml:id="per_91Aaaa002"> 
+                        <ab xml:id="pericope_91Aaaa002" n="2"> 
                             <lb xml:id="lb32_p1" n="32" facs="#..."/>
                             <add place="left margin">Sans exalter 
                             <lb xml:id="lb33_p1" n="33" facs="#..."/>
@@ -482,12 +446,12 @@
                                 </body>    
                             </floatingText>
 
-                            <metamark>    <!--THVP-->
+                            <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto-->
                                 <abbr type="acronym">T<am>.</am>S<am>.</am>V<am>.</am>P<am>.</am></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
                             </metamark>
                         </ab>
                     </div>
-                    <pb n="2" xml:id="body_p2" facs="facs_p2"/> <!-- quale edizione ed=""? quella della source-->
+                    <pb n="2" xml:id="body_p2" facs="facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <lb xml:id="lb1_p2" n="1" facs="#..."/>
                         <!-- ... -->
@@ -501,7 +465,7 @@
         <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI DELLE 3 PROLUSIONI-->
             <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                 <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Aaaa001" corresp="#per_91Aaaa001" lang="IT">
+                    <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" lang="IT">
                         Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                         un ordine di studi nuovo nella nostra Università, se avessi oggi 
                         la missione o il privilegio d’introdurvi nell’edificio che la 
@@ -514,45 +478,49 @@
                         degnamente il mio compito, ma certamente non potrei lamentarmi qui 
                         dell’abbandono.
                     </ab>
-                    <ab xml:id="it_91Aaaa002" corresp="#per_91Aaaa002" lang="IT">
-                        ...traduzione seconda pericope...
+                    <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" lang="IT">
+                        Senza esaltare oltre misura i meriti della linguistica, qual è il 
+                        beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
+                        la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
+                        semplicemente letterario, e l’interesse che può avere il medesimo studio per 
+                        la storia o per la storia della civiltà?                    
                     </ab> 
-                    <ab xml:id="it_91Aaaa003" corresp="#per_91Aaaa003" lang="IT">
+                    <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" lang="IT">
                         ...traduzione terza pericope...
                     </ab> 
-                    <ab xml:id="it_91Aaaa004" corresp="#per_91Aaaa004" lang="IT">
+                    <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" lang="IT">
                         ...traduzione quarta pericope...
                     </ab>                                         
                 </body>
             </text>
             <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
                 <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Baaa001" corresp="#per_91Baaa001" lang="IT">
+                    <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" lang="IT">
                         ...
                     </ab>   
-                    <ab xml:id="it_91Baaa002" corresp="#per_91Baaa002" lang="IT">
+                    <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" lang="IT">
                         ...
                     </ab>
-                    <ab xml:id="it_91Baaa003" corresp="#per_91Baaa003" lang="IT">
+                    <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" lang="IT">
                         ...
                     </ab>   
-                    <ab xml:id="it_91Baaa004" corresp="#per_91Baaa004" lang="IT">
+                    <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" lang="IT">
                         ...
                     </ab>
                 </body>
             </text>
             <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
                 <body source="#Fadda2006" resp="#EF">
-                    <ab xml:id="it_91Caaa001" corresp="#per_91Caaa001" lang="IT">
+                    <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" lang="IT">
                         ...
                     </ab>   
-                    <ab xml:id="it_91Caaa002" corresp="#per_91Caaa002" lang="IT">
+                    <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" lang="IT">
                         ...
                     </ab>
-                    <ab xml:id="it_91Caaa003" corresp="#per_91Caaa003" lang="IT">
+                    <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" lang="IT">
                         ...
                     </ab>   
-                    <ab xml:id="it_91Caaa004" corresp="#per_91Caaa004" lang="IT">
+                    <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" lang="IT">
                         ...
                     </ab>
                 </body>
@@ -562,7 +530,7 @@
         <back>
             <div type="notes">
 <!--NOTE-->     <div type="ann_notes">
-<!--1-->            <note ana="1" xml:id="p1_note1" resp="#AC">
+<!--1-->            <note ana="1" xml:id="pag1_note1" resp="#AC">
                         <p>
                             Scilicet “Université de Genève”, it. “Università di Ginevra”
                         </p>
