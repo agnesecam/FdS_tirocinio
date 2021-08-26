@@ -202,10 +202,18 @@
                     <term resp="#AC"> fonetics </term>
                 </keywords>
             </textClass>
-
             <langUsage>
                 <language ident="fr">French</language>
             </langUsage>
+            <creation>
+                <listChange ordered="true">
+                    <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
+                    <change xml:id="CHG-2">
+                        Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
+                        Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
+                    </change>
+                </listChange>
+            </creation>
         </profileDesc>
     </teiHeader>
 
@@ -252,15 +260,15 @@
                             <lb xml:id="lb11_p1" n="11" facs="#..."/>
                             ne vivent et ne se modifient qu'au sein des mots. On n'a 
                             <lb xml:id="lb12_p1" n="12" facs="#..."/>
-                            pas prononcé s tout seul, et ensuite esprit rude. 
+                            pas prononcé s <choice><abbr>tt</abbr><expan>t<ex>ou</ex>t</expan></choice> seul, <del change="#CHG-2" rend="overstrike"><gap quanity="3" unit="words" reason="illegible"/></del> et ensuite esprit rude. 
                             <lb xml:id="lb13_p1" n="13" facs="#..."/>
-                            On a prononcé serpō, sedos, et ensuite herpō, hedos. 
+                            On a prononcé <hi rend="underline">serpō</hi>, <hi rend="underline">sedos</hi>, et ensuite <hi rend="underline">herpō</hi>, <hi rend="underline">hedos</hi>. 
                             <lb xml:id="lb14_p1" n="14" facs="#..."/>
-                            Et si je dis : herpō sort de serpō, je fais de la phonétique 
+                            Et si je dis : <hi rend="underline">herpō</hi> sort de <hi rend="underline">serpō</hi>, je <hi rend="underline">fais de la phonétique</hi> 
                             <lb xml:id="lb15_p1" n="15" facs="#..."/>
                             et rien d'autre. De même, si je dis que la première <choice><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
                             <lb xml:id="lb16_p1" n="16" facs="#..."/>
-                            en –ω ne peut pas venir d'une ancienne première personne en -ōmi.
+                            en <hi rend="underline">–ω</hi> ne peut pas venir d'une ancienne première personne en <hi rend="underline">-ōmi</hi>.
                             <lb xml:id="lb17_p1" n="17" facs="#..."/>
                             D'autre part, la <choice><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>), qui est censée ne s'oc-
                             <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
