@@ -290,12 +290,13 @@
                 <listChange ordered="true">
                     <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
                     <change xml:id="CHG-2">
-                        Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
-                        Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
+                        Second stage, written in ink by Ferdinand de Saussure during the flow of CHG-1, adding or deliting informations to the text he had written previously. 
+                        Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line
                     </change>
-                    <change xml:id="CHG-3">Bold text written on the left margin, replacing deletions on the main block</change>
-                    <change xml:id="CHG-4">Additions and erasures to the left margin text</change>
-                    <change xml:id="CHG-5">Thin light ink, 3 lines at the bottom of the page</change>
+                    <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not at the same time of the first stage</change>
+                    <change xml:id="CHG-4">Bold text written on the left margin, replacing deletions on the main block</change>
+                    <change xml:id="CHG-5">Additions and erasures to the left margin text</change>
+                    <change xml:id="CHG-6">Thin light ink, 3 lines at the bottom of the page</change>
                 </listChange>
             </creation>
         </profileDesc>
@@ -359,7 +360,7 @@
                             <!--Inizio 1 pericope-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001" facs=""> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
-                                Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment"> en ce 
+                                Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment" change="#CHG-1"> en ce 
                                 <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
                                 moment</add> l’honneur d’inaugurer représentait un ordre 
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
@@ -372,7 +373,7 @@
                                 <add change="#CHG-2" place="left margin">de vous</add> <add change="#CHG-2" place="above">introduire dans l’édifice</add> 
                                 <gap reason="irrilevant" extent="11 lines"/> 
                                 <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb7"/>
-                                <add change="#CHG-3" place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                <add change="#CHG-6" place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                 <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb8"/>
                                 <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
                                 <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb9"/>
@@ -388,7 +389,7 @@
                                 <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
                                 de cette science,
                                 <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
-                                <add change="#CHG-4" place="above">à parcourir </add> 
+                                <add change="#CHG-6" place="above">à parcourir </add> 
                                 son passé, qui 
                                 <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
                                 n’est pas très long, 
@@ -448,7 +449,7 @@
                                 <lb xml:id="lb43_p1" n="43" facs="#..."/>
                                 étude pour <del rend="overstrike">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire">histoire</term> ou pour 
                             
-                                <floatingText change="#CHG-5" rend="align(left)"> <!--Non leggo, chiedi-->
+                                <floatingText change="#CHG-6" rend="align(left)"> <!--Non leggo, chiedi-->
                                     <body>
                                         <l><gap reason="illegible" atLeast="2" atMost="3" unit="words"/></l>
                                         <l><gap reason="illegible" atLeast="1" atMost="1" unit="words"/></l>
