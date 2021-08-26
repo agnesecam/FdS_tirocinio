@@ -364,68 +364,70 @@
                                 <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
                                 moment</add> l’honneur d’inaugurer représentait un ordre 
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
-                                d’études <del change="#CHG-2" rend="overstrike"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-2" rend="overstrike"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
+                                d’études <del change="#CHG-3" rend="overstrike"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb4"/>
-                                dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-2" place="above">si j’avais</add><del change="#CHG-2" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                dans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb5"/>
-                                <add change="#CHG-2" place="left margin">aujourd’hui</add> <add change="#CHG-2" place="above">la mission ou le</add> privilège <del change="#CHG-2" rend="overstrike">de vous</del>
+                                <add change="#CHG-4" place="left margin">aujourd’hui</add><add change="#CHG-3" place="above">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike">de vous</del>
                                 <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb6"/>
-                                <add change="#CHG-2" place="left margin">de vous</add> <add change="#CHG-2" place="above">introduire dans l’édifice</add> 
+                                <add change="#CHG-3" place="left margin">de vous</add><add change="#CHG-3" place="above">introduire dans l’édifice</add> 
                                 <gap reason="irrilevant" extent="11 lines"/> 
                                 <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb7"/>
-                                <add change="#CHG-6" place="left margin">que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
-                                <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb8"/>
-                                <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
-                                <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb9"/>
-                                <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
-                                <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb10"/>
-                                à <del change="#CHG-2" rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
-                                <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb11"/>
-                                décrire 
-                                <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb12"/>
-                                <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
-                                <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb13"/>
-                                lignes l’état présent 
-                                <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
-                                de cette science,
-                                <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
-                                <add change="#CHG-6" place="above">à parcourir </add> 
-                                son passé, qui 
-                                <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
-                                n’est pas très long, 
-                                <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb17"/>
-                                ou à pronostiquer 
-                                <lb xml:id="lb19_p1" n="19" facs="#..."/>
-                                son avenir, 
-                                <lb xml:id="lb20_p1" n="20" facs="#..."/>
-                                à définir son 
-                                <lb xml:id="lb21_p1" n="21" facs="#..."/>
-                                but, son utilité,
-                                <lb xml:id="lb22_p1" n="22" facs="#..."/>
-                                à marquer la 
-                                <lb xml:id="lb23_p1" n="23" facs="#..."/>
-                                place qu’elle 
-                                <lb xml:id="lb24_p1" n="24" facs="#..."/>
-                                occupe dans le 
-                                <lb xml:id="lb25_p1" n="25" facs="#..."/>
-                                cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
-                                <lb xml:id="lb26_p1" n="26" facs="#..."/>
-                                humaines et les 
-                                <lb xml:id="lb27_p1" n="27" facs="#..."/>
-                                services qu’elle peut 
-                                <lb xml:id="lb28_p1" n="28" facs="#..."/>
-                                rendre dans une</add> 
+                                <add change="#CHG-4" place="left margin">
+        <!--Margine sx-->           que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb8"/>
+                                    <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                                    <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb9"/>
+                                    <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
+                                    <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb10"/>
+                                    à <del change="#CHG-5" rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
+                                    <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb11"/>
+                                    décrire 
+                                    <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb12"/>
+                                    <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
+                                    <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb13"/>
+                                    lignes l’état présent 
+                                    <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
+                                    de cette science,
+                                    <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
+                                    <add change="#CHG-5" place="above">à parcourir </add> 
+                                    son passé, qui 
+                                    <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
+                                    n’est pas très long, 
+                                    <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb17"/>
+                                    ou à pronostiquer 
+                                    <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                                    son avenir, 
+                                    <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                                    à définir son 
+                                    <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                                    but, son utilité,
+                                    <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                                    à marquer la 
+                                    <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                                    place qu’elle 
+                                    <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                                    occupe dans le 
+                                    <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                                    cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
+                                    <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                                    humaines et les 
+                                    <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                                    services qu’elle peut 
+                                    <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                                    rendre dans une
+                                </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#..."/>
-                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan spanTo="delSpan1" rend="overstrike"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                                <add change="#CHG-2" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
+                                <add change="#CHG-3" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#..."/>
-                                <add change="#CHG-2" place="above">je ne pourrais me plaindre ici de l’abandon.</add>
+                                <add change="#chg-3" place="above">je ne pourrais me plaindre ici de l’abandon.</add>
                             </ab> <!--Fine 1 pericope-->
                             <!--Inizio 2 pericope-->        
                             <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs=""> 
                                 <lb xml:id="lb32_p1" n="32" facs="#..."/>
-                                <add change="#CHG-2" place="left margin">Sans exalter 
+                                <add change="#CHG-3" place="left margin">Sans exalter 
                                 <lb xml:id="lb33_p1" n="33" facs="#..."/>
                                 outre mesure 
                                 <lb xml:id="lb34_p1" n="34" facs="#..."/>
