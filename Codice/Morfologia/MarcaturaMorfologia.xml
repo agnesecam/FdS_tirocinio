@@ -219,7 +219,7 @@
 
     <facsimile>
         <surface n="1" xml:id="scan_p1">
-            <graphic url='morfologia_3951.7-1' width='1383px' height='804px' />
+            <graphic url='morfologia_3951.7-1' width='3865' height='5982' />
             <zone ulx="" uly="" lrx="" lry="" rendition="" xml:id="ID"/>
             <!-- altre zone per altri hotspot e righe -->
         </surface>
