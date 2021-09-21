@@ -245,17 +245,19 @@
             <zone ulx="3239" uly="2440" lrx="3590" lry="2547" xml:id="facs_-omi-r16"/>        <!--parola "-omi." 16a riga-->
             <zone ulx="1892" uly="2653" lrx="2379" lry="2739" xml:id="facs_morphol.-r17"/>    <!--parola "morphol." 17a riga-->
             <zone ulx="782" uly="2976" lrx="1003" lry="3062" xml:id="facs_ex.-r19"/>          <!--parola "ex." 19a riga-->
-            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" xml:id="facs_qd.-r19"/>         <!--parola "qd." 19a riga-->
+            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" xml:id="facs_qd.-r19"/>         <!--parola "q.d." 19a riga-->
             <zone ulx="1830" uly="2954" lrx="1927" lry="3030" xml:id="facs_o-r19"/>           <!--parola "-o" 19a riga-->
             <zone ulx="617" uly="3267" lrx="835" lry="3360" xml:id="facs_morph.-r21"/>        <!--parola "morph." 21a riga-->
             <zone ulx="1199" uly="3389" lrx="1695" lry="3498" xml:id="facs_delaphonet.-r22"/> <!--parole "delagen." 22a riga-->
             <zone ulx="1427" uly="3373" lrx="1761" lry="3511" xml:id="facs_phonet.-r22"/>     <!--parola "genet." 22a riga-->
             <zone ulx="1159" uly="3687" lrx="1223" lry="3762" xml:id="facs_+-r24"/>           <!--parola "+" 24a riga-->
-            <zone ulx="897" uly="4157" lrx="1063" lry="4251" xml:id="facs_qf-r27"/>           <!--parola "qf" 27a riga-->
+            <zone ulx="897" uly="4157" lrx="1063" lry="4251" xml:id="facs_qf-r27"/>           <!--parola "q..f" 27a riga-->
             <zone ulx="1894" uly="4275" lrx="2035" lry="4378" xml:id="facs_et.-r28"/>         <!--parola "et." 27a riga-->
-
-
-
+            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" xml:id="facs_dem.-r30"/>        <!--parola "dem." 28a riga-->
+            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" xml:id="facs_pr-r31"/>          <!--parola "p.r." 31a riga-->
+            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" xml:id="facs_phonetiq.-r34"/>   <!--parola "phonetiq." 34a riga-->
+            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" xml:id="facs_1-r35"/>
+                                                                                                <!--fine prima pagina e fine 11a pericope-->
             <!-- altre zone per altri hotspot e righe -->
         </surface>
         <!-- altre surface per le pagine -->
@@ -331,31 +333,39 @@
                             <lb xml:id="lb29_p1" n="29" facs="#..."/>
                             qu'on obtient une ligne de démarcation satisfaisante.
                             <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                            Mais cette ligne de <choice><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice> est impérieusement 
+                            Mais cette ligne de <choice facs="#facs_dem.-30"><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice> est impérieusement 
                             <lb xml:id="lb31_p1" n="31" facs="#..."/>
-                            nécessaire <choice><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
+                            nécessaire <choice facs="#facs_pr-r31"><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
                             <lb xml:id="lb32_p1" n="32" facs="#..."/>
                             Principe de direction : 
                             <lb xml:id="lb33_p1" n="33" facs="#..."/>
                             Toutes les fois qu'on considère une même forme à 
                             <lb xml:id="lb34_p1" n="34" facs="#..."/>
-                            des dates diverses, c'est faire de la <choice><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
+                            des dates diverses, c'est faire de la <choice facs="#facs_phonetiq.-r34"><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice>, - et toutes 
                             <lb xml:id="lb35_p1" n="35" facs="#..."/>
-                            les fois qu'on considère des formes diverses à <num type="cardinal" value="1">1</num> même 
+                            les fois qu'on considère des formes diverses à <num type="cardinal" value="1" facs="#facs_1-r35">1</num> même 
                             <lb xml:id="lb36_p1" n="36" facs="#..."/>
                             date, on fait de la morphologie.
-                        </ab> <!--Fine 11 pericope-->
-                        <!--Inizio 12 pericope-->
-                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="">
-                            ...
                         </ab>
+                        <!--Fine pericope 11-->
                     </div>
-                    <pb n="2" xml:id="body_p2" facs="facs_p2"/>
-                        <div xml:id="div_p2" hand="#h1">
+                    <!--Fine pagina 1-->
+                    <!--Inizio pagina 2-->
+                    <pb n="f1r" xml:id="body_p2" facs="facs_p2"/>
+                    <div xml:id="div_p2" hand="#h1">
+                        <!--Inizio pericope 12-->
+                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#Pericope12">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                            <!-- ... -->
-                        </div>
+                        <!-- ... -->
+                        </ab>
+                        <!--Fine pericope 12-->
                     </div>
+                    <!--Fine pagina 2-->
+                    <!-- 
+                        //APPUNTI La pericope 12 dura poco, subito dopo c'è la 13 nella stessa pagina.
+                        //APPUNTI La 12 è 2. Cela ne dit pas encore en quoi consiste exactement la morphologie ...
+                        //APPUNTI La 13 è 3. Tout rapprochement de formes ayant quelque chose de commun conduit à l'analyse ...
+                    -->
                 </body>
             </text>
             <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE MORFOLOGIA-->
