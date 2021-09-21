@@ -244,7 +244,6 @@
             <zone ulx="913" uly="2501" lrx="1076" lry="2574" xml:id="facs_-w-r16"/>           <!--parola "-w." 16a riga-->  
             <zone ulx="3239" uly="2440" lrx="3590" lry="2547" xml:id="facs_-omi-r16"/>        <!--parola "-omi." 16a riga-->
             <zone ulx="1892" uly="2653" lrx="2379" lry="2739" xml:id="facs_morphol.-r17"/>    <!--parola "morphol." 17a riga-->
-            <zone ulx="2982" uly="2763" lrx="3223" lry="2858" xml:id="facs_sons.-r18"/>       <!--parola "sons." 18a riga-->
             <zone ulx="782" uly="2976" lrx="1003" lry="3062" xml:id="facs_ex.-r19"/>          <!--parola "ex." 19a riga-->
             <zone ulx="1054" uly="2982" lrx="1164" lry="3069" xml:id="facs_qd.-r19"/>         <!--parola "qd." 19a riga-->
             <zone ulx="1830" uly="2954" lrx="1927" lry="3030" xml:id="facs_o-r19"/>           <!--parola "-o" 19a riga-->
@@ -304,7 +303,7 @@
                             <lb xml:id="lb17_p1" n="17" facs="#..."/>
                             D'autre part, la <choice facs="#facs_morphol.-r17"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>, qui est censée ne s'oc-
                             <lb xml:id="lb18_p1" n="18" facs="#..." break="no" rend="stroke"/>
-                            cuper que des formes, s'occupe parfaitement des <choice facs=""><abbr>sons.</abbr><expan>//UGLY/sons<ex>...</ex></expan></choice> Par 
+                            cuper que des formes, s'occupe parfaitement des sons. Par 
                             <lb xml:id="lb19_p1" n="19" facs="#..."/> 
                             <choice facs="#facs_ex.-r19"><bbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice></hi> je dis que l'<hi rend="underline" facs="#facs_o-r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#..."/>
