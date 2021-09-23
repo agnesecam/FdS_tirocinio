@@ -220,6 +220,9 @@
     <facsimile> 
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>
+
+            <zone ulx="473" uly="526" lrx="3502" lry="5536" xml:id="facs_p1r1"/>              <!--Area pericope 1-->
+
             <zone ulx="472" uly="528" lrx="598" lry="647" xml:id="facs_HandParagNumber-1"/>   <!--Numero a mano 1a pericope-->
             <zone ulx="646" uly="539" lrx="3578" lry="656" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
             <zone ulx="617" uly="711" lrx="2998" lry="783" xml:id="facs_p1r2"/>               <!--Riga 2 della pagina 1-->
@@ -305,7 +308,7 @@
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
                     <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v=folio 1 verso-->
-                    <ab>
+                    <ab facs="#facs_pericope1">
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="facs_HandParagNumber-1"> 1. </fw>
                     </ab>
