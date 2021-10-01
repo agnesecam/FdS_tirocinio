@@ -219,9 +219,9 @@
     
     <facsimile> 
         <surface n="1" xml:id="scan_p1">
-            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>
+            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
 
-            <zone ulx="473" uly="526" lrx="3502" lry="5536" xml:id="facs_p1r1"/>              <!--Area pericope 1-->
+            <zone ulx="219" uly="507" lrx="3556" lry="5525" xml:id="facs_Pericope11"/>        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
 
             <zone ulx="472" uly="528" lrx="598" lry="647" xml:id="facs_HandParagNumber-1"/>   <!--Numero a mano 1a pericope-->
             <zone ulx="646" uly="539" lrx="3578" lry="656" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
@@ -261,7 +261,6 @@
             <zone ulx="962" uly="5259" lrx="3458" lry="5358" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
             <zone ulx="946" uly="5401" lrx="2549" lry="5528" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
 
-            <zone ulx="219" uly="507" lrx="3556" lry="5525" xml:id="facs_Pericope11"/>        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
             <zone ulx="3294" uly="317" lrx="3594" lry="472" xml:id="facs_HandPageNumber-1"/>  <!--Numero 1 scritto a mano in alto a dx-->
             <zone ulx="778" uly="581" lrx="1202" lry="656" xml:id="facs_morphol.-r1"/>        <!--parola "morph." nella 1a riga-->
             <zone ulx="2863" uly="530" lrx="3193" lry="619" xml:id="facs_langage-r1" />       <!--parola "langage" nella 1a riga-->
@@ -308,7 +307,7 @@
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
                     <pb n="f1v" xml:id="body_p1" facs="facs_p1"/> <!-- f1v=folio 1 verso-->
-                    <ab facs="#facs_pericope1">
+                    <ab facs="#facs_pericope11">
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="facs_HandParagNumber-1"> 1. </fw>
                     </ab>
@@ -395,7 +394,7 @@
                     <pb n="f1r" xml:id="body_p2" facs="facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Inizio pericope 12-->
-                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#Pericope12">
+                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#Pericope12" facs="#facs_pericope12">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
                         <!-- ... -->
                         </ab>
