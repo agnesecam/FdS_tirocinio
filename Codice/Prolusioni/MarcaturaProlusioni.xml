@@ -341,7 +341,7 @@
             <zone points = ' 290,3886 295,3978 843,3727 817,3683 ' rendition="line" xml:id="facs_p1_lb26"/>         <!--26a riga, humaines et les-->
             <zone points = ' 324,4001 331,4080 955,3776 899,3725 ' rendition="line" xml:id="facs_p1_lb27"/>         <!--27a riga, services qu’elle peut -->
             <zone points = ' 362,4085 371,4143 988,3803 965,3783 ' rendition="line" xml:id="facs_p1_lb28"/>         <!--28a riga, rendre dans une-->
-            
+            //FINISCI crea TUTTI I FACS DELLE RIGHE DA Faculté des lettres FINO A FINE PAGINA
             
             
             <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/>                  <!--THVP-->
@@ -374,9 +374,9 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002">
-                        <pb n="f1r" xml:id="body_p1" facs="facs_p1"/> <!-- f1r = folio 1 recto -->
+                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- f1r = folio 1 recto -->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="facs_HandPageNumber-1"> 1 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                         </ab>
                         <div xml:id="div_p1" hand="#h1">
@@ -412,35 +412,36 @@
                                     <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
                                     <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb14"/>
                                     lignes l’état présent 
-                                    <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb14"/>
+                                    <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb15"/>
                                     de cette science,
-                                    <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb15"/>
+                                    <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb16"/>
                                     <add change="#CHG-5" place="above">à parcourir </add> son passé, qui 
-                                    <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb16"/>
+                                    <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb17"/>
                                     n’est pas très long, 
-                                    <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb17"/>
+                                    <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb18"/>
                                     ou à pronostiquer 
-                                    <lb xml:id="lb19_p1" n="19" facs="#..."/>
+                                    <lb xml:id="lb19_p1" n="19" facs="#facs_p1_lb19"/>
                                     son avenir, 
-                                    <lb xml:id="lb20_p1" n="20" facs="#..."/>
+                                    <lb xml:id="lb20_p1" n="20" facs="#facs_p1_lb20"/>
                                     à définir son 
-                                    <lb xml:id="lb21_p1" n="21" facs="#..."/>
+                                    <lb xml:id="lb21_p1" n="21" facs="#facs_p1_lb21"/>
                                     but, son utilité,
-                                    <lb xml:id="lb22_p1" n="22" facs="#..."/>
+                                    <lb xml:id="lb22_p1" n="22" facs="#facs_p1_lb22"/>
                                     à marquer la 
-                                    <lb xml:id="lb23_p1" n="23" facs="#..."/>
+                                    <lb xml:id="lb23_p1" n="23" facs="#facs_p1_lb23"/>
                                     place qu’elle 
-                                    <lb xml:id="lb24_p1" n="24" facs="#..."/>
+                                    <lb xml:id="lb24_p1" n="24" facs="#facs_p1_lb24"/>
                                     occupe dans le 
-                                    <lb xml:id="lb25_p1" n="25" facs="#..."/>
+                                    <lb xml:id="lb25_p1" n="25" facs="#facs_p1_lb25"/>
                                     cercle des <choice><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
-                                    <lb xml:id="lb26_p1" n="26" facs="#..."/>
+                                    <lb xml:id="lb26_p1" n="26" facs="#facs_p1_lb26"/>
                                     humaines et les 
-                                    <lb xml:id="lb27_p1" n="27" facs="#..."/>
+                                    <lb xml:id="lb27_p1" n="27" facs="#facs_p1_lb27"/>
                                     services qu’elle peut 
-                                    <lb xml:id="lb28_p1" n="28" facs="#..."/>
+                                    <lb xml:id="lb28_p1" n="28" facs="#facs_p1_lb28"/>
                                     rendre dans une
                                 </add> 
+                                //FINISCI inserisci TUTTI I FACS DELLE RIGHE DA Faculté des lettres FINO A FINE PAGINA
                                 <lb xml:id="lb30_p1" n="29" facs="#..."/>
                                 <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#..."/>
@@ -488,7 +489,7 @@
                                 </metamark>
                             </ab>
                         </div>
-                        <pb n="2" xml:id="body_p2" facs="facs_p2"/>
+                        <pb n="2" xml:id="body_p2" facs="#facs_p2"/>
                         <div xml:id="div_p2" hand="#h1">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
                             <!-- ... -->
