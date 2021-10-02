@@ -341,7 +341,12 @@
             <zone points = ' 290,3886 295,3978 843,3727 817,3683 ' rendition="line" xml:id="facs_p1_lb26"/>         <!--26a riga, humaines et les-->
             <zone points = ' 324,4001 331,4080 955,3776 899,3725 ' rendition="line" xml:id="facs_p1_lb27"/>         <!--27a riga, services qu’elle peut -->
             <zone points = ' 362,4085 371,4143 988,3803 965,3783 ' rendition="line" xml:id="facs_p1_lb28"/>         <!--28a riga, rendre dans une-->
-            //FINISCI crea TUTTI I FACS DELLE RIGHE DA Faculté des lettres FINO A FINE PAGINA
+            <zone ulx="1003" uly="3548" lrx="3557" lry="3766" rendition="line" xml:id="facs_p1_lb29"/>              <!--29a riga, Faculté des lettres-->
+            <zone points = ' 1027,3978 1039,3870 3457,3782 3435,3860 ' rendition="line" xml:id="facs_p1_lb30"/>     <!--30a riga, cancellata e sopraelevata-->
+            <zone points = ' 1013,4158 1025,4030 3521,3844 3515,4014 ' rendition="line" xml:id="facs_p1_lb30"/>     <!--31a riga, cancellata e sopraelevata-->
+//FINISCI zone dalla seconda metà del foglio, con margine sinistro e tutto il resto pasticciato
+
+
             
             
             <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/>                  <!--THVP-->
@@ -356,9 +361,14 @@
             <zone ulx="427" uly="1467" lrx="886" lry="1580" rendition="hotspot" xml:id="facs_aujourdhui-p1r5"/>     <!--aggiunta sinistra parola aujourd'hui-->
             <zone ulx="1025" uly="1435" lrx="1513" lry="1529" rendition="hotspot" xml:id="facs_lamissionou-p1r5"/>  <!--aggiunta parole la mission ou riga 5-->
             <zone ulx="3251" uly="1451" lrx="3653" lry="1573" rendition="hotspot" xml:id="facs_del1-p1r5"/>         <!--cancellatura parola de vous fine riga 5-->
-            <zone ulx="595" uly="1629" lrx="925" lry="1721" rendition="hotspot" xml:id="facs_devous-p1r6"/>         <!--aggiutna de vous inizio riga 6-->
+            <zone ulx="595" uly="1629" lrx="925" lry="1721" rendition="hotspot" xml:id="facs_devous-p1r6"/>         <!--aggiunta de vous inizio riga 6-->
             <zone ulx="955" uly="1619" lrx="1771" lry="1707" rendition="hotspot" xml:id="facs_introd.-p1r6"/>       <!--aggiunta parole sopraelevate introduire dans l'édifice riga 6-->
-            <zone ulx="949" uly="1729" lrx="3663" lry="3521" rendition="hotspot" xml:id="facs_gapcentrale-p1"/>
+            <zone ulx="949" uly="1729" lrx="3663" lry="3521" rendition="hotspot" xml:id="facs_gapcentrale-p1"/>     <!--gap centrale pagina omesso nella traduzione-->
+            <zone points = ' 2083,3654 3571,3602 3537,4016 969,4146 1013,3894 2067,3780 2071,3684 ' rendition="hotspot" xml:id="facs_del1-p1r29"/>              <!--cancellatura 3 righe dopo Faculté des lettres riga 29-->
+            <zone ulx="2087" uly="3584" lrx="3509" lry="3614" rendition="hotspot" xml:id="facs_del1-p1r29"/>        <!--aggiunta sopraelevata parole dopo Faculté-->
+            <zone ulx="2243" uly="3694" lrx="3497" lry="3818" rendition="hotspot" xml:id="facs_del1-p1r30"/>        <!--aggiunta sopraelevata parole riga 30-->
+            <zone ulx="1901" uly="3866" lrx="3541" lry="4022" rendition="hotspot" xml:id="facs_del1-p1r31"/>        <!--aggiunta sopraelevata parole riga 31-->
+
 
 
 
@@ -441,14 +451,14 @@
                                     <lb xml:id="lb28_p1" n="28" facs="#facs_p1_lb28"/>
                                     rendre dans une
                                 </add> 
-                                //FINISCI inserisci TUTTI I FACS DELLE RIGHE DA Faculté des lettres FINO A FINE PAGINA
-                                <lb xml:id="lb30_p1" n="29" facs="#..."/>
-                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above">je craindrais de ne pas remplir très</add> 
-                                <lb xml:id="lb30_p1" n="30" facs="#..."/>
-                                <add change="#CHG-3" place="above">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
-                                <lb xml:id="lb31_p1" n="31" facs="#..."/>
+                                <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
+                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_del1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
+                                <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
+                                <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
                                 <add change="#chg-3" place="above">je ne pourrais me plaindre ici de l’abandon.</add>
                             </ab> <!--Fine 1 pericope-->
+                            //finisci facs e metti anche facs dei choice
                             <!--Inizio 2 pericope-->        
                             <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs="#facs_Pericope2"> 
                                 <lb xml:id="lb32_p1" n="32" facs="#..."/>
