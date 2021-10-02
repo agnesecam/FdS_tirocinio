@@ -217,7 +217,7 @@
         </profileDesc>
     </teiHeader>
     
-    <facsimile> //FAI rendition
+    <facsimile>
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
 
