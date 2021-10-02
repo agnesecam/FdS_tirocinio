@@ -221,82 +221,82 @@
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
 
-            <zone ulx="219" uly="507" lrx="3556" lry="5525" xml:id="facs_Pericope11"/>        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
+            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope11"/>        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
 
-            <zone ulx="472" uly="528" lrx="598" lry="647" xml:id="facs_HandParagNumber-1"/>   <!--Numero a mano 1a pericope-->
-            <zone ulx="646" uly="539" lrx="3578" lry="656" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
-            <zone ulx="617" uly="711" lrx="2998" lry="783" xml:id="facs_p1r2"/>               <!--Riga 2 della pagina 1-->
-            <zone ulx="761" uly="841" lrx="3610" lry="920" xml:id="facs_p1r3"/>               <!--Riga 3 della pagina 1-->
-            <zone ulx="564" uly="968" lrx="3602" lry="1045" xml:id="facs_p1r4"/>              <!--Riga 4 della pagina 1-->
-            <zone ulx="605" uly="1067" lrx="3605" lry="1170" xml:id="facs_p1r5"/>             <!--Riga 5 della pagina 1-->
-            <zone ulx="614" uly="1220" lrx="2107" lry="1256" xml:id="facs_p1r6"/>             <!--Riga 6 della pagina 1-->
-            <zone ulx="787" uly="1326" lrx="3590" lry="1371" xml:id="facs_p1r7"/>             <!--Riga 7 della pagina 1-->
-            <zone ulx="626" uly="1451" lrx="3598" lry="1487" xml:id="facs_p1r8"/>             <!--Riga 8 della pagina 1-->
-            <zone ulx="655" uly="1595" lrx="3598" lry="1628" xml:id="facs_p1r9"/>             <!--Riga 9 della pagina 1-->
-            <zone ulx="634" uly="1695" lrx="3557" lry="1753" xml:id="facs_p1r10"/>            <!--Riga 10 della pagina 1-->
-            <zone ulx="672" uly="1844" lrx="3506" lry="1875" xml:id="facs_p1r11"/>            <!--Riga 11 della pagina 1-->
-            <zone ulx="684" uly="1983" lrx="3540" lry="2007" xml:id="facs_p1r12"/>            <!--Riga 12 della pagina 1-->
-            <zone ulx="674" uly="2063" lrx="3571" lry="2183" xml:id="facs_p1r13"/>            <!--Riga 13 della pagina 1-->
-            <zone ulx="684" uly="2212" lrx="3545" lry="2315" xml:id="facs_p1r14"/>            <!--Riga 14 della pagina 1-->
-            <zone ulx="691" uly="2351" lrx="3554" lry="2454" xml:id="facs_p1r15"/>            <!--Riga 15 della pagina 1-->
-            <zone ulx="730" uly="2490" lrx="3547" lry="2598" xml:id="facs_p1r16"/>            <!--Riga 16 della pagina 1-->
-            <zone ulx="1013" uly="2663" lrx="3550" lry="2790" xml:id="facs_p1r17"/>           <!--Riga 17 della pagina 1-->
-            <zone ulx="943" uly="2811" lrx="3550" lry="2960" xml:id="facs_p1r18"/>            <!--Riga 18 della pagina 1-->
-            <zone ulx="818" uly="2970" lrx="3516" lry="3071" xml:id="facs_p1r19"/>            <!--Riga 19 della pagina 1-->
-            <zone ulx="802" uly="3092" lrx="3564" lry="3243" xml:id="facs_p1r20"/>            <!--Riga 20 della pagina 1-->
-            <zone ulx="250" uly="3270" lrx="3566" lry="3407" xml:id="facs_p1r21"/>            <!--Riga 21 della pagina 1-->
-            <zone ulx="864" uly="3363" lrx="3583" lry="3563" xml:id="facs_p1r22"/>            <!--Riga 22 della pagina 1-->
-            <zone ulx="866" uly="3503" lrx="3497" lry="3654" xml:id="facs_p1r23"/>            <!--Riga 23 della pagina 1-->
-            <zone ulx="866" uly="3618" lrx="3516" lry="3810" xml:id="facs_p1r24"/>            <!--Riga 24 della pagina 1-->
-            <zone ulx="835" uly="3812" lrx="3060" lry="3990" xml:id="facs_p1r25"/>            <!--Riga 25 della pagina 1-->
-            <zone ulx="1111" uly="3978" lrx="3554" lry="4146" xml:id="facs_p1r26"/>           <!--Riga 26 della pagina 1-->
-            <zone ulx="866" uly="4160" lrx="3331" lry="4311" xml:id="facs_p1r27"/>            <!--Riga 27 della pagina 1-->
-            <zone ulx="883" uly="4287" lrx="3430" lry="4417" xml:id="facs_p1r28"/>            <!--Riga 28 della pagina 1-->
-            <zone ulx="847" uly="4460" lrx="3622" lry="4494" xml:id="facs_p1r29"/>            <!--Riga 29 della pagina 1-->
-            <zone ulx="1126" uly="4549" lrx="3480" lry="4686" xml:id="facs_p1r30"/>           <!--Riga 30 della pagina 1-->
-            <zone ulx="905" uly="4712" lrx="3110" lry="4813" xml:id="facs_p1r31"/>            <!--Riga 31 della pagina 1-->
-            <zone ulx="1195" uly="4863" lrx="2282" lry="4971" xml:id="facs_p1r32"/>           <!--Riga 32 della pagina 1-->
-            <zone ulx="994" uly="5015" lrx="3439" lry="5087" xml:id="facs_p1r33"/>            <!--Riga 33 della pagina 1-->
-            <zone ulx="953" uly="5135" lrx="3521" lry="5233" xml:id="facs_p1r34"/>            <!--Riga 34 della pagina 1-->
-            <zone ulx="962" uly="5259" lrx="3458" lry="5358" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
-            <zone ulx="946" uly="5401" lrx="2549" lry="5528" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
+            <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>   <!--Numero a mano 1a pericope-->
+            <zone ulx="646" uly="539" lrx="3578" lry="656" rendition="line" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
+            <zone ulx="617" uly="711" lrx="2998" lry="783" rendition="line" xml:id="facs_p1r2"/>               <!--Riga 2 della pagina 1-->
+            <zone ulx="761" uly="841" lrx="3610" lry="920" rendition="line" xml:id="facs_p1r3"/>               <!--Riga 3 della pagina 1-->
+            <zone ulx="564" uly="968" lrx="3602" lry="1045" rendition="line" xml:id="facs_p1r4"/>              <!--Riga 4 della pagina 1-->
+            <zone ulx="605" uly="1067" lrx="3605" lry="1170" rendition="line" xml:id="facs_p1r5"/>             <!--Riga 5 della pagina 1-->
+            <zone ulx="614" uly="1220" lrx="2107" lry="1256" rendition="line" xml:id="facs_p1r6"/>             <!--Riga 6 della pagina 1-->
+            <zone ulx="787" uly="1326" lrx="3590" lry="1371" rendition="line" xml:id="facs_p1r7"/>             <!--Riga 7 della pagina 1-->
+            <zone ulx="626" uly="1451" lrx="3598" lry="1487" rendition="line" xml:id="facs_p1r8"/>             <!--Riga 8 della pagina 1-->
+            <zone ulx="655" uly="1595" lrx="3598" lry="1628" rendition="line" xml:id="facs_p1r9"/>             <!--Riga 9 della pagina 1-->
+            <zone ulx="634" uly="1695" lrx="3557" lry="1753" rendition="line" xml:id="facs_p1r10"/>            <!--Riga 10 della pagina 1-->
+            <zone ulx="672" uly="1844" lrx="3506" lry="1875" rendition="line" xml:id="facs_p1r11"/>            <!--Riga 11 della pagina 1-->
+            <zone ulx="684" uly="1983" lrx="3540" lry="2007" rendition="line" xml:id="facs_p1r12"/>            <!--Riga 12 della pagina 1-->
+            <zone ulx="674" uly="2063" lrx="3571" lry="2183" rendition="line" xml:id="facs_p1r13"/>            <!--Riga 13 della pagina 1-->
+            <zone ulx="684" uly="2212" lrx="3545" lry="2315" rendition="line" xml:id="facs_p1r14"/>            <!--Riga 14 della pagina 1-->
+            <zone ulx="691" uly="2351" lrx="3554" lry="2454" rendition="line" xml:id="facs_p1r15"/>            <!--Riga 15 della pagina 1-->
+            <zone ulx="730" uly="2490" lrx="3547" lry="2598" rendition="line" xml:id="facs_p1r16"/>            <!--Riga 16 della pagina 1-->
+            <zone ulx="1013" uly="2663" lrx="3550" lry="2790" rendition="line" xml:id="facs_p1r17"/>           <!--Riga 17 della pagina 1-->
+            <zone ulx="943" uly="2811" lrx="3550" lry="2960" rendition="line" xml:id="facs_p1r18"/>            <!--Riga 18 della pagina 1-->
+            <zone ulx="818" uly="2970" lrx="3516" lry="3071" rendition="line" xml:id="facs_p1r19"/>            <!--Riga 19 della pagina 1-->
+            <zone ulx="802" uly="3092" lrx="3564" lry="3243" rendition="line" xml:id="facs_p1r20"/>            <!--Riga 20 della pagina 1-->
+            <zone ulx="250" uly="3270" lrx="3566" lry="3407" rendition="line" xml:id="facs_p1r21"/>            <!--Riga 21 della pagina 1-->
+            <zone ulx="864" uly="3363" lrx="3583" lry="3563" rendition="line" xml:id="facs_p1r22"/>            <!--Riga 22 della pagina 1-->
+            <zone ulx="866" uly="3503" lrx="3497" lry="3654" rendition="line" xml:id="facs_p1r23"/>            <!--Riga 23 della pagina 1-->
+            <zone ulx="866" uly="3618" lrx="3516" lry="3810" rendition="line" xml:id="facs_p1r24"/>            <!--Riga 24 della pagina 1-->
+            <zone ulx="835" uly="3812" lrx="3060" lry="3990" rendition="line" xml:id="facs_p1r25"/>            <!--Riga 25 della pagina 1-->
+            <zone ulx="1111" uly="3978" lrx="3554" lry="4146" rendition="line" xml:id="facs_p1r26"/>           <!--Riga 26 della pagina 1-->
+            <zone ulx="866" uly="4160" lrx="3331" lry="4311" rendition="line" xml:id="facs_p1r27"/>            <!--Riga 27 della pagina 1-->
+            <zone ulx="883" uly="4287" lrx="3430" lry="4417" rendition="line" xml:id="facs_p1r28"/>            <!--Riga 28 della pagina 1-->
+            <zone ulx="847" uly="4460" lrx="3622" lry="4494" rendition="line" xml:id="facs_p1r29"/>            <!--Riga 29 della pagina 1-->
+            <zone ulx="1126" uly="4549" lrx="3480" lry="4686" rendition="line" xml:id="facs_p1r30"/>           <!--Riga 30 della pagina 1-->
+            <zone ulx="905" uly="4712" lrx="3110" lry="4813" rendition="line" xml:id="facs_p1r31"/>            <!--Riga 31 della pagina 1-->
+            <zone ulx="1195" uly="4863" lrx="2282" lry="4971" rendition="line" xml:id="facs_p1r32"/>           <!--Riga 32 della pagina 1-->
+            <zone ulx="994" uly="5015" lrx="3439" lry="5087" rendition="line" xml:id="facs_p1r33"/>            <!--Riga 33 della pagina 1-->
+            <zone ulx="953" uly="5135" lrx="3521" lry="5233" rendition="line" xml:id="facs_p1r34"/>            <!--Riga 34 della pagina 1-->
+            <zone ulx="962" uly="5259" lrx="3458" lry="5358" rendition="line" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
+            <zone ulx="946" uly="5401" lrx="2549" lry="5528" rendition="line" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
 
-            <zone ulx="3294" uly="317" lrx="3594" lry="472" xml:id="facs_HandPageNumber-1"/>  <!--Numero 1 scritto a mano in alto a dx-->
-            <zone ulx="778" uly="581" lrx="1202" lry="656" xml:id="facs_morphol.-p1r1"/>        <!--parola "morph." nella 1a riga-->
-            <zone ulx="2863" uly="530" lrx="3193" lry="619" xml:id="facs_langage-p1r1" />       <!--parola "langage" nella 1a riga-->
-            <zone ulx="975" uly="696" lrx="1268" lry="805" xml:id="facs_phon.-p1r2"/>           <!--parola "phon." 2a riga-->
-            <zone ulx="2705" uly="662" lrx="2956" lry="779" xml:id="facs_lang.-p1r2"/>          <!--parola "lang." 3a riga-->
-            <zone ulx="2796" uly="786" lrx="3108" lry="907" xml:id="facs_defin.-p1r3"/>         <!--parola "defin." 3a riga-->
-            <zone ulx="3398" uly="805" lrx="3601" lry="925" xml:id="facs_seul.-p1r3"/>          <!--parola "seul." 3a riga-->
-            <zone ulx="3364" uly="1037" lrx="3604" lry="1171" xml:id="facs_morph.-p1r5"/>       <!--parola "morph." 5a riga-->
-            <zone ulx="996" uly="1165" lrx="1286" lry="1278" xml:id="facs_phon.-p1r6"/>         <!--parola "phon." 6a riga-->
-            <zone ulx="2223" uly="1262" lrx="2508" lry="1387" xml:id="facs_phon.-p1r7"/>        <!--parola "phon." 7a riga-->
-            <zone ulx="1490" uly="1928" lrx="1610" lry="2034" xml:id="facs_tt-p1r12"/>          <!--parola "tt." 12a riga-->
-            <zone ulx="1954" uly="1924" lrx="2405" lry="2005" xml:id="facs_del-p1r12"/>         <!--parola "del." 12a riga-->
-            <zone ulx="1470" uly="2087" lrx="1799" lry="2155" xml:id="facs_serpo-p1r13"/>       <!--parola "serpo." 13a riga-->
-            <zone ulx="1889" uly="2069" lrx="2183" lry="2152" xml:id="facs_sedos-p1r13"/>       <!--parola "sedos" 13a riga-->
-            <zone ulx="2854" uly="2013" lrx="3153" lry="2109" xml:id="facs_herpo-p1r13"/>       <!--parola "herpo" 13a riga-->
-            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" xml:id="#facs_hedos-p1r13"/>      <!--parola "hedos" 13a riga-->
-            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" xml:id="#facs_herpo-p1r14"/>      <!--parola "herpo" 13a riga-->
-            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" xml:id="#facs_serpo-p1r14"/>      <!--parola "serpo" 14a riga-->
-            <zone ulx="2603" uly="2170" lrx="3502" lry="2263" xml:id="facs_faisdelaphon.-p1r14"/>   <!--parole "fais de la phonetique" 14a riga-->
-            <zone ulx="2843" uly="2306" lrx="3127" lry="2408" xml:id="facs_pers.-p1r15"/>       <!--parola "pers." 15a riga-->
-            <zone ulx="913" uly="2501" lrx="1076" lry="2574" xml:id="facs_-w-p1r16"/>           <!--parola "-w." 16a riga-->  
-            <zone ulx="3239" uly="2440" lrx="3590" lry="2547" xml:id="facs_-omi-p1r16"/>        <!--parola "-omi." 16a riga-->
-            <zone ulx="1892" uly="2653" lrx="2379" lry="2739" xml:id="facs_morphol.-p1r17"/>    <!--parola "morphol." 17a riga-->
-            <zone ulx="782" uly="2976" lrx="1003" lry="3062" xml:id="facs_ex.-p1r19"/>          <!--parola "ex." 19a riga-->
-            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" xml:id="facs_qd.-p1r19"/>         <!--parola "q.d." 19a riga-->
-            <zone ulx="1830" uly="2954" lrx="1927" lry="3030" xml:id="facs_o-p1r19"/>           <!--parola "-o" 19a riga-->
-            <zone ulx="617" uly="3267" lrx="835" lry="3360" xml:id="facs_morph.-p1r21"/>        <!--parola "morph." 21a riga-->
-            <zone ulx="1199" uly="3389" lrx="1695" lry="3498" xml:id="facs_delaphonet.-p1r22"/> <!--parole "delagen." 22a riga-->
-            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" xml:id="facs_phonet.-p1r22"/>     <!--parola "genet." 22a riga-->
-            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" xml:id="facs_+-p1r24"/>           <!--parola "+" 24a riga-->
-            <zone ulx="897" uly="4157" lrx="1063" lry="4251" xml:id="facs_qf-p1r27"/>           <!--parola "q..f" 27a riga-->
-            <zone ulx="1894" uly="4275" lrx="2035" lry="4378" xml:id="facs_et.-p1r28"/>         <!--parola "et." 27a riga-->
-            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" xml:id="facs_dem.-p1r30"/>        <!--parola "dem." 28a riga-->
-            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" xml:id="facs_pr-p1r31"/>          <!--parola "p.r." 31a riga-->
-            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" xml:id="facs_phonetiq.-p1r34"/>   <!--parola "phonetiq." 34a riga-->
-            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" xml:id="facs_1-p1r35"/>           <!--parola "1" 35a riga-->
+            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>  <!--Numero 1 scritto a mano in alto a dx-->
+            <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>        <!--parola "morph." nella 1a riga-->
+            <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />       <!--parola "langage" nella 1a riga-->
+            <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>           <!--parola "phon." 2a riga-->
+            <zone ulx="2705" uly="662" lrx="2956" lry="779" rendition="hotspot" xml:id="facs_lang.-p1r2"/>          <!--parola "lang." 3a riga-->
+            <zone ulx="2796" uly="786" lrx="3108" lry="907" rendition="hotspot" xml:id="facs_defin.-p1r3"/>         <!--parola "defin." 3a riga-->
+            <zone ulx="3398" uly="805" lrx="3601" lry="925" rendition="hotspot" xml:id="facs_seul.-p1r3"/>          <!--parola "seul." 3a riga-->
+            <zone ulx="3364" uly="1037" lrx="3604" lry="1171" rendition="hotspot" xml:id="facs_morph.-p1r5"/>       <!--parola "morph." 5a riga-->
+            <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>         <!--parola "phon." 6a riga-->
+            <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>        <!--parola "phon." 7a riga-->
+            <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>          <!--parola "tt." 12a riga-->
+            <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>         <!--parola "del." 12a riga-->
+            <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>       <!--parola "serpo." 13a riga-->
+            <zone ulx="1889" uly="2069" lrx="2183" lry="2152" rendition="hotspot" xml:id="facs_sedos-p1r13"/>       <!--parola "sedos" 13a riga-->
+            <zone ulx="2854" uly="2013" lrx="3153" lry="2109" rendition="hotspot" xml:id="facs_herpo-p1r13"/>       <!--parola "herpo" 13a riga-->
+            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="#facs_hedos-p1r13"/>      <!--parola "hedos" 13a riga-->
+            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="#facs_herpo-p1r14"/>      <!--parola "herpo" 13a riga-->
+            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="#facs_serpo-p1r14"/>      <!--parola "serpo" 14a riga-->
+            <zone ulx="2603" uly="2170" lrx="3502" lry="2263" rendition="hotspot" xml:id="facs_faisdelaphon.-p1r14"/>   <!--parole "fais de la phonetique" 14a riga-->
+            <zone ulx="2843" uly="2306" lrx="3127" lry="2408" rendition="hotspot" xml:id="facs_pers.-p1r15"/>       <!--parola "pers." 15a riga-->
+            <zone ulx="913" uly="2501" lrx="1076" lry="2574" rendition="hotspot" xml:id="facs_-w-p1r16"/>           <!--parola "-w." 16a riga-->  
+            <zone ulx="3239" uly="2440" lrx="3590" lry="2547" rendition="hotspot" xml:id="facs_-omi-p1r16"/>        <!--parola "-omi." 16a riga-->
+            <zone ulx="1892" uly="2653" lrx="2379" lry="2739" rendition="hotspot" xml:id="facs_morphol.-p1r17"/>    <!--parola "morphol." 17a riga-->
+            <zone ulx="782" uly="2976" lrx="1003" lry="3062" rendition="hotspot" xml:id="facs_ex.-p1r19"/>          <!--parola "ex." 19a riga-->
+            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>         <!--parola "q.d." 19a riga-->
+            <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>           <!--parola "-o" 19a riga-->
+            <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>        <!--parola "morph." 21a riga-->
+            <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/> <!--parole "delagen." 22a riga-->
+            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>     <!--parola "genet." 22a riga-->
+            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_+-p1r24"/>           <!--parola "+" 24a riga-->
+            <zone ulx="897" uly="4157" lrx="1063" lry="4251" rendition="hotspot" xml:id="facs_qf-p1r27"/>           <!--parola "q..f" 27a riga-->
+            <zone ulx="1894" uly="4275" lrx="2035" lry="4378" rendition="hotspot" xml:id="facs_et.-p1r28"/>         <!--parola "et." 27a riga-->
+            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" rendition="hotspot" xml:id="facs_dem.-p1r30"/>        <!--parola "dem." 28a riga-->
+            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" rendition="hotspot" xml:id="facs_pr-p1r31"/>          <!--parola "p.r." 31a riga-->
+            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>   <!--parola "phonetiq." 34a riga-->
+            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>           <!--parola "1" 35a riga-->
                                                                                         <!--  fine prima pagina e fine 11a pericope-->
         </surface>
         <!-- altre surface per le pagine -->
