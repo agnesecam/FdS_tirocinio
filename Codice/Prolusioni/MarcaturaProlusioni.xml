@@ -471,14 +471,16 @@
                             
                             <!--Inizio 2 pericope-->        
                             <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs="#facs_Pericope2"> 
-                                <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
-                                <add change="#CHG-3" place="left margin">Sans exalter 
-                                <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
-                                outre mesure 
-                                <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                les mérites de la <term subtype="linguistics-term" ref="#linguistique">linguistique</term>,
-                                <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
-                                quel est le </add> 
+                                
+                                <add change="#CHG-3" place="left margin" >
+                                    <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
+                                    Sans exalter 
+                                    <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
+                                    outre mesure 
+                                    <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
+                                    les mérites de la <term subtype="linguistics-term" ref="#linguistique">linguistique</term>,
+                                    <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
+                                    quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
                                 profit <del rend="overstrike">de cette</del> par <choice><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
