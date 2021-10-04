@@ -360,7 +360,7 @@
             
             <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25"/>                  <!--THVP-->
             <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26"/>                  <!--parte sopra THVP-->
-            <zone ulx="457" uly="198" lrx="547" lry="551" rendition="line" xml:id="facs_p1_lb27"/>                  <!--blocco da inserire a sinistra, grande-->
+            
             <!--HOTSPOT-->
             <zone ulx="3079" uly="692" lrx="3466" lry="805" rendition="hotspot" xml:id="facs_ence-p1r1"/>           <!--inserimento "en ce." nella 1a riga-->
             <zone ulx="1430" uly="1045" lrx="1676" lry="1113" rendition="hotspot" xml:id="facs_del1-p1r3"/>         <!--cancellatura parola sopraelevata riga 3-->
@@ -372,12 +372,24 @@
             <zone ulx="3251" uly="1451" lrx="3653" lry="1573" rendition="hotspot" xml:id="facs_del1-p1r5"/>         <!--cancellatura parola de vous fine riga 5-->
             <zone ulx="595" uly="1629" lrx="925" lry="1721" rendition="hotspot" xml:id="facs_devous-p1r6"/>         <!--aggiunta de vous inizio riga 6-->
             <zone ulx="955" uly="1619" lrx="1771" lry="1707" rendition="hotspot" xml:id="facs_introd.-p1r6"/>       <!--aggiunta parole sopraelevate introduire dans l'édifice riga 6-->
+            <zone points = ' 239,1883 885,1841 987,3815 305,4237 ' rendition="hotspot" xml:id="facs_p1_leftblock1"/><!--blocco da inserire a sinistra, grande-->
+            <zone points = ' 367,2003 377,2109 543,2053 543,1959 851,1891 827,1835 591,1881 ' rendition="hotspot" xml:id="facs_scdulang-p1r7"/><!--parola "l.age", riga 7-->
+            <zone ulx="669" uly="1947" lrx="805" lry="1987" rendition="hotspot" xml:id="facs_occ-p1r7"/>            <!--parola "occ." riga 7-->
+            <zone ulx="505" uly="2043" lrx="659" lry="2123" rendition="hotspot" xml:id="facs_constr-p1r9"/>         <!--parola "constr" riga 9-->
+            <zone ulx="273" uly="2173" lrx="435" lry="2225" rendition="hotspot" xml:id="facs_illegible-p1r10"/>     <!--segno illeggibile riga 10 prima di 70 ans-->
+            <zone ulx="463" uly="2131" lrx="739" lry="2265" rendition="hotspot" xml:id="facs_70ans-p1r10"/>         <!--parola "70 ans", riga 10-->
+            <zone ulx="371" uly="2247" lrx="623" lry="2355" rendition="hotspot" xml:id="facs_del1-p1r11"/>          <!--cancellatura dopo à riga 11-->
+            <zone ulx="301" uly="2475" lrx="365" lry="2531" rendition="hotspot" xml:id="facs_ds-p1r13"/>            <!--abbreviazione ds riga 13-->
+            <zone ulx="253" uly="2741" lrx="443" lry="2829" rendition="hotspot" xml:id="facs_aparcourir-p1r16"/>          <!--aggiunta a parcourir riga 16-->
+
             <zone ulx="949" uly="1729" lrx="3663" lry="3521" rendition="hotspot" xml:id="facs_gapcentrale-p1"/>     <!--gap centrale pagina omesso nella traduzione-->
             <zone points = ' 2083,3654 3571,3602 3537,4016 969,4146 1013,3894 2067,3780 2071,3684 ' rendition="hotspot" xml:id="facs_del1-p1r29"/>              <!--cancellatura 3 righe dopo Faculté des lettres riga 29-->
             <zone ulx="2087" uly="3584" lrx="3509" lry="3614" rendition="hotspot" xml:id="facs_del1-p1r29"/>        <!--aggiunta sopraelevata parole dopo Faculté-->
             <zone ulx="2243" uly="3694" lrx="3497" lry="3818" rendition="hotspot" xml:id="facs_del1-p1r30"/>        <!--aggiunta sopraelevata parole riga 30-->
             <zone ulx="1901" uly="3866" lrx="3541" lry="4022" rendition="hotspot" xml:id="facs_del1-p1r31"/>        <!--aggiunta sopraelevata parole riga 31-->
+            <zone points = ' 283,4299 749,4137 807,4347 979,4311 1005,4459 333,4687 ' rendition="hotspot" xml:id="facs_p1_leftblock2"/><!--aggiunta 4 righe margine sinistro, "Sans exalter outre.."-->
             <zone points = ' 326,5312 403,5463 936,5403 874,5286 ' rendition="hotspot" xml:id="facs_eutelle-p1r39"/><!--aggiunta margine sinistro in basso "eût-elle un but simplement"-->
+
 
 
 
@@ -415,27 +427,27 @@
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
                                 <add change="#CHG-3" place="left margin" facs="#facs_devous-p1r6">de vous</add><add change="#CHG-3" place="above" facs="#facs_introd.-p1r6">introduire dans l’édifice</add> 
                                 <gap reason="irrilevant" extent="11 lines" facs="#facs_gapcentrale-p1"/> 
-                                <add change="#CHG-4" place="left margin">
+                                <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
         <!--Margine sx-->           <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="#science-du-langage"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
-                                    <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
+                                    <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
-                                    à <choice><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                                    à <choice facs="#facs_constr-p1r9"><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
                                     <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb10"/>
-                                    <gap atLeast="3" atMost="5" unit="chars" reason="illegible"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
+                                    <gap atLeast="3l" atMost="5" unit="chars" reason="illegible" facs="#facs_illegible-p1r10"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70" facs="#">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
                                     <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb11"/>
-                                    à <del change="#CHG-5" rend="overstrike"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
+                                    à <del change="#CHG-5" rend="overstrike" facs="#facs_del1-p1r11"><gap atLeast="5" atMost="7" unit="chars" reason="illegible"/></del>
                                     <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb12"/>                                    
                                     décrire 
                                     <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb13"/>
-                                    <choice><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
+                                    <choice facs="#facs_ds-p1r13"><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
                                     <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb14"/>
                                     lignes l’état présent 
                                     <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb15"/>
                                     de cette science,
                                     <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb16"/>
-                                    <add change="#CHG-5" place="above">à parcourir </add> son passé, qui 
+                                    <add change="#CHG-5" place="above" facs="#facs_aparcourir-p1r16">à parcourir </add> son passé, qui 
                                     <lb xml:id="lb17_p1" n="17" facs="#facs_p1_lb17"/>
                                     n’est pas très long, 
                                     <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb18"/>
@@ -471,8 +483,7 @@
                             
                             <!--Inizio 2 pericope-->        
                             <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs="#facs_Pericope2"> 
-                                
-                                <add change="#CHG-3" place="left margin" >
+                                <add change="#CHG-3" place="left margin" facs="#facs_p1_leftblock2">
                                     <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
                                     Sans exalter 
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
