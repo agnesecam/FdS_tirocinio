@@ -167,7 +167,7 @@
                             <label>
                                 <idno type="ID-pericope">3293.11</idno>
                             </label>
-                            <item corresp="#pericope_3291.11" facs="">
+                            <item corresp="#pericope_3291.11" facs="facs_Pericope11">
                                 <!--Testo per. 11-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
@@ -181,7 +181,7 @@
                             <label>
                                 <idno type="ID-pericope" corresp="#pericope_3293.12">3293.12</idno>
                             </label>
-                            <item corresp="#pericope_3293.12" facs="">
+                            <item corresp="#pericope_3293.12" facs="facs_Pericope12">
                                 <!--Testo per. 2-->
                                 <seg>
                                         vieux-haut-allemand 	zug	zugi 
