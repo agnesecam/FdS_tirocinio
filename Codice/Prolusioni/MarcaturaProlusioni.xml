@@ -155,7 +155,7 @@
                                             <measure type="height" unit="mm" quantity="211">211 mm</measure>
                                             <measure type="widht" unit="mm" quantity="136">136 mm</measure>
                                     </measureGrp>
-                                    <dimensions unit="mm"><height>...</height><width>...</width></dimensions>
+                                    <dimensions unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, good conditions</condition>
@@ -200,7 +200,7 @@
                             <label>
                                 <idno type="ID-pericope">91Aaaa001</idno>
                             </label>
-                            <item corresp="#pericope_91Aaaa001" facs="">
+                            <item corresp="#pericope_91Aaaa001" facs="#facs_Pericope1">
                                 <!--Testo per. 1-->
                                 <seg>
                                     Si la chaire que j’ai en ce moment l’honneur [...]
@@ -216,7 +216,7 @@
                             <label>
                                 <idno type="ID-pericope">91Aaaa002</idno>
                             </label>
-                            <item corresp="#pericope_91Aaaa002" facs="">
+                            <item corresp="#pericope_91Aaaa002" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
                                 <seg>
                                     Sans exalter outre mesure les mérites [...]
