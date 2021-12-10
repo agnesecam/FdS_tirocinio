@@ -48,12 +48,12 @@
                 </respStmt>              
             </editionStmt>
 
-            //CORREGGI
             <publicationStmt>
 				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
-				<availability> <!-- ERRORE = element availability: validity error: Value "draft" for attribute status of availability is not among the enumerated set -->
-					<licence target="?"></licence>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
+                <date when="2021">2021</date>
 			</publicationStmt>
             
             <sourceDesc>
@@ -142,8 +142,8 @@
                         </msItem>                        
                     </msContents>                    
                     <physDesc>
-                        <objectDesc>
-                            <supportDesc>
+                        <objectDesc form="folio">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
                                     <material>Thin checkered paper.</material>
                                 </support>
@@ -158,11 +158,11 @@
                                     <dimensions unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
-                                <condition>Well preserved notebook, good conditions</condition>
+                                <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FDS">Ferdinand de Saussure</persName></handNote>
                             <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
@@ -844,8 +844,9 @@
                             <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
                         </label>
                         <item>
-                            <gloss xml:lang="it" target="#science-du-langage">
-                                The scientific study of language and its structure, including the study of grammar, syntax, and phonetics.
+                            <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> //CORREGGI Non so cosa mettere come "source"
+                                La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue (Engler 33). 
+                                (La linguistique) est une science sémiologique (Godel, 267)
                             </gloss>
                             <note>Periphrasis for linguistics</note>
                         </item>
@@ -854,9 +855,18 @@
                             <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
                         </label>
                         <item>
-                            <gloss xml:lang="fr" target="#langues">
-                                Langue and parole is a theoretical linguistic dichotomy distinguished by Ferdinand de Saussure in his Course in General Linguistics.
-                                The French term "langue" encompasses the abstract, systematic rules and conventions of a signifying system; it is independent of, and pre-exists, the individual user. It involves the principles of language, without which no meaningful utterance, or parole, would be possible.
+                            <gloss n="1" xml:lang="fr" target="#langues">
+                                Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
+                            </gloss>
+                            <gloss n="2" xml:lang="fr" target="#langues">
+                                instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
+                                le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
+                                des conventions nécessaires adoptées par le corps social pour permettre l&apos;usage de la faculté du 
+                                langage chez les individus. Institution unique en son genre, par les caractères qui font qu&apos;elle est 
+                                solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
+                                images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
+                                Système de valeurs. (Godel, 266)
+                                //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)
                             </gloss>
                         </item>
                     </list>
