@@ -181,7 +181,7 @@
         <encodingDesc>
             <classDecl><!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
-                    <category xml:id="linguistics">
+                    <category>
                         <catDesc> linguistics </catDesc>
                     </category>
                     <category xml:id="university">
@@ -683,7 +683,7 @@
                             <sex>M</sex>
                             <birth>
                                 <date when="1980-02-19">19 febbraio 1980</date>
-                                <placeName>
+                                <placeName ref="#BN">
                                     <settlement type="municipality">Benevento</settlement>
                                     <settlement type="provincia" key="BN">Benevento</settlement>
                                     <country key="IT">Italia</country>
@@ -691,7 +691,7 @@
                             </birth>
                         </person>
                         <!--Silvia Piccini-->
-                        <person>
+                        <person xml:id="SP">
                             <persName> 
                                 <forename>Silvia</forename>
                                 <surname>Piccini</surname>
@@ -699,15 +699,15 @@
                             <sex>F</sex>
                             <birth>
                                 <date when="1978-11-12">12 novembre 1978</date>
-                                <placeName>
-                                    <settlement type="municipality">Osimo</settlement>
+                                <placeName ref="#Osimo">
+                                    <settlement type="municipality" key="Osimo">Osimo</settlement>
                                     <settlement type="provincia" key="AN">Ancona</settlement>
                                     <country key="IT">Italia</country>
                                 </placeName>
                             </birth>
                         </person>
                         <!--Agnese Camici-->
-                        <person>
+                        <person xml:id="AG">
                             <persName> 
                                 <forename>Agnese</forename>
                                 <surname>Camici</surname>
@@ -821,15 +821,23 @@
                         </place>
                         <!--Cagliari-->
                         <place xml:id="CA">
-                            <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                            <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place>
+                        <!--Osimo (nascita SP)-->
+                        <place xml:id="Osimo">
+                            <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
+                            <contry key="IT">Italy</country>
+                            <note>...</note>
+                        </place> 
                         <listRelation>
                             <!--Luoghi vicini-->
                             <relation name="near" mutual="#P1l #Pl2"/>
                             <!--Luogo di nascita di una persona-->
-                            <relation name="birth_place" active="#Per1" passive="#Pl1"/>   
+                            <relation name="birth_place-Fds" active="#FdS" passive="#GE"/>              <!--Ferdinand de Saussure-->
+                            <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
+                            <relation name="birth_place-SP" active="#OS" passive="#SP"/>                 <!--Silvia Piccini-->
                             <!--Luogo di morte di una persona-->
                             <relation name="death_place" active="#Per1" passive="#Pl1"/>
                         </listRelation>
