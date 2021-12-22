@@ -813,6 +813,19 @@
                             <country key="CH">Switzerland</country>
                             <note>...</note>
                         </place>
+                        <!--Benevento-->
+                        <place xml:id="BN">
+                            <placeName ref="">Benevento</placeName>
+                            <country key="IT">Italy</country>
+                            <note>...</note>
+                        </place>
+                        <!--Piombino-->
+                        <place xml:id="Piombino">
+                            <placeName ref="">Piombino</placeName>
+                            <country key="IT">Italy</country>
+                            <note>...</note>
+                        </place>
+                        <!--Torino-->
                         <!--Cosenza-->
                         <place xml:id="CS">
                             <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
