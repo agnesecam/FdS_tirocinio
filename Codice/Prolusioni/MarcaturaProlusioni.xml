@@ -893,7 +893,7 @@
                                 Organe charnu, allongé et mobile, placé dans la bouche
                             </gloss>
                         </item>
-                        <!--Histoire--> //CONTROLLA il subtype
+                        <!--Histoire-->
                         <label>
                             <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
                         </label>
