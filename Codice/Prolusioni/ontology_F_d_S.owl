@@ -30058,7 +30058,7 @@ discours   hasSynonym  chaîne de la parole</Literal>
         <AnnotationProperty IRI="#Definition"/>
         <IRI>#impression_acoustique</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Image acoustique. Il ya au fond dans le mot : association entre impression acoustique et idée (Engler, 29). Désigne une fois le signifiant. En ce sens, remplacé dans le cours III par image malgré une double réserve sur ce dernier terme (Godel, 264)</Literal>
-    </AnnotationAssertion>
+    </AnnotationAssertion> <!--ciao-->
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Definition"/>
         <IRI>#improductif</IRI>
