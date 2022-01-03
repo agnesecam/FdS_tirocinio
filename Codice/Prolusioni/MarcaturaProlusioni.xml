@@ -486,7 +486,7 @@
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
                                     outre mesure 
                                     <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                    les mérites de la <term subtype="linguistics-term" ref="#linguistique" facs="#facs_linguistique-p1r34">linguistique</term>,
+                                    les mérites de la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_linguistique-p1r34">linguistique</term>,
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
@@ -895,7 +895,7 @@
                                 Organe charnu, allongé et mobile, placé dans la bouche
                             </gloss>
                         </item>
-                        
+
                         <!-- HISTOIRE -->
                         <label>
                             <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
