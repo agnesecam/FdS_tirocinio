@@ -859,8 +859,9 @@
 
                 <!-- ListTerm -->
                 <div>
-                    <list type="terminology">                  
-                        <!-- Science du langage = linguistics -->
+                    <list type="terminology">      
+
+                        <!-- SCIENCE DU LANGAGE = linguistics -->
                         <label>
                             <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
                         </label>
@@ -871,15 +872,16 @@
                             </gloss>
                             <note>Periphrasis for linguistics</note>
                         </item>
-                        <!--Langues-->
+
+                        <!-- LANGUES -->
                         <label>
                             <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
                         </label>
                         <item>
-                            <gloss n="1" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#linguistique">
+                            <gloss n="1" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue1">
                                 Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
                             </gloss>
-                            <gloss n="2" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#linguistique">
+                            <gloss n="2" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue2">
                                 instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
                                 le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
                                 des conventions nécessaires adoptées par le corps social pour permettre l&apos;usage de la faculté du 
@@ -889,16 +891,17 @@
                                 Système de valeurs. (Godel, 266)
                                 //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)
                             </gloss>
-                            <gloss n="3" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#linguistique">
+                            <gloss n="3" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue3">
                                 Organe charnu, allongé et mobile, placé dans la bouche
                             </gloss>
                         </item>
-                        <!--Histoire-->
+                        
+                        <!-- HISTOIRE -->
                         <label>
                             <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
                         </label>
                         <item>
-                            <gloss n="1" xml:lang="fr" target="#histoire" source="ontology_F_d_S.owl#linguistique">
+                            <gloss n="1" xml:lang="fr" target="#histoire" source="ontology_F_d_S.owl#">
                                 En linguistique interne : diachronie, linguistique évolutive (Engler, 27)
                             </gloss>
                         </item>
