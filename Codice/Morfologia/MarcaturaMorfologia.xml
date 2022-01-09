@@ -53,9 +53,10 @@
             //CORREGGI
             <publicationStmt>
 				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
-				<availability> <!-- ERRORE = element availability: validity error : Value "draft" for attribute status of availability is not among the enumerated set -->
-					<licence target="?"></licence>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
+                <date when="2021">2021</date>
 			</publicationStmt>
             
             <sourceDesc>
