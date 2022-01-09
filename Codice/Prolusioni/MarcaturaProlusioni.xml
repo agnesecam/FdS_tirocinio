@@ -44,7 +44,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Translation by</resp>
-                    <name ref="EF">Emanuele Fadda</name>
+                    <name ref="#EF">Emanuele Fadda</name>
                 </respStmt>              
             </editionStmt>
 
@@ -60,25 +60,25 @@
                 <bibl source="#Bouquet-Engler2002">
                     <title>Écrits de linguistique générale</title>
                     <author>
-                        <persName ref="FdS">
+                        <persName ref="#FdS">
                             <forename>Ferdinand</forename>
                             <surname>de Saussure</surname>
                         </persName>
                     </author>
                     <author>
-                        <persName ref="SB">
+                        <persName ref="#SB">
                             <forename>Simon</forename>
                             <surname>Bouquet</surname>
                         </persName>
                     </author>
                     <author>
-                        <persName ref="RE">
+                        <persName ref="#RE">
                             <forename>Rudolf</forename>
                             <surname>Engler</surname>
                         </persName>
                     </author>
                     <author>
-                        <persName ref="AW">
+                        <persName ref="#AW">
                             <forename>Antoinette</forename>
                             <surname>Weil</surname>
                         </persName>
@@ -162,7 +162,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FDS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
                             <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
@@ -607,25 +607,25 @@
                                 <bibl xml:id="Prolusioni1_Bouquet-Engler2002">
                                     <title>Écrits de linguistique générale</title>
                                     <author>
-                                        <persName ref="FdS">
+                                        <persName ref="#FdS">
                                             <forename>Ferdinand</forename> 
                                             <surname>de Saussure</surname>
                                         </persName>
                                     </author>
                                     <author>
-                                        <persName ref="SB">
+                                        <persName ref="#SB">
                                             <forename>Simon</forename>
                                             <surname>Bouquet</surname>
                                         </persName>
                                     </author>
                                     <author>
-                                        <persName ref="RE">
+                                        <persName ref="#RE">
                                             <forename>Rudolf</forename>
                                             <surname>Engler</surname>
                                         </persName>
                                     </author>
                                     <author>
-                                        <persName ref="AW">
+                                        <persName ref="#AW">
                                             <forename>Antoinette</forename>
                                             <surname>Weil</surname>
                                         </persName>
@@ -922,14 +922,14 @@
                     <listOrg>
                         <org xml:id="UniGeneve">
                                 <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
-                                <placeName ref="GE">Genève</placeName>
+                                <placeName ref="#GE">Genève</placeName>
                             <desc>
                                 The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
                             </desc>
                         </org>
                         <org xml:id="FacLettres">
                             <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                            <placeName ref="GE">Genève</placeName>
+                            <placeName ref="#GE">Genève</placeName>
                         </org>
                     </listOrg> 
                 </div>
