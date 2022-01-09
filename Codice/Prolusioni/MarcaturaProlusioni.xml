@@ -402,7 +402,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002">
-                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- f1r = folio 1 recto -->
+                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- f1r = folio 1 recto //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
@@ -586,7 +586,7 @@
             </group>
         </group>
 
-        <back>
+        <back> <!--VALIDA DA QUA IN POI-->
             <!--NOTE-->
             <div type="notes">
                 <div type="ann_notes">
