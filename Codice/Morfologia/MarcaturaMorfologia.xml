@@ -50,7 +50,6 @@
                 </respStmt>
             </editionStmt>
 
-            //CORREGGI
             <publicationStmt>
 				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
 				<availability>
@@ -60,16 +59,16 @@
 			</publicationStmt>
             
             <sourceDesc>
-                <bibl source="Godel1969">
+                <bibl source="#Godel1969">
                     <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
                     <author>
-                        <persName ref="FdS">
+                        <persName ref="#FdS">
                             <forename>Ferdinand</forename>
                             <surname>de Saussure</surname>
                         </persName>
                     </author>
                     <author>
-                        <persName ref="RG">
+                        <persName ref="#RG">
                             <forename>Robert</forename>
                             <surname>Godel</surname>
                         </persName>
@@ -78,17 +77,17 @@
                     <publisher>Libraire Droz</publisher>
                     <pubPlace>Gèneve</pubPlace>
                 </bibl>
-                <bibl source="Engler1967-74">
+                <bibl source="#Engler1967-74">
                     <title> Cours de Linguistique Générale</title>
                     <author>
-                        <persName ref="RE">
+                        <persName ref="#RE">
                             <forename>Rudolf</forename>
                             <surname>Engler</surname>
                         </persName>
                     </author>
                     <date from="1967" to="1974">1967-74</date>
                 </bibl>
-                <bibl source="Fadda2017">
+                <bibl source="#Fadda2017">
                     <title type="main">Sentimento della lingua</title>
                     <title type="sub">Per un'antropologia linguistica saussuriana</title>
                     <author>
@@ -106,7 +105,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Switzerland</country>
-                        <settlement>Ginevra</settlement>
+                        <settlement>Genève</settlement>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/7</idno>
@@ -120,22 +119,25 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc>
-                            <supportDesc>
+                        <objectDesc form="folio">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vta9cfd3fc17efc113d/">
                                 <support>
-                                    <material>Thin paper.</material>
+                                    <material>Thin paper</material>
                                 </support>
                                 <extent>
-                                    <measure type="pages" quantity="19">19</measure>
-                                    <measure type="height" unit="mm" quantity="211">211</measure>
-                                    <measure type="width" unit="mm" quantity="136">136</measure>
+                                    <measureGrp>
+                                        <measure type="pages" quantity="19">19</measure>
+                                        <measure type="height" unit="mm" quantity="211">211</measure>
+                                        <measure type="width" unit="mm" quantity="136">136</measure>
+                                    <measureGrp>
+                                    <dimension unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, few holes and stains</condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by Ferdinand de Saussure</handNote>
+                            <handNote xml:id="h1">The main text is written by hand by<persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -168,19 +170,19 @@
                             <label>
                                 <idno type="ID-pericope">3293.11</idno>
                             </label>
-                            <item corresp="#pericope_3291.11" facs="facs_Pericope11">
+                            <item corresp="#pericope_3291.11" facs="#facs_Pericope11">
                                 <!--Testo per. 11-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
                                 </seg>
                                 <!--Descr. per. 11-->
                                 <desc>
-                                    ...
+                                    ... //FINISCI
                                 </desc>
                             </item>
                             <!--PERICOPE 12-->
                             <label>
-                                <idno type="ID-pericope" corresp="#pericope_3293.12">3293.12</idno>
+                                <idno type="ID-pericope">3293.12</idno>
                             </label>
                             <item corresp="#pericope_3293.12" facs="facs_Pericope12">
                                 <!--Testo per. 2-->
@@ -214,6 +216,7 @@
                         Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
                         Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
                     </change>
+                    //FINISCI
                 </listChange>
             </creation>
         </profileDesc>
@@ -301,7 +304,7 @@
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>           <!--parola "1" 35a riga-->
                                                                                         <!--  fine prima pagina e fine 11a pericope-->
         </surface>
-        <!-- altre surface per le pagine -->
+        //APPUNTI <!-- altre surface per le pagine -->
     </facsimile>
 
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
