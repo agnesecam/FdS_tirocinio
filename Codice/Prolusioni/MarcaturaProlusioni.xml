@@ -145,7 +145,7 @@
                         <objectDesc form="folio">
                             <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
-                                    <material>Thin checkered paper.</material>
+                                    <material>Thin checkered paper</material>
                                 </support>
                                 <extent> <!--? Non ho chiaro l'uso di measureGrp per indicare le tre dimensioni -->
                                     <measureGrp>
@@ -229,10 +229,10 @@
                                 </desc>
                             </item>      
                             <!--PERICOPE 3--> <!--Inizio 2a pagina-->
-                            <label corresp="#pericope_91Aaaa003">-->
+                            <label>
                                 <idno type="ID-pericope">91Aaaa003</idno>
                             </label>
-                            <item>
+                            <item corresp="#pericope_91Aaaa003">
                                 <!--Testo per. 3-->
                                 <seg>
                                     – et j’aurais ici à rappeler le nom genevois, [...]
@@ -243,10 +243,10 @@
                                 </desc>
                             </item>
                             <!--PERICOPE 4-->
-                            <label corresp="#pericope_91Aaaa004">
+                            <label>
                                 <idno type="ID-pericope">91Aaaa004</idno>
                             </label>
-                            <item>
+                            <item corresp="#pericope_91Aaaa004">
                                 <!--Testo per. 4-->
                                 <seg>
                                     C’est une exigence à laquelle j’ai commencé [...]
@@ -257,10 +257,10 @@
                                 </desc>
                             </item>
                             <!--PERICOPE 5-->
-                            <label corresp="#pericope_91Aaaa005">
+                            <label>
                                 <idno type="ID-pericope">91Aaaa005</idno>
                             </label>
-                            <item>
+                            <item corresp="#pericope_91Aaaa005">
                                 <!--Testo per. 5-->
                                 <seg>
                                     À quelle science pose-t-on cette condition [...]
