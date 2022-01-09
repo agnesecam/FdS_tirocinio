@@ -114,7 +114,7 @@
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Les première leçons de Saussure a Genève</title>
-                            <docDate notBefore="1893" notAfter="1895">1893-1985</docDate>
+                            <docDate><date notBefore="1893" notAfter="1895">1893-1985</date></docDate> <!---Avevo usato <docDate> ma non ha notBefore/After come attributi -->
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     </msContents>
@@ -129,8 +129,8 @@
                                         <measure type="pages" quantity="19">19</measure>
                                         <measure type="height" unit="mm" quantity="211">211</measure>
                                         <measure type="width" unit="mm" quantity="136">136</measure>
-                                    <measureGrp>
-                                    <dimension unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
+                                    </measureGrp>
+                                    <dimensions unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, few holes and stains</condition>
@@ -184,7 +184,7 @@
                             <label>
                                 <idno type="ID-pericope">3293.12</idno>
                             </label>
-                            <item corresp="#pericope_3293.12" facs="facs_Pericope12">
+                            <item corresp="#pericope_3293.12" facs="#facs_Pericope12">
                                 <!--Testo per. 2-->
                                 <seg>
                                         vieux-haut-allemand 	zug	zugi 
@@ -216,8 +216,7 @@
                         Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
                         Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
                     </change>
-                    //FINISCI
-                </listChange>
+                </listChange> //FINISCI
             </creation>
         </profileDesc>
     </teiHeader>
@@ -281,9 +280,9 @@
             <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>       <!--parola "serpo." 13a riga-->
             <zone ulx="1889" uly="2069" lrx="2183" lry="2152" rendition="hotspot" xml:id="facs_sedos-p1r13"/>       <!--parola "sedos" 13a riga-->
             <zone ulx="2854" uly="2013" lrx="3153" lry="2109" rendition="hotspot" xml:id="facs_herpo-p1r13"/>       <!--parola "herpo" 13a riga-->
-            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="#facs_hedos-p1r13"/>      <!--parola "hedos" 13a riga-->
-            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="#facs_herpo-p1r14"/>      <!--parola "herpo" 13a riga-->
-            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="#facs_serpo-p1r14"/>      <!--parola "serpo" 14a riga-->
+            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="facs_hedos-p1r13"/>      <!--parola "hedos" 13a riga-->
+            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="facs_herpo-p1r14"/>      <!--parola "herpo" 13a riga-->
+            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="facs_serpo-p1r14"/>      <!--parola "serpo" 14a riga-->
             <zone ulx="2603" uly="2170" lrx="3502" lry="2263" rendition="hotspot" xml:id="facs_faisdelaphon.-p1r14"/>   <!--parole "fais de la phonetique" 14a riga-->
             <zone ulx="2843" uly="2306" lrx="3127" lry="2408" rendition="hotspot" xml:id="facs_pers.-p1r15"/>       <!--parola "pers." 15a riga-->
             <zone ulx="913" uly="2501" lrx="1076" lry="2574" rendition="hotspot" xml:id="facs_-w-p1r16"/>           <!--parola "-w." 16a riga-->  
@@ -295,7 +294,7 @@
             <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>        <!--parola "morph." 21a riga-->
             <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/> <!--parole "delagen." 22a riga-->
             <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>     <!--parola "genet." 22a riga-->
-            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_+-p1r24"/>           <!--parola "+" 24a riga-->
+            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_plus-p1r24"/>           <!--parola "+" 24a riga-->
             <zone ulx="897" uly="4157" lrx="1063" lry="4251" rendition="hotspot" xml:id="facs_qf-p1r27"/>           <!--parola "q..f" 27a riga-->
             <zone ulx="1894" uly="4275" lrx="2035" lry="4378" rendition="hotspot" xml:id="facs_et.-p1r28"/>         <!--parola "et." 27a riga-->
             <zone ulx="2161" uly="4542" lrx="2443" lry="4638" rendition="hotspot" xml:id="facs_dem.-p1r30"/>        <!--parola "dem." 28a riga-->
@@ -304,21 +303,21 @@
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>           <!--parola "1" 35a riga-->
                                                                                         <!--  fine prima pagina e fine 11a pericope-->
         </surface>
-        //APPUNTI <!-- altre surface per le pagine -->
+        <!-- //APPUNTI altre surface per le pagine  -->
     </facsimile>
 
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
         <group> <!--Testo e traduzione di Morfologia-->
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
-                    <pb n="f1v" xml:id="body_p1" facs="scan_p1"/> <!-- f1v=folio 1 verso--><!--//UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
+                    <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                     <ab facs="#facs_pericope11">
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="facs_HandParagNumber-1"> 1. </fw>
                     </ab>
                     <div xml:id="div_p1" hand="#h1">
                         <!--Inizio 11 pericope-->
-                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="#Pericope11">
+                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="#facs_Pericope11">
                             <lb xml:id="lb1_p1" n="1" facs="#facs_p1r1"/>
                             La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r1"><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_langage-p1r1">langage</term>, tandis
                             <lb xml:id="lb2_p1" n="2" facs="#facs_p1r2"/> 
@@ -356,13 +355,13 @@
                             <lb xml:id="lb18_p1" n="18" facs="#facs_p1r18" break="no" rend="stroke"/>
                             cuper que des formes, s'occupe parfaitement des sons. Par 
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
-                            <choice facs="#facs_ex.-p1r19"><bbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice></hi> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
+                            <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
                             pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, 
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>. Il est vrai que pour certaines personnes, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
-                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice>. À cause de la mauvaise définition. 
+                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></hi>. À cause de la mauvaise définition. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
                             Mais il deviendra très clair, par la suite, que rien 
                             <lb xml:id="lb24_p1" n="24" facs="#facs_p1r24"/>
@@ -399,7 +398,7 @@
                     <pb n="f1r" xml:id="body_p2" facs="facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Inizio pericope 12-->
-                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#Pericope12" facs="#facs_pericope12">
+                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#facs_pericope12">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
                         <!-- ... -->
                         </ab>
@@ -438,7 +437,7 @@
                         che consideriamo forme diverse a una stessa data, si fa morfologia.                        
                     </ab>
                     <!--Traduzione 12 pericope-->
-                    <ab xml:id="it_3293.12" target="#pericope_3293.12">
+                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
                             antico alto-tedesco 	zug 	zugi 
                             tedesco 		zug 	züge
                         Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
@@ -455,10 +454,17 @@
                 </body>
             </text>
         </group>
-        <back>
-            <note>
-                ...
-            </note>
+
+        <back> <!--VALIDA DA QUA IN POI-->
+            <!--NOTE-->
+            <div type="notes">
+                <div type="ann_notes">
+                    <!--1-->
+                    <note ana="1" xml:id="pag1_note1" resp="#AC">>
+                        <p>  ... </p>
+                    </note>
+                </div>
+            </div>
             <!-- BIBLIOGRAPHY -->
             <div type="bibliography">
                 <listBibl xml:id="morfologia1_bibliography">
