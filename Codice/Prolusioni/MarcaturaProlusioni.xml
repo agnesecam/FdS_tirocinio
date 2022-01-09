@@ -88,9 +88,6 @@
                     <pubPlace>Paris</pubPlace>
                     <idno type="ISSN">0302-5160</idno>
                     <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                    <note>
-                        French transcription of the manuscript
-                    </note>
                 </bibl>
                 <bibl source="#Fadda2006">
                     <title type="main">Lingua e mente sociale</title>
