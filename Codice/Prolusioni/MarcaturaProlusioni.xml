@@ -861,7 +861,7 @@
                         <note>Periphrasis for linguistics</note>
                     </item>
 
-                    <!-- LANGUES -->
+                    <!-- Langues -->
                     <label>
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
                     </label>
@@ -884,7 +884,7 @@
                         </gloss>
                     </item>
 
-                    <!-- HISTOIRE -->
+                    <!-- Histoire -->
                     <label>
                         <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
                     </label>
@@ -894,7 +894,7 @@
                         </gloss>
                     </item>
 
-                    <!-- LITTERAIRE --> <!-- Ho eliminato il riferimento nel testo perché non saprei che definizione inserire nella glossa -->
+                    <!-- Litteraire --> <!-- Ho eliminato il riferimento nel testo perché non saprei che definizione inserire nella glossa -->
                     <label>
                         <term subtype="?" xml:lang="fr" xml:id="litteraire" key="">Litteraire</term>
                     </label>
