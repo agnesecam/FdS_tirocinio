@@ -818,7 +818,7 @@
                     </item>
                 </list>
 
-            <!-- List Organization -->
+            <!-- ORGANIZZAZIONI -->
                 <listOrg>
                     <org xml:id="UniGeneve">
                         <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
