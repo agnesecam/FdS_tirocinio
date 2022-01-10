@@ -877,11 +877,11 @@
                             solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
                             images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
                             Système de valeurs. (Godel, 266)
-                           <!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
                         </gloss>
                         <gloss n="3" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue3">
                             Organe charnu, allongé et mobile, placé dans la bouche
-                        </gloss>
+                        </gloss>                           
+                        <!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
                     </item>
 
                     <!-- Histoire -->
