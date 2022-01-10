@@ -473,7 +473,7 @@
                     <head>Bibliography</head>
                     
                     <!--Bouq.-Engl2002-->
-                    <bibl xml:id="#Bouquet-Engler2002">
+                    <bibl xml:id="Bouquet-Engler2002">
                         <title>Écrits de linguistique générale</title>
                         <author>
                             <persName ref="#FdS">
@@ -787,7 +787,7 @@
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#morphologie" ource="ontology_F_d_S.owl.#morphologie">
+                        <gloss xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
                             In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes.
                         </gloss>
                         <note>...</note>
