@@ -305,7 +305,8 @@
         </surface>
         <!-- //APPUNTI altre surface per le pagine  -->
     </facsimile>
-
+    
+    <!--Testo in francese nel primo group e in italiano nel secondo e back-->
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
         <group> <!--Testo e traduzione di Morfologia-->
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
@@ -455,253 +456,247 @@
             </text>
         </group>
 
+        <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
-            <!--NOTE-->
-            <div type="notes">
-                <div type="ann_notes">
+            <div type="addList">
+
+                <!--NOTE-->
+                <list type="notes">
                     <!--1-->
-                    <note ana="1" xml:id="pag1_note1" resp="#AC">>
+                    <item n="1" xml:id="pag1_note1" resp="#AC">>
                         <p>  ... </p>
-                    </note>
-                </div>
-            </div>
-            <!-- BIBLIOGRAPHY -->
-            <div type="bibliography">
+                    </item>
+                </list>
+
+                <!-- BIBLIOGRAPHY -->
                 <listBibl xml:id="morfologia1_bibliography">
                     <head>Bibliography</head>
-                    <bibl>
-                        <!--Bouq.-Engl2002-->
-                        <ref target="#Bouquet-Engler2002">
-                            <bibl xml:id="Morfologia1_Bouquet-Engler2002">
-                                <title>Écrits de linguistique générale</title>
-                                <author>
-                                    <persName ref="FdS">
-                                        <forename>Ferdinand</forename>
-                                        <surname>de Saussure</surname>
-                                    </persName>
-                                </author>
-                                <author>
-                                    <persName ref="SB">
-                                        <forename>Simon</forename>
-                                        <surname>Bouquet</surname>
-                                    </persName>
-                                </author>
-                                <author>
-                                    <persName ref="RE">
-                                        <forename>Rudolf</forename>
-                                        <surname>Engler</surname>
-                                    </persName>
-                                </author>
-                                <author>
-                                    <persName ref="AW">
-                                        <forename>Antoinette</forename>
-                                        <surname>Weil</surname>
-                                    </persName>
-                                </author>
-                                <date when="2002">2002</date>
-                                <publisher>Gallimard</publisher>
-                                <pubPlace>Paris</pubPlace>
-                                <idno type="ISSN">0302-5160</idno>
-                                <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                                <note>
-                                    French transcription of the manuscript
-                                </note>
-                            </bibl>
-                        </ref>
-                        <!--Godel1969-->
-                        <ref target="#Godel1969">
-                            <bibl xml:id="Morfologia1_Godel1969">
-                                <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
-                                <author>
-                                    <persName ref="FdS">
-                                        <forename>Ferdinand</forename>
-                                        <surname>de Saussure</surname>
-                                    </persName>
-                                </author>
-                                <author>
-                                    <persName ref="RG">
-                                        <forename>Robert</forename>
-                                        <surname>Godel</surname>
-                                    </persName>
-                                </author>
-                                <publisher>Libraire Droz</publisher>
-                                <pubPlace>Gèneve</pubPlace>                               
-                            </bibl>
-                        </ref>
-                        <!--Engler1967-74-->
-                        <ref target="#Engler1967-74">
-                            <bibl xml:id="Morfologia1_Engler1967-74">
-                                <title> Cours de Linguistique Générale</title>
-                                <author>
-                                    <persName ref="RE">
-                                        <forename>Rudolf</forename>
-                                        <surname>Engler</surname>
-                                    </persName>
-                                </author>
-                            </bibl>
-                        </ref>
-                        <!--E.Fadda 2017-->
-                        <ref target="#Fadda2017">
-                            <bibl xml:id="Morfologia1_Fadda2017">
-                                <title type="main">Sentimento della lingua</title>
-                                <title type="sub">Per un'antropologia linguistica saussuriana</title>
-                                <author>
-                                    <persName ref="#EF">
-                                        <forename>Emanuele</forename>
-                                        <surname>Fadda</surname>
-                                    </persName>
-                                </author>
-                                <publisher>Edizioni dell'Orso</publisher>
-                                <pubPlace>Acireale - Roma</pubPlace>
-                                <idno type="ISBN">8862747950</idno>
-                                <citedRange unit="page" from="100" to="110">100-110</citedRange>
-                            </bibl>
-                        </ref>
+                    
+                    <!--Bouq.-Engl2002-->
+                    <bibl xml:id="#Bouquet-Engler2002">
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="ISSN">0302-5160</idno>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note>
+                            French transcription of the manuscript
+                        </note>
                     </bibl>
-                </listBibl>
-            </div>
+                
+                    <!--Godel1969-->
+                    <bibl xml:id="Godel1969">
+                        <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RG">
+                                <forename>Robert</forename>
+                                <surname>Godel</surname>
+                            </persName>
+                        </author>
+                        <publisher>Libraire Droz</publisher>
+                        <pubPlace>Gèneve</pubPlace>                               
+                    </bibl>
+                    
+                    <!--Engler1967-74-->
+                    <bibl xml:id="Engler1967-74">
+                        <title> Cours de Linguistique Générale </title>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                    </bibl>
 
-            <!-- PERSON -->
-            <div>
-                <listPerson>
-                    <head>People</head>
-                    <!--Ferdinand de Saussure-->
-                        <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                        <persName role="linguistic" > 
-                            <forename>Ferdinand</forename>
-                            <surname>de Saussure</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="26-11-19">26 novembre 1857</date>
-                            <placeName ref="#GE">
-                                <settlement type="municipality">Genève</settlement>
-                                <settlement type="department" key="GE">Genève</settlement>
-                                <country key="CH">Switzerland</country>
-                            </placeName>
-                        </birth>
-                    </person>
-                    <!--Angelo Mario Del Grosso-->
-                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
-                        <persName> 
-                            <forename>Angelo</forename>
-                            <forename>Mario</forename>
-                            <surname>Del Grosso</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1980-02-19">19 febbraio 1980</date>
-                            <placeName>
-                                <settlement type="municipality">Benevento</settlement>
-                                <settlement type="provincia" key="BN">Benevento</settlement>
-                                <country key="IT">Italia</country>
-                            </placeName>
-                        </birth>
-                    </person>
-                    <!--Silvia Piccini-->
-                    <person>
-                        <persName> 
-                            <forename>Silvia</forename>
-                            <surname>Piccini</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1978-11-12">12 novembre 1978</date>
-                            <placeName>
-                                <settlement type="municipality">Osimo</settlement>
-                                <settlement type="provincia" key="AN">Ancona</settlement>
-                                <country key="IT">Italia</country>
-                            </placeName>
-                        </birth>
-                    </person>
-                    <!--Agnese Camici-->
-                    <person>
-                        <persName> 
-                            <forename>Agnese</forename>
-                            <surname>Camici</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1997-01-25">25 gennaio 1997</date>
-                            <placeName>
-                                <settlement type="municipality">Piombino</settlement>
-                                <settlement type="provincia" key="LI">Livorno</settlement>
-                                <country key="IT">Italia</country>
-                            </placeName>
-                        </birth>
-                    </person>
-                    <!--Emanuele Fadda-->
-                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
-                        <persName> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1972">1972</date>
-                            <placeName ref="#CA">
-                                <settlement type="municipality">Cagliari</settlement>
-                                <settlement type="provincia" key="CA">Cagliari</settlement>
-                                <country key="IT">Italia</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-                    <!--Daniele Gambarara-->
-                    <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
-                        <persName> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1948-03-14">14th May 1948</date>
-                            <placeName ref="#TO">
-                                <settlement type="municipality">Torino</settlement>
-                                <settlement type="provincia" key="TO">Torino</settlement>
-                                <country key="IT">Italia</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-                    <!--Giuseppe Cosenza-->
-                    <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
-                        <persName> 
-                            <forename>Giuseppe</forename>
-                            <surname>Cosenza</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-                    <!--Giuseppe D'Ottavi-->
-                    <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
-                        <persName>
-                            <forename>Giuseppe</forename>
-                            <surname>D'Ottavi</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-                    <!--Simon Bouquet-->
-                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
-                        <persName> 
-                            <forename>Simon</forename>
-                            <surname>Bouquet</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1954">1954</date>
-                        </birth> 
-                    </person>
-                    <!--Rudolf Engler-->
-                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
-                        <persName> 
-                            <forename>Rudolf</forename>
-                            <surname>Engler</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1930-10-25">25th October 1930</date>
-                        </birth> 
-                    </person>
-                </listPerson>
-            </div>
+                    <!--E.Fadda 2017-->
+                    <bibl xml:id="Fadda2017">
+                        <title type="main">Sentimento della lingua</title>
+                        <title type="sub">Per un'antropologia linguistica saussuriana</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>
+                        <publisher>Edizioni dell'Orso</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">8862747950</idno>
+                        <citedRange unit="page" from="100" to="110">100-110</citedRange>
+                    </bibl>
+                </listBibl>        
+
+                <!-- PERSON -->
+                <div>
+                    <listPerson>
+                        <head>People</head>
+                        <!--Ferdinand de Saussure-->
+                            <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                            <persName role="linguistic" > 
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="26-11-19">26 novembre 1857</date>
+                                <placeName ref="#GE">
+                                    <settlement type="municipality">Genève</settlement>
+                                    <settlement type="department" key="GE">Genève</settlement>
+                                    <country key="CH">Switzerland</country>
+                                </placeName>
+                            </birth>
+                        </person>
+                        <!--Angelo Mario Del Grosso-->
+                        <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                            <persName> 
+                                <forename>Angelo</forename>
+                                <forename>Mario</forename>
+                                <surname>Del Grosso</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1980-02-19">19 febbraio 1980</date>
+                                <placeName>
+                                    <settlement type="municipality">Benevento</settlement>
+                                    <settlement type="provincia" key="BN">Benevento</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+                        <!--Silvia Piccini-->
+                        <person>
+                            <persName> 
+                                <forename>Silvia</forename>
+                                <surname>Piccini</surname>
+                            </persName>
+                            <sex>F</sex>
+                            <birth>
+                                <date when="1978-11-12">12 novembre 1978</date>
+                                <placeName>
+                                    <settlement type="municipality">Osimo</settlement>
+                                    <settlement type="provincia" key="AN">Ancona</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+                        <!--Agnese Camici-->
+                        <person>
+                            <persName> 
+                                <forename>Agnese</forename>
+                                <surname>Camici</surname>
+                            </persName>
+                            <sex>F</sex>
+                            <birth>
+                                <date when="1997-01-25">25 gennaio 1997</date>
+                                <placeName>
+                                    <settlement type="municipality">Piombino</settlement>
+                                    <settlement type="provincia" key="LI">Livorno</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+                        <!--Emanuele Fadda-->
+                        <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
+                            <persName> 
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1972">1972</date>
+                                <placeName ref="#CA">
+                                    <settlement type="municipality">Cagliari</settlement>
+                                    <settlement type="provincia" key="CA">Cagliari</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth> 
+                        </person>
+                        <!--Daniele Gambarara-->
+                        <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
+                            <persName> 
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1948-03-14">14th May 1948</date>
+                                <placeName ref="#TO">
+                                    <settlement type="municipality">Torino</settlement>
+                                    <settlement type="provincia" key="TO">Torino</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth> 
+                        </person>
+                        <!--Giuseppe Cosenza-->
+                        <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
+                            <persName> 
+                                <forename>Giuseppe</forename>
+                                <surname>Cosenza</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <!--Giuseppe D'Ottavi-->
+                        <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
+                            <persName>
+                                <forename>Giuseppe</forename>
+                                <surname>D'Ottavi</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <!--Simon Bouquet-->
+                        <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
+                            <persName> 
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1954">1954</date>
+                            </birth> 
+                        </person>
+                        <!--Rudolf Engler-->
+                        <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
+                            <persName> 
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1930-10-25">25th October 1930</date>
+                            </birth> 
+                        </person>
+                    </listPerson>
+                </div>
 
             <!-- ListPlace -->
             <div>
