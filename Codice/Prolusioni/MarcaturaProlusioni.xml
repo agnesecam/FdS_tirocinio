@@ -602,7 +602,7 @@
                     </note>
                 </div>
 
-                <!-- BIBLIOGRAPHY NOTE -->
+                <!-- BIBLIOGRAPHY -->
                 <div type="bibliography">
                     <listBibl xml:id="prolusioni1_bibliography">
                         <head>Bibliography</head>
@@ -655,25 +655,34 @@
                 </div>  
 
                 <!-- PERSON -->
-                <div>
-                    <listPerson>
-                        <head>People</head>
-                        <!--Ferdinand de Saussure-->
-                        <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                            <persName role="author" > 
-                                <forename>Ferdinand</forename>
-                                <surname>de Saussure</surname>
-                            </persName>
-                            <sex>M</sex>
-                            <birth>
-                                <date when="26-11-19">26 novembre 1857</date>
-                                <placeName ref="#GE">
-                                    <settlement type="municipality">Genève</settlement>
-                                    <settlement type="department" key="GE">Genève</settlement>
-                                    <country key="CH">Switzerland</country>
-                                </placeName>
-                            </birth> 
-                        </person>
+                <listPerson>
+                    <head>People</head>
+                    
+                    <!--Ferdinand de Saussure-->
+                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                        <persName role="author" > 
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1857-11-26">26th November 1857</date>
+                            <placeName ref="#GE">
+                                <settlement type="municipality">Genève</settlement>
+                                <settlement type="department" key="GE">Genève</settlement>
+                                <country key="CH">Switzerland</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="1913-02-22">22nd February 1913</date>
+							<placeName ref="#VlC">
+								<settlement type="municipality">Vufflens-le-Château</settlement>
+								<settlement type="canton" key="Vaud">Vaud</settlement>
+								<country key="CH">Svizzera</country>
+							</placeName>
+                        </death> 
+                    </person>
+
                         <!--Angelo Mario Del Grosso-->
                         <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
                             <persName> 
@@ -683,14 +692,15 @@
                             </persName>
                             <sex>M</sex>
                             <birth>
-                                <date when="1980-02-19">19 febbraio 1980</date>
+                                <date when="1980-02-19">19th February 1980</date>
                                 <placeName ref="#BN">
                                     <settlement type="municipality">Benevento</settlement>
                                     <settlement type="provincia" key="BN">Benevento</settlement>
-                                    <country key="IT">Italia</country>
+                                    <country key="IT">Italy</country>
                                 </placeName>
                             </birth>
                         </person>
+
                         <!--Silvia Piccini-->
                         <person xml:id="SP">
                             <persName> 
@@ -699,14 +709,15 @@
                             </persName>
                             <sex>F</sex>
                             <birth>
-                                <date when="1978-11-12">12 novembre 1978</date>
+                                <date when="1978-11-12">12th November 1978</date>
                                 <placeName ref="#Osimo">
                                     <settlement type="municipality" key="Osimo">Osimo</settlement>
                                     <settlement type="provincia" key="AN">Ancona</settlement>
-                                    <country key="IT">Italia</country>
+                                    <country key="IT">Italy</country>
                                 </placeName>
                             </birth>
                         </person>
+
                         <!--Agnese Camici-->
                         <person xml:id="AG">
                             <persName> 
@@ -715,17 +726,18 @@
                             </persName>
                             <sex>F</sex>
                             <birth>
-                                <date when="1997-01-25">25 gennaio 1997</date>
+                                <date when="1997-01-25">25nd Jenuary 1997</date>
                                 <placeName>
                                     <settlement type="municipality">Piombino</settlement>
                                     <settlement type="provincia" key="LI">Livorno</settlement>
-                                    <country key="IT">Italia</country>
+                                    <country key="IT">Italy</country>
                                 </placeName>
                             </birth>
                         </person>
+
                         <!--Emanuele Fadda-->
                         <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
-                            <persName> 
+                            <persName role="author"> 
                                 <forename>Emanuele</forename>
                                 <surname>Fadda</surname>
                             </persName>
@@ -735,10 +747,11 @@
                                 <placeName ref="#CA">
                                     <settlement type="municipality">Cagliari</settlement>
                                     <settlement type="provincia" key="CA">Cagliari</settlement>
-                                    <country key="IT">Italia</country>
+                                    <country key="IT">Italy</country>
                                 </placeName>
                             </birth> 
                         </person>
+
                         <!--Daniele Gambarara-->
                         <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
                             <persName> 
@@ -751,10 +764,11 @@
                                 <placeName ref="#TO">
                                     <settlement type="municipality">Torino</settlement>
                                     <settlement type="provincia" key="TO">Torino</settlement>
-                                    <country key="IT">Italia</country>
+                                    <country key="IT">Italy</country>
                                 </placeName>
                             </birth> 
                         </person>
+
                         <!--Giuseppe Cosenza-->
                         <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
                             <persName> 
@@ -763,6 +777,7 @@
                             </persName>
                             <sex>M</sex>
                         </person>
+
                         <!--Giuseppe D'Ottavi-->
                         <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
                             <persName>
@@ -771,6 +786,7 @@
                             </persName>
                             <sex>M</sex>
                         </person>
+
                         <!--Simon Bouquet-->
                         <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
                             <persName> 
@@ -782,9 +798,10 @@
                                 <date when="1954">1954</date>
                             </birth> 
                         </person>
+
                         <!--Rudolf Engler-->
                         <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
-                            <persName> 
+                            <persName role="author"> 
                                 <forename>Rudolf</forename>
                                 <surname>Engler</surname>
                             </persName>
@@ -793,6 +810,7 @@
                                 <date when="1930-10-25">25th October 1930</date>
                             </birth> 
                         </person>
+
                         <!--Antoinette Weil-->
                         <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
                             <persName> 
@@ -804,65 +822,78 @@
                     </listPerson>
                 </div>
 
-                <!-- ListPlace -->
-                <div>
-                    <listPlace>
-                        <head>Places</head>
-                        <!--Genève-->
+
+                <!-- PLACE -->
+                <listPlace>
+                    <head>Places</head>
+                    
+                    <!--Genève-->
                         <place xml:id="GE">
                             <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
                             <country key="CH">Switzerland</country>
                             <note>...</note>
                         </place>
+
                         <!--Benevento-->
                         <place xml:id="BN">
-                            <placeName ref="">Benevento</placeName>
+                            <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place>
+
                         <!--Piombino-->
                         <place xml:id="Piombino">
-                            <placeName ref="">Piombino</placeName>
+                            <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place>
+
                         <!--Torino-->
+                        <place xml:id="TO">
+                            <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+                            <country key="IT">Italy</country>
+                            <note>...</note>
+                        </place>
+
                         <!--Cosenza-->
                         <place xml:id="CS">
                             <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place>
+
                         <!--Cagliari-->
                         <place xml:id="CA">
                             <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place>
-                        <!--Osimo (nascita SP)-->
+
+                        <!--Osimo-->
                         <place xml:id="Osimo">
                             <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
                             <country key="IT">Italy</country>
                             <note>...</note>
                         </place> 
+
                         <listRelation>
                             <!--Luoghi vicini-->
                             <relation name="near" mutual="#P1l #Pl2"/>
                             <!--Luogo di nascita di una persona-->
-                            <relation name="birth_place-Fds" active="#FdS" passive="#GE"/>              <!--Ferdinand de Saussure-->
+                            <relation name="birth_place-Fds" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
                             <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
-                            <relation name="birth_place-SP" active="#OS" passive="#SP"/>                 <!--Silvia Piccini-->
+                            <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                             <!--Luogo di morte di una persona-->
-                            <relation name="death_place" active="#Per1" passive="#Pl1"/>
+                            <relation name="death_place" active="#FdS" passive="#VlC"/>
                         </listRelation>
                     </listPlace>
                 </div>
 
-                <!-- ListTerm -->
+                <!-- GLOSSARIO  -->
                 <div>
                     <list type="terminology">      
 
-                        <!-- SCIENCE DU LANGAGE = linguistics -->
+                        <!-- Science du langage = linguistics -->
                         <label>
                             <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
                         </label>
