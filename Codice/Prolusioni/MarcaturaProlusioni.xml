@@ -57,6 +57,7 @@
 			</publicationStmt>
             
             <sourceDesc>
+            <!-- IO HO TUTTA QUESTA PARTE DI BIBLIOGRAFIA IN PIU' RISPETTO A QUELLA IN <listBibl>
                 <bibl source="#Bouquet-Engler2002">
                     <title>Écrits de linguistique générale</title>
                     <author>
@@ -109,6 +110,7 @@
                         Italian transcription of the manuscript
                     </note>
                 </bibl>
+                -->
                 <msDesc>
                     <msIdentifier>
                         <country>Switzerland</country>    
@@ -586,6 +588,8 @@
             </group>
         </group>
 
+
+
         <back>
             <!--NOTE-->
             <div type="notes">
@@ -597,58 +601,55 @@
                         </p>
                     </note>
                 </div>
+
                 <!-- BIBLIOGRAPHY NOTE -->
                 <div type="bibliography">
                     <listBibl xml:id="prolusioni1_bibliography">
                         <head>Bibliography</head>
-                        <bibl> 
-                            <!--Bouquet-Engler--> 
-                            <ref target="#Bouquet-Engler2002">
-                                <bibl xml:id="Prolusioni1_Bouquet-Engler2002">
-                                    <title>Écrits de linguistique générale</title>
-                                    <author>
-                                        <persName ref="#FdS">
-                                            <forename>Ferdinand</forename> 
-                                            <surname>de Saussure</surname>
-                                        </persName>
-                                    </author>
-                                    <author>
-                                        <persName ref="#SB">
-                                            <forename>Simon</forename>
-                                            <surname>Bouquet</surname>
-                                        </persName>
-                                    </author>
-                                    <author>
-                                        <persName ref="#RE">
-                                            <forename>Rudolf</forename>
-                                            <surname>Engler</surname>
-                                        </persName>
-                                    </author>
-                                    <author>
-                                        <persName ref="#AW">
-                                            <forename>Antoinette</forename>
-                                            <surname>Weil</surname>
-                                        </persName>
-                                    </author>
-                                    <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                                </bibl>
-                            </ref>
-                            <!--E.Fadda 2006-->
-                            <ref target="#Fadda2006">
-                                <bibl xml:id="Prolusioni1_Fadda2006" type="book_chapter">
-                                    <title type="main">Lingua e mente sociale</title>
-                                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                                    <author>
-                                        <persName ref="#EF">
-                                            <forename>Emanuele</forename>
-                                            <surname>Fadda</surname>
-                                        </persName>
-                                    </author>  
-                                    <publisher>Bonanno Editore</publisher>
-                                    <pubPlace>Alessandria</pubPlace>
-                                    <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                                </bibl>
-                            </ref>
+
+                        <!--Bouquet-Engler-->
+                        <bibl xml:id="Bouquet-Engler2002"> 
+                            <title>Écrits de linguistique générale</title>
+                            <author>
+                                <persName ref="#FdS">
+                                    <forename>Ferdinand</forename> 
+                                    <surname>de Saussure</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="#SB">
+                                    <forename>Simon</forename>
+                                    <surname>Bouquet</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="#RE">
+                                    <forename>Rudolf</forename>
+                                    <surname>Engler</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName ref="#AW">
+                                    <forename>Antoinette</forename>
+                                    <surname>Weil</surname>
+                                </persName>
+                            </author>
+                            <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        </bibl>
+
+                        <!--E.Fadda 2006-->
+                        <bibl xml:id="Fadda2006">
+                            <title type="main">Lingua e mente sociale</title>
+                            <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                            <author>
+                                <persName ref="#EF">
+                                    <forename>Emanuele</forename>
+                                    <surname>Fadda</surname>
+                                </persName>
+                            </author>  
+                            <publisher>Bonanno Editore</publisher>
+                            <pubPlace>Alessandria</pubPlace>
+                            <citedRange unit="page" from="85" to="121">85-121</citedRange>
                         </bibl>
                     </listBibl>
                 </div>  
