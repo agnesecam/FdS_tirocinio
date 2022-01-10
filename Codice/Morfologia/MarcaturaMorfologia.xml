@@ -788,20 +788,25 @@
                     </label>
                     <item>
                         <gloss xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
-                            In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes.
+                            Dans les subdivisions de la grammaire (au sens traditionnel), la morphologie s&apos;oppose essentiellement à la phonétique, tandis qu&apos;il est difficile de la distinguer de la syntaxe : «Étude des formes et des fonctions, c&apos;est la même chose » 2136 (Engler, 35) (Godel, 269)
                         </gloss>
                         <note>...</note>
                     </item>
+
                     <!-- Langage -->
                     <label>
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="langage" key="">langage</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#langage">
-                            Primarily refers to language as a general phenomenon, or to the human ability to have language
+                        <gloss n="1" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage1">
+                            langage oral ; - articulé
                         </gloss>
-                        <note>...</note>
+                        <gloss n="2" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage2">
+                            Système particulier de symboles indépendants ; langue (Engler, 30) ; langue et langage ne sont qu&apos;une même chose ; l&apos;un est la généralisation de l&apos;autre (Godel, 266 ; N1.1)
+                        </gloss>
+                        <!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
                     </item>
+
                     <!-- Phonétique -->
                     <label>
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
@@ -810,22 +815,24 @@
                         <gloss xml:lang="it" target="#phonétique">
                             Branch of linguistics that focuses on the production and classification of the world's speech sounds. The production of speech looks at the interaction of different vocal organs, for example the lips, tongue and teeth, to produce particular sounds.
                         </gloss>
-                        <note>...</note>
                     </item>
                 </list>
-            </div>
 
-            <!-- List Organization 
+            <!-- List Organization -->
                 <listOrg>
-                    <org xml:id="">
-                            <orgName ref="link wikipedia>">...</orgName>
-                            <placeName ref="...">...</placeName>
+                    <org xml:id="UniGeneve">
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
+                            <placeName ref="#GE">Genève</placeName>
                         <desc>
-                            ...
+                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
                         </desc>
                     </org>
-                    ...
-                </listOrg>     -->    
+                    <org xml:id="FacLettres">
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
+                        <placeName ref="#GE">Genève</placeName>
+                    </org>
+                </listOrg>   
+            </div>
             </back>
     </text>
 </TEI>       
