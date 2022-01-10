@@ -345,6 +345,7 @@
         <!-- altre surface per le pagine -->
     </facsimile>
 
+    <!--Testo in francese nel primo group e in italiano nel secondo e back-->
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
@@ -535,7 +536,7 @@
         </group>
 
 
-
+        <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
 
@@ -619,7 +620,7 @@
                     
                     <!--Ferdinand de Saussure-->
                     <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                        <persName role="author" > 
+                        <persName role="author"> <!--role="author" oppure role="linguistic"?-->
                             <forename>Ferdinand</forename>
                             <surname>de Saussure</surname>
                         </persName>
@@ -837,7 +838,7 @@
                         <!--Luoghi vicini-->
                         <relation name="near" mutual="#P1l #Pl2"/>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-Fds" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
                         <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
                         <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
