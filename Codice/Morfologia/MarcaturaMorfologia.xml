@@ -787,9 +787,12 @@
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
+                        <gloss n="1" xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
                             Dans les subdivisions de la grammaire (au sens traditionnel), la morphologie s&apos;oppose essentiellement à la phonétique, tandis qu&apos;il est difficile de la distinguer de la syntaxe : «Étude des formes et des fonctions, c&apos;est la même chose » 2136 (Engler, 35) (Godel, 269)
                         </gloss>
+                        <gloss n="2" xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
+                            Science qui traite des unités de son correspondant à une partie de l’idée, et du groupement de ces unités. Le vrai nom de la morphologie serait : la théorie des signes, et non des formes (3293 par.2)
+                        </gloss><!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
                         <note>...</note>
                     </item>
 
@@ -799,7 +802,7 @@
                     </label>
                     <item>
                         <gloss n="1" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage1">
-                            langage oral ; - articulé
+                            Faculté significatrice et exercice de cette faculté à travers une convention sociale (Engler, 30) ; cette faculté ne saurait être exercée sans un instrument venu du dehors : la langue (Godel, 266 ; J.)
                         </gloss>
                         <gloss n="2" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage2">
                             Système particulier de symboles indépendants ; langue (Engler, 30) ; langue et langage ne sont qu&apos;une même chose ; l&apos;un est la généralisation de l&apos;autre (Godel, 266 ; N1.1)
@@ -811,8 +814,14 @@
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#phonétique">
-                            Branch of linguistics that focuses on the production and classification of the world's speech sounds. The production of speech looks at the interaction of different vocal organs, for example the lips, tongue and teeth, to produce particular sounds.
+                        <gloss n="1" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique1">
+                            Étude de la transformation du son dans l’histoire de la langue (Engler, 40) ; étude de l’évolution des sons dans les différentes langues (Godel, 272)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique1">
+                            « La phonétique est la science qui traite des unités de son à établir d&apos;après des caractères physiologiques et acoustiques.»  N 7 §2; «… la partie la plus historique de la linguistique »
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique2">
+                            relatif aux changements de son ; = non significatif, non grammatical (Godel, 272)
                         </gloss>
                     </item>
                 </list>
