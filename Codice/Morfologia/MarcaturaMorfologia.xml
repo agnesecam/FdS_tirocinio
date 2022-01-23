@@ -364,9 +364,9 @@
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
-                            pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, <!--//FAI-->
+                            <eg><foreign>pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
-                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <!!--//FAI--><person>pour certaines personnes</person>, cela s'appelle 
+                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
                             faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <!--//FAI--><term>définition</term>. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
