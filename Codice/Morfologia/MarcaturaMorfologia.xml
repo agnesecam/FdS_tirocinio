@@ -804,7 +804,6 @@
                         <gloss n="2" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage2">
                             Système particulier de symboles indépendants ; langue (Engler, 30) ; langue et langage ne sont qu&apos;une même chose ; l&apos;un est la généralisation de l&apos;autre (Godel, 266 ; N1.1)
                         </gloss>
-                        <!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
                     </item>
 
                     <!-- Phonétique -->
