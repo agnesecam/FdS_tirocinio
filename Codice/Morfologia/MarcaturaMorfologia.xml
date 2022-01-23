@@ -170,14 +170,16 @@
                             <label>
                                 <idno type="ID-pericope">3293.11</idno>
                             </label>
-                            <item corresp="#pericope_3291.11" facs="#facs_Pericope11">
+                            <item corresp="#pericope_3293.11" facs="#facs_Pericope11">
                                 <!--Testo per. 11-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
                                 </seg>
                                 <!--Descr. per. 11-->
                                 <desc>
-                                    ... //FINISCI
+                                    Saussure initially presents an erroneous but widespread definition of "morphology" 
+                                    and "phonetics", then explains the reason why it is incorrect and provides a correct 
+                                    one explaining the difference between the two disciplines.
                                 </desc>
                             </item>
                             <!--PERICOPE 12-->
@@ -192,7 +194,11 @@
                                     Comparer zugi  et züge, c'est comparer deux formes, [...]
                                 </seg>
                                 <!--Descr. per. 2-->
-                                <desc> ... </desc> 
+                                <desc>
+                                    In the previous passage Saussure had introduced the difference between morphology and phonetics. 
+                                    Now he presents some practical examples of "making phonetics" and "making morphology", 
+                                    comparing the two forms "zugi" and "züge" and then the two sounds "u"-"ü".
+                                </desc> 
                             </item>
                         </list>
                     </p>
