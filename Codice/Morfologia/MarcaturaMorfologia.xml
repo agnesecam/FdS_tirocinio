@@ -340,13 +340,13 @@
                             <lb xml:id="lb7_p1" n="7" facs="#facs_p1r7"/>
                             II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r7"><choice facs="#facs_phon.-p1r7"><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
                             <lb xml:id="lb8_p1" n="8" facs="#facs_p1r8"/>
-                           <!-- //FAI --> <term>sons </term>, et pour pouvoir le faire, est obligée en premier lieu 
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="">sons </term>, et pour pouvoir le faire, est obligée en premier lieu 
                             <lb xml:id="lb9_p1" n="9" facs="#facs_p1r9"/>
-                            de s'occuper des <!-- //FAI --> <term>formes</term>. Les sons ne se transmettent pas 
+                            de s'occuper des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>. Les sons ne se transmettent pas 
                             <lb xml:id="lb10_p1" n="10" facs="#facs_p1r10"/>
                             d'une génération à l'autre à l'état isolé ; les sons n'existent, 
                             <lb xml:id="lb11_p1" n="11" facs="#facs_p1r11"/>
-                            ne vivent et ne se modifient qu'au sein des <!--//FAI--> <term>mots</term>. On n'a 
+                            ne vivent et ne se modifient qu'au sein des <term subtype="linguistics-term" xml:lang="fr" ref="#mots" facs="">mots</term>. On n'a 
                             <lb xml:id="lb12_p1" n="12" facs="#facs_p1r12"/>
                             pas prononcé s <choice facs="#facs_tt-p1r12"><abbr>tt</abbr><expan>t<ex>ou</ex>t</expan></choice> seul, <del change="#CHG-1" rend="overstrike" facs="#facs_del-p1r12"><gap quantity="3" unit="words" reason="illegible"/></del> et ensuite esprit rude. 
                             <lb xml:id="lb13_p1" n="13" facs="#facs_p1r13"/>
@@ -360,7 +360,7 @@
                             <lb xml:id="lb17_p1" n="17" facs="#facs_p1r17"/>
                             D'autre part, la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r17"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>, qui est censée ne s'oc-
                             <lb xml:id="lb18_p1" n="18" facs="#facs_p1r18" break="no" rend="stroke"/>
-                            cuper que des <|--//FAI--><term>formes</term>, s'occupe parfaitement des <term>sons</term>. Par 
+                            cuper que des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>, s'occupe parfaitement des <term>sons</term>. Par 
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
@@ -368,19 +368,19 @@
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
-                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <!--//FAI--><term>définition</term>. 
+                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="">définition</term>. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
                             Mais il deviendra très clair, par la suite, que rien 
                             <lb xml:id="lb24_p1" n="24" facs="#facs_p1r24"/>
                             n'est <choice facs="#facs_+-p1r24"><abbr>+</abbr><expan>plus</expan></choice> faux et plus dangereux que de classer un 
                             <lb xml:id="lb25_p1" n="25" facs="#facs_p1r25"/>
-                            <!--//FAI--></term>fait</term> de ce genre avec les faits <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétiques</term>.
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#fait" facs="">fait</term> de ce genre avec les faits <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétiques</term>.
                             <lb xml:id="lb26_p1" n="26" facs="#facs_p1r26"/>
                             Ainsi il n'est pas aussi simple qu'on se l'imagine 
                             <lb xml:id="lb27_p1" n="27" facs="#facs_p1r27"/>
                             <choice facs="#facs_qf-p1r27"><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
                             <lb xml:id="lb28_p1" n="28" facs="#facs_p1r28"/>
-                            disant que l'une = <choice facs="#facs_et.-p1r28"><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des <!--//FAI--><term>sons</term> et l'autre, des <!--//FAI--><term>formes</term>, 
+                            disant que l'une = <choice facs="#facs_et.-p1r28"><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="">sons</term> et l'autre, des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>, 
                             <lb xml:id="lb29_p1" n="29" facs="#facs_p1r29"/>
                             qu'on obtient une ligne de démarcation satisfaisante.
                             <lb xml:id="lb30_p1" n="30" facs="#facs_p1r30"/>
@@ -388,13 +388,13 @@
                             <lb xml:id="lb31_p1" n="31" facs="#facs_p1r31"/>
                             nécessaire <choice facs="#facs_pr-p1r31"><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
                             <lb xml:id="lb32_p1" n="32" facs="#facs_p1r32"/>
-                            <!--//FAI--><term>Principe</term> de direction : 
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#Principe" facs="">Principe</term> de direction : 
                             <lb xml:id="lb33_p1" n="33" facs="#facs_p1r33"/>
-                            Toutes les fois qu'on considère une même <term>forme</term> à 
+                            Toutes les fois qu'on considère une même <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">forme</term> à 
                             <lb xml:id="lb34_p1" n="34" facs="#facs_p1r34"/>
                             des dates diverses, c'est faire de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonetiq.-p1r34"><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice></term>, - et toutes 
                             <lb xml:id="lb35_p1" n="35" facs="#facs_p1r35"/>
-                            les fois qu'on considère des <!--//FAI--><term>formes</term> diverses à <num type="cardinal" value="1" facs="#facs_1-p1r35">1</num> même 
+                            les fois qu'on considère des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term> diverses à <num type="cardinal" value="1" facs="#facs_1-p1r35">1</num> même 
                             <lb xml:id="lb36_p1" n="36" facs="#facs_p1r36"/>
                             date, on fait de la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1">morphologie</term>.
                         </ab>
