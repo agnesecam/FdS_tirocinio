@@ -271,42 +271,51 @@
             <zone ulx="962" uly="5259" lrx="3458" lry="5358" rendition="line" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
             <zone ulx="946" uly="5401" lrx="2549" lry="5528" rendition="line" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
 
-            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>  <!--Numero 1 scritto a mano in alto a dx-->
-            <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>        <!--parola "morph." nella 1a riga-->
-            <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />       <!--parola "langage" nella 1a riga-->
-            <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>           <!--parola "phon." 2a riga-->
-            <zone ulx="2705" uly="662" lrx="2956" lry="779" rendition="hotspot" xml:id="facs_lang.-p1r2"/>          <!--parola "lang." 3a riga-->
-            <zone ulx="2796" uly="786" lrx="3108" lry="907" rendition="hotspot" xml:id="facs_defin.-p1r3"/>         <!--parola "defin." 3a riga-->
-            <zone ulx="3398" uly="805" lrx="3601" lry="925" rendition="hotspot" xml:id="facs_seul.-p1r3"/>          <!--parola "seul." 3a riga-->
-            <zone ulx="3364" uly="1037" lrx="3604" lry="1171" rendition="hotspot" xml:id="facs_morph.-p1r5"/>       <!--parola "morph." 5a riga-->
-            <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>         <!--parola "phon." 6a riga-->
-            <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>        <!--parola "phon." 7a riga-->
-            <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>          <!--parola "tt." 12a riga-->
-            <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>         <!--parola "del." 12a riga-->
-            <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>       <!--parola "serpo." 13a riga-->
-            <zone ulx="1889" uly="2069" lrx="2183" lry="2152" rendition="hotspot" xml:id="facs_sedos-p1r13"/>       <!--parola "sedos" 13a riga-->
-            <zone ulx="2854" uly="2013" lrx="3153" lry="2109" rendition="hotspot" xml:id="facs_herpo-p1r13"/>       <!--parola "herpo" 13a riga-->
-            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="facs_hedos-p1r13"/>      <!--parola "hedos" 13a riga-->
-            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="facs_herpo-p1r14"/>      <!--parola "herpo" 13a riga-->
-            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="facs_serpo-p1r14"/>      <!--parola "serpo" 14a riga-->
-            <zone ulx="2603" uly="2170" lrx="3502" lry="2263" rendition="hotspot" xml:id="facs_faisdelaphon.-p1r14"/>   <!--parole "fais de la phonetique" 14a riga-->
-            <zone ulx="2843" uly="2306" lrx="3127" lry="2408" rendition="hotspot" xml:id="facs_pers.-p1r15"/>       <!--parola "pers." 15a riga-->
-            <zone ulx="913" uly="2501" lrx="1076" lry="2574" rendition="hotspot" xml:id="facs_-w-p1r16"/>           <!--parola "-w." 16a riga-->  
-            <zone ulx="3239" uly="2440" lrx="3590" lry="2547" rendition="hotspot" xml:id="facs_-omi-p1r16"/>        <!--parola "-omi." 16a riga-->
-            <zone ulx="1892" uly="2653" lrx="2379" lry="2739" rendition="hotspot" xml:id="facs_morphol.-p1r17"/>    <!--parola "morphol." 17a riga-->
-            <zone ulx="782" uly="2976" lrx="1003" lry="3062" rendition="hotspot" xml:id="facs_ex.-p1r19"/>          <!--parola "ex." 19a riga-->
-            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>         <!--parola "q.d." 19a riga-->
-            <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>           <!--parola "-o" 19a riga-->
-            <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>        <!--parola "morph." 21a riga-->
-            <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/> <!--parole "delagen." 22a riga-->
-            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>     <!--parola "genet." 22a riga-->
-            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_plus-p1r24"/>           <!--parola "+" 24a riga-->
-            <zone ulx="897" uly="4157" lrx="1063" lry="4251" rendition="hotspot" xml:id="facs_qf-p1r27"/>           <!--parola "q..f" 27a riga-->
-            <zone ulx="1894" uly="4275" lrx="2035" lry="4378" rendition="hotspot" xml:id="facs_et.-p1r28"/>         <!--parola "et." 27a riga-->
-            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" rendition="hotspot" xml:id="facs_dem.-p1r30"/>        <!--parola "dem." 28a riga-->
-            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" rendition="hotspot" xml:id="facs_pr-p1r31"/>          <!--parola "p.r." 31a riga-->
-            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>   <!--parola "phonetiq." 34a riga-->
-            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>           <!--parola "1" 35a riga-->
+            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
+            <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>                    <!--parola "morph." nella 1a riga-->
+            <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />                   <!--parola "langage" nella 1a riga-->
+            <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>                          <!--parola "phon." 2a riga-->
+            <zone ulx="2705" uly="662" lrx="2956" lry="779" rendition="hotspot" xml:id="facs_lang.-p1r2"/>                         <!--parola "lang." 3a riga-->
+            <zone ulx="2796" uly="786" lrx="3108" lry="907" rendition="hotspot" xml:id="facs_defin.-p1r3"/>                        <!--parola "defin." 3a riga-->
+            <zone ulx="3398" uly="805" lrx="3601" lry="925" rendition="hotspot" xml:id="facs_seul.-p1r3"/>                          <!--parola "seul." 3a riga-->
+            <zone ulx="3364" uly="1037" lrx="3604" lry="1171" rendition="hotspot" xml:id="facs_morph.-p1r5"/>                  <!--parola "morph." 5a riga-->
+            <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>                      <!--parola "phon." 6a riga-->
+            <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>                    <!--parola "phon." 7a riga-->
+            <zone ulx="627" uly="1434" lrx="825" lry="1528" rendition="hotspot" xml:id="facs_sons-p1r8"/>                          <!--parola "sons" 8a riga-->
+            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>/>             <!--parola "formes" 9a riga-->
+            <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>                         <!--parola "tt." 12a riga-->
+            <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>                       <!--parola "del." 12a riga-->
+            <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>                   <!--parola "serpo." 13a riga-->
+            <zone ulx="1889" uly="2069" lrx="2183" lry="2152" rendition="hotspot" xml:id="facs_sedos-p1r13"/>                  <!--parola "sedos" 13a riga-->
+            <zone ulx="2854" uly="2013" lrx="3153" lry="2109" rendition="hotspot" xml:id="facs_herpo-p1r13"/>                  <!--parola "herpo" 13a riga-->
+            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="facs_hedos-p1r13"/>                  <!--parola "hedos" 13a riga-->
+            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="facs_herpo-p1r14"/>                  <!--parola "herpo" 13a riga-->
+            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="facs_serpo-p1r14"/>                  <!--parola "serpo" 14a riga-->
+            <zone ulx="2603" uly="2170" lrx="3502" lry="2263" rendition="hotspot" xml:id="facs_faisdelaphon.-p1r14"/>      <!--parole "fais de la phonetique" 14a riga-->
+            <zone ulx="2843" uly="2306" lrx="3127" lry="2408" rendition="hotspot" xml:id="facs_pers.-p1r15"/>                   <!--parola "pers." 15a riga-->
+            <zone ulx="913" uly="2501" lrx="1076" lry="2574" rendition="hotspot" xml:id="facs_-w-p1r16"/>                         <!--parola "-w." 16a riga-->  
+            <zone ulx="3239" uly="2440" lrx="3590" lry="2547" rendition="hotspot" xml:id="facs_-omi-p1r16"/>                    <!--parola "-omi." 16a riga-->
+            <zone ulx="1892" uly="2653" lrx="2379" lry="2739" rendition="hotspot" xml:id="facs_morphol.-p1r17"/>             <!--parola "morphol." 17a riga-->
+            <zone ulx="1529" uly="2794" lrx="1854" lry="2927" rendition="hotspot" xml:id="facs_formes.-p1r18"/>               <!--parola "formes" 18a riga-->
+            <zone ulx="2967" uly="2766" lrx="3201" lry="2853" rendition="hotspot" xml:id="facs_sons-p1r18"/>                    <!--parola "sons" 18a riga-->
+            <zone ulx="782" uly="2976" lrx="1003" lry="3062" rendition="hotspot" xml:id="facs_ex.-p1r19"/>                         <!--parola "ex." 19a riga-->
+            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>                      <!--parola "q.d." 19a riga-->
+            <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>                         <!--parola "-o" 19a riga-->
+            <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>                    <!--parola "morph." 21a riga-->
+            <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/>        <!--parole "delagen." 22a riga-->
+            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>               <!--parola "genet." 22a riga-->
+            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_definition-p1r22"/>            <!--parola "definition" 22a riga-->
+            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_plus-p1r24"/>                     <!--parola "+" 24a riga-->
+            <zone ulx="897" uly="4157" lrx="1063" lry="4251" rendition="hotspot" xml:id="facs_qf-p1r27"/>                          <!--parola "q..f" 27a riga-->
+            <zone ulx="1894" uly="4275" lrx="2035" lry="4378" rendition="hotspot" xml:id="facs_et.-p1r28"/>                        <!--parola "et." 27a riga-->
+            <zone ulx="3047" uly="4229" lrx="3433" lry="4357" rendition="hotspot" xml:id="facs_formes-p1r28"/>                 <!--parola "formes" 28a riga-->
+            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" rendition="hotspot" xml:id="facs_dem.-p1r30"/>                    <!--parola "dem." 30a riga-->
+            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" rendition="hotspot" xml:id="facs_pr-p1r31"/>                         <!--parola "p.r." 31a riga-->
+            <zone ulx="2969" uly="4952" lrx="3291" lry="5102" rendition="hotspot" xml:id="facs_forme-p1r33"/>                   <!--parola "forme" 31a riga-->
+            <zone ulx="1195" uly="4851" lrx="1582" lry="4974" rendition="hotspot" xml:id="facs_Principe-p1r32"/>                <!--parola "Principe" 32a riga-->
+            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
+            <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
+            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
                                                                                         <!--  fine prima pagina e fine 11a pericope-->
         </surface>
         <!-- //APPUNTI altre surface per le pagine  -->
@@ -340,9 +349,9 @@
                             <lb xml:id="lb7_p1" n="7" facs="#facs_p1r7"/>
                             II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r7"><choice facs="#facs_phon.-p1r7"><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
                             <lb xml:id="lb8_p1" n="8" facs="#facs_p1r8"/>
-                            <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="">sons </term>, et pour pouvoir le faire, est obligée en premier lieu 
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r8">sons</term>, et pour pouvoir le faire, est obligée en premier lieu 
                             <lb xml:id="lb9_p1" n="9" facs="#facs_p1r9"/>
-                            de s'occuper des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>. Les sons ne se transmettent pas 
+                            de s'occuper des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r9">formes</term>. Les sons ne se transmettent pas 
                             <lb xml:id="lb10_p1" n="10" facs="#facs_p1r10"/>
                             d'une génération à l'autre à l'état isolé ; les sons n'existent, 
                             <lb xml:id="lb11_p1" n="11" facs="#facs_p1r11"/>
@@ -360,7 +369,7 @@
                             <lb xml:id="lb17_p1" n="17" facs="#facs_p1r17"/>
                             D'autre part, la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r17"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>, qui est censée ne s'oc-
                             <lb xml:id="lb18_p1" n="18" facs="#facs_p1r18" break="no" rend="stroke"/>
-                            cuper que des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>, s'occupe parfaitement des <term>sons</term>. Par 
+                            cuper que des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r18">formes</term>, s'occupe parfaitement des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r18">sons</term>. Par 
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
@@ -368,7 +377,7 @@
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
-                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="">définition</term>. 
+                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="#facs_definition-p1r22">définition</term>. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
                             Mais il deviendra très clair, par la suite, que rien 
                             <lb xml:id="lb24_p1" n="24" facs="#facs_p1r24"/>
@@ -380,7 +389,7 @@
                             <lb xml:id="lb27_p1" n="27" facs="#facs_p1r27"/>
                             <choice facs="#facs_qf-p1r27"><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
                             <lb xml:id="lb28_p1" n="28" facs="#facs_p1r28"/>
-                            disant que l'une = <choice facs="#facs_et.-p1r28"><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="">sons</term> et l'autre, des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term>, 
+                            disant que l'une = <choice facs="#facs_et.-p1r28"><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r28">sons</term> et l'autre, des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r28">formes</term>, 
                             <lb xml:id="lb29_p1" n="29" facs="#facs_p1r29"/>
                             qu'on obtient une ligne de démarcation satisfaisante.
                             <lb xml:id="lb30_p1" n="30" facs="#facs_p1r30"/>
@@ -388,13 +397,13 @@
                             <lb xml:id="lb31_p1" n="31" facs="#facs_p1r31"/>
                             nécessaire <choice facs="#facs_pr-p1r31"><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
                             <lb xml:id="lb32_p1" n="32" facs="#facs_p1r32"/>
-                            <term subtype="linguistics-term" xml:lang="fr" ref="#Principe" facs="">Principe</term> de direction : 
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#Principe" facs="#facs_Principe-p1r32">Principe</term> de direction : 
                             <lb xml:id="lb33_p1" n="33" facs="#facs_p1r33"/>
-                            Toutes les fois qu'on considère une même <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">forme</term> à 
+                            Toutes les fois qu'on considère une même <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_forme-p1r33">forme</term> à 
                             <lb xml:id="lb34_p1" n="34" facs="#facs_p1r34"/>
                             des dates diverses, c'est faire de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonetiq.-p1r34"><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice></term>, - et toutes 
                             <lb xml:id="lb35_p1" n="35" facs="#facs_p1r35"/>
-                            les fois qu'on considère des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="">formes</term> diverses à <num type="cardinal" value="1" facs="#facs_1-p1r35">1</num> même 
+                            les fois qu'on considère des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_forme-p1r35">formes</term> diverses à <num type="cardinal" value="1" facs="#facs_1-p1r35">1</num> même 
                             <lb xml:id="lb36_p1" n="36" facs="#facs_p1r36"/>
                             date, on fait de la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1">morphologie</term>.
                         </ab>
@@ -828,6 +837,26 @@
                         </gloss>
                         <gloss n="3" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique2">
                             relatif aux changements de son ; = non significatif, non grammatical (Godel, 272)
+                        </gloss>
+                    </item>
+                </list>
+
+                <!-- Forme -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
+                            Sens (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            Signifiant (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
+                        </gloss>
+                        <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
+                            Signe (Engler, 25) (Godel, 262)
                         </gloss>
                     </item>
                 </list>
