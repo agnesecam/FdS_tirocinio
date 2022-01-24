@@ -301,6 +301,8 @@
             <zone ulx="782" uly="2976" lrx="1003" lry="3062" rendition="hotspot" xml:id="facs_ex.-p1r19"/>                         <!--parola "ex." 19a riga-->
             <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>                      <!--parola "q.d." 19a riga-->
             <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>                         <!--parola "-o" 19a riga-->
+            <zone ulx="1382" uly="3107" lrx="3578" lry="3171" rendition="hotspot" xml:id="facs_esgreco-p1r20"/>              <!--parole greche-->
+
             <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>                    <!--parola "morph." 21a riga-->
             <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/>        <!--parole "delagen." 22a riga-->
             <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>               <!--parola "genet." 22a riga-->
@@ -329,7 +331,7 @@
                     <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                     <ab facs="#facs_pericope11">
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
-                        <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="facs_HandParagNumber-1"> 1. </fw>
+                        <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
                     </ab>
                     <div xml:id="div_p1" hand="#h1">
                         <!--Inizio 11 pericope-->
@@ -365,7 +367,7 @@
                             <lb xml:id="lb15_p1" n="15" facs="#facs_p1r15"/>
                             et rien d'autre. De même, si je dis que la première <choice facs="#facs_pers.-p1r15"><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
                             <lb xml:id="lb16_p1" n="16" facs="#facs_p1r16"/>
-                            en <hi rend="underline" facs="facs_-w-p1r16">–ω</hi> ne peut pas venir d'une ancienne première personne en <hi rend="underline" facs="#facs_-omi-p1r16">-ōmi</hi>.
+                            en <hi rend="underline" facs="#facs_-w-p1r16">–ω</hi> ne peut pas venir d'une ancienne première personne en <hi rend="underline" facs="#facs_-omi-p1r16">-ōmi</hi>.
                             <lb xml:id="lb17_p1" n="17" facs="#facs_p1r17"/>
                             D'autre part, la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r17"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>, qui est censée ne s'oc-
                             <lb xml:id="lb18_p1" n="18" facs="#facs_p1r18" break="no" rend="stroke"/>
@@ -373,7 +375,7 @@
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
-                            <eg><foreign>pas avec α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, </foreign></eg>
+                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
@@ -411,7 +413,7 @@
                     </div>
                     <!--Fine pagina 1-->
                     <!--Inizio pagina 2-->
-                    <pb n="f1r" xml:id="body_p2" facs="facs_p2"/>
+                    <pb n="f1r" xml:id="body_p2" facs="#facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Inizio pericope 12-->
                         <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#facs_pericope12">
