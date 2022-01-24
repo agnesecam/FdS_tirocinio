@@ -842,24 +842,50 @@
                 </list>
 
                 <!-- Forme -->
-                    <label>
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
-                            Sens (Engler, 25) (Godel, 262)
-                        </gloss>
-                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                            Signifiant (Engler, 25) (Godel, 262)
-                        </gloss>
-                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                            forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
-                        </gloss>
-                        <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
-                            Signe (Engler, 25) (Godel, 262)
-                        </gloss>
-                    </item>
-                </list>
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
+                </label>
+                <item>
+                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
+                        Sens (Engler, 25) (Godel, 262)
+                    </gloss>
+                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                        Signifiant (Engler, 25) (Godel, 262)
+                    </gloss>
+                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                        forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
+                    </gloss>
+                    <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
+                        Signe (Engler, 25) (Godel, 262)
+                    </gloss>
+                </item>
+
+                <!-- Sons -->
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
+                </label>
+                <item>
+                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                        Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
+                    </gloss>
+                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                        son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
+                    </gloss>
+                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
+                        Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
+                    </gloss>
+                </item>
+
+                <!-- Principe -->            
+                <label>
+                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">Principe</term>
+                </label>
+                <item>
+                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
+                        V. délimitation (Engler 18
+                    </gloss>
+                </item>
+            </list>
 
             <!-- ORGANIZZAZIONI -->
                 <listOrg>
