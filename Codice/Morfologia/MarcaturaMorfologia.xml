@@ -45,7 +45,7 @@
                     <name ref="#Engler">Rudolf Engler</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation by</resp>
+                    <resp>Italian translation by</resp>
                     <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
             </editionStmt>
@@ -318,14 +318,14 @@
             <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
             <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
-                                                                                        <!--  fine prima pagina e fine 11a pericope-->
+                                                                                        <!--  fine prima pagina e anche fine 11a pericope-->
         </surface>
-        <!-- //APPUNTI altre surface per le pagine  -->
+        <!-- //APPUNTI altre surface per le altre pagine  -->
     </facsimile>
     
-    <!--Testo in francese nel primo group e in italiano nel secondo e back-->
+    <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
-        <group> <!--Testo e traduzione di Morfologia-->
+        <group> <!--Testo e traduzioni di Morfologia-->
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
                     <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
@@ -430,7 +430,7 @@
                     -->
                 </body>
             </text>
-            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE MORFOLOGIA-->
+            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE ITALIANO MORFOLOGIA-->
                 <body source="#Fadda2017" resp="#EF">
                     <!--Traduzione 11 pericope-->
                     <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
@@ -468,6 +468,45 @@
                             chantre si ricollega etimologicamente a cantor 	
                             φόρος viene da φέρω
                             φόρος viene da bhoros                    
+                    </ab>
+                </body>
+            </text>
+            <text xml:id="it_Morfologia" xml:lang="EN"> <!--TRADUZIONE INGLESE MORFOLOGIA-->
+                <body  resp="#AC">
+                    <!--Traduzione inglese 11 pericope-->
+                    <ab xml:id="en_3293.11" corresp="#pericope_3293.11" xml:lang="EN">
+                        Morphology, it is said, is the study of the forms of language, while phonetics would be the study of the sounds of language.
+                        We cannot be satisfied with such a definition, not only in theory, but not even for practice, since it will often happen that 
+                        we will no longer know if we are doing morphology or phonetics, as we will see.
+                        It is first of all evident that phonetics, though dealing with sounds, and in order to do so, is obliged in the first place 
+                        to deal with forms. Sounds are not transmitted from one generation to another in an isolated state; sounds do not exist, 
+                        do not live and do not change except in words. He never said [before] yes, and then a sour spirit.
+                        It is pronounced serpō, sedos, and then herpō, hedos. And if I say: herpō comes from serpō, I do some phonetics, and nothing else. 
+                        Equally, if I say that the first person of the verbs in -ω cannot come from an ancient first person in -ōmi.
+                        On the other hand, morphology, which is believed to deal only with shapes, is sometimes concerned with sounds. 
+                        For example, when I say that the Greek ο can alternate with ε, and not with α: λόγος, λέγω - but ἄγω and not ὀγ-, I make morphology. 
+                        It is true that for some people this is called phonics. Due to the bad definition. But it will become very clear later that nothing is more 
+                        false and more dangerous than to classify such a fact with phonetic facts.
+                        And therefore, separating the two domains is not as easy as one sometimes imagines, and it is not by saying that one = study of sounds 
+                        and the other of forms that a satisfactory dividing line is obtained.
+                        But this dividing line is imperiously necessary to avoid deplorable confusions.
+                        Principle of direction:
+                        Whenever we consider the same form at different dates, this is to do phonics, and every time we consider different forms at the same date, we do morphology.                        
+                    </ab>
+                    <!--Traduzione inglese 12 pericope-->
+                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
+                        Old High-German zug zugi
+                        German zug züge
+                        Comparing zugi and züge is comparing two forms, and yet this is not morphology, but phonetics.
+                        Comparing u-ü in zug, züge is to compare two sounds, and nevertheless this is not phonetic.
+                            Sphere ekwos ekwom
+                            Phonetics ἵππος ἵππον
+                                        Morphological sphere
+                        The two spheres [are] confused in the current phrases:
+                            chantre is etymologically linked to chanter
+                            chantre is etymologically linked to cantor
+                            φόρος comes from φέρω
+                            φόρος comes from bhoros                   
                     </ab>
                 </body>
             </text>
