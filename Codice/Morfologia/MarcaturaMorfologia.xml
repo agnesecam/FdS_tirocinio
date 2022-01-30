@@ -282,7 +282,7 @@
             <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>                      <!--parola "phon." 6a riga-->
             <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>                    <!--parola "phon." 7a riga-->
             <zone ulx="627" uly="1434" lrx="825" lry="1528" rendition="hotspot" xml:id="facs_sons-p1r8"/>                          <!--parola "sons" 8a riga-->
-            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>/>             <!--parola "formes" 9a riga-->
+            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>             <!--parola "formes" 9a riga-->
             <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>                         <!--parola "tt." 12a riga-->
             <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>                       <!--parola "del." 12a riga-->
             <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>                   <!--parola "serpo." 13a riga-->
@@ -363,7 +363,7 @@
                             <lb xml:id="lb13_p1" n="13" facs="#facs_p1r13"/>
                             On a prononcé <hi rend="underline" facs="#facs_serpo-p1r13">serpō</hi>, <hi rend="underline" facs="#facs_sedos-p1r13">sedos</hi>, et ensuite <hi rend="underline" facs="#facs_herpo-p1r13">herpō</hi>, <hi rend="underline" facs="#facs_hedos-p1r13">hedos</hi>. 
                             <lb xml:id="lb14_p1" n="14" facs="#facs_p1r14"/>
-                            Et si je dis : <hi rend="underline" facs="#facs_herpo-p1r14">herpō</hi> sort de <hi rend="underline" facs="#facs_serpo-p1r14">serpō</hi>, je <hi rend="underline" facs="#facs_faisdelaphon.">fais de la <<term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétique</term></hi>
+                            Et si je dis : <hi rend="underline" facs="#facs_herpo-p1r14">herpō</hi> sort de <hi rend="underline" facs="#facs_serpo-p1r14">serpō</hi>, je <hi rend="underline" facs="#facs_faisdelaphon.">fais de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétique</term></hi>
                             <lb xml:id="lb15_p1" n="15" facs="#facs_p1r15"/>
                             et rien d'autre. De même, si je dis que la première <choice facs="#facs_pers.-p1r15"><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
                             <lb xml:id="lb16_p1" n="16" facs="#facs_p1r16"/>
@@ -377,7 +377,7 @@
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
                             pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
-                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
+                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que pour certaines personnes, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
                             faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="#facs_definition-p1r22">définition</term>. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
@@ -731,18 +731,18 @@
                     </person>
                 </listPerson>
             
-            <!-- PLACE -->
-            <listPlace>
-                <head>Places</head>
-                
-                <!--Genève-->
-                <place xml:id="GE">
-                    <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                    <country key="CH">Switzerland</country>
-                    <note>...</note>
-                </place>
+                <!-- PLACE -->
+                <listPlace>
+                    <head>Places</head>
+                    
+                    <!--Genève-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>
         
-                <!--Benevento-->
+                    <!--Benevento-->
                     <place xml:id="BN">
                         <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
                         <country key="IT">Italy</country>
@@ -841,53 +841,52 @@
                             relatif aux changements de son ; = non significatif, non grammatical (Godel, 272)
                         </gloss>
                     </item>
+                
+                    <!-- Forme -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
+                            Sens (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            Signifiant (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
+                        </gloss>
+                        <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
+                            Signe (Engler, 25) (Godel, 262)
+                        </gloss>
+                    </item>
+
+                    <!-- Sons -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
+                            Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
+                        </gloss>
+                    </item>
+
+                    <!-- Principe -->            
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="Principe" key="">Principe</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
+                            V. délimitation (Engler 18
+                        </gloss>
+                    </item>
                 </list>
-
-                <!-- Forme -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
-                        Sens (Engler, 25) (Godel, 262)
-                    </gloss>
-                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                        Signifiant (Engler, 25) (Godel, 262)
-                    </gloss>
-                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                        forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
-                    </gloss>
-                    <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
-                        Signe (Engler, 25) (Godel, 262)
-                    </gloss>
-                </item>
-
-                <!-- Sons -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
-                        Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
-                    </gloss>
-                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
-                        son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
-                    </gloss>
-                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
-                        Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
-                    </gloss>
-                </item>
-
-                <!-- Principe -->            
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">Principe</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
-                        V. délimitation (Engler 18
-                    </gloss>
-                </item>
-            </list>
 
             <!-- ORGANIZZAZIONI -->
                 <listOrg>
