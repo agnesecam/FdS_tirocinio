@@ -45,7 +45,7 @@
                     <name ref="#Engler">Rudolf Engler</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation by</resp>
+                    <resp>Italian translation by</resp>
                     <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
             </editionStmt>
@@ -282,7 +282,7 @@
             <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>                      <!--parola "phon." 6a riga-->
             <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>                    <!--parola "phon." 7a riga-->
             <zone ulx="627" uly="1434" lrx="825" lry="1528" rendition="hotspot" xml:id="facs_sons-p1r8"/>                          <!--parola "sons" 8a riga-->
-            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>/>             <!--parola "formes" 9a riga-->
+            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>             <!--parola "formes" 9a riga-->
             <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>                         <!--parola "tt." 12a riga-->
             <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>                       <!--parola "del." 12a riga-->
             <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>                   <!--parola "serpo." 13a riga-->
@@ -318,14 +318,14 @@
             <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
             <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
-                                                                                        <!--  fine prima pagina e fine 11a pericope-->
+                                                                                        <!--  fine prima pagina e anche fine 11a pericope-->
         </surface>
-        <!-- //APPUNTI altre surface per le pagine  -->
+        <!-- //APPUNTI altre surface per le altre pagine  -->
     </facsimile>
     
-    <!--Testo in francese nel primo group e in italiano nel secondo e back-->
+    <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
-        <group> <!--Testo e traduzione di Morfologia-->
+        <group> <!--Testo e traduzioni di Morfologia-->
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
                     <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
@@ -363,7 +363,7 @@
                             <lb xml:id="lb13_p1" n="13" facs="#facs_p1r13"/>
                             On a prononcé <hi rend="underline" facs="#facs_serpo-p1r13">serpō</hi>, <hi rend="underline" facs="#facs_sedos-p1r13">sedos</hi>, et ensuite <hi rend="underline" facs="#facs_herpo-p1r13">herpō</hi>, <hi rend="underline" facs="#facs_hedos-p1r13">hedos</hi>. 
                             <lb xml:id="lb14_p1" n="14" facs="#facs_p1r14"/>
-                            Et si je dis : <hi rend="underline" facs="#facs_herpo-p1r14">herpō</hi> sort de <hi rend="underline" facs="#facs_serpo-p1r14">serpō</hi>, je <hi rend="underline" facs="#facs_faisdelaphon.">fais de la <<term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétique</term></hi>
+                            Et si je dis : <hi rend="underline" facs="#facs_herpo-p1r14">herpō</hi> sort de <hi rend="underline" facs="#facs_serpo-p1r14">serpō</hi>, je <hi rend="underline" facs="#facs_faisdelaphon.">fais de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétique</term></hi>
                             <lb xml:id="lb15_p1" n="15" facs="#facs_p1r15"/>
                             et rien d'autre. De même, si je dis que la première <choice facs="#facs_pers.-p1r15"><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
                             <lb xml:id="lb16_p1" n="16" facs="#facs_p1r16"/>
@@ -377,7 +377,7 @@
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
                             pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais ἄγω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
-                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que <person>pour certaines personnes</person>, cela s'appelle 
+                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que pour certaines personnes, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
                             faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="#facs_definition-p1r22">définition</term>. 
                             <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
@@ -430,7 +430,7 @@
                     -->
                 </body>
             </text>
-            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE MORFOLOGIA-->
+            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE ITALIANO MORFOLOGIA-->
                 <body source="#Fadda2017" resp="#EF">
                     <!--Traduzione 11 pericope-->
                     <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
@@ -468,6 +468,45 @@
                             chantre si ricollega etimologicamente a cantor 	
                             φόρος viene da φέρω
                             φόρος viene da bhoros                    
+                    </ab>
+                </body>
+            </text>
+            <text xml:id="it_Morfologia" xml:lang="EN"> <!--TRADUZIONE INGLESE MORFOLOGIA-->
+                <body  resp="#AC">
+                    <!--Traduzione inglese 11 pericope-->
+                    <ab xml:id="en_3293.11" corresp="#pericope_3293.11" xml:lang="EN">
+                        Morphology, it is said, is the study of the forms of language, while phonetics would be the study of the sounds of language.
+                        We cannot be satisfied with such a definition, not only in theory, but not even for practice, since it will often happen that 
+                        we will no longer know if we are doing morphology or phonetics, as we will see.
+                        It is first of all evident that phonetics, though dealing with sounds, and in order to do so, is obliged in the first place 
+                        to deal with forms. Sounds are not transmitted from one generation to another in an isolated state; sounds do not exist, 
+                        do not live and do not change except in words. He never said [before] yes, and then a sour spirit.
+                        It is pronounced serpō, sedos, and then herpō, hedos. And if I say: herpō comes from serpō, I do some phonetics, and nothing else. 
+                        Equally, if I say that the first person of the verbs in -ω cannot come from an ancient first person in -ōmi.
+                        On the other hand, morphology, which is believed to deal only with shapes, is sometimes concerned with sounds. 
+                        For example, when I say that the Greek ο can alternate with ε, and not with α: λόγος, λέγω - but ἄγω and not ὀγ-, I make morphology. 
+                        It is true that for some people this is called phonics. Due to the bad definition. But it will become very clear later that nothing is more 
+                        false and more dangerous than to classify such a fact with phonetic facts.
+                        And therefore, separating the two domains is not as easy as one sometimes imagines, and it is not by saying that one = study of sounds 
+                        and the other of forms that a satisfactory dividing line is obtained.
+                        But this dividing line is imperiously necessary to avoid deplorable confusions.
+                        Principle of direction:
+                        Whenever we consider the same form at different dates, this is to do phonics, and every time we consider different forms at the same date, we do morphology.                        
+                    </ab>
+                    <!--Traduzione inglese 12 pericope-->
+                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
+                        Old High-German zug zugi
+                        German zug züge
+                        Comparing zugi and züge is comparing two forms, and yet this is not morphology, but phonetics.
+                        Comparing u-ü in zug, züge is to compare two sounds, and nevertheless this is not phonetic.
+                            Sphere ekwos ekwom
+                            Phonetics ἵππος ἵππον
+                                        Morphological sphere
+                        The two spheres [are] confused in the current phrases:
+                            chantre is etymologically linked to chanter
+                            chantre is etymologically linked to cantor
+                            φόρος comes from φέρω
+                            φόρος comes from bhoros                   
                     </ab>
                 </body>
             </text>
@@ -731,18 +770,18 @@
                     </person>
                 </listPerson>
             
-            <!-- PLACE -->
-            <listPlace>
-                <head>Places</head>
-                
-                <!--Genève-->
-                <place xml:id="GE">
-                    <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                    <country key="CH">Switzerland</country>
-                    <note>...</note>
-                </place>
+                <!-- PLACE -->
+                <listPlace>
+                    <head>Places</head>
+                    
+                    <!--Genève-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>
         
-                <!--Benevento-->
+                    <!--Benevento-->
                     <place xml:id="BN">
                         <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
                         <country key="IT">Italy</country>
@@ -841,53 +880,52 @@
                             relatif aux changements de son ; = non significatif, non grammatical (Godel, 272)
                         </gloss>
                     </item>
+                
+                    <!-- Forme -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
+                            Sens (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            Signifiant (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
+                        </gloss>
+                        <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
+                            Signe (Engler, 25) (Godel, 262)
+                        </gloss>
+                    </item>
+
+                    <!-- Sons -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
+                            Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
+                        </gloss>
+                    </item>
+
+                    <!-- Principe -->            
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="Principe" key="">Principe</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
+                            V. délimitation (Engler 18
+                        </gloss>
+                    </item>
                 </list>
-
-                <!-- Forme -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
-                        Sens (Engler, 25) (Godel, 262)
-                    </gloss>
-                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                        Signifiant (Engler, 25) (Godel, 262)
-                    </gloss>
-                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
-                        forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
-                    </gloss>
-                    <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
-                        Signe (Engler, 25) (Godel, 262)
-                    </gloss>
-                </item>
-
-                <!-- Sons -->
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
-                        Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
-                    </gloss>
-                    <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
-                        son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
-                    </gloss>
-                    <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
-                        Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
-                    </gloss>
-                </item>
-
-                <!-- Principe -->            
-                <label>
-                    <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">Principe</term>
-                </label>
-                <item>
-                    <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
-                        V. délimitation (Engler 18
-                    </gloss>
-                </item>
-            </list>
 
             <!-- ORGANIZZAZIONI -->
                 <listOrg>
