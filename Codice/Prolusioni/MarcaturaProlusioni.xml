@@ -53,7 +53,7 @@
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
-                <date when="2021">2021</date>
+                <date when="2022">2022</date>
 			</publicationStmt>
             
             <sourceDesc>
@@ -95,7 +95,7 @@
                                 <support>
                                     <material>Thin checkered paper</material>
                                 </support>
-                                <extent> <!--? Non ho chiaro l'uso di measureGrp per indicare le tre dimensioni -->
+                                <extent> <!--Cosa uso tra measure e dimensions?-->
                                     <measureGrp>
                                             <measure unit="pages" quantity="30">30 pages +</measure>
                                             <measure unit="pages" quantity="15">15 pages +</measure>
@@ -103,7 +103,7 @@
                                             <measure type="height" unit="mm" quantity="211">211 mm</measure>
                                             <measure type="widht" unit="mm" quantity="136">136 mm</measure>
                                     </measureGrp>
-                                    <dimensions unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
+                                    <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
@@ -345,7 +345,7 @@
         <!-- altre surface per le pagine -->
     </facsimile>
 
-    <!--Testo in francese nel primo group e in italiano nel secondo e back-->
+    <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->

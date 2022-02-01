@@ -55,53 +55,10 @@
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
-                <date when="2021">2021</date>
+                <date when="2022">2022</date>
 			</publicationStmt>
             
             <sourceDesc>
-                <bibl source="#Godel1969">
-                    <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
-                    <author>
-                        <persName ref="#FdS">
-                            <forename>Ferdinand</forename>
-                            <surname>de Saussure</surname>
-                        </persName>
-                    </author>
-                    <author>
-                        <persName ref="#RG">
-                            <forename>Robert</forename>
-                            <surname>Godel</surname>
-                        </persName>
-                    </author>
-                    <date when="1969">1969</date>
-                    <publisher>Libraire Droz</publisher>
-                    <pubPlace>Gèneve</pubPlace>
-                </bibl>
-                <bibl source="#Engler1967-74">
-                    <title> Cours de Linguistique Générale</title>
-                    <author>
-                        <persName ref="#RE">
-                            <forename>Rudolf</forename>
-                            <surname>Engler</surname>
-                        </persName>
-                    </author>
-                    <date from="1967" to="1974">1967-74</date>
-                </bibl>
-                <bibl source="#Fadda2017">
-                    <title type="main">Sentimento della lingua</title>
-                    <title type="sub">Per un'antropologia linguistica saussuriana</title>
-                    <author>
-                        <persName ref="#EF">
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                    </author>
-                    <publisher>Edizioni dell'Orso</publisher>
-                    <pubPlace>Alessandria</pubPlace>
-                    <date when="2017">2017</date>
-                    <idno type="ISBN">8862747950</idno>
-                    <citedRange unit="page" from="100" to="110">100-110</citedRange>
-                </bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>Switzerland</country>
@@ -114,7 +71,7 @@
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Les première leçons de Saussure a Genève</title>
-                            <docDate><date notBefore="1893" notAfter="1895">1893-1985</date></docDate> <!---Avevo usato <docDate> ma non ha notBefore/After come attributi -->
+                            <docDate><date notBefore="1893" notAfter="1895">1893-1985</date></docDate> <!---Avevo usato <docDate> direttamente al posto di <date> ma non ha notBefore/After come attributi -->
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                     </msContents>
@@ -124,13 +81,13 @@
                                 <support>
                                     <material>Thin paper</material>
                                 </support>
-                                <extent>
-                                    <measureGrp>
+                                <extent> <!--Cosa uso tra measure e dimensions?-->
+                                    <measureGrp> <
                                         <measure type="pages" quantity="19">19</measure>
                                         <measure type="height" unit="mm" quantity="211">211</measure>
                                         <measure type="width" unit="mm" quantity="136">136</measure>
                                     </measureGrp>
-                                    <dimensions unit="mm"><height>...</height><width>...</width></dimensions> <!--dato mancante-->
+                                    <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, few holes and stains</condition>
