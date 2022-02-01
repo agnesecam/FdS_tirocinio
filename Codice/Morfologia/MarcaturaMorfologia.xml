@@ -89,7 +89,8 @@
                                     </measureGrp>
                                     <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
-                                <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
+                                <foliation>The page is part of 
+                                a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, few holes and stains</condition>
                             </supportDesc>
                         </objectDesc>

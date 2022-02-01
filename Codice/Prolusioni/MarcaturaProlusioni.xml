@@ -111,14 +111,14 @@
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
-                            <!--Nella prima pagina e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
+                            <!--Nella prima immagine e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate>Première conférence
-                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate>Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>Troisième conférence
+                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
+                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
+                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
@@ -176,7 +176,7 @@
                                     the history of civilization may have for the same science
                                 </desc>
                             </item>      
-                            <!--PERICOPE 3--> <!--Inizio 2a pagina-->
+                            <!--PERICOPE 3--> <!--Inizio 2a pagina--> <!--Ho marcato solo le prime 2 pericopi, dalla terza riporto solo questo schema-->
                             <label>
                                 <idno type="ID-pericope">91Aaaa003</idno>
                             </label>
