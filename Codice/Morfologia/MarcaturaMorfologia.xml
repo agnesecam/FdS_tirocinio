@@ -728,9 +728,8 @@
                             <date when="1930-10-25">25th October 1930</date>
                         </birth> 
                     </person>
-                </listPerson>
 
-                <!--Antoinette Weil-->
+                    <!--Antoinette Weil-->
                     <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
                         <persName> 
                             <forename>Antoinette</forename>
