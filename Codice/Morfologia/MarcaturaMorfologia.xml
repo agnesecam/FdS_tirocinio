@@ -794,7 +794,7 @@
 
                     <listRelation>
                         <!--Luoghi vicini-->
-                        <relation name="near" mutual="#P1l #Pl2"/>
+                        <relation name="near" mutual="#Pl1 #Pl2"/>
                         <!--Luogo di nascita di una persona-->
                         <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>   
                         <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
