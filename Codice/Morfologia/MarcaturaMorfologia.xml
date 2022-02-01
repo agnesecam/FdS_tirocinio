@@ -796,7 +796,7 @@
                         <!--Luoghi vicini-->
                         <relation name="near" mutual="#P1l #Pl2"/>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="#FdS" passive="#PGE"/>   
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>   
                         <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
                         <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
