@@ -478,7 +478,7 @@
                 <!--NOTE-->
                 <list type="notes">
                     <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">>
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>  ... </p>
                     </item>
                 </list>
@@ -487,7 +487,7 @@
                 <listBibl xml:id="morfologia1_bibliography">
                     <head>Bibliography</head>
                     
-                    <!--Bouq.-Engl2002-->
+                    <!--Bouquet-Engler2002-->
                     <bibl xml:id="Bouquet-Engler2002">
                         <title>Écrits de linguistique générale</title>
                         <author>
@@ -539,6 +539,7 @@
                                 <surname>Godel</surname>
                             </persName>
                         </author>
+                        <date when="1969">1969</date>
                         <publisher>Libraire Droz</publisher>
                         <pubPlace>Gèneve</pubPlace>                               
                     </bibl>
@@ -726,6 +727,16 @@
                         <birth>
                             <date when="1930-10-25">25th October 1930</date>
                         </birth> 
+                    </person>
+                </listPerson>
+
+                <!--Antoinette Weil-->
+                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
+                        <persName> 
+                            <forename>Antoinette</forename>
+                            <surname>Weil</surname>
+                        </persName>
+                        <sex>F</sex>
                     </person>
                 </listPerson>
             
