@@ -288,7 +288,7 @@
             <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
                     <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
-                    <ab facs="#facs_pericope11">
+                    <ab>
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
                     </ab>
@@ -389,7 +389,7 @@
                     -->
                 </body>
             </text>
-            <text xml:id="it_Morfologia" xml:lang="IT"> <!--TRADUZIONE ITALIANO MORFOLOGIA-->
+            <text xml:id="it_Morfologia" xml:lang="IT"> <!--ITA MORFOLOGIA-->
                 <body source="#Fadda2017" resp="#EF">
                     <!--Traduzione 11 pericope-->
                     <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
@@ -430,7 +430,7 @@
                     </ab>
                 </body>
             </text>
-            <text xml:id="it_Morfologia" xml:lang="EN"> <!--TRADUZIONE INGLESE MORFOLOGIA-->
+            <text xml:id="it_Morfologia" xml:lang="EN"> <!--EN MORFOLOGIA-->
                 <body  resp="#AC">
                     <!--Traduzione inglese 11 pericope-->
                     <ab xml:id="en_3293.11" corresp="#pericope_3293.11" xml:lang="EN">
