@@ -349,9 +349,9 @@
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
     <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
         <group> <!--Testo e traduzione delle 3 prolusioni-->
-            <group xml:id="fr_Prolusioni"> <!--TESTO DELLE 3 PROLUSIONI-->
+            <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come della trascrizione-->
                         <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- f1r = folio 1 recto //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
@@ -426,8 +426,8 @@
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
                                 <add change="#chg-3" place="above" facs="#facs_add2-p1r31">je ne pourrais me plaindre ici de l’abandon.</add>
-                            </ab> <!--Fine 1 pericope-->
-                            
+                            </ab>
+                            <!--Fine 1 pericope-->
                             <!--Inizio 2 pericope-->        
                             <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs="#facs_Pericope2"> 
                                 <add change="#CHG-3" place="left margin" facs="#facs_p1_leftblock2">
@@ -468,9 +468,14 @@
                         <ab> ... </ab>
                     </body>
                 </text>
+                <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
+                    <body>
+                        <ab> ... </ab>
+                    </body>
+                </text>
             </group>  
             
-            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI DELLE 3 PROLUSIONI-->
+            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
@@ -498,6 +503,68 @@
                         </ab> 
                         <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
                             ...traduzione quarta pericope...
+                        </ab>                                         
+                    </body>
+                </text>
+                <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
+                            ...
+                        </ab>
+                        <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
+                            ...
+                        </ab>
+                    </body>
+                </text>
+                <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
+                            ...
+                        </ab>
+                        <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
+                            ...
+                        </ab>   
+                        <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
+                            ...
+                        </ab>
+                    </body>
+                </text>            
+            </group>
+
+            <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1"> <!--EN 1 PROLUSIONE-->
+                    <body resp="#AC">
+                        <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
+                            If the chair I have the honor of inaugurating on this occasion represented 
+                            a new order of study in our University, if I had today the mission or the 
+                            privilege of introducing you to the building that the science of language 
+                            has been building for seventy years here, and to outline the current state 
+                            of this science, and to go through its past, which is not so long, or to predict 
+                            its future, its usefulness, and define the place it occupies in the circle of human 
+                            knowledge and the services it can render in a Faculty of Arts, I would be afraid 
+                            of not being able to carry out my task worthily, but certainly I would not be able 
+                            to complain of abandonment here.
+                        </ab>
+                        <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN">
+                            Without exalting beyond measure the merits of linguistics, what is the benefit 
+                            that can derive from such study, for example, classical scholarship, knowledge 
+                            of the Greek, Latin and French languages, even if it had a purely literary purpose, 
+                            and the interest that can it have the same study for history or for the history of civilization?                
+                        </ab> 
+                        <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
+                            ...traduzione inglese terza pericope...
+                        </ab> 
+                        <ab xml:id="en_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="EN">
+                            ...traduzione inglese quarta pericope...
                         </ab>                                         
                     </body>
                 </text>
