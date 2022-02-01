@@ -340,9 +340,10 @@
             <zone ulx="769" uly="5359" lrx="1029" lry="5487" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>   <!--parola "litteraire" riga 39--> 
             <zone ulx="1947" uly="5551" lrx="2263" lry="5665" rendition="hotspot" xml:id="facs_del1-p1r40"/>        <!--cancellatura "l' + illeggibile" riga 40-->
             <zone ulx="2379" uly="5517" lrx="2829" lry="5655" rendition="hotspot" xml:id="facs_histoire-p1r40"/>    <!--parola "histoire" riga 40-->
+            <!--  fine prima pagina e anche fine 11a pericope -->
             <!-- //APPUNTI per pericopi divise in più pagine annida zone-->
         </surface>
-        <!-- altre surface per le pagine -->
+        <!-- //APPUNTI altre surface per le pagine -->
     </facsimile>
 
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->

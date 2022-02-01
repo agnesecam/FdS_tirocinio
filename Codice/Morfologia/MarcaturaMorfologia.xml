@@ -180,6 +180,7 @@
                         Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
                         Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
                     </change>
+                    <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not at the same time of the first stage</change>
                 </listChange> //FINISCI
             </creation>
         </profileDesc>
@@ -188,10 +189,11 @@
     <facsimile>
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
-
-            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope11"/>        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
-
-            <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>   <!--Numero a mano 1a pericope-->
+            <!--PERICOPI e NUMERAZIONE A MANO-->
+            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope11"/>                        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
+            <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>           <!--Numero a mano 1a pericope a sx-->
+            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
+            <!--RIGHE-->
             <zone ulx="646" uly="539" lrx="3578" lry="656" rendition="line" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
             <zone ulx="617" uly="711" lrx="2998" lry="783" rendition="line" xml:id="facs_p1r2"/>               <!--Riga 2 della pagina 1-->
             <zone ulx="761" uly="841" lrx="3610" lry="920" rendition="line" xml:id="facs_p1r3"/>               <!--Riga 3 della pagina 1-->
@@ -228,8 +230,7 @@
             <zone ulx="953" uly="5135" lrx="3521" lry="5233" rendition="line" xml:id="facs_p1r34"/>            <!--Riga 34 della pagina 1-->
             <zone ulx="962" uly="5259" lrx="3458" lry="5358" rendition="line" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
             <zone ulx="946" uly="5401" lrx="2549" lry="5528" rendition="line" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
-
-            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
+            <!--HOTSPOT-->
             <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>                    <!--parola "morph." nella 1a riga-->
             <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />                   <!--parola "langage" nella 1a riga-->
             <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>                          <!--parola "phon." 2a riga-->
@@ -240,7 +241,7 @@
             <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>                      <!--parola "phon." 6a riga-->
             <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>                    <!--parola "phon." 7a riga-->
             <zone ulx="627" uly="1434" lrx="825" lry="1528" rendition="hotspot" xml:id="facs_sons-p1r8"/>                          <!--parola "sons" 8a riga-->
-            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>             <!--parola "formes" 9a riga-->
+            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>                 <!--parola "formes" 9a riga-->
             <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>                         <!--parola "tt." 12a riga-->
             <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>                       <!--parola "del." 12a riga-->
             <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>                   <!--parola "serpo." 13a riga-->
@@ -260,7 +261,6 @@
             <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>                      <!--parola "q.d." 19a riga-->
             <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>                         <!--parola "-o" 19a riga-->
             <zone ulx="1382" uly="3107" lrx="3578" lry="3171" rendition="hotspot" xml:id="facs_esgreco-p1r20"/>              <!--parole greche-->
-
             <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>                    <!--parola "morph." 21a riga-->
             <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/>        <!--parole "delagen." 22a riga-->
             <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>               <!--parola "genet." 22a riga-->
@@ -276,7 +276,8 @@
             <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
             <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
-                                                                                        <!--  fine prima pagina e anche fine 11a pericope-->
+            <!--  fine prima pagina e anche fine 11a pericope -->
+            <!-- //APPUNTI per pericopi divise in più pagine annida zone-->
         </surface>
         <!-- //APPUNTI altre surface per le altre pagine  -->
     </facsimile>
