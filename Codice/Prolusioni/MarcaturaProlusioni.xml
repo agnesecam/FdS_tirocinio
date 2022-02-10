@@ -252,11 +252,12 @@
     </teiHeader>
     
     <facsimile>
+        <!--Prima pagina-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url='prolusioni_3951.1_f1.jpg' width='1383px' height='804px' /> 
+            <graphic url='prolusioni_3951-1_f1.jpg' width='1383px' height='804px' /> 
             <!--PERICOPI e NUMERAZIONE A MANO-->
             <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
-            <zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2" />        <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
+            <zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />        <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
             <zone ulx="377" uly="536" lrx="655" lry="786" rendition="hotspot" xml:id="facs_HandPageNumber-1" />     <!--Numero 1 sx cerchiato -->
             <zone ulx="3430" uly="441" lrx="3501" lry="525" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />  <!--Numero 2 dx stampato -->
             <!--RIGHE-->
@@ -340,10 +341,15 @@
             <zone ulx="769" uly="5359" lrx="1029" lry="5487" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>   <!--parola "litteraire" riga 39--> 
             <zone ulx="1947" uly="5551" lrx="2263" lry="5665" rendition="hotspot" xml:id="facs_del1-p1r40"/>        <!--cancellatura "l' + illeggibile" riga 40-->
             <zone ulx="2379" uly="5517" lrx="2829" lry="5655" rendition="hotspot" xml:id="facs_histoire-p1r40"/>    <!--parola "histoire" riga 40-->
-            <!--  fine prima pagina e anche fine 11a pericope -->
+            <!--  fine prima pagina e anche fine 1a pericope -->
             <!-- //APPUNTI per pericopi divise in più pagine annida zone-->
         </surface>
-        <!-- //APPUNTI altre surface per le pagine -->
+        <!--Seconda pagina-->
+        <surface n="1" xml:id="scan_p2">
+            <graphic url='prolusioni_3951-1_f1.jpg' width='1383px' height='804px' />
+            <!--PERICOPI e NUMERAZIONE A MANO-->
+            <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope2b" />
+        </surface>
     </facsimile>
 
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
