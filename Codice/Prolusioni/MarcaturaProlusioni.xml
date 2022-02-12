@@ -252,15 +252,15 @@
     </teiHeader>
     
     <facsimile>
-        <!--Prima pagina-->
+        <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
             <graphic url='prolusioni_3951-1_f1.jpg' width='1383px' height='804px' /> 
-            <!--PERICOPI e NUMERAZIONE A MANO-->
+            <!--Pericopi e numerazione a mano-->
             <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
             <zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />        <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
             <zone ulx="377" uly="536" lrx="655" lry="786" rendition="hotspot" xml:id="facs_HandPageNumber-1" />     <!--Numero 1 sx cerchiato -->
             <zone ulx="3430" uly="441" lrx="3501" lry="525" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />  <!--Numero 2 dx stampato -->
-            <!--RIGHE-->
+            <!--Righe-->
             <zone ulx="980" uly="654" lrx="3471" lry="802" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
             <zone ulx="939" uly="921" lrx="3647" lry="991" rendition="line" xml:id="facs_p1_lb2"/>                  <!--2a riga-->
             <zone ulx="939" uly="1026" lrx="3646" lry="1242" rendition="line" xml:id="facs_p1_lb3"/>                <!--3a riga-->
@@ -303,7 +303,7 @@
             <zone ulx="1272" uly="5523" lrx="3468" lry="5691" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
             <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25-THVP"/>                  <!--THVP-->
             <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>                  <!--parte sopra THVP-->
-            <!--HOTSPOT-->
+            <!--Hotspot-->
             <zone ulx="3079" uly="692" lrx="3466" lry="805" rendition="hotspot" xml:id="facs_ence-p1r1"/>           <!--inserimento "en ce." nella 1a riga-->
             <zone ulx="1430" uly="1045" lrx="1676" lry="1113" rendition="hotspot" xml:id="facs_del1-p1r3"/>         <!--cancellatura parola sopraelevata riga 3-->
             <zone ulx="2054" uly="1038" lrx="3647" lry="1256" rendition="hotspot" xml:id="facs_del2-p1r3"/>         <!--cancellatura parole riga 3-->
@@ -341,14 +341,18 @@
             <zone ulx="769" uly="5359" lrx="1029" lry="5487" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>   <!--parola "litteraire" riga 39--> 
             <zone ulx="1947" uly="5551" lrx="2263" lry="5665" rendition="hotspot" xml:id="facs_del1-p1r40"/>        <!--cancellatura "l' + illeggibile" riga 40-->
             <zone ulx="2379" uly="5517" lrx="2829" lry="5655" rendition="hotspot" xml:id="facs_histoire-p1r40"/>    <!--parola "histoire" riga 40-->
-            <!--  fine prima pagina e anche fine 1a pericope -->
-            <!-- //APPUNTI per pericopi divise in più pagine annida zone-->
+            <!--Fine 1a pagina e anche fine 1a pericope-->
         </surface>
-        <!--Seconda pagina-->
-        <surface n="1" xml:id="scan_p2">
-            <graphic url='prolusioni_3951-1_f1.jpg' width='1383px' height='804px' />
-            <!--PERICOPI e NUMERAZIONE A MANO-->
-            <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope2b" />
+        <!--SECONDA PAGINA-->
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='prolusioni_3951-1_f2.jpg' width='1383px' height='804px' />
+            <!--Pericopi e numerazione a mano-->
+            <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope2b" />                 <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
+            <zone ulx="404" uly="362" lrx="607" lry="604" rendition="hotspot" xml:id="facs_HandPageNumber-2" />      <!--Numero 2 sx cerchiato -->
+            <!--Righe-->
+            <zone ulx="1022" uly="514" lrx="3684" lry="679" rendition="line" xml:id="facs_p2lb1"/>                                  <!--1a riga-->
+            <!--Hotspot-->
+            <zone ulx="1170" uly="531" lrx="1590" lry="656" rendition="hotspot" xml:id="facs_histoire-p2r1"/>
         </surface>
     </facsimile>
 
@@ -465,11 +469,14 @@
                         <!--Fine 1a pagina-->
                         <!--Seconda pagina = secondo folio, verso-->
                         <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
+                        <ab>
+                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2"> 2 </fw>
+                        </ab>
                         <div xml:id="div_p2" hand="#h1">
-                            <!--Continuo 2 pericope iniziata in pagina 1-->
+                            <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                                    l’<term subtype="?" ref="#histoire" facs="#...">histoire</term> de la civilisation
+                                    l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
                             <!--Inizio 3a pericope-->
