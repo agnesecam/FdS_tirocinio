@@ -358,9 +358,8 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come della trascrizione-->
-
                         <!--Prima pagina = primo folio, recto-->
-                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
+                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/>
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
@@ -464,19 +463,18 @@
                             </ab>
                         </div>
                         <!--Fine 1a pagina-->
-                        
                         <!--Seconda pagina = secondo folio, verso-->
-                        <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/><!--//UGLY non so se il valore di <surface> (scan_p2) posso usarlo come facs dell'intera pagina-->
+                        <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2 pericope iniziata in pagina 1-->
-                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2">  <!--//APPUNTI Uso il primo valore di corresp per indicare la pericope di appartenenza iniziata nella pagina precedente, il secondo per indicare la traduzione in italiano, il terzo quella in inglese-->
+                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#..."/>
                                     l’<term subtype="?" ref="#histoire" facs="#...">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
                             <!--Inizio 3a pericope-->
                             <ab n="3" xml:lang="FR" corresp="#pericope_91Aaaa003 it_91Aaaa003 en_91Aaaa003" facs="#facs_Pericope3">
-                                - et j’aurais <!--//APPUNTI non inizia una nuova lb perché è la stessa riga-->
+                                - et j’aurais
                                 <lb xml:id="lb2_p2" n="2" facs="#..."/>
                                     ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#..."/>
