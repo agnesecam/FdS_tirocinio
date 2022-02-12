@@ -285,9 +285,9 @@
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
     <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
         <group> <!--Testo e traduzioni di Morfologia-->
-            <text xml:id="fr_Morfologia"> <!--FR MORFOLOGIA-->
-                <body xml:lang="fr" source="Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come fonte della trascrizione-->
-                    <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
+            <text xml:id="fr_Morfologia" xml:lang="FR"> <!--FR MORFOLOGIA-->
+                <body xml:lang="fr" source="Bouquet-Engler2002">
+                    <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso-->
                     <ab>
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
