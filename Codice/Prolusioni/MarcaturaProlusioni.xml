@@ -358,6 +358,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come della trascrizione-->
+
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                         <ab>
@@ -457,18 +458,32 @@
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
                                 étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
-                            
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto-->
                                     <abbr type="acronym">T<am>.</am>S<am>.</am>V<am>.</am>P<am>.</am></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
                                 </metamark>
                             </ab>
                         </div>
+                        <!--Fine 1a pagina-->
+                        
                         <!--Seconda pagina = secondo folio, verso-->
                         <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/><!--//UGLY non so se il valore di <surface> (scan_p2) posso usarlo come facs dell'intera pagina-->
                         <div xml:id="div_p2" hand="#h1">
-                            <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                            <!-- ... -->
+                            <!--Continuo 2 pericope iniziata in pagina 1-->
+                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2">  <!--//APPUNTI Uso il primo valore di corresp per indicare la pericope di appartenenza iniziata nella pagina precedente, il secondo per indicare la traduzione in italiano, il terzo quella in inglese-->
+                                <lb xml:id="lb1_p2" n="1" facs="#..."/>
+                                    l’<term subtype="?" ref="#histoire" facs="#...">histoire</term> de la civilisation
+                            </ab>
+                            <!--Fine 2a pericope-->
+                            <!--Inizio 3a pericope-->
+                            <ab n="3" xml:lang="FR" corresp="#pericope_91Aaaa003 it_91Aaaa003 en_91Aaaa003" facs="#facs_Pericope3">
+                                - et j’aurais <!--//APPUNTI non inizia una nuova lb perché è la stessa riga-->
+                                <lb xml:id="lb2_p2" n="2" facs="#..."/>
+                                    ici à rappeler le nom
+                                <lb xml:id="lb3_p2" n="3" facs="#..."/>
+                                ...
+                            </ab>
                         </div>
+                        <!--Fine 2a pagina-->
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
