@@ -358,7 +358,8 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come della trascrizione-->
-                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- f1r = folio 1 recto //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
+                        <!--Prima pagina = primo folio, recto-->
+                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/> <!-- //UGLY non so se il valore di <surface> (scan_p1) posso usarlo come facs dell'intera pagina-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
@@ -462,7 +463,8 @@
                                 </metamark>
                             </ab>
                         </div>
-                        <pb n="2" xml:id="body_p2" facs="#facs_p2"/>
+                        <!--Seconda pagina = secondo folio, verso-->
+                        <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/><!--//UGLY non so se il valore di <surface> (scan_p2) posso usarlo come facs dell'intera pagina-->
                         <div xml:id="div_p2" hand="#h1">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
                             <!-- ... -->
