@@ -129,33 +129,33 @@
                                 <idno type="ID-pericope">3951/7.1</idno>
                             </label>
                             <item corresp="#pericope_3951-7.1" facs="#facs_Pericope1a #facs_Pericope1b">
-                                <!--Testo per. 11-->
+                                <!--Testo per. 1-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
                                 </seg>
-                                <!--Descr. per. 11-->
+                                <!--Descr. per. 1-->
                                 <desc>
                                     Saussure initially presents an erroneous but widespread definition of "morphology" 
                                     and "phonetics", then explains the reason why it is incorrect and provides a correct 
-                                    one explaining the difference between the two disciplines.
+                                    definition of the difference between the two disciplines.
+                                    Then he presents some practical examples of "making phonetics" and "making morphology", 
+                                    comparing the two forms "zugi" and "züge" and then the two sounds "u"-"ü".
                                 </desc>
                             </item>
-                            <!--PERICOPE 12-->
+                            <!--PERICOPE 2-->
                             <label>
                                 <idno type="ID-pericope">3951/7.2</idno>
                             </label>
                             <item corresp="#pericope_3951-7.2" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
                                 <seg>
-                                        vieux-haut-allemand 	zug	zugi 
-                                        nouvel allemand 	zug 	züge. 
-                                    Comparer zugi  et züge, c'est comparer deux formes, [...]
+                                    2. Cela ne dit pas encore en quoi consiste exactement la morphologie : [...]    
                                 </seg>
                                 <!--Descr. per. 2-->
                                 <desc>
-                                    In the previous passage Saussure had introduced the difference between morphology and phonetics. 
-                                    Now he presents some practical examples of "making phonetics" and "making morphology", 
-                                    comparing the two forms "zugi" and "züge" and then the two sounds "u"-"ü".
+                                    Saussure Fornisce una specifica definizione della morfologia e della fonetica.
+                                    Espone una prima conseguenza di questa definizione, chiedendo e spiegando perché la morfologia
+                                    abbia sempre come campo il contemporaneo mentre la fonetica il successivo.
                                 </desc> 
                             </item>
                         </list>
@@ -181,28 +181,29 @@
                         Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line.
                     </change>
                     <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not at the same time of the first stage</change>
-                </listChange> //FINISCI
+                </listChange>
             </creation>
         </profileDesc>
     </teiHeader>
     
     <facsimile>
+        <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
-            <!--PERICOPI e NUMERAZIONE A MANO-->
+            <!--Pericopi e numerazione a mano-->
             <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope1a"/>                        <!--Prima parte della 1a pericope, contenuta nella 1a pagina: fino a "date, on fait de la morphologie."-->
             <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>           <!--Numero a mano 1a pericope a sx-->
             <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
-            <!--RIGHE-->
-            <zone ulx="646" uly="539" lrx="3578" lry="656" rendition="line" xml:id="facs_p1r1"/>               <!--Riga 1 della pagina 1-->
-            <zone ulx="617" uly="711" lrx="2998" lry="783" rendition="line" xml:id="facs_p1r2"/>               <!--Riga 2 della pagina 1-->
-            <zone ulx="761" uly="841" lrx="3610" lry="920" rendition="line" xml:id="facs_p1r3"/>               <!--Riga 3 della pagina 1-->
-            <zone ulx="564" uly="968" lrx="3602" lry="1045" rendition="line" xml:id="facs_p1r4"/>              <!--Riga 4 della pagina 1-->
-            <zone ulx="605" uly="1067" lrx="3605" lry="1170" rendition="line" xml:id="facs_p1r5"/>             <!--Riga 5 della pagina 1-->
-            <zone ulx="614" uly="1220" lrx="2107" lry="1256" rendition="line" xml:id="facs_p1r6"/>             <!--Riga 6 della pagina 1-->
-            <zone ulx="787" uly="1326" lrx="3590" lry="1371" rendition="line" xml:id="facs_p1r7"/>             <!--Riga 7 della pagina 1-->
-            <zone ulx="626" uly="1451" lrx="3598" lry="1487" rendition="line" xml:id="facs_p1r8"/>             <!--Riga 8 della pagina 1-->
-            <zone ulx="655" uly="1595" lrx="3598" lry="1628" rendition="line" xml:id="facs_p1r9"/>             <!--Riga 9 della pagina 1-->
+            <!--Righe-->
+            <zone ulx="646" uly="539" lrx="3578" lry="656" rendition="line" xml:id="facs_p1r1"/>                  <!--Riga 1 della pagina 1-->
+            <zone ulx="617" uly="711" lrx="2998" lry="783" rendition="line" xml:id="facs_p1r2"/>                  <!--Riga 2 della pagina 1-->
+            <zone ulx="761" uly="841" lrx="3610" lry="920" rendition="line" xml:id="facs_p1r3"/>                  <!--Riga 3 della pagina 1-->
+            <zone ulx="564" uly="968" lrx="3602" lry="1045" rendition="line" xml:id="facs_p1r4"/>                <!--Riga 4 della pagina 1-->
+            <zone ulx="605" uly="1067" lrx="3605" lry="1170" rendition="line" xml:id="facs_p1r5"/>              <!--Riga 5 della pagina 1-->
+            <zone ulx="614" uly="1220" lrx="2107" lry="1256" rendition="line" xml:id="facs_p1r6"/>              <!--Riga 6 della pagina 1-->
+            <zone ulx="787" uly="1326" lrx="3590" lry="1371" rendition="line" xml:id="facs_p1r7"/>              <!--Riga 7 della pagina 1-->
+            <zone ulx="626" uly="1451" lrx="3598" lry="1487" rendition="line" xml:id="facs_p1r8"/>              <!--Riga 8 della pagina 1-->
+            <zone ulx="655" uly="1595" lrx="3598" lry="1628" rendition="line" xml:id="facs_p1r9"/>              <!--Riga 9 della pagina 1-->
             <zone ulx="634" uly="1695" lrx="3557" lry="1753" rendition="line" xml:id="facs_p1r10"/>            <!--Riga 10 della pagina 1-->
             <zone ulx="672" uly="1844" lrx="3506" lry="1875" rendition="line" xml:id="facs_p1r11"/>            <!--Riga 11 della pagina 1-->
             <zone ulx="684" uly="1983" lrx="3540" lry="2007" rendition="line" xml:id="facs_p1r12"/>            <!--Riga 12 della pagina 1-->
@@ -210,7 +211,7 @@
             <zone ulx="684" uly="2212" lrx="3545" lry="2315" rendition="line" xml:id="facs_p1r14"/>            <!--Riga 14 della pagina 1-->
             <zone ulx="691" uly="2351" lrx="3554" lry="2454" rendition="line" xml:id="facs_p1r15"/>            <!--Riga 15 della pagina 1-->
             <zone ulx="730" uly="2490" lrx="3547" lry="2598" rendition="line" xml:id="facs_p1r16"/>            <!--Riga 16 della pagina 1-->
-            <zone ulx="1013" uly="2663" lrx="3550" lry="2790" rendition="line" xml:id="facs_p1r17"/>           <!--Riga 17 della pagina 1-->
+            <zone ulx="1013" uly="2663" lrx="3550" lry="2790" rendition="line" xml:id="facs_p1r17"/>          <!--Riga 17 della pagina 1-->
             <zone ulx="943" uly="2811" lrx="3550" lry="2960" rendition="line" xml:id="facs_p1r18"/>            <!--Riga 18 della pagina 1-->
             <zone ulx="818" uly="2970" lrx="3516" lry="3071" rendition="line" xml:id="facs_p1r19"/>            <!--Riga 19 della pagina 1-->
             <zone ulx="802" uly="3092" lrx="3564" lry="3243" rendition="line" xml:id="facs_p1r20"/>            <!--Riga 20 della pagina 1-->
@@ -230,7 +231,7 @@
             <zone ulx="953" uly="5135" lrx="3521" lry="5233" rendition="line" xml:id="facs_p1r34"/>            <!--Riga 34 della pagina 1-->
             <zone ulx="962" uly="5259" lrx="3458" lry="5358" rendition="line" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
             <zone ulx="946" uly="5401" lrx="2549" lry="5528" rendition="line" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
-            <!--HOTSPOT-->
+            <!--Hotspot-->
             <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>                    <!--parola "morph." nella 1a riga-->
             <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />                   <!--parola "langage" nella 1a riga-->
             <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>                          <!--parola "phon." 2a riga-->
@@ -276,8 +277,33 @@
             <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
             <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
-            <!--  fine prima pagina e anche fine 11a pericope -->
+            <!--Fine prima pagina ma continua la 2a pericope -->
         </surface>
+        
+        <!--SECONDA PAGINA-->
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>
+            <!--Pericopi e numerazione a mano-->
+            <zone ulx="291" uly="427" lrx="3564" lry="2833" rendition="hotspot" xml:id="facs_Pericope1b"/>                           <!--Ultima parte della 1a pericope, nella 2a pagina, fino al secondo paragrafo-->
+            <zone ulx="585" uly="2846" lrx="3587" lry="5742" rendition="hotspot" xml:id="facs_Pericope2a"/>                         <!--Prima parte della 2a pericope, nella 2a pagina, inizia dal secondo paragrafo-->
+            <!--Righe-->
+            <zone ulx="950" uly="500" lrx="2323" lry="651" rendition="line" xml:id="facs_p2r1" />                                              <!--Riga 1 pagina 2-->
+            <zone ulx="966" uly="708" lrx="2319" lry="887" rendition="line" xml:id="facs_p2r2" />                                              <!--Riga 2 pagina 2-->
+            <zone ulx="742" uly="889" lrx="3331" lry="1020" rendition="line" xml:id="facs_p2r3" />                                            <!--Riga 3 pagina 2-->
+            <zone ulx="743" uly="1079" lrx="3302" lry="1191" rendition="line" xml:id="facs_p2r4" />                                          <!--Riga 4 pagina 2-->
+            <zone ulx="750" uly="1217" lrx="1195" lry="1332" rendition="line" xml:id="facs_p2r5" />                                          <!--Riga 5 pagina 2-->
+            <zone ulx="951" uly="1364" lrx="3303" lry="1449" rendition="line" xml:id="facs_p2r6" />                                          <!--Riga 6 pagina 2-->
+            <zone ulx="841" uly="1513" lrx="3228" lry="1606" rendition="line" xml:id="facs_p2r7" />                                          <!--Riga 7 pagina 2-->
+            <zone ulx="1206" uly="1655" lrx="1327" lry="1983" rendition="hotspot" xml:id="facs_p2r8_SP" />                            <!--Riga 8-9 Sphère phonetique della tabellina-->
+            <zone ulx="1420" uly="1636" lrx="2465" lry="1741" rendition="line" xml:id="facs_p2r8" />                                        <!--Riga 8 ekwos	ekwom della tabellina-->
+            <zone ulx="1433" uly="1767" lrx="2414" lry="1857" rendition="line" xml:id="facs_p2r9" />                                        <!--Riga 9 ἵππος	ἵππον della tabellina-->
+            <zone ulx="1399" uly="1879" lrx="2159" lry="1978" rendition="hotspot" xml:id="facs_p2r10_SM" />                         <!--Riga 10 Sphère morphologique della tabellina-->
+            <zone ulx="897" uly="2057" lrx="3443" lry="2176" rendition="line" xml:id="facs_p2r11" />                                        <!--Riga 11 pagina 2-->
+            <zone ulx="1078" uly="2233" lrx="3267" lry="2355" rendition="line" xml:id="facs_p2r12" />                                      <!--Riga 12 pagina 2-->
+            <zone ulx="1091" uly="2371" lrx="3260" lry="2494" rendition="line" xml:id="facs_p2r13" />                                      <!--Riga 13 pagina 2-->
+            <zone ulx="1099" uly="2555" lrx="2566" lry="2649" rendition="line" xml:id="facs_p2r14" />                                      <!--Riga 14 pagina 2-->
+            <zone ulx="1123" uly="2717" lrx="2582" lry="2815" rendition="line" xml:id="facs_p2r15" />                                      <!--Riga 15 pagina 2-->
+            <!--Hotspot-->
     </facsimile>
     
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
@@ -373,8 +399,47 @@
                     <div xml:id="div_p2" hand="#h1">
                         <!--Continuo pericope 1-->
                         <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
-                            <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                            ...
+                            <table rows="2" cols="3">
+                                <lb xml:id="lb1_p2" n="1" facs="#facs_p2r1"/>
+                                <row n="1">
+                                    <cell n="11" role="label">vieux-haut-allemand</cell>
+                                    <cell n="12" role="data">
+                                        <eg><foreign>zug</foreign></eg>
+                                    </cell>
+                                    <cell n="13" role="data">	
+                                        <eg><foreign>zugi</foreign></eg>
+                                    </cell>
+                                </row>
+                                <lb xml:id="lb1_p2" n="2" facs="#facs_p2r1"/>
+                                <row n="2">
+                                    <cell n="21" role="label">nouvel allemand</cell>
+                                    <cell n="22" role="data">
+                                        <eg><foreign>zug<foreign></eg>
+                                    </cell>
+                                    <cell n="23" role="data">
+                                        <eg><foreign>züge</foreign></eg>.
+                                    </cell>
+                                </row>
+                            </table>
+                            <lb xml:id="lb3_p2" n="3" facs="#facs_p2r3"/>
+                            Comparer <hi rend="underline"><eg><foreign>zugi</foreign></eg></hi> et <hi rend="underline"><eg><foreign>züge</foreign></eg></hi>, c'est comparer deux formes, et 
+                            <lb xml:id="lb4_p2" n="4" facs="#facs_p2r4"/>
+                            néanmoins ce n'est pas faire de la morphologie, mais de 
+                            <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
+                            la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
+                            Comparer <eg>u-ü</eg> dans <eg><foreign>zug</foreign>, <foreign>züge</foreign>,</eg> c'est comparer
+                            <lb xml:id="lb6_p2" n="1" facs="#facs_p2r6"/>
+                            deux sons, et néanmoins ce n'est pas de la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
+                            <table
+                            Sphère		<eg><foreign>ekwos</foreign><foreign>ekwom</foreign></eg>
+                            phonétique	<eg><foreign lang="greek">ἵππος</foreign>	<foreign lang="greek">ἵππον</foreign></eg>
+                            Sphère morphologique
+                            Les deux sphères confondues dans les locutions courantes : 
+                            chantre [francese] se rattache étymologiquement à chanter [francese]
+                            chantre [francese] se rattache étymologiquement à cantor [latino]
+                            φόρος [greco] vient de φέρω [greco]
+                            φόρος [greco] vient de bhoros [ricostruzione]
+
                         </ab>
                         <!--Fine pericope 2-->
                     </div>
@@ -809,7 +874,7 @@
                         </gloss>
                         <gloss n="2" xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
                             Science qui traite des unités de son correspondant à une partie de l’idée, et du groupement de ces unités. Le vrai nom de la morphologie serait : la théorie des signes, et non des formes (3293 par.2)
-                        </gloss><!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
+                        </gloss>
                         <note>...</note>
                     </item>
 
