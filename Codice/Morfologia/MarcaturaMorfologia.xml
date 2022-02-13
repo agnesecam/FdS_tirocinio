@@ -124,11 +124,11 @@
                 <segmentation>
                     <p>
                         <list>
-                            <!--PERICOPE 11-->
+                            <!--PERICOPE 1-->
                             <label>
-                                <idno type="ID-pericope">3293.11</idno>
+                                <idno type="ID-pericope">3951/7.1</idno>
                             </label>
-                            <item corresp="#pericope_3293.11" facs="#facs_Pericope11">
+                            <item corresp="#pericope_3951-7.1" facs="#facs_Pericope1a #facs_Pericope1b">
                                 <!--Testo per. 11-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
@@ -142,9 +142,9 @@
                             </item>
                             <!--PERICOPE 12-->
                             <label>
-                                <idno type="ID-pericope">3293.12</idno>
+                                <idno type="ID-pericope">3951/7.2</idno>
                             </label>
-                            <item corresp="#pericope_3293.12" facs="#facs_Pericope12">
+                            <item corresp="#pericope_3951-7.2" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
                                 <seg>
                                         vieux-haut-allemand 	zug	zugi 
@@ -190,7 +190,7 @@
         <surface n="1" xml:id="scan_p1">
             <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
             <!--PERICOPI e NUMERAZIONE A MANO-->
-            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope11"/>                        <!--Tutta la 11 pericope, fino a "date, on fait de la morphologie."-->
+            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope1a"/>                        <!--Prima parte della 1a pericope, contenuta nella 1a pagina: fino a "date, on fait de la morphologie."-->
             <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>           <!--Numero a mano 1a pericope a sx-->
             <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
             <!--RIGHE-->
@@ -277,9 +277,7 @@
             <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
             <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
             <!--  fine prima pagina e anche fine 11a pericope -->
-            <!-- //APPUNTI per pericopi divise in più pagine annida zone-->
         </surface>
-        <!-- //APPUNTI altre surface per le altre pagine  -->
     </facsimile>
     
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
@@ -293,8 +291,8 @@
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
                     </ab>
                     <div xml:id="div_p1" hand="#h1">
-                        <!--Inizio 11 pericope-->
-                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="#facs_Pericope11">
+                        <!--Inizio 1a pericope-->
+                        <ab xml:id="body_3951-7.1" n="1" xml:lang="FR" corresp="#it_3951-7.1" facs="#facs_Pericope1a">
                             <lb xml:id="lb1_p1" n="1" facs="#facs_p1r1"/>
                             La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r1"><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_langage-p1r1">langage</term>, tandis
                             <lb xml:id="lb2_p1" n="2" facs="#facs_p1r2"/> 
@@ -368,31 +366,25 @@
                             <lb xml:id="lb36_p1" n="36" facs="#facs_p1r36"/>
                             date, on fait de la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1">morphologie</term>.
                         </ab>
-                        <!--Fine pericope 11-->
                     </div>
-                    <!--Fine pagina 1-->
+                    <!--Fine pagina 1, la pericope 1 continua nella seconda pagina-->
                     <!--Inizio pagina 2-->
                     <pb n="f1r" xml:id="body_p2" facs="#facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
-                        <!--Inizio pericope 12-->
-                        <ab xml:id="body_3293.12" n="2" xml:lang="FR" corresp="#it_3293.12" facs="#facs_pericope12">
+                        <!--Continuo pericope 1-->
+                        <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
                             <lb xml:id="lb1_p2" n="1" facs="#..."/>
-                        <!-- ... -->
+                            ...
                         </ab>
-                        <!--Fine pericope 12-->
+                        <!--Fine pericope 2-->
                     </div>
                     <!--Fine pagina 2-->
-                    <!-- 
-                        //APPUNTI La pericope 12 dura poco, subito dopo c'è la 13 nella stessa pagina.
-                        //APPUNTI La 12 è 2. Cela ne dit pas encore en quoi consiste exactement la morphologie ...
-                        //APPUNTI La 13 è 3. Tout rapprochement de formes ayant quelque chose de commun conduit à l'analyse ...
-                    -->
                 </body>
             </text>
             <text xml:id="it_Morfologia" xml:lang="IT"> <!--ITA MORFOLOGIA-->
                 <body source="#Fadda2017" resp="#EF">
-                    <!--Traduzione 11 pericope-->
-                    <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
+                    <!--Traduzione pericope 1-->
+                    <ab xml:id="it_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="IT">
                         La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
                         lo studio dei suoni del linguaggio.
                         Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
@@ -413,8 +405,8 @@
                         Ogni volta che si considera una stessa forma a date diverse, ciò è fare fonetica, e ogni volta 
                         che consideriamo forme diverse a una stessa data, si fa morfologia.                        
                     </ab>
-                    <!--Traduzione 12 pericope-->
-                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
+                    <!--Traduzione pericope 2-->
+                    <ab xml:id="it_3951-7.2" corresp="#pericope_3951-7.2">
                             antico alto-tedesco 	zug 	zugi 
                             tedesco 		zug 	züge
                         Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
@@ -430,10 +422,10 @@
                     </ab>
                 </body>
             </text>
-            <text xml:id="it_Morfologia" xml:lang="EN"> <!--EN MORFOLOGIA-->
+            <text xml:id="en_Morfologia" xml:lang="EN"> <!--EN MORFOLOGIA-->
                 <body  resp="#AC">
                     <!--Traduzione inglese 11 pericope-->
-                    <ab xml:id="en_3293.11" corresp="#pericope_3293.11" xml:lang="EN">
+                    <ab xml:id="en_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="EN">
                         Morphology, it is said, is the study of the forms of language, while phonetics would be the study of the sounds of language.
                         We cannot be satisfied with such a definition, not only in theory, but not even for practice, since it will often happen that 
                         we will no longer know if we are doing morphology or phonetics, as we will see.
@@ -453,7 +445,7 @@
                         Whenever we consider the same form at different dates, this is to do phonics, and every time we consider different forms at the same date, we do morphology.                        
                     </ab>
                     <!--Traduzione inglese 12 pericope-->
-                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
+                    <ab xml:id="en_3951-7.2" corresp="#pericope_3951-7.2">
                         Old High-German zug zugi
                         German zug züge
                         Comparing zugi and züge is comparing two forms, and yet this is not morphology, but phonetics.
@@ -896,7 +888,7 @@
                     </item>
                 </list>
 
-            <!-- ORGANIZZAZIONI -->
+                <!-- ORGANIZZAZIONI -->
                 <listOrg>
                     <org xml:id="UniGeneve">
                         <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
