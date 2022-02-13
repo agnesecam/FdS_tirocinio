@@ -410,7 +410,7 @@
                                         <eg><foreign>zugi</foreign></eg>
                                     </cell>
                                 </row>
-                                <lb xml:id="lb1_p2" n="2" facs="#facs_p2r1"/>
+                                <lb xml:id="lb2_p2" n="2" facs="#facs_p2r2"/>
                                 <row n="2">
                                     <cell n="21" role="label">nouvel allemand</cell>
                                     <cell n="22" role="data">
@@ -427,13 +427,36 @@
                             néanmoins ce n'est pas faire de la morphologie, mais de 
                             <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
                             la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
+                            <lb xml:id="lb6_p2" n="6" facs="#facs_p2r6"/>
                             Comparer <eg>u-ü</eg> dans <eg><foreign>zug</foreign>, <foreign>züge</foreign>,</eg> c'est comparer
-                            <lb xml:id="lb6_p2" n="1" facs="#facs_p2r6"/>
+                            <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
                             deux sons, et néanmoins ce n'est pas de la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
-                            <table
-                            Sphère		<eg><foreign>ekwos</foreign><foreign>ekwom</foreign></eg>
-                            phonétique	<eg><foreign lang="greek">ἵππος</foreign>	<foreign lang="greek">ἵππον</foreign></eg>
-                            Sphère morphologique
+                            <table rows="3" cols="3">
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/>
+                                <row n="1">
+                                    <cell n="11" role="label">Sphère</cell>
+                                    <cell n="12" role="data">
+                                        <eg><foreign>ekwos</foreign></eg>
+                                    </cell>
+                                    <cell n="13" role="data">
+                                        <eg><foreign>ekwom</foreign></eg>
+                                    </cell>
+                                </row>
+                                <row n="2">
+                                    <cell n="21" role="label">phonétique</cell>
+                                    <cell n="22" role="data">
+                                        <eg><foreign lang="greek">ἵππος</foreign></eg>
+                                    </cell>
+                                    <cell n="23" role="data">
+                                        <eg><foreign lang="greek">ἵππον</foreign></eg>
+                                    </cell>
+                                </row>
+                                <row n="3">
+                                    <cell n="31" role="label"/>
+                                    <cell n="32" role="label">Sphère</cell>
+                                    <cell n="33" role="label"><choice><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
+                                </row>
+                    
                             Les deux sphères confondues dans les locutions courantes : 
                             chantre [francese] se rattache étymologiquement à chanter [francese]
                             chantre [francese] se rattache étymologiquement à cantor [latino]
