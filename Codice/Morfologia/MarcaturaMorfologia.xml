@@ -402,33 +402,37 @@
                             <table rows="2" cols="3">
                                 <lb xml:id="lb1_p2" n="1" facs="#facs_p2r1"/>
                                 <row n="1">
-                                    <cell n="11" role="label">vieux-haut-allemand</cell>
+                                    <cell n="11" role="label">
+                                        <choice><abbr>v.</abbr><expan>v<ex>ieux</ex><expan></choice>-<choice><abbr>h'</abbr><expan>h<ex>aut</ex></expan></choice>-<choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
+                                    </cell>
                                     <cell n="12" role="data">
-                                        <eg><foreign>zug</foreign></eg>
+                                        <eg><foreign lang="DE">zug</foreign></eg>
                                     </cell>
                                     <cell n="13" role="data">	
-                                        <eg><foreign>zugi</foreign></eg>
+                                        <eg><foreign lang="DE">zugi</foreign></eg>
                                     </cell>
                                 </row>
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2r2"/>
                                 <row n="2">
-                                    <cell n="21" role="label">nouvel allemand</cell>
+                                    <cell n="21" role="label">
+                                        <choice><abbr>nouv.</abbr><expan>nouv<ex>el</ex></expan></choice> <choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
+                                    </cell>
                                     <cell n="22" role="data">
-                                        <eg><foreign>zug<foreign></eg>
+                                        <eg><foreign lang="DE">zug<foreign></eg>
                                     </cell>
                                     <cell n="23" role="data">
-                                        <eg><foreign>züge</foreign></eg>.
+                                        <eg><foreign lang="DE">züge</foreign></eg>.
                                     </cell>
                                 </row>
                             </table>
                             <lb xml:id="lb3_p2" n="3" facs="#facs_p2r3"/>
-                            Comparer <hi rend="underline"><eg><foreign>zugi</foreign></eg></hi> et <hi rend="underline"><eg><foreign>züge</foreign></eg></hi>, c'est comparer deux formes, et 
+                            Comparer <hi rend="underline"><eg><foreign lang="DE">zugi</foreign></eg></hi> et <hi rend="underline"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer deux formes, et 
                             <lb xml:id="lb4_p2" n="4" facs="#facs_p2r4"/>
                             néanmoins ce n'est pas faire de la morphologie, mais de 
                             <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
                             la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <lb xml:id="lb6_p2" n="6" facs="#facs_p2r6"/>
-                            Comparer <eg>u-ü</eg> dans <eg><foreign>zug</foreign>, <foreign>züge</foreign>,</eg> c'est comparer
+                            Comparer <hi rend="underline"><eg>u-ü</eg></hi> dans <hi rend="underline"><eg><foreign>zug</foreign></hi>, <hi rend="underline"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer
                             <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
                             deux sons, et néanmoins ce n'est pas de la <choice><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <table rows="3" cols="3">
@@ -439,35 +443,40 @@
                                         <eg><foreign>ekwos</foreign></eg>
                                     </cell>
                                     <cell n="13" role="data">
-                                        <eg><foreign>ekwom</foreign></eg>
+                                        <eg><foreign lang="RC2">ekwom</foreign></eg>
                                     </cell>
                                 </row>
+                                <lb xml:id="lb9_p2" n="9" facs="#facs_p2r9"/>
                                 <row n="2">
                                     <cell n="21" role="label">phonétique</cell>
                                     <cell n="22" role="data">
-                                        <eg><foreign lang="greek">ἵππος</foreign></eg>
+                                        <eg><foreign lang="EL">ἵππος</foreign></eg>
                                     </cell>
                                     <cell n="23" role="data">
-                                        <eg><foreign lang="greek">ἵππον</foreign></eg>
+                                        <eg><foreign lang="EL">ἵππον</foreign></eg>
                                     </cell>
                                 </row>
+                                <lb xml:id="lb10_p2" n="10" facs="#facs_p2r10"/>
                                 <row n="3">
                                     <cell n="31" role="label"/>
                                     <cell n="32" role="label">Sphère</cell>
                                     <cell n="33" role="label"><choice><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
                                 </row>
                             </table>
-                    
-                            Les deux sphères confondues dans les locutions courantes : 
-                            chantre [francese] se rattache étymologiquement à chanter [francese]
-                            chantre [francese] se rattache étymologiquement à cantor [latino]
-                            φόρος [greco] vient de φέρω [greco]
-                            φόρος [greco] vient de bhoros [ricostruzione]
-
+                            <lb xml:id="lb11_p2" n="11" facs="#facs_p2r11"/>
+                            Les <num type="cardinal" value="2">deux</num> sphères confondues dans les locutions courantes : 
+                            <lb xml:id="lb12_p2" n="12" facs="#facs_p2r12"/>
+                            <hi rend="underline"><eg><foreign lang="FR">chantre</foreign></eg></hi> se rattache étymologiquement à <hi rend="underline"><eg><foreign lang="FR">chanter</foreign></eg></hi>
+                            <lb xml:id="lb13_p2" n="13" facs="#facs_p2r13"/>
+                            <hi rend="underline"><eg><foreign lang="FR">chantre</foreign></eg></hi> se rattache étymologiquement à <hi rend="underline"><eg><foreign lang="LA">cantor</foreign></eg></hi> 
+                            <lb xml:id="lb14_p2" n="14" facs="#facs_p2r14"/>
+                            <eg><foreign lang="EL">φόρος</foreign></eg> vient de <eg><foreign lang="EL">φέρω</foreign></eg>
+                            <lb xml:id="lb15_p2" n="15" facs="#facs_p2r15"/>
+                            <eg><foreign lang="EL">φόρος</foreign></eg> vient de <hi rend="underline"><eg><foreign lang="RC2">bhoros</foreign></eg></hi>
                         </ab>
-                        <!--Fine pericope 2-->
+                        <!--Fine pericope 1-->
                     </div>
-                    <!--Fine pagina 2-->
+                    <!--Inizio pericope 2, continuo pagina 2-->
                 </body>
             </text>
             <text xml:id="it_Morfologia" xml:lang="IT"> <!--ITA MORFOLOGIA-->
