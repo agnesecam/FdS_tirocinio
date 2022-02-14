@@ -310,8 +310,8 @@
             <zone ulx="1147" uly="913" lrx="1433" lry="1046" rendition="hotspot" xml:id="facs_underline_zugi_p2r3" />                        <!--Parola "zugi" sottolineata riga 3-->
             <zone ulx="1646" uly="924" lrx="1900" lry="1044" rendition="hotspot" xml:id="facs_underline_zuge_p2r3" />                       <!--Parola "züge" sottolineata riga 3-->
             <zone ulx="942" uly="1204" lrx="1191" lry="1342" rendition="hotspot" xml:id="facs_abbr_phon_p2r5" />                              <!--Parola "phon." abbreviata riga 5-->
-            <zone ulx="1523" uly="1290" lrx="1918" lry="1462" rendition="hotspot" xml:id="facs_abbr_phon_p2r5" />                            <!--???? //FINISCI -->
-            <zone ulx="2116" uly="1306" lrx="2303" lry="1478" rendition="hotspot" xml:id="facs_underline_u_p2r6" />                          <!--Parola "u" sottolineata riga 6-->
+            <zone ulx="1523" uly="1290" lrx="1918" lry="1462" rendition="hotspot" xml:id="facs_underline_u_p2r6" />                            <!--Parola "u" sottolineata riga 6 -->
+            <zone ulx="2116" uly="1306" lrx="2303" lry="1478" rendition="hotspot" xml:id="facs_underline_u2_p2r6" />                          <!--Parola "ü" sottolineata riga 6-->
             <zone ulx="2382" uly="1309" lrx="2657" lry="1459" rendition="hotspot" xml:id="facs_underline_zug_p2r6" />                      <!--Parola "zug" sottolineata riga 6-->
             <zone ulx="2940" uly="1483" lrx="3220" lry="1606" rendition="hotspot" xml:id="facs_underline_zuge_p2r6" />                    <!--Parola "phon." abbreviata riga 6-->
             <zone ulx="827" uly="1524" lrx="894" lry="1603" rendition="hotspot" xml:id="facs_num_deux_p2r7" />                                <!--Numero "deux" riga 7-->
@@ -460,7 +460,7 @@
                             <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
                             la <choice facs="#facs_abbr_phon_p2r5"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <lb xml:id="lb6_p2" n="6" facs="#facs_p2r6"/>
-                            Comparer <hi rend="underline" facs="#facs_underline_u_p2r6"><eg>u-ü</eg></hi> dans <hi rend="underline" facs="#facs_underline_zug_p2r6"><eg><foreign>zug</foreign></hi>, <hi rend="underline" facs="#facs_underline_zuge_p2r6"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer
+                            Comparer <hi rend="underline" facs="#facs_underline_u_p2r6"><eg>u</eg></hi>-<hi facs="#facs_underline_u2_p2r6"><eg>ü</eg></hi> dans <hi rend="underline" facs="#facs_underline_zug_p2r6"><eg><foreign>zug</foreign></hi>, <hi rend="underline" facs="#facs_underline_zuge_p2r6"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer
                             <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
                             <num type="cardinal" value="2" facs="#facs_num_deus_p2r7">deux</num> sons, et néanmoins ce n'est pas de la <choice facs="#"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <table rows="3" cols="3" facs="#facs_table2_p2"> 
