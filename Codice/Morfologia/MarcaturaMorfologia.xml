@@ -82,7 +82,7 @@
                                     <material>Thin paper</material>
                                 </support>
                                 <extent> <!--Cosa uso tra measure e dimensions?-->
-                                    <measureGrp> <
+                                    <measureGrp>
                                         <measure type="pages" quantity="19">19</measure>
                                         <measure type="height" unit="mm" quantity="211">211</measure>
                                         <measure type="width" unit="mm" quantity="136">136</measure>
@@ -331,7 +331,7 @@
             <zone ulx="2172" uly="2532" lrx="2486" lry="2679" rendition="hotspot" xml:id="facs_foreign2_p2r14" />                              <!--Parola greca φέρω riga 14-->
             <zone ulx="1275" uly="2710" lrx="1364" lry="2775" rendition="hotspot" xml:id="facs_foreign1_p2r15" />                              <!--Parola greca φόρος riga 15-->
             <zone ulx="2196" uly="2698" lrx="2596" lry="2806" rendition="hotspot" xml:id="facs_foreign2_p2r15" />                               <!--Parola ricostruita riga 15 //APPUNTI anche questa trascrizione viene fatta dal simbolo '' -->
-
+        </surface>
     </facsimile>
     
     <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
@@ -386,7 +386,7 @@
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
-                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais <damage hand="h1" agend="tearing" degree="1" group="1" quantity="1" unit="character"><supplied source="#Bouquet-Engler2002" cert="high">ἄ</supplied></damage>γω, pas d' ὀγ-, </foreign></eg>
+                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais <damage hand="h1" agent="tearing" degree="1" group="1" quantity="1" unit="character"><supplied source="#Bouquet-Engler2002" cert="high">ἄ</supplied></damage>γω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que pour certaines personnes, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
@@ -431,13 +431,13 @@
                                 <lb xml:id="lb1_p2" n="1" facs="#facs_p2r1"/>
                                 <row n="1" facs="#facs_t1r1_p2">
                                     <cell n="11" role="label">
-                                        <choice><abbr>v.</abbr><expan>v<ex>ieux</ex><expan></choice>-<choice><abbr>h'</abbr><expan>h<ex>aut</ex></expan></choice>-<choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
+                                        <choice><abbr>v.</abbr><expan>v<ex>ieux</ex></expan></choice>-<choice><abbr>h'</abbr><expan>h<ex>aut</ex></expan></choice>-<choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
                                     </cell>
                                     <cell n="12" role="data">
-                                        <eg><foreign lang="DE">zug</foreign></eg>
+                                        <eg><foreign xml:lang="DE">zug</foreign></eg>
                                     </cell>
                                     <cell n="13" role="data">	
-                                        <eg><foreign lang="DE">zugi</foreign></eg>
+                                        <eg><foreign xml:lang="DE">zugi</foreign></eg>
                                     </cell>
                                 </row>
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2r2"/>
@@ -446,21 +446,21 @@
                                         <choice><abbr>nouv.</abbr><expan>nouv<ex>el</ex></expan></choice> <choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
                                     </cell>
                                     <cell n="22" role="data">
-                                        <eg><foreign lang="DE">zug<foreign></eg>
+                                        <eg><foreign xml:lang="DE">zug</foreign></eg>
                                     </cell>
                                     <cell n="23" role="data">
-                                        <eg><foreign lang="DE">züge</foreign></eg>.
+                                        <eg><foreign xml:lang="DE">züge</foreign></eg>.
                                     </cell>
                                 </row>
                             </table>
                             <lb xml:id="lb3_p2" n="3" facs="#facs_p2r3"/>
-                            Comparer <hi rend="underline" facs="#facs_underline_zugi_p2r3"><eg><foreign lang="DE">zugi</foreign></eg></hi> et <hi rend="underline" facs="#facs_underline_zuge_p2r3"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer deux formes, et 
+                            Comparer <hi rend="underline" facs="#facs_underline_zugi_p2r3"><eg><foreign xml:lang="DE">zugi</foreign></eg></hi> et <hi rend="underline" facs="#facs_underline_zuge_p2r3"><eg><foreign xml:lang="DE">züge</foreign></eg></hi>, c'est comparer deux formes, et 
                             <lb xml:id="lb4_p2" n="4" facs="#facs_p2r4"/>
                             néanmoins ce n'est pas faire de la <choice facs="#facs_abbr_morph_p2r4"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>, mais de 
                             <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
                             la <choice facs="#facs_abbr_phon_p2r5"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <lb xml:id="lb6_p2" n="6" facs="#facs_p2r6"/>
-                            Comparer <hi rend="underline" facs="#facs_underline_u_p2r6"><eg>u</eg></hi>-<hi facs="#facs_underline_u2_p2r6"><eg>ü</eg></hi> dans <hi rend="underline" facs="#facs_underline_zug_p2r6"><eg><foreign>zug</foreign></hi>, <hi rend="underline" facs="#facs_underline_zuge_p2r6"><eg><foreign lang="DE">züge</foreign></eg></hi>, c'est comparer
+                            Comparer <hi rend="underline" facs="#facs_underline_u_p2r6"><eg>u</eg></hi>-<hi facs="#facs_underline_u2_p2r6"><eg>ü</eg></hi> dans <hi rend="underline" facs="#facs_underline_zug_p2r6"><eg><foreign>zug</foreign></eg></hi>, <hi rend="underline" facs="#facs_underline_zuge_p2r6"><eg><foreign xml:lang="DE">züge</foreign></eg></hi>, c'est comparer
                             <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
                             <num type="cardinal" value="2" facs="#facs_num_deus_p2r7">deux</num> sons, et néanmoins ce n'est pas de la <choice facs="#"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <table rows="3" cols="3" facs="#facs_table2_p2"> 
@@ -471,17 +471,17 @@
                                         <eg><foreign>ekwos</foreign></eg>
                                     </cell>
                                     <cell n="13" role="data">
-                                        <eg><foreign lang="RC2">ekwom</foreign></eg>
+                                        <eg><foreign xml:lang="RC2">ekwom</foreign></eg>
                                     </cell>
                                 </row>
                                 <lb xml:id="lb9_p2" n="9" facs="#facs_p2r9"/>
                                 <row n="2" facs="#facs_t2r2_p2">
                                     <cell n="21" role="label">phonétique</cell>
                                     <cell n="22" role="data">
-                                        <eg><foreign lang="EL">ἵππος</foreign></eg>
+                                        <eg><foreign xml:lang="EL">ἵππος</foreign></eg>
                                     </cell>
                                     <cell n="23" role="data">
-                                        <eg><foreign lang="EL">ἵππον</foreign></eg>
+                                        <eg><foreign xml:lang="EL">ἵππον</foreign></eg>
                                     </cell>
                                 </row>
                                 <lb xml:id="lb10_p2" n="10" facs="#facs_p2r10"/>
@@ -494,13 +494,13 @@
                             <lb xml:id="lb11_p2" n="11" facs="#facs_p2r11"/>
                             Les <num type="cardinal" value="2" facs="#facs_num_deux_p2r11">deux</num> sphères confondues dans les locutions courantes : 
                             <lb xml:id="lb12_p2" n="12" facs="#facs_p2r12"/>
-                            <hi rend="underline" facs="#facs_underline_chantre_p2r12"><eg><foreign lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r12"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></choice> à <hi rend="underline"><eg><foreign lang="FR">chanter</foreign></eg></hi>
+                            <hi rend="underline" facs="#facs_underline_chantre_p2r12"><eg><foreign xml:lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r12"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></expan></choice> à <hi rend="underline"><eg><foreign xml:lang="FR">chanter</foreign></eg></hi>
                             <lb xml:id="lb13_p2" n="13" facs="#facs_p2r13"/>
-                            <hi rend="underline"><eg><foreign lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r13"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></choice> à <hi rend="underline"><eg><foreign lang="LA">cantor</foreign></eg></hi> 
+                            <hi rend="underline"><eg><foreign xml:lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r13"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></expan></choice> à <hi rend="underline"><eg><foreign xml:lang="LA">cantor</foreign></eg></hi> 
                             <lb xml:id="lb14_p2" n="14" facs="#facs_p2r14"/>
-                            <eg><foreign lang="EL" facs="#facs_foreign1_p2r14">φόρος</foreign></eg> vient de <eg><foreign lang="EL" facs="#facs_foreign2_p2r14">φέρω</foreign></eg>
+                            <eg><foreign xml:lang="EL" facs="#facs_foreign1_p2r14">φόρος</foreign></eg> vient de <eg><foreign xml:lang="EL" facs="#facs_foreign2_p2r14">φέρω</foreign></eg>
                             <lb xml:id="lb15_p2" n="15" facs="#facs_p2r15"/>
-                            <eg><foreign lang="EL" facs="#facs_foreign1_p2r15">φόρος</foreign></eg> vient de <hi rend="underline"><eg><foreign lang="RC2" facs="#facs_foreign2_p2r15">bhoros</foreign></eg></hi>
+                            <eg><foreign xml:lang="EL" facs="#facs_foreign1_p2r15">φόρος</foreign></eg> vient de <hi rend="underline"><eg><foreign xml:lang="RC2" facs="#facs_foreign2_p2r15">bhoros</foreign></eg></hi>
                         </ab>
                         <!--Fine pericope 1-->
                     </div>
