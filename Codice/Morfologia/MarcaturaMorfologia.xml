@@ -386,7 +386,7 @@
                             <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
                             <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
                             <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
-                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais <damage hand="h1" agend="tearing" degree="1" group="1" quantity="1" unit="character"><supplied source="#Bouquet-Engler2002" ἄ</supplied></damage>γω, pas d' ὀγ-, </foreign></eg>
+                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais <damage hand="h1" agend="tearing" degree="1" group="1" quantity="1" unit="character"><supplied source="#Bouquet-Engler2002" cert="high">ἄ</supplied></damage>γω, pas d' ὀγ-, </foreign></eg>
                             <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
                             je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que pour certaines personnes, cela s'appelle 
                             <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
