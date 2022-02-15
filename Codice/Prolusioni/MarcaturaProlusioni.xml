@@ -239,8 +239,8 @@
                 <listChange ordered="true">
                     <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
                     <change xml:id="CHG-2">
-                        Second stage, written in ink by Ferdinand de Saussure during the flow of CHG-1, adding or deliting informations to the text he had written previously. 
-                        Additions are made by inserting text over the current line, erasures are made by horizontal lines over the current line
+                        Second stage, written in ink by Ferdinand de Saussure during the writing of CHG-1, adding or deliting informations to the text he had written previously. 
+                        Additions are made by inserting text above the line, erasures are made by horizontal lines over the words.
                     </change>
                     <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not at the same time of the first stage</change>
                     <change xml:id="CHG-4">Bold text written on the left margin, replacing deletions on the main block</change>
