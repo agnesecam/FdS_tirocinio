@@ -95,7 +95,7 @@
                                 <support>
                                     <material>Thin checkered paper</material>
                                 </support>
-                                <extent> <!--Cosa uso tra measure e dimensions?-->
+                                <extent>
                                     <measureGrp>
                                             <measure unit="pages" quantity="30">30 pages +</measure>
                                             <measure unit="pages" quantity="15">15 pages +</measure>
@@ -363,7 +363,7 @@
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002"> <!--In N7 di Fadda è indicato come della trascrizione-->
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -372,7 +372,7 @@
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                         </ab>
                         <div xml:id="div_p1" hand="#h1">
-                            <!--Inizio 1 pericope-->
+                            <!--Inizio 1a pericope-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001" facs="#facs_Pericope1"> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                                 Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment" change="#CHG-1" facs="#facs_ence-p1r1"> en ce 
@@ -469,13 +469,14 @@
                                 </metamark>
                             </ab>
                         </div>
-                        <!--Fine 1a pagina-->
-                        <!--Seconda pagina = secondo folio, verso-->
+                        <!--Fine pagina 1, la pericope 2 continua nella seconda pagina-->
+                        <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
                         <!--Numero impaginazione a mano-->
+                        <!--Il <div> alla riga 374 dà errore insieme all'<ab> della 477
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2"> 2 </fw>
-                        </ab>
+                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
+                        </ab>-->
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
@@ -573,7 +574,7 @@
             </group>
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
-                <text xml:id="it_Prolusione-1"> <!--EN 1 PROLUSIONE-->
+                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC">
                         <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                             If the chair I have the honor of inaugurating on this occasion represented 
@@ -600,34 +601,34 @@
                         </ab>                                         
                     </body>
                 </text>
-                <text xml:id="it_Prolusione-2"> <!--EN 2 PROLUSIONE-->
+                <text xml:id="en_Prolusione-2"> <!--EN 2 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF">
-                        <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
+                        <ab xml:id="en_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
-                        <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
+                        <ab xml:id="en_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
                             ...
                         </ab>
-                        <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
+                        <ab xml:id="en_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
                             ...
                         </ab>   
-                        <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
+                        <ab xml:id="en_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
                             ...
                         </ab>
                     </body>
                 </text>
-                <text xml:id="it_Prolusione-3"> <!--EN 3 PROLUSIONE-->
+                <text xml:id="en_Prolusione-3"> <!--EN 3 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF">
-                        <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
+                        <ab xml:id="en_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
-                        <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
+                        <ab xml:id="en_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
                             ...
                         </ab>
-                        <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
+                        <ab xml:id="en_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
                             ...
                         </ab>   
-                        <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
+                        <ab xml:id="en_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
                             ...
                         </ab>
                     </body>
