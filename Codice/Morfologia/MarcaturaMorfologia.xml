@@ -339,7 +339,9 @@
         <group> <!--Testo e traduzioni di Morfologia-->
             <text xml:id="fr_Morfologia" xml:lang="FR"> <!--FR MORFOLOGIA-->
                 <body xml:lang="fr" source="#Bouquet-Engler2002">
-                    <pb n="f1v" xml:id="body_p1" facs="#scan_p1"/> <!-- f1v=folio 1 verso-->
+                    <!--Prima pagina = primo folio, recto-->
+                    <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/> 
+                    <!--Numeri impaginazione a stampa e a mano-->
                     <ab>
                         <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
                         <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
@@ -423,7 +425,7 @@
                     </div>
                     <!--Fine pagina 1, la pericope 1 continua nella seconda pagina-->
                     <!--Inizio pagina 2-->
-                    <pb n="f1r" xml:id="body_p2" facs="#facs_p2"/>
+                    <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Continuo pericope 1-->
                         <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
