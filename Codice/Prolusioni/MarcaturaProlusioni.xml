@@ -2,7 +2,7 @@
 
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" standalone="yes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -127,7 +127,7 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl><!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
+            <classDecl> <!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
                     <category>
                         <catDesc> linguistics </catDesc>
