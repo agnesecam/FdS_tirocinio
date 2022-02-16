@@ -473,17 +473,10 @@
                         <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
                         <!--Numero impaginazione a mano-->
-<<<<<<< HEAD
                         <!--Il <div> alla riga 374 dà errore insieme all'<ab> della 477-->
                         <!--<ab>-->
                             <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                         <!--</ab>-->
-=======
-                        <!--Il <div> alla riga 374 dà errore insieme all'<ab> della 477
-                        <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
-                        </ab>-->
->>>>>>> c757a834f48970b089a9d76c0ce1f72921a24fca
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
