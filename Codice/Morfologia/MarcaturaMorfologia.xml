@@ -66,6 +66,7 @@
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/7</idno>
+                        <altIdentifier type="inventory">17786/vta9cfd3fc17efc113d</altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>

@@ -49,7 +49,7 @@
             </editionStmt>
 
             <publicationStmt>
-				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
+				<publisher> CNR Pisa - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
@@ -65,6 +65,7 @@
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/1</idno>
+                        <altIdentifier type="inventory">17786/vtae78f994bf3242bef</altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
