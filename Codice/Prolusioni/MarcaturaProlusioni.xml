@@ -117,7 +117,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
+                            <origDate when="1891-11-06" cert="In ">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
                             <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
@@ -128,7 +128,7 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl> <!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
+            <classDecl> <!--Parole chiave che verranno usate in <profileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
                     <category>
                         <catDesc> linguistics </catDesc>

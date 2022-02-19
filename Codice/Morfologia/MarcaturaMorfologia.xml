@@ -111,7 +111,7 @@
         </fileDesc>
 
         <encodingDesc>
-            <classDecl> <!--Parole chiave che verrano usate in profileDesc>textClass per definire gli argomenti-->
+            <classDecl> <!--Parole chiave che verranno usate in <p>rofileDesc>textClass per definire gli argomenti-->
                 <taxonomy xml:id="schemaKeywords">
                     <category xml:id="linguistics">
                         <catDesc> linguistics </catDesc>
