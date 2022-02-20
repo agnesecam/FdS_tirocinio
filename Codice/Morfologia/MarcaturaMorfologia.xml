@@ -2,7 +2,7 @@
 
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" standalone="yes">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -66,7 +66,7 @@
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/7</idno>
-                        <altIdentifier type="inventory">17786/vta9cfd3fc17efc113d</altIdentifier>
+                        <altIdentifier type="inventory"><idno>17786/vta9cfd3fc17efc113d</idno></altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -426,7 +426,7 @@
                     </div>
                     <!--Fine pagina 1, la pericope 1 continua nella seconda pagina-->
                     <!--Inizio pagina 2-->
-                    <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
+                    <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Continuo pericope 1-->
                         <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
