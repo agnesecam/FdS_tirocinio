@@ -2,7 +2,7 @@
 
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" standalone="yes">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -65,7 +65,7 @@
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/1</idno>
-                        <altIdentifier type="inventory">17786/vtae78f994bf3242bef</altIdentifier>
+                        <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -366,7 +366,7 @@
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
-                        <pb n="f1r" xml:id="body_p1" facs="#facs_p1"/>
+                        <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
@@ -472,16 +472,16 @@
                         </div>
                         <!--Fine pagina 1, la pericope 2 continua nella seconda pagina-->
                         <!--Inizio pagina 2-->
-                        <pb n="f2v" xml:id="body_p2" facs="#facs_p2"/>
+                        <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
                         <!--Numero impaginazione a mano-->
-                        <!--Il <div> alla riga 374 dà errore insieme all'<ab> della 477-->
-                        <!--<ab>-->
+                        <!--Il <div> alla riga 375 dà errore insieme all'<ab> della 477-->
+                        <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
-                        <!--</ab>-->
+                        </ab>
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
-                                <lb xml:id="lb1_p2" n="1" facs="#."/>
+                                <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
                                 l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
@@ -956,7 +956,7 @@
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> //CORREGGI Non so cosa mettere come "source"
+                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> 
                             La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue (Engler 33). 
                             (La linguistique) est une science sémiologique (Godel, 267)
                         </gloss>
