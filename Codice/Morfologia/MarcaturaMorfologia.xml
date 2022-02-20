@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
@@ -1035,3 +1036,1042 @@
             </back>
     </text>
 </TEI>       
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title type="main">Morphologie</title>
+                <title type="sub"> 
+                    <date from="1893" to="1895">(1893-1985)</date>                
+                </title>
+                <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
+                <respStmt>
+					<resp>Responsability of:</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+				</respStmt>
+            </titleStmt>
+
+            <editionStmt>   
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2021-05"> May 2021 </date>
+                </edition>
+                <respStmt>
+                    <resp>Digital edition project coordinated by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#Bouquet">Simon Bouquet</name>
+                    <name ref="#Engler">Rudolf Engler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Italian translation by</resp>
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+				<publisher> CNR - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+				</availability>
+                <date when="2022">2022</date>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Genève</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
+                        <idno type="inventory">3951/7</idno>
+                        <altIdentifier type="inventory"><idno>17786/vta9cfd3fc17efc113d</idno></altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr">Les première leçons de Saussure a Genève</title>
+                            <docDate><date notBefore="1893" notAfter="1895">1893-1985</date></docDate> <!---Avevo usato <docDate> direttamente al posto di <date> ma non ha notBefore/After come attributi -->
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vta9cfd3fc17efc113d/">
+                                <support>
+                                    <material>Thin paper</material>
+                                </support>
+                                <extent> <!--Cosa uso tra measure e dimensions?-->
+                                    <measureGrp>
+                                        <measure type="pages" quantity="19">19</measure>
+                                        <measure type="height" unit="mm" quantity="211">211</measure>
+                                        <measure type="width" unit="mm" quantity="136">136</measure>
+                                    </measureGrp>
+                                    <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
+                                </extent>
+                                <foliation>The page is part of 
+                                a notebook composed of a left and a right page, each page consists in a folio</foliation>
+                                <condition>Well preserved notebook, few holes and stains</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="h1">The main text is written by hand by<persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1893" to="1984" confidence="high">1893-1984</origDate>
+                            <origDate from="1894" to="1985" confidence="medium">1894-1985</origDate>
+                            <origPlace>Gèneve</origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl> <!--Parole chiave che verranno usate in <p>rofileDesc>textClass per definire gli argomenti-->
+                <taxonomy xml:id="schemaKeywords">
+                    <category xml:id="linguistics">
+                        <catDesc> linguistics </catDesc>
+                    </category>
+                    <category xml:id="fonetics">
+                        <catDesc> fonetics </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl> <!--SCHEMA PERICOPI: codice, testo FR, descrizione-->
+                <segmentation>
+                    <p>
+                        <list>
+                            <!--PERICOPE 1-->
+                            <label>
+                                <idno type="ID-pericope">3951/7.1</idno>
+                            </label>
+                            <item corresp="#pericope_3951-7.1" facs="#facs_Pericope1a #facs_Pericope1b">
+                                <!--Testo per. 1-->
+                                <seg>
+                                    La morphologie, dit-on, est l'étude des formes [...]
+                                </seg>
+                                <!--Descr. per. 1-->
+                                <desc>
+                                    Saussure initially presents an erroneous but widespread definition of "morphology" 
+                                    and "phonetics", then explains the reason why it is incorrect and provides a correct 
+                                    definition of the difference between the two disciplines.
+                                    Then he presents some practical examples of "making phonetics" and "making morphology", 
+                                    comparing the two forms "zugi" and "züge" and then the two sounds "u"-"ü".
+                                </desc>
+                            </item>
+                            <!--PERICOPE 2-->
+                            <label>
+                                <idno type="ID-pericope">3951/7.2</idno>
+                            </label>
+                            <item corresp="#pericope_3951-7.2" facs="#facs_Pericope2">
+                                <!--Testo per. 2-->
+                                <seg>
+                                    2. Cela ne dit pas encore en quoi consiste exactement la morphologie : [...]    
+                                </seg>
+                                <!--Descr. per. 2-->
+                                <desc>
+                                    Saussure Fornisce una specifica definizione della morfologia e della fonetica.
+                                    Espone una prima conseguenza di questa definizione, chiedendo e spiegando perché la morfologia
+                                    abbia sempre come campo il contemporaneo mentre la fonetica il successivo.
+                                </desc> 
+                            </item>
+                        </list>
+                    </p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
+                    <term resp="#AC"> fonetics </term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+            <creation>
+                <listChange ordered="true">
+                    <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
+                    <change xml:id="CHG-2">
+                        Second stage, written in ink by Ferdinand de Saussure, adding or deliting informations to the text he had written previously. 
+                        Additions are made by inserting text above the current line, erasures are made by horizontal lines over the words.
+                    </change>
+                    <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not during the same writing of the first stage</change>
+                </listChange>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <!--PRIMA PAGINA-->
+        <surface n="1" xml:id="scan_p1">
+            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
+            <!--Pericopi e numerazione a mano-->
+            <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope1a"/>                        <!--Prima parte della 1a pericope, contenuta nella 1a pagina: fino a "date, on fait de la morphologie."-->
+            <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>           <!--Numero a mano 1a pericope a sx-->
+            <zone ulx="3294" uly="317" lrx="3594" lry="472" rendition="hotspot" xml:id="facs_HandPageNumber-1"/>        <!--Numero 1 scritto a mano in alto a dx-->
+            <!--Righe-->
+            <zone ulx="646" uly="539" lrx="3578" lry="656" rendition="line" xml:id="facs_p1r1"/>                  <!--Riga 1 della pagina 1-->
+            <zone ulx="617" uly="711" lrx="2998" lry="783" rendition="line" xml:id="facs_p1r2"/>                  <!--Riga 2 della pagina 1-->
+            <zone ulx="761" uly="841" lrx="3610" lry="920" rendition="line" xml:id="facs_p1r3"/>                  <!--Riga 3 della pagina 1-->
+            <zone ulx="564" uly="968" lrx="3602" lry="1045" rendition="line" xml:id="facs_p1r4"/>                <!--Riga 4 della pagina 1-->
+            <zone ulx="605" uly="1067" lrx="3605" lry="1170" rendition="line" xml:id="facs_p1r5"/>              <!--Riga 5 della pagina 1-->
+            <zone ulx="614" uly="1220" lrx="2107" lry="1256" rendition="line" xml:id="facs_p1r6"/>              <!--Riga 6 della pagina 1-->
+            <zone ulx="787" uly="1326" lrx="3590" lry="1371" rendition="line" xml:id="facs_p1r7"/>              <!--Riga 7 della pagina 1-->
+            <zone ulx="626" uly="1451" lrx="3598" lry="1487" rendition="line" xml:id="facs_p1r8"/>              <!--Riga 8 della pagina 1-->
+            <zone ulx="655" uly="1595" lrx="3598" lry="1628" rendition="line" xml:id="facs_p1r9"/>              <!--Riga 9 della pagina 1-->
+            <zone ulx="634" uly="1695" lrx="3557" lry="1753" rendition="line" xml:id="facs_p1r10"/>            <!--Riga 10 della pagina 1-->
+            <zone ulx="672" uly="1844" lrx="3506" lry="1875" rendition="line" xml:id="facs_p1r11"/>            <!--Riga 11 della pagina 1-->
+            <zone ulx="684" uly="1983" lrx="3540" lry="2007" rendition="line" xml:id="facs_p1r12"/>            <!--Riga 12 della pagina 1-->
+            <zone ulx="674" uly="2063" lrx="3571" lry="2183" rendition="line" xml:id="facs_p1r13"/>            <!--Riga 13 della pagina 1-->
+            <zone ulx="684" uly="2212" lrx="3545" lry="2315" rendition="line" xml:id="facs_p1r14"/>            <!--Riga 14 della pagina 1-->
+            <zone ulx="691" uly="2351" lrx="3554" lry="2454" rendition="line" xml:id="facs_p1r15"/>            <!--Riga 15 della pagina 1-->
+            <zone ulx="730" uly="2490" lrx="3547" lry="2598" rendition="line" xml:id="facs_p1r16"/>            <!--Riga 16 della pagina 1-->
+            <zone ulx="1013" uly="2663" lrx="3550" lry="2790" rendition="line" xml:id="facs_p1r17"/>          <!--Riga 17 della pagina 1-->
+            <zone ulx="943" uly="2811" lrx="3550" lry="2960" rendition="line" xml:id="facs_p1r18"/>            <!--Riga 18 della pagina 1-->
+            <zone ulx="818" uly="2970" lrx="3516" lry="3071" rendition="line" xml:id="facs_p1r19"/>            <!--Riga 19 della pagina 1-->
+            <zone ulx="802" uly="3092" lrx="3564" lry="3243" rendition="line" xml:id="facs_p1r20"/>            <!--Riga 20 della pagina 1-->
+            <zone ulx="250" uly="3270" lrx="3566" lry="3407" rendition="line" xml:id="facs_p1r21"/>            <!--Riga 21 della pagina 1-->
+            <zone ulx="864" uly="3363" lrx="3583" lry="3563" rendition="line" xml:id="facs_p1r22"/>            <!--Riga 22 della pagina 1-->
+            <zone ulx="866" uly="3503" lrx="3497" lry="3654" rendition="line" xml:id="facs_p1r23"/>            <!--Riga 23 della pagina 1-->
+            <zone ulx="866" uly="3618" lrx="3516" lry="3810" rendition="line" xml:id="facs_p1r24"/>            <!--Riga 24 della pagina 1-->
+            <zone ulx="835" uly="3812" lrx="3060" lry="3990" rendition="line" xml:id="facs_p1r25"/>            <!--Riga 25 della pagina 1-->
+            <zone ulx="1111" uly="3978" lrx="3554" lry="4146" rendition="line" xml:id="facs_p1r26"/>           <!--Riga 26 della pagina 1-->
+            <zone ulx="866" uly="4160" lrx="3331" lry="4311" rendition="line" xml:id="facs_p1r27"/>            <!--Riga 27 della pagina 1-->
+            <zone ulx="883" uly="4287" lrx="3430" lry="4417" rendition="line" xml:id="facs_p1r28"/>            <!--Riga 28 della pagina 1-->
+            <zone ulx="847" uly="4460" lrx="3622" lry="4494" rendition="line" xml:id="facs_p1r29"/>            <!--Riga 29 della pagina 1-->
+            <zone ulx="1126" uly="4549" lrx="3480" lry="4686" rendition="line" xml:id="facs_p1r30"/>           <!--Riga 30 della pagina 1-->
+            <zone ulx="905" uly="4712" lrx="3110" lry="4813" rendition="line" xml:id="facs_p1r31"/>            <!--Riga 31 della pagina 1-->
+            <zone ulx="1195" uly="4863" lrx="2282" lry="4971" rendition="line" xml:id="facs_p1r32"/>           <!--Riga 32 della pagina 1-->
+            <zone ulx="994" uly="5015" lrx="3439" lry="5087" rendition="line" xml:id="facs_p1r33"/>            <!--Riga 33 della pagina 1-->
+            <zone ulx="953" uly="5135" lrx="3521" lry="5233" rendition="line" xml:id="facs_p1r34"/>            <!--Riga 34 della pagina 1-->
+            <zone ulx="962" uly="5259" lrx="3458" lry="5358" rendition="line" xml:id="facs_p1r35"/>            <!--Riga 35 della pagina 1-->
+            <zone ulx="946" uly="5401" lrx="2549" lry="5528" rendition="line" xml:id="facs_p1r36"/>            <!--Riga 36 della pagina 1-->
+            <!--Hotspot-->
+            <zone ulx="778" uly="581" lrx="1202" lry="656" rendition="hotspot" xml:id="facs_morphol.-p1r1"/>                    <!--parola "morph." nella 1a riga-->
+            <zone ulx="2863" uly="530" lrx="3193" lry="619" rendition="hotspot" xml:id="facs_langage-p1r1" />                   <!--parola "langage" nella 1a riga-->
+            <zone ulx="975" uly="696" lrx="1268" lry="805" rendition="hotspot" xml:id="facs_phon.-p1r2"/>                          <!--parola "phon." 2a riga-->
+            <zone ulx="2705" uly="662" lrx="2956" lry="779" rendition="hotspot" xml:id="facs_lang.-p1r2"/>                         <!--parola "lang." 3a riga-->
+            <zone ulx="2796" uly="786" lrx="3108" lry="907" rendition="hotspot" xml:id="facs_defin.-p1r3"/>                        <!--parola "defin." 3a riga-->
+            <zone ulx="3398" uly="805" lrx="3601" lry="925" rendition="hotspot" xml:id="facs_seul.-p1r3"/>                          <!--parola "seul." 3a riga-->
+            <zone ulx="3364" uly="1037" lrx="3604" lry="1171" rendition="hotspot" xml:id="facs_morph.-p1r5"/>                  <!--parola "morph." 5a riga-->
+            <zone ulx="996" uly="1165" lrx="1286" lry="1278" rendition="hotspot" xml:id="facs_phon.-p1r6"/>                      <!--parola "phon." 6a riga-->
+            <zone ulx="2223" uly="1262" lrx="2508" lry="1387" rendition="hotspot" xml:id="facs_phon.-p1r7"/>                    <!--parola "phon." 7a riga-->
+            <zone ulx="627" uly="1434" lrx="825" lry="1528" rendition="hotspot" xml:id="facs_sons-p1r8"/>                          <!--parola "sons" 8a riga-->
+            <zone ulx="1481" uly="1509" lrx="1870" lry="1666" rendition="hotspot" xml:id="facs_formes.-p1r9"/>                 <!--parola "formes" 9a riga-->
+            <zone ulx="1490" uly="1928" lrx="1610" lry="2034" rendition="hotspot" xml:id="facs_tt-p1r12"/>                         <!--parola "tt." 12a riga-->
+            <zone ulx="1954" uly="1924" lrx="2405" lry="2005" rendition="hotspot" xml:id="facs_del-p1r12"/>                       <!--parola "del." 12a riga-->
+            <zone ulx="1470" uly="2087" lrx="1799" lry="2155" rendition="hotspot" xml:id="facs_serpo-p1r13"/>                   <!--parola "serpo." 13a riga-->
+            <zone ulx="1889" uly="2069" lrx="2183" lry="2152" rendition="hotspot" xml:id="facs_sedos-p1r13"/>                  <!--parola "sedos" 13a riga-->
+            <zone ulx="2854" uly="2013" lrx="3153" lry="2109" rendition="hotspot" xml:id="facs_herpo-p1r13"/>                  <!--parola "herpo" 13a riga-->
+            <zone ulx="3247" uly="2000" lrx="3519" lry="2088" rendition="hotspot" xml:id="facs_hedos-p1r13"/>                  <!--parola "hedos" 13a riga-->
+            <zone ulx="1286" uly="2211" lrx="1587" lry="2301" rendition="hotspot" xml:id="facs_herpo-p1r14"/>                  <!--parola "herpo" 13a riga-->
+            <zone ulx="2022" uly="2186" lrx="2358" lry="2295" rendition="hotspot" xml:id="facs_serpo-p1r14"/>                  <!--parola "serpo" 14a riga-->
+            <zone ulx="2603" uly="2170" lrx="3502" lry="2263" rendition="hotspot" xml:id="facs_faisdelaphon.-p1r14"/>      <!--parole "fais de la phonetique" 14a riga-->
+            <zone ulx="2843" uly="2306" lrx="3127" lry="2408" rendition="hotspot" xml:id="facs_pers.-p1r15"/>                   <!--parola "pers." 15a riga-->
+            <zone ulx="913" uly="2501" lrx="1076" lry="2574" rendition="hotspot" xml:id="facs_-w-p1r16"/>                         <!--parola "-w." 16a riga-->  
+            <zone ulx="3239" uly="2440" lrx="3590" lry="2547" rendition="hotspot" xml:id="facs_-omi-p1r16"/>                    <!--parola "-omi." 16a riga-->
+            <zone ulx="1892" uly="2653" lrx="2379" lry="2739" rendition="hotspot" xml:id="facs_morphol.-p1r17"/>             <!--parola "morphol." 17a riga-->
+            <zone ulx="1529" uly="2794" lrx="1854" lry="2927" rendition="hotspot" xml:id="facs_formes.-p1r18"/>               <!--parola "formes" 18a riga-->
+            <zone ulx="2967" uly="2766" lrx="3201" lry="2853" rendition="hotspot" xml:id="facs_sons-p1r18"/>                    <!--parola "sons" 18a riga-->
+            <zone ulx="782" uly="2976" lrx="1003" lry="3062" rendition="hotspot" xml:id="facs_ex.-p1r19"/>                         <!--parola "ex." 19a riga-->
+            <zone ulx="1054" uly="2982" lrx="1164" lry="3069" rendition="hotspot" xml:id="facs_qd.-p1r19"/>                      <!--parola "q.d." 19a riga-->
+            <zone ulx="1830" uly="2954" lrx="1927" lry="3030" rendition="hotspot" xml:id="facs_o-p1r19"/>                         <!--parola "-o" 19a riga-->
+            <zone ulx="1382" uly="3107" lrx="3578" lry="3171" rendition="hotspot" xml:id="facs_esgreco-p1r20"/>              <!--parole greche-->
+            <zone ulx="617" uly="3267" lrx="835" lry="3360" rendition="hotspot" xml:id="facs_morph.-p1r21"/>                    <!--parola "morph." 21a riga-->
+            <zone ulx="1199" uly="3389" lrx="1695" lry="3498" rendition="hotspot" xml:id="facs_delaphonet.-p1r22"/>        <!--parole "delagen." 22a riga-->
+            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_phonet.-p1r22"/>               <!--parola "genet." 22a riga-->
+            <zone ulx="1427" uly="3373" lrx="1761" lry="3511" rendition="hotspot" xml:id="facs_definition-p1r22"/>            <!--parola "definition" 22a riga-->
+            <zone ulx="1159" uly="3687" lrx="1223" lry="3762" rendition="hotspot" xml:id="facs_plus-p1r24"/>                     <!--parola "+" 24a riga-->
+            <zone ulx="897" uly="4157" lrx="1063" lry="4251" rendition="hotspot" xml:id="facs_qf-p1r27"/>                          <!--parola "q..f" 27a riga-->
+            <zone ulx="1894" uly="4275" lrx="2035" lry="4378" rendition="hotspot" xml:id="facs_et.-p1r28"/>                        <!--parola "et." 27a riga-->
+            <zone ulx="3047" uly="4229" lrx="3433" lry="4357" rendition="hotspot" xml:id="facs_formes-p1r28"/>                 <!--parola "formes" 28a riga-->
+            <zone ulx="2161" uly="4542" lrx="2443" lry="4638" rendition="hotspot" xml:id="facs_dem.-p1r30"/>                    <!--parola "dem." 30a riga-->
+            <zone ulx="1396" uly="4722" lrx="1523" lry="4794" rendition="hotspot" xml:id="facs_pr-p1r31"/>                         <!--parola "p.r." 31a riga-->
+            <zone ulx="2969" uly="4952" lrx="3291" lry="5102" rendition="hotspot" xml:id="facs_forme-p1r33"/>                   <!--parola "forme" 31a riga-->
+            <zone ulx="1195" uly="4851" lrx="1582" lry="4974" rendition="hotspot" xml:id="facs_Principe-p1r32"/>                <!--parola "Principe" 32a riga-->
+            <zone ulx="2521" uly="5112" lrx="2887" lry="5242" rendition="hotspot" xml:id="facs_phonetiq.-p1r34"/>             <!--parola "phonetiq." 34a riga-->
+            <zone ulx="2220" uly="5237" lrx="2529" lry="5387" rendition="hotspot" xml:id="facs_forme-p1r35"/>                   <!--parola "forme" 35a riga-->
+            <zone ulx="3097" uly="5248" lrx="3156" lry="5360" rendition="hotspot" xml:id="facs_1-p1r35"/>                           <!--parola "1" 35a riga-->
+            <!--Fine prima pagina ma continua la 2a pericope -->
+        </surface>
+        
+        <!--SECONDA PAGINA-->
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>
+            <!--Pericopi e numerazione a mano-->
+            <zone ulx="291" uly="427" lrx="3564" lry="2833" rendition="hotspot" xml:id="facs_Pericope1b"/>                           <!--Ultima parte della 1a pericope, nella 2a pagina, fino al secondo paragrafo-->
+            <zone ulx="585" uly="2846" lrx="3587" lry="5742" rendition="hotspot" xml:id="facs_Pericope2a"/>                         <!--Prima parte della 2a pericope, nella 2a pagina, inizia dal secondo paragrafo-->
+            <!--Righe-->
+            <zone ulx="950" uly="500" lrx="2323" lry="651" rendition="line" xml:id="facs_p2r1" />                                              <!--Riga 1 pagina 2-->
+            <zone ulx="966" uly="708" lrx="2319" lry="887" rendition="line" xml:id="facs_p2r2" />                                              <!--Riga 2 pagina 2-->
+            <zone ulx="742" uly="889" lrx="3331" lry="1020" rendition="line" xml:id="facs_p2r3" />                                            <!--Riga 3 pagina 2-->
+            <zone ulx="743" uly="1079" lrx="3302" lry="1191" rendition="line" xml:id="facs_p2r4" />                                          <!--Riga 4 pagina 2-->
+            <zone ulx="750" uly="1217" lrx="1195" lry="1332" rendition="line" xml:id="facs_p2r5" />                                          <!--Riga 5 pagina 2-->
+            <zone ulx="951" uly="1364" lrx="3303" lry="1449" rendition="line" xml:id="facs_p2r6" />                                          <!--Riga 6 pagina 2-->
+            <zone ulx="841" uly="1513" lrx="3228" lry="1606" rendition="line" xml:id="facs_p2r7" />                                          <!--Riga 7 pagina 2-->
+            <zone ulx="1206" uly="1655" lrx="1327" lry="1983" rendition="hotspot" xml:id="facs_p2r8_SP" />                            <!--Riga 8-9 Sphère phonetique della tabellina-->
+            <zone ulx="1420" uly="1636" lrx="2465" lry="1741" rendition="line" xml:id="facs_p2r8" />                                        <!--Riga 8 ekwos	ekwom della tabellina-->
+            <zone ulx="1433" uly="1767" lrx="2414" lry="1857" rendition="line" xml:id="facs_p2r9" />                                        <!--Riga 9 ἵππος	ἵππον della tabellina-->
+            <zone ulx="1399" uly="1879" lrx="2159" lry="1978" rendition="hotspot" xml:id="facs_p2r10_SM" />                         <!--Riga 10 Sphère morphologique della tabellina-->
+            <zone ulx="897" uly="2057" lrx="3443" lry="2176" rendition="line" xml:id="facs_p2r11" />                                        <!--Riga 11 pagina 2-->
+            <zone ulx="1078" uly="2233" lrx="3267" lry="2355" rendition="line" xml:id="facs_p2r12" />                                      <!--Riga 12 pagina 2-->
+            <zone ulx="1091" uly="2371" lrx="3260" lry="2494" rendition="line" xml:id="facs_p2r13" />                                      <!--Riga 13 pagina 2-->
+            <zone ulx="1099" uly="2555" lrx="2566" lry="2649" rendition="line" xml:id="facs_p2r14" />                                      <!--Riga 14 pagina 2-->
+            <zone ulx="1123" uly="2717" lrx="2582" lry="2815" rendition="line" xml:id="facs_p2r15" />                                      <!--Riga 15 pagina 2-->
+            <!--Hotspot-->
+            <zone ulx="958" uly="469" lrx="2354" lry="836" rendition="hotspot" xml:id="facs_table1_p2" />                                            <!--Tabella 1 pagina 2-->
+            <zone ulx="956" uly="466" lrx="2331" lry="634" rendition="hotspot" xml:id="facs_t1r1_p2" />                                                <!--Riga 1 della tabella 1-->
+            <zone ulx="1003" uly="691" lrx="2351" lry="843" rendition="hotspot" xml:id="facs_t1r2_p2" />                                              <!--Riga 2 della tabella 1-->
+            <zone ulx="1147" uly="913" lrx="1433" lry="1046" rendition="hotspot" xml:id="facs_underline_zugi_p2r3" />                        <!--Parola "zugi" sottolineata riga 3-->
+            <zone ulx="1646" uly="924" lrx="1900" lry="1044" rendition="hotspot" xml:id="facs_underline_zuge_p2r3" />                       <!--Parola "züge" sottolineata riga 3-->
+            <zone ulx="942" uly="1204" lrx="1191" lry="1342" rendition="hotspot" xml:id="facs_abbr_phon_p2r5" />                              <!--Parola "phon." abbreviata riga 5-->
+            <zone ulx="1523" uly="1290" lrx="1918" lry="1462" rendition="hotspot" xml:id="facs_underline_u_p2r6" />                            <!--Parola "u" sottolineata riga 6 -->
+            <zone ulx="2116" uly="1306" lrx="2303" lry="1478" rendition="hotspot" xml:id="facs_underline_u2_p2r6" />                          <!--Parola "ü" sottolineata riga 6-->
+            <zone ulx="2382" uly="1309" lrx="2657" lry="1459" rendition="hotspot" xml:id="facs_underline_zug_p2r6" />                      <!--Parola "zug" sottolineata riga 6-->
+            <zone ulx="2940" uly="1483" lrx="3220" lry="1606" rendition="hotspot" xml:id="facs_underline_zuge_p2r6" />                    <!--Parola "phon." abbreviata riga 6-->
+            <zone ulx="827" uly="1524" lrx="894" lry="1603" rendition="hotspot" xml:id="facs_num_deux_p2r7" />                                <!--Numero "deux" riga 7-->
+            <zone ulx="2547" uly="1043" lrx="2820" lry="1150" rendition="hotspot" xml:id="facs_abbr_morph_p2r4" />                         <!--Parola "morph." abbreviata riga 4-->
+            <zone ulx="1044" uly="1614" lrx="2628" lry="2019" rendition="hotspot" xml:id="facs_table2_p2" />                                      <!--Tabella 2 pagina 2-->
+            <zone ulx="1203" uly="1636" lrx="2526" lry="1735" rendition="hotspot" xml:id="facs_t2r1_p2" />                                          <!--Riga 1 tabella 2 (compreso "Sphere")-->
+            <zone ulx="1193" uly="1743" lrx="2462" lry="1839" rendition="hotspot" xml:id="facs_t2r2_p2" />                                          <!--Riga 2 tabella 2 (compreso "phonetique")-->
+            <zone ulx="1350" uly="1846" lrx="2449" lry="1982" rendition="hotspot" xml:id="facs_t2r3_p2" />                                          <!--Riga 3 tabella 3 (Sphere Morphol.)-->
+            <zone ulx="1751" uly="1894" lrx="2156" lry="1991" rendition="hotspot" xml:id="facs_abbr_morph_p2r10" />                        <!--Abbreviazione riga 10, "Morphol."-->
+            <zone ulx="1071" uly="2113" lrx="1150" lry="2182"  rendition="hotspot" xml:id="facs_num_deux_p2r11"/>                           <!--Numero "deux" riga 11-->
+            <zone ulx="1078" uly="2243" lrx="1526" lry="2367"  rendition="hotspot" xml:id="facs_underline_chantre_p2r12"/>              <!--Parola "chantre" sottolineata riga 12-->
+            <zone ulx="2742" uly="2215" lrx="3223" lry="2347" rendition="hotspot" xml:id="facs_underline_chanter_p2r12"/>               <!--Parola "chanter" sottolineata riga 12-->
+            <zone ulx="2137" uly="2204" lrx="2574" lry="2335" rendition="hotspot" xml:id="facs_abbr_etymol_p2r12"/>                        <!--Parola "etymol." abbreviata riga 12-->
+            <zone ulx="2135" uly="2340" lrx="2553" lry="2452" rendition="hotspot" xml:id="facs_abbr_etymol_p2r13"/>                        <!--Parola "etymol." abbreviata riga 13 //APPUNTI questa parola è stata trascritta ma nel manoscritto è indicata con '' perché uguale alla riga sopra-->
+            <zone ulx="2756" uly="2374" lrx="3239" lry="2498" rendition="hotspot" xml:id="facs_underline_cantor_p2r13" />                <!--Parola "cantor" sottolineata riga 13-->
+            <zone ulx="1124" uly="2532" lrx="1492" lry="2668" rendition="hotspot" xml:id="facs_foreign1_p2r14" />                              <!--Parola greca φόρος riga 14-->
+            <zone ulx="2172" uly="2532" lrx="2486" lry="2679" rendition="hotspot" xml:id="facs_foreign2_p2r14" />                              <!--Parola greca φέρω riga 14-->
+            <zone ulx="1275" uly="2710" lrx="1364" lry="2775" rendition="hotspot" xml:id="facs_foreign1_p2r15" />                              <!--Parola greca φόρος riga 15-->
+            <zone ulx="2196" uly="2698" lrx="2596" lry="2806" rendition="hotspot" xml:id="facs_foreign2_p2r15" />                               <!--Parola ricostruita riga 15 //APPUNTI anche questa trascrizione viene fatta dal simbolo '' -->
+        </surface>
+    </facsimile>
+    
+    <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
+    <text type="" xml:id="morfologia1" subtype="manuscript" n="morfologia1">
+        <group> <!--Testo e traduzioni di Morfologia-->
+            <text xml:id="fr_Morfologia" xml:lang="FR"> <!--FR MORFOLOGIA-->
+                <body xml:lang="fr" source="#Bouquet-Engler2002">
+                    <!--Prima pagina = primo folio, recto-->
+                    <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/> 
+                    <!--Numeri impaginazione a stampa e a mano-->
+                    <ab>
+                        <fw xml:id="HandPageNumber-1" rend="align(right)" facs="#facs_HandPageNumber-1"> 1 </fw>
+                        <fw type="paragNum" xml:id="HandParagNumber-1" rend="align(left)" facs="#facs_HandParagNumber-1"> 1. </fw>
+                    </ab>
+                    <div xml:id="div_p1" hand="#h1">
+                        <!--Inizio 1a pericope-->
+                        <ab xml:id="body_3951-7.1" n="1" xml:lang="FR" corresp="#it_3951-7.1" facs="#facs_Pericope1a">
+                            <lb xml:id="lb1_p1" n="1" facs="#facs_p1r1"/>
+                            La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r1"><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_langage-p1r1">langage</term>, tandis
+                            <lb xml:id="lb2_p1" n="2" facs="#facs_p1r2"/> 
+                            que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phon.-p1r2"><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term> serait l'étude des sons du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_lang.-p1r2"><choice facs="#facs_lang.-p1r2"><abbr>lang.</abbr><expan>lang<ex>age</ex></expan></choice></term>.
+                            <lb xml:id="lb3_p1" n="3" facs="#facs_p1r3"/>
+                            On ne peut se contenter d'une pareille <choice facs="#facs_defin.-p1r3"><abbr>defin.</abbr><expan>defin<ex>ition</ex></expan></choice>, non <choice facs="#facs_seul.p1-p1r3"><abbr>seul.</abbr><expan>seul<ex>ement</ex></expan></choice> 
+                            <lb xml:id="lb4_p1" n="4" facs="#facs_p1r4"/>
+                            en théorie, mais même pour la pratique, car il arrivera 
+                            <lb xml:id="lb5_p1" n="5" facs="#facs_p1r5"/>
+                            souvent que nous ne saurons plus si nous faisons de la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morph.-p1r5"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term> 
+                            <lb xml:id="lb6_p1" n="6" facs="#facs_p1r6"/>
+                            ou de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phon.-p1r6"><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, comme on va le voir :
+                            <lb xml:id="lb7_p1" n="7" facs="#facs_p1r7"/>
+                            II est évident d'abord que la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r7"><choice facs="#facs_phon.-p1r7"><abbr>phon.</abbr><expan>phon<ex>étique</ex></expan></choice></term>, tout en s'occupant des 
+                            <lb xml:id="lb8_p1" n="8" facs="#facs_p1r8"/>
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r8">sons</term>, et pour pouvoir le faire, est obligée en premier lieu 
+                            <lb xml:id="lb9_p1" n="9" facs="#facs_p1r9"/>
+                            de s'occuper des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r9">formes</term>. Les sons ne se transmettent pas 
+                            <lb xml:id="lb10_p1" n="10" facs="#facs_p1r10"/>
+                            d'une génération à l'autre à l'état isolé ; les sons n'existent, 
+                            <lb xml:id="lb11_p1" n="11" facs="#facs_p1r11"/>
+                            ne vivent et ne se modifient qu'au sein des <term subtype="linguistics-term" xml:lang="fr" ref="#mots" facs="">mots</term>. On n'a 
+                            <lb xml:id="lb12_p1" n="12" facs="#facs_p1r12"/>
+                            pas prononcé s <choice facs="#facs_tt-p1r12"><abbr>tt</abbr><expan>t<ex>ou</ex>t</expan></choice> seul, <del change="#CHG-1" rend="overstrike" facs="#facs_del-p1r12"><gap quantity="3" unit="words" reason="illegible"/></del> et ensuite esprit rude. 
+                            <lb xml:id="lb13_p1" n="13" facs="#facs_p1r13"/>
+                            On a prononcé <hi rend="underline" facs="#facs_serpo-p1r13">serpō</hi>, <hi rend="underline" facs="#facs_sedos-p1r13">sedos</hi>, et ensuite <hi rend="underline" facs="#facs_herpo-p1r13">herpō</hi>, <hi rend="underline" facs="#facs_hedos-p1r13">hedos</hi>. 
+                            <lb xml:id="lb14_p1" n="14" facs="#facs_p1r14"/>
+                            Et si je dis : <hi rend="underline" facs="#facs_herpo-p1r14">herpō</hi> sort de <hi rend="underline" facs="#facs_serpo-p1r14">serpō</hi>, je <hi rend="underline" facs="#facs_faisdelaphon.">fais de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétique</term></hi>
+                            <lb xml:id="lb15_p1" n="15" facs="#facs_p1r15"/>
+                            et rien d'autre. De même, si je dis que la première <choice facs="#facs_pers.-p1r15"><abbr>pers.</abbr><expan>pers<ex>onne</ex></expan></choice> des verbes 
+                            <lb xml:id="lb16_p1" n="16" facs="#facs_p1r16"/>
+                            en <hi rend="underline" facs="#facs_-w-p1r16">–ω</hi> ne peut pas venir d'une ancienne première personne en <hi rend="underline" facs="#facs_-omi-p1r16">-ōmi</hi>.
+                            <lb xml:id="lb17_p1" n="17" facs="#facs_p1r17"/>
+                            D'autre part, la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r17"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>, qui est censée ne s'oc-
+                            <lb xml:id="lb18_p1" n="18" facs="#facs_p1r18" break="no" rend="stroke"/>
+                            cuper que des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r18">formes</term>, s'occupe parfaitement des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r18">sons</term>. Par 
+                            <lb xml:id="lb19_p1" n="19" facs="#facs_p1r19"/> 
+                            <choice facs="#facs_ex.-p1r19"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice> <choice facs="#facs_qd-p1r19"><abbr>q.d</abbr><expan>q<ex>uan</ex>d</expan></choice> je dis que l'<hi rend="underline" facs="#facs_o-p1r19">o</hi> grec peut alterner avec ε, et 
+                            <lb xml:id="lb20_p1" n="20" facs="#facs_p1r20"/>
+                            pas avec <eg><foreign facs="#facs_esgreco-p1r20">α : λόγος, λέγω – mais <damage hand="h1" agent="tearing" degree="1" group="1" quantity="1" unit="character"><supplied source="#Bouquet-Engler2002" cert="high">ἄ</supplied></damage>γω, pas d' ὀγ-, </foreign></eg>
+                            <lb xml:id="lb21_p1" n="21" facs="#facs_p1r21"/>
+                            je fais de la <term><choice facs="#facs_morph.-p1r21"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice></term>. Il est vrai que pour certaines personnes, cela s'appelle 
+                            <lb xml:id="lb22_p1" n="22" facs="#facs_p1r22"/>
+                            faire <hi rend="underline" facs="#facs_dela-p1r22">de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonet.-p1r22"><abbr>phonét.</abbr><expan>phonét<ex>ique</ex></expan></choice></term></hi>. À cause de la mauvaise <term subtype="linguistics-term" xml:lang="fr" ref="#definition" facs="#facs_definition-p1r22">définition</term>. 
+                            <lb xml:id="lb23_p1" n="23" facs="#facs_p1r23"/>
+                            Mais il deviendra très clair, par la suite, que rien 
+                            <lb xml:id="lb24_p1" n="24" facs="#facs_p1r24"/>
+                            n'est <choice facs="#facs_+-p1r24"><abbr>+</abbr><expan>plus</expan></choice> faux et plus dangereux que de classer un 
+                            <lb xml:id="lb25_p1" n="25" facs="#facs_p1r25"/>
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#fait" facs="">fait</term> de ce genre avec les faits <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2">phonétiques</term>.
+                            <lb xml:id="lb26_p1" n="26" facs="#facs_p1r26"/>
+                            Ainsi il n'est pas aussi simple qu'on se l'imagine 
+                            <lb xml:id="lb27_p1" n="27" facs="#facs_p1r27"/>
+                            <choice facs="#facs_qf-p1r27"><abbr>qf.</abbr><expan>q<ex>uelque</ex>f<ex>ois</ex></expan></choice> de séparer les deux domaines, et ce n'est pas en 
+                            <lb xml:id="lb28_p1" n="28" facs="#facs_p1r28"/>
+                            disant que l'une = <choice facs="#facs_et.-p1r28"><abbr>et.</abbr><expan><ex>étude</ex></expan></choice> des <term subtype="linguistics-term" xml:lang="fr" ref="#sons" facs="#facs_sons-p1r28">sons</term> et l'autre, des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_formes-p1r28">formes</term>, 
+                            <lb xml:id="lb29_p1" n="29" facs="#facs_p1r29"/>
+                            qu'on obtient une ligne de démarcation satisfaisante.
+                            <lb xml:id="lb30_p1" n="30" facs="#facs_p1r30"/>
+                            Mais cette ligne de <choice facs="#facs_dem.-30"><abbr>dem.</abbr><expan>dém<ex>arcation</ex></expan></choice> est impérieusement 
+                            <lb xml:id="lb31_p1" n="31" facs="#facs_p1r31"/>
+                            nécessaire <choice facs="#facs_pr-p1r31"><abbr>p.r</abbr><expan>p<ex>ou</ex>r</expan></choice> éviter de lamentables confusions.
+                            <lb xml:id="lb32_p1" n="32" facs="#facs_p1r32"/>
+                            <term subtype="linguistics-term" xml:lang="fr" ref="#Principe" facs="#facs_Principe-p1r32">Principe</term> de direction : 
+                            <lb xml:id="lb33_p1" n="33" facs="#facs_p1r33"/>
+                            Toutes les fois qu'on considère une même <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_forme-p1r33">forme</term> à 
+                            <lb xml:id="lb34_p1" n="34" facs="#facs_p1r34"/>
+                            des dates diverses, c'est faire de la <term subtype="linguistics-term" xml:lang="fr" ref="#phonétique" facs="#facs_phon.-p1r2"><choice facs="#facs_phonetiq.-p1r34"><abbr>phonetiq.</abbr><expan>phonétiq<ex>ue</ex></expan></choice></term>, - et toutes 
+                            <lb xml:id="lb35_p1" n="35" facs="#facs_p1r35"/>
+                            les fois qu'on considère des <term subtype="linguistics-term" xml:lang="fr" ref="#forme" facs="#facs_forme-p1r35">formes</term> diverses à <num type="cardinal" value="1" facs="#facs_1-p1r35">1</num> même 
+                            <lb xml:id="lb36_p1" n="36" facs="#facs_p1r36"/>
+                            date, on fait de la <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1">morphologie</term>.
+                        </ab>
+                    </div>
+                    <!--Fine pagina 1, la pericope 1 continua nella seconda pagina-->
+                    <!--Inizio pagina 2-->
+                    <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
+                    <div xml:id="div_p2" hand="#h1">
+                        <!--Continuo pericope 1-->
+                        <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
+                            <table rows="2" cols="3" facs="#facs_table1_p2">
+                                <lb xml:id="lb1_p2" n="1" facs="#facs_p2r1"/>
+                                <row n="1" facs="#facs_t1r1_p2">
+                                    <cell n="11" role="label">
+                                        <choice><abbr>v.</abbr><expan>v<ex>ieux</ex></expan></choice>-<choice><abbr>h'</abbr><expan>h<ex>aut</ex></expan></choice>-<choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
+                                    </cell>
+                                    <cell n="12" role="data">
+                                        <eg><foreign xml:lang="DE">zug</foreign></eg>
+                                    </cell>
+                                    <cell n="13" role="data">	
+                                        <eg><foreign xml:lang="DE">zugi</foreign></eg>
+                                    </cell>
+                                </row>
+                                <lb xml:id="lb2_p2" n="2" facs="#facs_p2r2"/>
+                                <row n="2" facs="#facs_t1r2_p2">
+                                    <cell n="21" role="label">
+                                        <choice><abbr>nouv.</abbr><expan>nouv<ex>el</ex></expan></choice> <choice><abbr>all.</abbr><expan>all<ex>emand</ex></expan></choice>
+                                    </cell>
+                                    <cell n="22" role="data">
+                                        <eg><foreign xml:lang="DE">zug</foreign></eg>
+                                    </cell>
+                                    <cell n="23" role="data">
+                                        <eg><foreign xml:lang="DE">züge</foreign></eg>.
+                                    </cell>
+                                </row>
+                            </table>
+                            <lb xml:id="lb3_p2" n="3" facs="#facs_p2r3"/>
+                            Comparer <hi rend="underline" facs="#facs_underline_zugi_p2r3"><eg><foreign xml:lang="DE">zugi</foreign></eg></hi> et <hi rend="underline" facs="#facs_underline_zuge_p2r3"><eg><foreign xml:lang="DE">züge</foreign></eg></hi>, c'est comparer deux formes, et 
+                            <lb xml:id="lb4_p2" n="4" facs="#facs_p2r4"/>
+                            néanmoins ce n'est pas faire de la <choice facs="#facs_abbr_morph_p2r4"><abbr>morph.</abbr><expan>morph<ex>ologie</ex></expan></choice>, mais de 
+                            <lb xml:id="lb5_p2" n="5" facs="#facs_p2r5"/>
+                            la <choice facs="#facs_abbr_phon_p2r5"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
+                            <lb xml:id="lb6_p2" n="6" facs="#facs_p2r6"/>
+                            Comparer <hi rend="underline" facs="#facs_underline_u_p2r6"><eg>u</eg></hi>-<hi facs="#facs_underline_u2_p2r6"><eg>ü</eg></hi> dans <hi rend="underline" facs="#facs_underline_zug_p2r6"><eg><foreign>zug</foreign></eg></hi>, <hi rend="underline" facs="#facs_underline_zuge_p2r6"><eg><foreign xml:lang="DE">züge</foreign></eg></hi>, c'est comparer
+                            <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
+                            <num type="cardinal" value="2" facs="#facs_num_deus_p2r7">deux</num> sons, et néanmoins ce n'est pas de la <choice facs="#"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
+                            <table rows="3" cols="3" facs="#facs_table2_p2"> 
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/>
+                                <row n="1" facs="#facs_t2r1_p2">
+                                    <cell n="11" role="label">Sphère</cell>
+                                    <cell n="12" role="data">
+                                        <eg><foreign>ekwos</foreign></eg>
+                                    </cell>
+                                    <cell n="13" role="data">
+                                        <eg><foreign xml:lang="RC2">ekwom</foreign></eg>
+                                    </cell>
+                                </row>
+                                <lb xml:id="lb9_p2" n="9" facs="#facs_p2r9"/>
+                                <row n="2" facs="#facs_t2r2_p2">
+                                    <cell n="21" role="label">phonétique</cell>
+                                    <cell n="22" role="data">
+                                        <eg><foreign xml:lang="EL">ἵππος</foreign></eg>
+                                    </cell>
+                                    <cell n="23" role="data">
+                                        <eg><foreign xml:lang="EL">ἵππον</foreign></eg>
+                                    </cell>
+                                </row>
+                                <lb xml:id="lb10_p2" n="10" facs="#facs_p2r10"/>
+                                <row n="3" facs="#facs_t2r3_p2">
+                                    <cell n="31" role="label"/>
+                                    <cell n="32" role="label">Sphère</cell>
+                                    <cell n="33" role="label"><choice facs="#facs_abbr_morph_p2r10"><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
+                                </row>
+                            </table>
+                            <lb xml:id="lb11_p2" n="11" facs="#facs_p2r11"/>
+                            Les <num type="cardinal" value="2" facs="#facs_num_deux_p2r11">deux</num> sphères confondues dans les locutions courantes : 
+                            <lb xml:id="lb12_p2" n="12" facs="#facs_p2r12"/>
+                            <hi rend="underline" facs="#facs_underline_chantre_p2r12"><eg><foreign xml:lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r12"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></expan></choice> à <hi rend="underline"><eg><foreign xml:lang="FR">chanter</foreign></eg></hi>
+                            <lb xml:id="lb13_p2" n="13" facs="#facs_p2r13"/>
+                            <hi rend="underline"><eg><foreign xml:lang="FR">chantre</foreign></eg></hi> se rattache <choice facs="#facs_abbr_etymol_p2r13"><abbr>étymol.</abbr><expan>etymol<ex>ogiquement</ex></expan></choice> à <hi rend="underline"><eg><foreign xml:lang="LA">cantor</foreign></eg></hi> 
+                            <lb xml:id="lb14_p2" n="14" facs="#facs_p2r14"/>
+                            <eg><foreign xml:lang="EL" facs="#facs_foreign1_p2r14">φόρος</foreign></eg> vient de <eg><foreign xml:lang="EL" facs="#facs_foreign2_p2r14">φέρω</foreign></eg>
+                            <lb xml:id="lb15_p2" n="15" facs="#facs_p2r15"/>
+                            <eg><foreign xml:lang="EL" facs="#facs_foreign1_p2r15">φόρος</foreign></eg> vient de <hi rend="underline"><eg><foreign xml:lang="RC2" facs="#facs_foreign2_p2r15">bhoros</foreign></eg></hi>
+                        </ab>
+                        <!--Fine pericope 1-->
+                    </div>
+                    <!--Inizio pericope 2, continuo pagina 2-->
+                </body>
+            </text>
+            <text xml:id="it_Morfologia" xml:lang="IT"> <!--ITA MORFOLOGIA-->
+                <body source="#Fadda2017" resp="#EF">
+                    <!--Traduzione pericope 1-->
+                    <ab xml:id="it_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="IT">
+                        La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
+                        lo studio dei suoni del linguaggio.
+                        Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
+                        per la pratica, giacché accadrà sovente che noi non sapremo più se stiamo facendo morfologia o fonetica, come vedremo.
+                        È anzitutto evidente che la fonetica, pur occupandosi dei suoni, e per poterlo fare, è obbligata in primo luogo ad 
+                        occuparsi delle forme. I suoni non si trasmettono da una generazione all’altra allo stato isolato; i suoni non esistono, 
+                        non vivono e non si modificano se non nelle parole. Non si è mai pronunciato [prima] s, e poi uno spirito aspro. 
+                        Si è pronunciato serpō, sedos, e poi herpō, hedos. E se io dico: herpō viene da serpō, io faccio della fonetica, 
+                        e null’altro. Ugualmente, se dico che la prima persona dei verbi in -ω non può venire da una antica prima persona in -ōmi.
+                        D’altra parte, la morfologia, che si ritiene non si occupi che delle forme, s’occupa invece talvolta dei suoni. Per esempio, 
+                        quando dico che la ο greca può alternare con ε, e non con α: λόγος, λέγω – ma ἄγω e non ὀγ-, faccio morfologia. È vero che per 
+                        certe persone questo si chiama fare fonetica. A causa della cattiva definizione. Ma diventerà molto chiaro, ne seguito, che 
+                        niente è più falso e più pericoloso che classificare un fatto del genere con i fatti fonetici.
+                        E dunque, non è così facile come si immagina talvolta il separare i due dominî, e non è dicendo che uno = studio dei suoni e 
+                        l’altro delle forme che si ottiene una linea di demarcazione soddisfacente.
+                        Ma questa linea di demarcazione è imperiosamente necessaria per evitare deplorevoli confusioni.
+                        Principio di direzione:
+                        Ogni volta che si considera una stessa forma a date diverse, ciò è fare fonetica, e ogni volta 
+                        che consideriamo forme diverse a una stessa data, si fa morfologia.                        
+                    </ab>
+                    <!--Traduzione pericope 2-->
+                    <ab xml:id="it_3951-7.2" corresp="#pericope_3951-7.2">
+                            antico alto-tedesco 	zug 	zugi 
+                            tedesco 		zug 	züge
+                        Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
+                        Comparare u-ü in zug, züge è comparare due suoni, e nondimeno questo non è fonetica.
+                            Sfera		ekwos		ekwom
+                            Fonetica	ἵππος		ἵππον
+                                        Sfera morfologica
+                        Le due sfere [sono] confuse nelle locuzioni correnti:
+                            chantre si ricollega etimologicamente a chanter 
+                            chantre si ricollega etimologicamente a cantor 	
+                            φόρος viene da φέρω
+                            φόρος viene da bhoros                    
+                    </ab>
+                </body>
+            </text>
+            <text xml:id="en_Morfologia" xml:lang="EN"> <!--EN MORFOLOGIA-->
+                <body  resp="#AC">
+                    <!--Traduzione inglese 11 pericope-->
+                    <ab xml:id="en_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="EN">
+                        Morphology, it is said, is the study of the forms of language, while phonetics would be the study of the sounds of language.
+                        We cannot be satisfied with such a definition, not only in theory, but not even for practice, since it will often happen that 
+                        we will no longer know if we are doing morphology or phonetics, as we will see.
+                        It is first of all evident that phonetics, though dealing with sounds, and in order to do so, is obliged in the first place 
+                        to deal with forms. Sounds are not transmitted from one generation to another in an isolated state; sounds do not exist, 
+                        do not live and do not change except in words. He never said [before] yes, and then a sour spirit.
+                        It is pronounced serpō, sedos, and then herpō, hedos. And if I say: herpō comes from serpō, I do some phonetics, and nothing else. 
+                        Equally, if I say that the first person of the verbs in -ω cannot come from an ancient first person in -ōmi.
+                        On the other hand, morphology, which is believed to deal only with shapes, is sometimes concerned with sounds. 
+                        For example, when I say that the Greek ο can alternate with ε, and not with α: λόγος, λέγω - but ἄγω and not ὀγ-, I make morphology. 
+                        It is true that for some people this is called phonics. Due to the bad definition. But it will become very clear later that nothing is more 
+                        false and more dangerous than to classify such a fact with phonetic facts.
+                        And therefore, separating the two domains is not as easy as one sometimes imagines, and it is not by saying that one = study of sounds 
+                        and the other of forms that a satisfactory dividing line is obtained.
+                        But this dividing line is imperiously necessary to avoid deplorable confusions.
+                        Principle of direction:
+                        Whenever we consider the same form at different dates, this is to do phonics, and every time we consider different forms at the same date, we do morphology.                        
+                    </ab>
+                    <!--Traduzione inglese 12 pericope-->
+                    <ab xml:id="en_3951-7.2" corresp="#pericope_3951-7.2">
+                        Old High-German zug zugi
+                        German zug züge
+                        Comparing zugi and züge is comparing two forms, and yet this is not morphology, but phonetics.
+                        Comparing u-ü in zug, züge is to compare two sounds, and nevertheless this is not phonetic.
+                            Sphere ekwos ekwom
+                            Phonetics ἵππος ἵππον
+                                        Morphological sphere
+                        The two spheres [are] confused in the current phrases:
+                            chantre is etymologically linked to chanter
+                            chantre is etymologically linked to cantor
+                            φόρος comes from φέρω
+                            φόρος comes from bhoros                   
+                    </ab>
+                </body>
+            </text>
+        </group>
+
+        <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
+        <back>
+            <div type="addList">
+
+                <!--NOTE-->
+                <list type="notes">
+                    <!--1-->
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
+                        <p>  ... </p>
+                    </item>
+                </list>
+
+                <!-- BIBLIOGRAPHY -->
+                <listBibl xml:id="morfologia1_bibliography">
+                    <head>Bibliography</head>
+                    
+                    <!--Bouquet-Engler2002-->
+                    <bibl xml:id="Bouquet-Engler2002">
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="ISSN">0302-5160</idno>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note>
+                            French transcription of the manuscript
+                        </note>
+                    </bibl>
+                
+                    <!--Godel1969-->
+                    <bibl xml:id="Godel1969">
+                        <title>Les sources manuscrites du Cours de linguistique générale de F. de Saussure</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RG">
+                                <forename>Robert</forename>
+                                <surname>Godel</surname>
+                            </persName>
+                        </author>
+                        <date when="1969">1969</date>
+                        <publisher>Libraire Droz</publisher>
+                        <pubPlace>Gèneve</pubPlace>                               
+                    </bibl>
+                    
+                    <!--Engler1967-74-->
+                    <bibl xml:id="Engler1967-74">
+                        <title> Cours de Linguistique Générale </title>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                    </bibl>
+
+                    <!--E.Fadda 2017-->
+                    <bibl xml:id="Fadda2017">
+                        <title type="main">Sentimento della lingua</title>
+                        <title type="sub">Per un'antropologia linguistica saussuriana</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>
+                        <publisher>Edizioni dell'Orso</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">8862747950</idno>
+                        <citedRange unit="page" from="100" to="110">100-110</citedRange>
+                    </bibl>
+                </listBibl>        
+
+                <!-- PERSON -->
+                <listPerson>
+                    <head>People</head>
+
+                    <!--Ferdinand de Saussure-->
+                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                        <persName role="linguistic"> <!--role="author" oppure role="linguistic"?-->
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1857-11-26">26th November 1857</date>
+                            <placeName ref="#GE">
+                                <settlement type="municipality">Genève</settlement>
+                                <settlement type="department" key="GE">Genève</settlement>
+                                <country key="CH">Switzerland</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="1913-02-22">22nd February 1913</date>
+							<placeName ref="#VlC">
+								<settlement type="municipality">Vufflens-le-Château</settlement>
+								<settlement type="canton" key="Vaud">Vaud</settlement>
+								<country key="CH">Svizzera</country>
+							</placeName>
+                        </death> 
+                    </person>
+
+                    <!--Angelo Mario Del Grosso-->
+                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                        <persName> 
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1980-02-19">19th February 1980</date>
+                            <placeName>
+                                <settlement type="municipality">Benevento</settlement>
+                                <settlement type="provincia" key="BN">Benevento</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+
+                    <!--Silvia Piccini-->
+                    <person>
+                        <persName> 
+                            <forename>Silvia</forename>
+                            <surname>Piccini</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1978-11-12">12th November 1978</date>
+                            <placeName>
+                                <settlement type="municipality">Osimo</settlement>
+                                <settlement type="provincia" key="AN">Ancona</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+
+                    <!--Agnese Camici-->
+                    <person>
+                        <persName> 
+                            <forename>Agnese</forename>
+                            <surname>Camici</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1997-01-25">25 gennaio 1997</date>
+                            <placeName>
+                                <settlement type="municipality">Piombino</settlement>
+                                <settlement type="provincia" key="LI">Livorno</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                    
+                    <!--Emanuele Fadda-->
+                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
+                        <persName> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1972">1972</date>
+                            <placeName ref="#CA">
+                                <settlement type="municipality">Cagliari</settlement>
+                                <settlement type="provincia" key="CA">Cagliari</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+            
+                    <!--Daniele Gambarara-->
+                    <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
+                        <persName> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1948-03-14">14th May 1948</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+
+                    <!--Giuseppe Cosenza-->
+                    <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
+                        <persName> 
+                            <forename>Giuseppe</forename>
+                            <surname>Cosenza</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+
+                    <!--Giuseppe D'Ottavi-->
+                    <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                            <surname>D'Ottavi</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                
+                    <!--Simon Bouquet-->
+                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
+                        <persName> 
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1954">1954</date>
+                        </birth> 
+                    </person>
+                
+                    <!--Rudolf Engler-->
+                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
+                        <persName> 
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1930-10-25">25th October 1930</date>
+                        </birth> 
+                    </person>
+
+                    <!--Antoinette Weil-->
+                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
+                        <persName> 
+                            <forename>Antoinette</forename>
+                            <surname>Weil</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+            
+                <!-- PLACE -->
+                <listPlace>
+                    <head>Places</head>
+                    
+                    <!--Genève-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>
+        
+                    <!--Benevento-->
+                    <place xml:id="BN">
+                        <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Piombino-->
+                    <place xml:id="Piombino">
+                        <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Torino-->
+                    <place xml:id="TO">
+                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Cosenza-->
+                    <place xml:id="CS">
+                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Cagliari-->
+                    <place xml:id="CA">
+                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Osimo-->
+                    <place xml:id="Osimo">
+                        <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <listRelation>
+                        <!--Luoghi vicini-->
+                        <relation name="near" mutual="#Pl1 #Pl2"/>
+                        <!--Luogo di nascita di una persona-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>   
+                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <!--Luogo di morte di una persona-->
+                        <relation name="death_place" active="#FdS" passive="#VlC"/>
+                    </listRelation>
+                </listPlace>
+        
+                <!-- GLOSSARIO -->
+                <list type="terminology">               
+                
+                    <!-- Morphologie -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="morphologie" key="">Morphologie</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
+                            Dans les subdivisions de la grammaire (au sens traditionnel), la morphologie s&apos;oppose essentiellement à la phonétique, tandis qu&apos;il est difficile de la distinguer de la syntaxe : «Étude des formes et des fonctions, c&apos;est la même chose » 2136 (Engler, 35) (Godel, 269)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#morphologie" source="ontology_F_d_S.owl.#morphologie">
+                            Science qui traite des unités de son correspondant à une partie de l’idée, et du groupement de ces unités. Le vrai nom de la morphologie serait : la théorie des signes, et non des formes (3293 par.2)
+                        </gloss>
+                        <note>...</note>
+                    </item>
+
+                    <!-- Langage -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langage" key="">langage</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage1">
+                            Faculté significatrice et exercice de cette faculté à travers une convention sociale (Engler, 30) ; cette faculté ne saurait être exercée sans un instrument venu du dehors : la langue (Godel, 266 ; J.)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#langage" source="ontology_F_d_S.owl#langage2">
+                            Système particulier de symboles indépendants ; langue (Engler, 30) ; langue et langage ne sont qu&apos;une même chose ; l&apos;un est la généralisation de l&apos;autre (Godel, 266 ; N1.1)
+                        </gloss>
+                    </item>
+
+                    <!-- Phonétique -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="phonétique" key="">phonétique</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique1">
+                            Étude de la transformation du son dans l’histoire de la langue (Engler, 40) ; étude de l’évolution des sons dans les différentes langues (Godel, 272)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique1">
+                            « La phonétique est la science qui traite des unités de son à établir d&apos;après des caractères physiologiques et acoustiques.»  N 7 §2; «… la partie la plus historique de la linguistique »
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#phonétique" source="ontology_F_d_S.owl#phonétique2">
+                            relatif aux changements de son ; = non significatif, non grammatical (Godel, 272)
+                        </gloss>
+                    </item>
+                
+                    <!-- Forme -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="forme" key="">forme</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme1">
+                            Sens (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            Signifiant (Engler, 25) (Godel, 262)
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme2">
+                            forme double, - élargie, - faible, - affaiblie, - forte, géminée, - pleine, - redoublée, - simple
+                        </gloss>
+                        <gloss n="4" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#forme3">
+                            Signe (Engler, 25) (Godel, 262)
+                        </gloss>
+                    </item>
+
+                    <!-- Sons -->
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="son" key="">son</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            Unité complexe acoustico-vocale ; sons, éléments de parler humain distingués et classés par la phonologie, espèces phonologiques, phonèmes (Engler, 47)
+                        </gloss>
+                        <gloss n="2" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son1">
+                            son vocal ; - laryngé ; - intermédiaire ; - furtif ; - de transition ; - homogène
+                        </gloss>
+                        <gloss n="3" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#son2">
+                            Le côté physiologique [= image ou impression acoustique, signifiant] de l’unité complexe mentale et physiologique [du signe] : le son n’est quelque chose qu’en tant qu’il est lié au sens (Engler, 47)
+                        </gloss>
+                    </item>
+
+                    <!-- Principe -->            
+                    <label>
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="Principe" key="">Principe</term>
+                    </label>
+                    <item>
+                        <gloss n="1" xml:lang="it" target="#forme" source="ontology_F_d_S.owl#principe">
+                            V. délimitation (Engler 18
+                        </gloss>
+                    </item>
+                </list>
+
+                <!-- ORGANIZZAZIONI -->
+                <listOrg>
+                    <org xml:id="UniGeneve">
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
+                            <placeName ref="#GE">Genève</placeName> 
+                        <desc>
+                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                        </desc>
+                    </org>
+                    <org xml:id="FacLettres">
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
+                        <placeName ref="#GE">Genève</placeName>
+                    </org>
+                </listOrg>   
+            </div>
+            </back>
+    </text>
+</TEI>       
+>>>>>>> bfdd9e2e46ab8c603e04c51fd568c574a07d85b0
