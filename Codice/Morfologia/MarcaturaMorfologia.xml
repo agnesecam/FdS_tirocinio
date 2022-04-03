@@ -66,6 +66,7 @@
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
                         <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
                         <idno type="inventory">3951/7</idno>
+                        <altIdentifier type="inventory"><idno>3293.1</idno></altIdentifier><!--Engler & Gambarara-->
                         <altIdentifier type="inventory"><idno>17786/vta9cfd3fc17efc113d</idno></altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -127,9 +128,9 @@
                         <list>
                             <!--PERICOPE 1-->
                             <label>
-                                <idno type="ID-pericope">3951/7.1</idno>
+                                <idno type="ID-pericope">3293.11</idno><!--Uso la pericopatura di Gambarara, con 3293.1x-->
                             </label>
-                            <item corresp="#pericope_3951-7.1" facs="#facs_Pericope1a #facs_Pericope1b">
+                            <item corresp="#pericope_3293.11" facs="#facs_Pericope1a #facs_Pericope1b">
                                 <!--Testo per. 1-->
                                 <seg>
                                     La morphologie, dit-on, est l'étude des formes [...]
@@ -145,9 +146,9 @@
                             </item>
                             <!--PERICOPE 2-->
                             <label>
-                                <idno type="ID-pericope">3951/7.2</idno>
+                                <idno type="ID-pericope">3293.12</idno>
                             </label>
-                            <item corresp="#pericope_3951-7.2" facs="#facs_Pericope2">
+                            <item corresp="#pericope_3293.12" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
                                 <seg>
                                     2. Cela ne dit pas encore en quoi consiste exactement la morphologie : [...]    
@@ -190,7 +191,7 @@
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>     
+            <graphic url='morfologia_3951.7_f1' width='3865' height='5982'/>     
             <!--Pericopi e numerazione a mano-->
             <zone ulx="219" uly="507" lrx="3556" lry="5525" rendition="hotspot" xml:id="facs_Pericope1a"/>                        <!--Prima parte della 1a pericope, contenuta nella 1a pagina: fino a "date, on fait de la morphologie."-->
             <zone ulx="472" uly="528" lrx="598" lry="647" rendition="hotspot" xml:id="facs_HandParagNumber-1"/>           <!--Numero a mano 1a pericope a sx-->
@@ -283,7 +284,7 @@
         
         <!--SECONDA PAGINA-->
         <surface n="2" xml:id="scan_p2">
-            <graphic url='morfologia_3951.7-1' width='3865' height='5982'/>
+            <graphic url='morfologia_3951.7_f2' width='3865' height='5982'/>
             <!--Pericopi e numerazione a mano-->
             <zone ulx="291" uly="427" lrx="3564" lry="2833" rendition="hotspot" xml:id="facs_Pericope1b"/>                           <!--Ultima parte della 1a pericope, nella 2a pagina, fino al secondo paragrafo-->
             <zone ulx="585" uly="2846" lrx="3587" lry="5742" rendition="hotspot" xml:id="facs_Pericope2a"/>                         <!--Prima parte della 2a pericope, nella 2a pagina, inizia dal secondo paragrafo-->
@@ -349,7 +350,7 @@
                     </ab>
                     <div xml:id="div_p1" hand="#h1">
                         <!--Inizio 1a pericope-->
-                        <ab xml:id="body_3951-7.1" n="1" xml:lang="FR" corresp="#it_3951-7.1" facs="#facs_Pericope1a">
+                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="#facs_Pericope1a">
                             <lb xml:id="lb1_p1" n="1" facs="#facs_p1r1"/>
                             La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r1"><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_langage-p1r1">langage</term>, tandis
                             <lb xml:id="lb2_p1" n="2" facs="#facs_p1r2"/> 
@@ -429,7 +430,7 @@
                     <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
                     <div xml:id="div_p2" hand="#h1">
                         <!--Continuo pericope 1-->
-                        <ab corresp="body_3951-7.1 it_3951-7.1 en_3951-7.1" n="1" xml:lang="FR" facs="#facs_Pericope1b">
+                        <ab corresp="body_3293.11 it_3293.11 en_3293.11" n="1" xml:lang="FR" facs="#facs_Pericope1b">
                             <table rows="2" cols="3" facs="#facs_table1_p2">
                                 <lb xml:id="lb1_p2" n="1" facs="#facs_p2r1"/>
                                 <row n="1" facs="#facs_t1r1_p2">
@@ -467,7 +468,8 @@
                             <lb xml:id="lb7_p2" n="7" facs="#facs_p2r7"/>
                             <num type="cardinal" value="2" facs="#facs_num_deus_p2r7">deux</num> sons, et néanmoins ce n'est pas de la <choice facs="#"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <table rows="3" cols="3" facs="#facs_table2_p2"> 
-                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/>
+                                <head> Sphère phonétique </head>
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/> <!--un'unica colonna con uno span su 2 riga--><!--considera titoli e vedi TEI-->
                                 <row n="1" facs="#facs_t2r1_p2">
                                     <cell n="11" role="label">Sphère</cell>
                                     <cell n="12" role="data">
@@ -486,13 +488,14 @@
                                     <cell n="23" role="data">
                                         <eg><foreign xml:lang="EL">ἵππον</foreign></eg>
                                     </cell>
+                                    <head> Sphère morphol. </head>
+                                    <span  facs="#facs_t2r3_p2">
+                                        <cell n="31" role="label"/>
+                                        <cell n="32" role="label">Sphère</cell>
+                                        <cell n="33" role="label"><choice facs="#facs_abbr_morph_p2r10"><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
+                                    </span>
                                 </row>
                                 <lb xml:id="lb10_p2" n="10" facs="#facs_p2r10"/>
-                                <row n="3" facs="#facs_t2r3_p2">
-                                    <cell n="31" role="label"/>
-                                    <cell n="32" role="label">Sphère</cell>
-                                    <cell n="33" role="label"><choice facs="#facs_abbr_morph_p2r10"><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
-                                </row>
                             </table>
                             <lb xml:id="lb11_p2" n="11" facs="#facs_p2r11"/>
                             Les <num type="cardinal" value="2" facs="#facs_num_deux_p2r11">deux</num> sphères confondues dans les locutions courantes : 
@@ -513,7 +516,7 @@
             <text xml:id="it_Morfologia" xml:lang="IT"> <!--ITA MORFOLOGIA-->
                 <body source="#Fadda2017" resp="#EF">
                     <!--Traduzione pericope 1-->
-                    <ab xml:id="it_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="IT">
+                    <ab xml:id="it_3293.11" corresp="#pericope_3293.11" xml:lang="IT">
                         La morfologia, si dice, è lo studio delle forme del linguaggio, mentre la fonetica sarebbe 
                         lo studio dei suoni del linguaggio.
                         Non ci si può accontentare di una tale definizione, non soltanto in teoria, ma nemmeno 
@@ -535,7 +538,7 @@
                         che consideriamo forme diverse a una stessa data, si fa morfologia.                        
                     </ab>
                     <!--Traduzione pericope 2-->
-                    <ab xml:id="it_3951-7.2" corresp="#pericope_3951-7.2">
+                    <ab xml:id="it_3293.12" corresp="#pericope_3293.12">
                             antico alto-tedesco 	zug 	zugi 
                             tedesco 		zug 	züge
                         Comparare zugi e züge è comparare due forme, e nondimeno ciò non è fare morfologia, ma fonetica.
@@ -554,7 +557,7 @@
             <text xml:id="en_Morfologia" xml:lang="EN"> <!--EN MORFOLOGIA-->
                 <body  resp="#AC">
                     <!--Traduzione inglese 11 pericope-->
-                    <ab xml:id="en_3951-7.1" corresp="#pericope_3951-7.1" xml:lang="EN">
+                    <ab xml:id="en_3293.11" corresp="#pericope_3293.11" xml:lang="EN">
                         Morphology, it is said, is the study of the forms of language, while phonetics would be the study of the sounds of language.
                         We cannot be satisfied with such a definition, not only in theory, but not even for practice, since it will often happen that 
                         we will no longer know if we are doing morphology or phonetics, as we will see.
@@ -574,7 +577,7 @@
                         Whenever we consider the same form at different dates, this is to do phonics, and every time we consider different forms at the same date, we do morphology.                        
                     </ab>
                     <!--Traduzione inglese 12 pericope-->
-                    <ab xml:id="en_3951-7.2" corresp="#pericope_3951-7.2">
+                    <ab xml:id="en_3293.12" corresp="#pericope_3293.12">
                         Old High-German zug zugi
                         German zug züge
                         Comparing zugi and züge is comparing two forms, and yet this is not morphology, but phonetics.
