@@ -8,7 +8,7 @@
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="#FdS" role="linguist">Ferdinand de Saussure</author>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
@@ -97,14 +97,12 @@
                                     <material>Thin checkered paper</material>
                                 </support>
                                 <extent>
-                                    <measureGrp>
-                                            <measure unit="pages" quantity="30">30 pages +</measure>
-                                            <measure unit="pages" quantity="15">15 pages +</measure>
-                                            <measure unit="pages" quantity="22">22 pages</measure>
-                                            <measure type="height" unit="mm" quantity="211">211 mm</measure>
-                                            <measure type="widht" unit="mm" quantity="136">136 mm</measure>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                        <measure quantity="30">30 pages +</measure>
+                                        <measure quantity="15">15 pages +</measure>
+                                        <measure quantity="22">22 pages</measure>
                                     </measureGrp>
-                                    <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
+                                    <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
                                 <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
                                 <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
@@ -116,8 +114,8 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origDate when="1891-11-06" cert="In ">06/11/1891</origDate> Première conférence
+                        <origin ptr="#pag1_note2">
+                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
                             <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
@@ -465,8 +463,11 @@
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
                                 étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
-                                <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto-->
-                                    <abbr type="acronym">T<am>.</am>S<am>.</am>V<am>.</am>P<am>.</am></abbr><expan>T<ex>ournez</ex> s<ex>'il</ex> v<ex>ouz</ex> p<ex>lait</ex></expan>
+                                <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
+                                    <choice>
+                                        <abbr>T.H.V.P.</abbr>
+                                        <expan><!--T<am>.</am>H<am>.</am>V<am>.</am>P<am>.</am>--></expan> <!--Non essendo a conoscenza del significato dell'acronimo nella sua completezza, lascio lo scioglimento <expan> vuoto-->
+                                    </choice>
                                 </metamark>
                             </ab>
                         </div>
@@ -650,6 +651,12 @@
                             Scilicet “Université de Genève”, it. “Università di Ginevra”
                         </p>
                     </item>
+                    <!--2-->
+                    <item n="2" xml:id="pag1_note2" resp="#AC">
+                        <p>
+                            Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating.
+                        </p>
+                    </item>
                 </list> 
 
                 <!-- BIBLIOGRAPHY -->
@@ -722,10 +729,11 @@
                     
                     <!--Ferdinand de Saussure-->
                     <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                        <persName role="author"> <!--role="author" oppure role="linguistic"?-->
+                        <persName role="author">
                             <forename>Ferdinand</forename>
                             <surname>de Saussure</surname>
                         </persName>
+                        <occupation> linguistic </occupation>
                         <sex>M</sex>
                         <birth>
                             <date when="1857-11-26">26th November 1857</date>
@@ -881,6 +889,16 @@
                         </persName>
                         <sex>F</sex>
                     </person>
+
+                    <!--Alessandro Chidichimo-->
+                    <person xml:id="Chidichimo" sameAs="https://www.worldcat.org/wcidentities/viaf-8291159248237604870007">
+                        <persName> 
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <note> Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating. </note>
+                    </person>
                 </listPerson>
 
                 <!-- PLACE -->
@@ -941,7 +959,7 @@
                         <relation name="near" mutual="#Pl1 #Pl2"/>
                         <!--Luogo di nascita di una persona-->
                         <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>    <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
                         <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
                         <relation name="death_place" active="#FdS" passive="#VlC"/>
@@ -956,7 +974,7 @@
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> 
+                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> <!--prefix declaration per accorciare l'URI!-->
                             La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue (Engler 33). 
                             (La linguistique) est une science sémiologique (Godel, 267)
                         </gloss>
@@ -964,14 +982,19 @@
                     </item>
 
                     <!-- Langues -->
-                    <label>
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langues" key="">Langue</term>
+                    <label><!--langue1-->
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue1" key="">Langue</term> <!--Suggerimento per riconoscere l'accezione: se l'istanza del termine è al plurale, è un idioma-->
                     </label>
                     <item>
-                        <gloss n="1" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue1">
+                        <gloss n="1" xml:lang="fr" target="#langue1" source="ontology_F_d_S.owl#langue1">
                             Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
                         </gloss>
-                        <gloss n="2" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue2">
+                    </item>
+                    <label><!--langue2-->
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue2" key="">Langue</term>
+                    </label>
+                    <item>
+                        <gloss n="2" xml:lang="fr" target="#langue2" source="ontology_F_d_S.owl#langue2">
                             instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
                             le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
                             des conventions nécessaires adoptées par le corps social pour permettre l&apos;usage de la faculté du 
@@ -979,11 +1002,15 @@
                             solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
                             images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
                             Système de valeurs. (Godel, 266)
-                        </gloss>
-                        <gloss n="3" xml:lang="fr" target="#langues" source="ontology_F_d_S.owl#langue3">
+                        </gloss>    
+                    </item>
+                    <label><!--langue3-->
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue3" key="">Langue</term>
+                    </label>
+                    <item>
+                        <gloss n="3" xml:lang="fr" target="#langue3" source="ontology_F_d_S.owl#langue3">
                             Organe charnu, allongé et mobile, placé dans la bouche
-                        </gloss>                           
-                        <!-- //CONTROLLA Non sono sicura di poter usare due glosse in un item, e che attributo usare per identificare i differenti significati (qua ho usato n)-->
+                        </gloss>
                     </item>
 
                     <!-- Histoire -->
