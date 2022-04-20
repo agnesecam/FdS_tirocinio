@@ -654,7 +654,11 @@
                     <!--2-->
                     <item n="2" xml:id="pag1_note2" resp="#AC">
                         <p>
+<<<<<<< HEAD
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+=======
+                            Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating.
+>>>>>>> 21e7c862a1986aa6d8510c33951c1cdfee64dba1
                         </p>
                     </item>
                 </list> 
