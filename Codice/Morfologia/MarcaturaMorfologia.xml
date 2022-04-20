@@ -84,10 +84,8 @@
                                     <material>Thin paper</material>
                                 </support>
                                 <extent> <!--Cosa uso tra measure e dimensions?-->
-                                    <measureGrp>
-                                        <measure type="pages" quantity="19">19</measure>
-                                        <measure type="height" unit="mm" quantity="211">211</measure>
-                                        <measure type="width" unit="mm" quantity="136">136</measure>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">>
+                                        <measure quantity="19">19</measure>
                                     </measureGrp>
                                     <dimensions unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
@@ -469,7 +467,7 @@
                             <num type="cardinal" value="2" facs="#facs_num_deus_p2r7">deux</num> sons, et néanmoins ce n'est pas de la <choice facs="#"><abbr>phon.</abbr> <expan>phon<ex>étique</ex></expan></choice>.
                             <table rows="3" cols="3" facs="#facs_table2_p2"> 
                                 <head> Sphère phonétique </head>
-                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/> <!--un'unica colonna con uno span su 2 riga--><!--considera titoli e vedi TEI-->
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2r8"/>
                                 <row n="1" facs="#facs_t2r1_p2">
                                     <cell n="11" role="label">Sphère</cell>
                                     <cell n="12" role="data">

@@ -49,7 +49,7 @@
             </editionStmt>
 
             <publicationStmt>
-				<publisher> CNR Pisa - Unical </publisher> <!-- <authority> al posto di publisher? Da chiarire con saussuriani -->
+				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
@@ -63,7 +63,7 @@
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
-                        <collection>Archives Ferdinand de Saussure</collection> <!--fondo presso BGE-->
+                        <collection>Archives Ferdinand de Saussure</collection>
                         <idno type="inventory">3951/1</idno>
                         <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier>
                     </msIdentifier>
@@ -654,7 +654,7 @@
                     <!--2-->
                     <item n="2" xml:id="pag1_note2" resp="#AC">
                         <p>
-                            Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating.
+                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
                 </list> 
