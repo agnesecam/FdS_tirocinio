@@ -486,12 +486,13 @@
                                     <cell n="23" role="data">
                                         <eg><foreign xml:lang="EL">ἵππον</foreign></eg>
                                     </cell>
-                                    <head> Sphère morphol. </head>
-                                    <span  facs="#facs_t2r3_p2">
+                                    <!--<cell>
+                                    <span  facs="#facs_t2r3_p2">-->
                                         <cell n="31" role="label"/>
                                         <cell n="32" role="label">Sphère</cell>
                                         <cell n="33" role="label"><choice facs="#facs_abbr_morph_p2r10"><abbr>morphol.</abbr><expan>morphol<ex>ogique</ex></expan></choice></cell>
-                                    </span>
+                                    <!--</span>
+                                </cell>-->
                                 </row>
                                 <lb xml:id="lb10_p2" n="10" facs="#facs_p2r10"/>
                             </table>

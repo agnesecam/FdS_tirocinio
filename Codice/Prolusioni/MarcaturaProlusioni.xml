@@ -110,11 +110,10 @@
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
-                            <!--Nella prima immagine e nella terza presenti nella galleria della BGE vi sono annotazioni riconducibili ad altre mani (>4?)-->
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin ptr="#pag1_note2">
+                        <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
                             <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
@@ -475,10 +474,10 @@
                         <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
                         <!--Numero impaginazione a mano-->
-                        <!--Il <div> alla riga 375 dà errore insieme all'<ab> della 477-->
-                        <ab>
+                        <!--Il <div> alla riga ? dà errore se concomitante all'<ab> della 478-->
+                        <!--<ab>-->
                             <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
-                        </ab>
+                        <!--</ab>-->
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
@@ -654,11 +653,7 @@
                     <!--2-->
                     <item n="2" xml:id="pag1_note2" resp="#AC">
                         <p>
-<<<<<<< HEAD
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
-=======
-                            Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating.
->>>>>>> 21e7c862a1986aa6d8510c33951c1cdfee64dba1
                         </p>
                     </item>
                 </list> 
@@ -1052,4 +1047,5 @@
                 </listOrg>      
             </div>
         </back>
-    </
+    </text>
+</TEI>
