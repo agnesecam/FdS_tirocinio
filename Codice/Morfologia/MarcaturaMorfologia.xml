@@ -348,7 +348,7 @@
                     </ab>
                     <div xml:id="div_p1" hand="#h1">
                         <!--Inizio 1a pericope-->
-                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11" facs="#facs_Pericope1a">
+                        <ab xml:id="body_3293.11" n="1" xml:lang="FR" corresp="#it_3293.11 #en_3293.11" facs="#facs_Pericope1a">
                             <lb xml:id="lb1_p1" n="1" facs="#facs_p1r1"/>
                             La <term subtype="linguistics-term" xml:lang="fr" ref="#morphologie" facs="#facs_morphol.-p1r1"><choice facs="#facs_morphol.-p1r1"><abbr>morphol.</abbr><expan>morphol<ex>ogie</ex></expan></choice></term>, dit-on, est l'étude des formes du <term subtype="linguistics-term" xml:lang="fr" ref="#langage" facs="#facs_langage-p1r1">langage</term>, tandis
                             <lb xml:id="lb2_p1" n="2" facs="#facs_p1r2"/> 

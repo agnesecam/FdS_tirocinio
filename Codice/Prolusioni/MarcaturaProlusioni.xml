@@ -371,7 +371,7 @@
                         </ab>
                         <div xml:id="div_p1" hand="#h1">
                             <!--Inizio 1a pericope-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001" facs="#facs_Pericope1"> 
+                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_Pericope1"> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                                 Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment" change="#CHG-1" facs="#facs_ence-p1r1"> en ce 
                                 <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
@@ -441,7 +441,7 @@
                             </ab>
                             <!--Fine 1 pericope-->
                             <!--Inizio 2 pericope-->        
-                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002" facs="#facs_Pericope2a"> 
+                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002 #en_91Aaaa02" facs="#facs_Pericope2a"> 
                                 <add change="#CHG-3" place="left margin" facs="#facs_p1_leftblock2">
                                     <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
                                     Sans exalter 
@@ -473,11 +473,8 @@
                         <!--Fine pagina 1, la pericope 2 continua nella seconda pagina-->
                         <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
-                        <!--Numero impaginazione a mano-->
-                        <!--Il <div> alla riga ? dà errore se concomitante all'<ab> della 478-->
-                        <!--<ab>-->
-                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
-                        <!--</ab>-->
+                        <!--Numero impaginazione a mano-->                        
+                        <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
